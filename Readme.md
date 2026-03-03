@@ -4,7 +4,7 @@
 <strong><i>Course Code:</strong> CCOBJPGL</i> <br> 
 <strong><i>Teacher:</strong> Ramon Leonardo C. Capunpon</i> 
   
-<p >
+<p>
 <hr>
 <h4>Members:</h4>
 1. Ablis, Margreleigne M. <br>
