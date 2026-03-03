@@ -1,4 +1,4 @@
-<h1>Diover Clan</h1>
+<h1>Diover Clan - BSCS251A</h1>
 <h3>Hello Sir, this is our group!</h3>
 
 <strong><i>Course Code:</strong> CCOBJPGL</i> <br> 
