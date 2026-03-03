@@ -4,7 +4,7 @@
 <strong><i>Course Code:</strong> CCOBJPGL</i> <br> 
 <strong><i>Teacher:</strong> Ramon Leonardo C. Capunpon</i> 
   
-<p style="color: #0000ff; font-family: Arial, sans-serif; font-style: italic";>
+<p style="color: blue; font-family: Arial, sans-serif; font-style: italic";>
   <hr>
   <h4>Members:</h4>
 1. Ablis, Margreleigne M. <br>
