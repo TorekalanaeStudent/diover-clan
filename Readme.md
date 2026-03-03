@@ -1,7 +1,7 @@
 <h1>Diover Clan</h1>
 <h4>Hello Sir, this is our group members!</h4> <br>
-<i>Course Code: CCOBJPGL</i>
-<i>Teacher: Ramon Leonardo C. Capunpon</i>
+<i>Course Code: CCOBJPGL</i> <br> <strong>
+<i>Teacher: Ramon Leonardo C. Capunpon</i> <strong>
 <p style="color: blue; font-family: Arial, sans-serif; font-style: italic";>
   <hr>
 1. Caneda, Ramil <br>
