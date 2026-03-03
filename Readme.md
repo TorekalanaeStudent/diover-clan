@@ -24,5 +24,5 @@
 15. Trespeces, Guillermo II O. <br>
 </p>
 <hr>
-<h2><strong>Join our teams channel:</strong</h2> 
-https://teams.microsoft.com/l/channel/19%3Aa119c3b9b5bc4ba08f3a147c41ff30ec%40thread.tacv2/BSCS251A?groupId=d43f4421-eaea-4f84-b2d0-b869a915d337&tenantId=1d981f77-3ca3-46ae-b0d4-e8044e6c7f84
+<h3><strong>Join our teams channel:</strong</h3>
+<p>https://teams.microsoft.com/l/channel/19%3Aa119c3b9b5bc4ba08f3a147c41ff30ec%40thread.tacv2/BSCS251A?groupId=d43f4421-eaea-4f84-b2d0-b869a915d337&tenantId=1d981f77-3ca3-46ae-b0d4-e8044e6c7f84</p>
