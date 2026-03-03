@@ -1,9 +1,9 @@
 <h1>Diover Clan</h1>
 <h3>Hello Sir, this is our group!</h3>
-<strong>
-<i>Course Code: CCOBJPGL</i> <br> 
-<i>Teacher: Ramon Leonardo C. Capunpon</i> 
-  </strong>
+
+<strong><i>Course Code:</strong> CCOBJPGL</i> <br> 
+<strong><i>Teacher:</strong> Ramon Leonardo C. Capunpon</i> 
+  
 <p style="color: #0000ff; font-family: Arial, sans-serif; font-style: italic";>
   <hr>
   <h3>Members:</h3>
