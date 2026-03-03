@@ -1,6 +1,6 @@
 <h1>Diover Clan</h1>
 <p>Hello Sir, this is our group members!</p> <br>
-<div class= g1 style: font-style: strong;>
+<div style="color: blue; font-family: Arial, sans-serif; font-style: italic";>
 1. Caneda, Ramil <br>
 2. Ablis, Margreleigne M. <br>
 3. Arban, Jhave P. <br>
