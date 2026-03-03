@@ -9,9 +9,9 @@
   <h3>Members:</h3>
 1. Ablis, Margreleigne M. <br>
 2. Arban, Jhave P. <br>
-3. Caneda, Ramil <br>
-4. Cardeno, Faye <br>
-5. Canilo Diover Vincent <br>
+3. Cañeda, Ramil <br>
+4. Cardeño, Faye <br>
+5. Canillo, Diover Vincent <br>
 6. Gedoria, Rajan <br>
 7. Go, Sean Ethan G. <br>
 8. Jagunap, Janelle <br>
