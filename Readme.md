@@ -6,7 +6,7 @@
   
 <p style="color: #0000ff; font-family: Arial, sans-serif; font-style: italic";>
   <hr>
-  <h3>Members:</h3>
+  <h4>Members:</h4>
 1. Ablis, Margreleigne M. <br>
 2. Arban, Jhave P. <br>
 3. Cañeda, Ramil <br>
