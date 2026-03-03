@@ -1,5 +1,5 @@
 <h1>Diover Clan</h1>
-<h2>Hello Sir, this is our group members!</h2>
+<h3>Hello Sir, this is our group members!</h3>
 <strong>
 <i>Course Code: CCOBJPGL</i> <br> 
 <i>Teacher: Ramon Leonardo C. Capunpon</i> 
