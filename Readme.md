@@ -12,16 +12,17 @@
 3. Cañeda, Ramil <br>
 4. Cardeño, Faye <br>
 5. Canillo, Diover Vincent <br>
-6. Gedoria, Rajan <br>
-7. Go, Sean Ethan G. <br>
-8. Jagunap, Janelle <br>
-9. Navarro, Vince Justine <br>
-10. Nono, Mary Angeline B. <br>
-11. Obedoza, John Kyle B. <br>
-12. Onte, Vince Gian <br>
-13. Ovejera, Ziggy T. <br>
-14. Romnick, Realon <br>
-15. Trespeces, Guillermo II O. <br>
+6. De Juras, Clint <br>
+7. Gedoria, Rajan <br>
+8. Go, Sean Ethan G. <br>
+9. Jagunap, Janelle <br>
+10. Navarro, Vince Justine <br>
+11. Nono, Mary Angeline B. <br>
+12. Obedoza, John Kyle B. <br>
+13. Onte, Vince Gian <br>
+14. Ovejera, Ziggy T. <br>
+15. Romnick, Realon <br>
+16. Trespeces, Guillermo II O. <br>
 </p>
 
 <hr>
