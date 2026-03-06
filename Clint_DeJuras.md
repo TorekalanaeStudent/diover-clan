@@ -7,4 +7,4 @@
 ---
 
 📘 Journals
-<Clint Norbert De Juras> <2025-1025222> <03/06/2026> TermProjectPlanningPart1 Completed!
+**\<03/05/2026\>** : I learned _______ in our lab and to improve, next time I will ________.
