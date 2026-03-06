@@ -106,19 +106,17 @@ Focus on **what the user does**, not how it is implemented.
 
 ---
 
-## 6️⃣ Write Simple Use Case Statements
+## 6️⃣ Write Simple Use Case Statements 
 
-Write each use case using **simple sentence format**.
-
-### Example Format
 The user can create an account.
-The admin can view all users.
 The user can update their profile.
-The admin can delete records.
-
-
-⚠️ Avoid technical details.  
-Focus only on **what the system allows the user to do**.
+The user can post listings of their product.
+Users can search for products.
+Users can engage in conversation through messages.
+Users can flag a product as sold out.
+Users can bookmark a listing.
+Admins can monitor the market listings.
+The admins can delete records.
 
 ---
 
