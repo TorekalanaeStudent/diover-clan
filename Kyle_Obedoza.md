@@ -9,5 +9,5 @@ John Kyle Obedoza
 
 ---
 
-📘 Journals
-<03/06/2026> : I learned Object and Class in our lab and to improve, next time I will __.
+📘 Journals 
+<03/06/2026> : I learned the 4 Cores Principles of OOP in our lab and to improve, next time I will continue perform better during class and solidify mt fundamentals in order to carry out my asks better.
