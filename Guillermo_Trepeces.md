@@ -10,4 +10,4 @@ Guillermo Trespeces
 ---
 
 :blue_book: Journals
-<03/06/2026> : I learned Object and Class in our lab and to improve, next time I will __.
+<Guillermo Trespeces> <03/06/2026> :  I learned the 4 Cores Principles of OOP in our lab and to improve, next time I will continue to be active and try to implement the things I've learned today to a professional standpoint.
