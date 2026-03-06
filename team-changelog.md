@@ -8,6 +8,7 @@
 <Jagunap, Janelle> <2025-1025460> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Mary Angeline Nono> <2025-1022691> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Go, Sean Ethan> <2025-1024028> <03/06/2026> <TermProjectPlanningPart1> Completed!
+<Guillermo Trespeces> <2025-1025412> <03/06/2026> TermProjectPlanningPart1 Completed!
 <Name> <StudentNo/ID> <MM/DD/YYYY> <LabTopic> Completed!
 
 2. Update your personal .md files, create a short journal on how you completed today's tasks
