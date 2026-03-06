@@ -9,3 +9,7 @@
 <Canillo, Diover Vincent> <03/06/2026> :  I learned the 4 pillars of OOP in our lab and to improve, next time I will try my best to participate in the class
 <Go, Sean Ethan> <03/06/2026> :  I learned the the 4 pillars of OOP in our lab and to improve, next time I will better myself and be proactive in participation
 <MM/DD/YYYY> :  I learned _ in our lab and to improve, next time I will __
+
+<Nono, Mary Angeline> <2025-1022691> <03/06/2026> <TermProjectPlanningPart1> Completed!
+<Nono, Mary Angeline> <03/06/2026> :  I learned how OOP works in our lab and to improve, next time I will practice creating objects on my own.
+
