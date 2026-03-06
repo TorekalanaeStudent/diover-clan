@@ -8,3 +8,4 @@
 
 📘 Journals
 <03/06/2026> : I learned Object and Class in our lab and to improve, next time I will __. 
+<De Juras, Clint Norbert> <2025-1025222> <03/06/2026> :  I learned the 4 Cores Principles of OOP in our lab and to improve, next time I will __
