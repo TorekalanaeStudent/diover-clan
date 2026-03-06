@@ -3,6 +3,7 @@
 <Canillo, Diover Vincent> <2025-1023980> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Jagunap, Janelle> <2025-1025460> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Go, Sean Ethan> <2025-1024028> <03/06/2026> <TermProjectPlanningPart1> Completed!
+<Arban, Jhave> <2025-1028156> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Name> <StudentNo/ID> <MM/DD/YYYY> <LabTopic> Completed!
 
 2. Update your personal .md files, create a short journal on how you completed today's tasks
@@ -10,4 +11,5 @@
 <Canillo, Diover Vincent> <03/06/2026> :  I learned the 4 pillars of OOP in our lab and to improve, next time I will try my best to participate in the class
 <Jagunap, Janelle> <03/06/2026> :  I learned the how to create a project planning with use cases, next time I will try to implement these in real time projects.
 <Go, Sean Ethan> <03/06/2026> :  I learned the the 4 pillars of OOP in our lab and to improve, next time I will better myself and be proactive in participation
+<Arban, Jhave> <2025-1028156> <03/06/2026> : I learned the definition of OOP course subject in our lab and to improve, next time I listen carefully to understand the all of the lessons.
 <MM/DD/YYYY> :  I learned _ in our lab and to improve, next time I will __
