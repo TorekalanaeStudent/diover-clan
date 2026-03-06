@@ -123,7 +123,11 @@ Group 2
 ---
 
 Group 3
-- Put things below this
+**The Importance of Pull Requests**
+* Pull requests are more than just a "to-do" list, they are the final filter that keeps your code clean and your team in sync. At their core, they exist to review code before merging, helping catch bugs, errors, and other issues early while improving overall quality.’ 
+
+**Why need two approvers?** 
+* Because it adds accountability, reduces mistakes, ensures more than one perspective, and prevents teammates from always approving each other's work without a real review. This also ensures that the code is correct before it counts. In short, pull requests protect your codebase and make sure every change is right before it matters. 
   
 ---
 
