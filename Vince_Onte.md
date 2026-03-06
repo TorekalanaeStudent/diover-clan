@@ -12,4 +12,4 @@
 
 ## 📘 Journals
 
-**\<03/06/2026\>** : I learned Introduction to OOP in our lab and to improve, next time I will ________.
+**\<03/06/2026\>** : I learned Project Planning in our lab and to improve, next time I will learn how to communicate better and how to manage our communications.
