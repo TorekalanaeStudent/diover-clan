@@ -103,7 +103,7 @@ Viewing all existing branches in the project.
 
 Group 2
 
-**What is a Changelog?**
+### What is a Changelog?
 - *A changelog is a human-readable list of notable changes made to a project, organized by version and date. Unlike a commit history (which is technical and messy), a changelog tells the team exactly what changed and why.*
 
 **How to Use It Properly**
@@ -123,7 +123,7 @@ Group 2
 ---
 
 Group 3
-**The Importance of Pull Requests**
+### The Importance of Pull Requests
 * Pull requests are more than just a "to-do" list, they are the final filter that keeps your code clean and your team in sync. At their core, they exist to review code before merging, helping catch bugs, errors, and other issues early while improving overall quality.’ 
 
 **Why need two approvers?** 
