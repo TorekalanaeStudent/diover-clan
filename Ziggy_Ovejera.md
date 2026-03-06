@@ -10,6 +10,4 @@
 
 ---
 
-## 📘 Journals
-
-**\<03/06/2026\>** : I learned _______ in our lab and to improve, next time I will ________.
+be <03/6/2026> :  I learned a lot about OOP in our lab and to improve, next time I will advance study
