@@ -10,4 +10,4 @@ Ramil Caneda
 ---
 
 📘 Journals
-<03/06/2026> : I learned Object and Class in our lab and to improve, next time I will __.
+<Cañeda, Ramil Jr, M> <03/06/2026> : I learned the 4 basic code ideas of OOP in our lab and to improve, next time I will continue to be more proactive not only in partcipation inside class but also outside class to further my knowledge of programming. 
