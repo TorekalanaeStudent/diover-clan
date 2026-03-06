@@ -12,4 +12,4 @@
 
 ## 📘 Journals
 
-**\<03/06/2026\>** : I learned _______ in our lab and to improve, next time I will ________.
+**\<03/06/2026\>** : I learned the how to create a project planning with use cases, next time I will try to implement these in real time projects.

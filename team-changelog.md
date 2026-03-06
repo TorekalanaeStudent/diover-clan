@@ -9,7 +9,8 @@
 <Mary Angeline Nono> <2025-1022691> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Go, Sean Ethan> <2025-1024028> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <De Juras, Clint Norbert> <2025-1025222> <03/06/2026> TermProjectPlanningPart1 Completed!
-
+<Arban, Jhave> <2025-1028256> <03/06/2026> <TermProjectPlanningPart1> Completed!
+<Gedoria, Rajan Kurt O.> <2025-1021948> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Name> <StudentNo/ID> <MM/DD/YYYY> <LabTopic> Completed!
 
 2. Update your personal .md files, create a short journal on how you completed today's tasks
@@ -22,4 +23,5 @@
 <Jagunap, Janelle> <03/06/2026> :  I learned the how to create a project planning with use cases, next time I will try to implement these in real time projects.
 <Mary Angeline Nono> <03/06/2026> :  I learned how OOP works in our lab and to improve, next time I will creating objects on my own.
 <Go, Sean Ethan> <03/06/2026> :  I learned the the 4 pillars of OOP in our lab and to improve, next time I will better myself and be proactive in participation
+<Gedoria, Rajan Kurt O.> <03/06/2026> :  I learned the basics of Object-Oriented Programming, or OOP, and to improve I will try to memorize and understand the important parts of OOP.
 <MM/DD/YYYY> :  I learned _ in our lab and to improve, next time I will __

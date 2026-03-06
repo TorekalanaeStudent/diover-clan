@@ -12,4 +12,4 @@
 
 ## 📘 Journals
 
-**\<03/06/2026\>** : I learned _______ in our lab and to improve, next time I will ________.
+**\<03/06/2026\>** : I learned the definition of OOP course subject in our lab and to improve, next time I listen carefully to understand the all of the lessons.
