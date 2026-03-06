@@ -12,4 +12,6 @@
 
 ## 📘 Journals
 
-**\<03/06/2026\>** : I learned about all the factual fundamentals of Object Oriented Programming in our lab and to improve, next time I will be more proactive in recitations and not let anxiety get hold of me.
+**\<03/06/2026\>** : I learned about all the factual fundamentals of Object Oriented Programming in our lab and to improve, next time I will be more proactive in recitations and not let anxiety get hold of me.  
+
+**\<03/06/2026>** :  I learned how to coordinate with my groupmates in our lab and to improve, next time I will greatly increase my particitation amongst my peers.
