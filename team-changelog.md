@@ -7,3 +7,6 @@
    
 <Canillo, Diover Vincent> <03/06/2026> :  I learned the 4 pillars of OOP in our lab and to improve, next time I will try my best to participate in the class
 <MM/DD/YYYY> :  I learned _ in our lab and to improve, next time I will __
+
+<Gedoria, Rajan Kurt O.> <03/06/2026> : I learned Object and Class in our lab and to improve, next time I will memorize the 4 basics of OOP.
+<MM/DD/YYYY> :  I learned _ in our lab and to improve, next time I will __
