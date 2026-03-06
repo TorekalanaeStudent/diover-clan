@@ -8,6 +8,7 @@
 <Jagunap, Janelle> <2025-1025460> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Mary Angeline Nono> <2025-1022691> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Go, Sean Ethan> <2025-1024028> <03/06/2026> <TermProjectPlanningPart1> Completed!
+<Guillermo Trespeces> <2025-1025412> <03/06/2026> TermProjectPlanningPart1 Completed!
 <De Juras, Clint Norbert> <2025-1025222> <03/06/2026> TermProjectPlanningPart1 Completed!
 <Arban, Jhave> <2025-1028256> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Gedoria, Rajan Kurt O.> <2025-1021948> <03/06/2026> <TermProjectPlanningPart1> Completed!
