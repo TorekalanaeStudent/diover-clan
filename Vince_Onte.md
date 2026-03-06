@@ -12,4 +12,4 @@
 
 ## 📘 Journals
 
-**\<03/06/2026\>** : I learned Introduction to OOP in our lab and to improve, next time I will ________.
+**\<03/06/2026\>** : I learned the 4 pillars of OOP in our lab and to improve, next time I will advance study, participate more, and be active in the class.
