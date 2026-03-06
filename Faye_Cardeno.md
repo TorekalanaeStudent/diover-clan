@@ -15,4 +15,4 @@ I like sleeping
 
 ## 📘 Journals
 
-**\<03/05/2026\>** : I learned _______ in our lab and to improve, next time I will ________.
+**\<03/06/2026\>** : I learned how to work with my group to create a project proposal in our lab, and to improve, next time I will contribute more ideas during the planning.

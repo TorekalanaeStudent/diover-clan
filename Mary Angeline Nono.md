@@ -12,4 +12,4 @@ Mary Angeline Nono
 
 ## 📘 Journals
 
-**\<03/06/2026\>** : I learned _______ in our lab and to improve, next time I will ________.
+**\<03/06/2026\>** : I learned how OOP works in our lab and to improve, next time I will practice creating objects on my own.
