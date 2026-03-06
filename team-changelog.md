@@ -14,3 +14,4 @@
 <Arban, Jhave> <2025-1028256> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Gedoria, Rajan Kurt O.> <2025-1021948> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Realon, Romnick> <2025-1027526> <03/06/2026> <TermProjectPlanningPart1> Completed!
+<Obdoza, John Kyle> <2025-1029134> <03/06/2026> <TermProjectPlanningPart1> Completed!
