@@ -1,11 +1,13 @@
 1. Create an entry in your Team changelog with format (team-changelog.md):
    
 <Canillo, Diover Vincent> <2025-1023980> <03/06/2026> <TermProjectPlanningPart1> Completed!
+<Cardeño, Faye> <2025-1025317> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Go, Sean Ethan> <2025-1024028> <03/06/2026> <TermProjectPlanningPart1> Completed!
 <Name> <StudentNo/ID> <MM/DD/YYYY> <LabTopic> Completed!
 
 2. Update your personal .md files, create a short journal on how you completed today's tasks
    
 <Canillo, Diover Vincent> <03/06/2026> :  I learned the 4 pillars of OOP in our lab and to improve, next time I will try my best to participate in the class
+<Cardeño, Faye> <03/06/2026> :I learned how to work with my group to create a project proposal in our lab, and to improve, next time I will contribute more ideas during the planning.
 <Go, Sean Ethan> <03/06/2026> :  I learned the the 4 pillars of OOP in our lab and to improve, next time I will better myself and be proactive in participation
 <MM/DD/YYYY> :  I learned _ in our lab and to improve, next time I will __
