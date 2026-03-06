@@ -6,9 +6,9 @@
 
 ---
 
-Group 1
+Group 1 
 
-###Common GitHub Commands, their Functions, and Use Cases
+### Common GitHub Commands, their Functions, and Use Cases
 
 **git checkout**
 
@@ -111,8 +111,8 @@ Group 3
   
 ---
 
-Group 4
-###Classes (PascalCase)
+Group 4 
+### Classes (PascalCase)
 
 *PascalCase* is utilized to have classes represent main objects or entities in a program. Capitalizing every word assists the programmer to identify and separate from variables and methods. This allows for an easier way to recognize that they are classes, an important function of a program.
 Example: Student, LibraryManager
@@ -138,5 +138,5 @@ Local variables also use camelCase for consistency with fields and parameters. I
     {
        int studentId = 000000;
     } 
-Overall reason these naming styles are used to improve readability and make it easy to identify what each part of the code represents just by looking at the name and making it much more easier, to debug or manipulated if error is found within the code or any changes that needs to be made.
+**Overall reason these naming styles are used to improve readability and make it easy to identify what each part of the code represents just by looking at the name and making it much more easier, to debug or manipulated if error is found within the code or any changes that needs to be made.**
 
