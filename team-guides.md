@@ -102,7 +102,23 @@ Viewing all existing branches in the project.
 ---
 
 Group 2
-- Put things below this
+
+**What is a Changelog?**
+- *A changelog is a human-readable list of notable changes made to a project, organized by version and date. Unlike a commit history (which is technical and messy), a changelog tells the team exactly what changed and why.*
+
+**How to Use It Properly**
+- Group by Type: Use *headers* like [Added], [Fixed], and [Changed].
+
+- Write for People: Use clear language (e.g., "Fixed login button alignment") instead of technical jargon or commit IDs.
+
+- Newest First: Always put the latest updates at the top of the file.
+
+**How We Use It in Teams**
+- The Source of Truth: It's the one place everyone (Devs, QAs, and Managers) goes to see the current state of the project.
+
+- PR Integration: Update the CHANGELOG.md file every time you submit a Pull Request so documentation stays in sync with the code.
+
+- Release Notes: It makes creating "What's New" updates for stakeholders instant and effortless.
 
 ---
 
