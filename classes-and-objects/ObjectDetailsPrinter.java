@@ -24,6 +24,7 @@ public class ObjectDetailsPrinter {
 
         // Static method
         Product.displayTotalProducts();
+        System.out.println(p2.totalProducts);
 
         
 
