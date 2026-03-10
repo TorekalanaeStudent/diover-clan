@@ -96,6 +96,7 @@ public class ObjectDetailsPrinter {
         System.out.println("Laptops total: " + l1.totalLaptop);
         //Display Total Laptop using static method
         l2.displayTotalLaptop();
+<<<<<<< Nono-ObjectDetailsPrinter
          
         // =========================================
         // Object 1 → Default constructor
@@ -166,6 +167,57 @@ public class ObjectDetailsPrinter {
         Order o3 = new Order("ORD-1002", "Alex Cruz", "Mechanical Keyboard", 1, 2899.00, "2026-03-11");
         Order.printTotalOrders();
  
+=======
+        
+        // This is the object instance created from the StudySession class
+        // This instance object was created by <Jagunap>. This StudySession class was created by <Cardeño>
+        // object using default constructor
+        StudySession ss1 = new StudySession();
+
+        // object using parameterized constructor
+        StudySession ss2 = new StudySession("Science");
+
+        // object using overloaded constructor
+        StudySession ss3 = new StudySession("Mathematics", 3, "Faye");
+
+        // call method without parameters
+        ss1.displaySession();
+        ss2.displaySession();
+        ss3.displaySession();
+
+        // call method with parameter
+        ss2.setHours(4);
+
+        // static method usage
+        StudySession.getSchool();
+        System.out.println(StudySession.getSchool());
+
+        // This is the object instance created from the Product Class
+        // This instance was created by <Obedoza>. This class was made by <Navarro> 
+        // Object using default constructor
+        Product p1 = new Product();
+
+        // Object using parameterized constructor
+        Product p2 = new Product("Bose", 10000, "Speaker", 5);
+
+        // Object using overloaded constructor
+        Product p3 = new Product("Gibson Guitar", 50000);
+
+        // Print attributes and trigger behaviors
+        p1.displayDetails();
+        System.out.println();
+        p2.displayDetails();
+        System.out.println();
+        p3.displayDetails();
+        System.out.println();
+
+        // Method with parameter
+        p2.applyDiscount(10);
+
+        // Static method
+        Product.displayTotalProducts();
+        System.out.println(p2.totalProducts);
+>>>>>>> main
     }
 }
 
