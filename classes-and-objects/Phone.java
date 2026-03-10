@@ -49,31 +49,4 @@ public class Phone {
     static void displayTotalPhones() {
         System.out.println("Total Phones Created: " + totalPhones);
     }
-
-
-        // Create objects using different constructors
-        Phone p1 = new Phone(); // default constructor
-        Phone p2 = new Phone("Galaxy S26", "White"); // parameterized
-        Phone p3 = new Phone("Galaxy A55", "Blue"); // overloaded
-
-       //Access and display attributes
-        System.out.println("Phone 1: " + p1.model + ", " + p1.color + ", " + p1.storage);
-        System.out.println("Phone 2: " + p2.model + ", " + p2.color + ", " + p2.storage);
-        System.out.println("Phone 2: " + p3.model + ", " + p3.color + ", " + p3.storage);
-        
-        System.out.println(" ");
-
-
-        // behavior without parameter
-        p1.displayPhoneInfo();
-
-        System.out.println();
-
-        // behavior with parameter
-        p3.changeColor("Red");
-
-        System.out.println();
-
-        // Static usage
-        Phone.displayTotalPhones();
-    }
+}
