@@ -1,3 +1,8 @@
+/*
+*This class represents a study session with attributes like subject, hours, and student name.
+* Created by Faye Cardeño
+*/
+
 public class StudySession {
     String subject;
     int hours;
