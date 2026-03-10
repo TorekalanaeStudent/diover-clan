@@ -20,7 +20,7 @@ public class Car {
     }
 
     public static String getManufacturer() {
-        return this.manufacturer;
+        return manufacturer;
     }
 
 }
