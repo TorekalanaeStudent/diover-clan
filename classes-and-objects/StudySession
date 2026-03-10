@@ -3,7 +3,7 @@ public class StudySession {
     int hours;
     String studentName;
 
-    public static String school = "Philippine Christian University";
+    public static String school = "National University";
 
     public StudySession() {
         this.subject = "Math";
