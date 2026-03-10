@@ -96,10 +96,10 @@ public class ObjectDetailsPrinter {
         System.out.println("Laptops total: " + l1.totalLaptop);
         //Display Total Laptop using static method
         l2.displayTotalLaptop();
-<<<<<<< Nono-ObjectDetailsPrinter
          
         // =========================================
         // Object 1 → Default constructor
+        // This object instance was created by <Nono>. Order class was created by <Jagunap>
         // =========================================
         Order o1 = new Order(); // default constructor
  
@@ -166,8 +166,6 @@ public class ObjectDetailsPrinter {
         // Optional: Create another object to see the counter increment
         Order o3 = new Order("ORD-1002", "Alex Cruz", "Mechanical Keyboard", 1, 2899.00, "2026-03-11");
         Order.printTotalOrders();
- 
-=======
         
         // This is the object instance created from the StudySession class
         // This instance object was created by <Jagunap>. This StudySession class was created by <Cardeño>
@@ -217,7 +215,6 @@ public class ObjectDetailsPrinter {
         // Static method
         Product.displayTotalProducts();
         System.out.println(p2.totalProducts);
->>>>>>> main
     }
 }
 
