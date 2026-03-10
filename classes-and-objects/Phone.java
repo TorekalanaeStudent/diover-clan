@@ -56,7 +56,7 @@ public class Phone {
         Phone p2 = new Phone("Galaxy S26", "White"); // parameterized
         Phone p3 = new Phone("Galaxy A55", "Blue"); // overloaded
 
-       Access and display attributes
+       //Access and display attributes
         System.out.println("Phone 1: " + p1.model + ", " + p1.color + ", " + p1.storage);
         System.out.println("Phone 2: " + p2.model + ", " + p2.color + ", " + p2.storage);
         System.out.println("Phone 2: " + p3.model + ", " + p3.color + ", " + p3.storage);
