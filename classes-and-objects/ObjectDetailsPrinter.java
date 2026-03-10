@@ -101,8 +101,8 @@ public class ObjectDetailsPrinter {
         // Create object using default constructor
         Book b1 = new Book();
 
-        // Create object using parameterized constructor
-        Book b2 = new Book("Maria", 20, "BSCS");
+        // Create object using overloaded constructor
+        Book b2 = new Book("Maria");
 
         // Print attributes
         System.out.println(b1.title);
@@ -115,9 +115,10 @@ public class ObjectDetailsPrinter {
 
         // Method with parameter 
         b2.setTitle("Bible");
-
+        System.out.println("Updated Title: " + b2.getTitle());
+        
         // Static method and static variable
-        Book.getTitle();
+        System.out.println(Book.getTitle());
         System.out.println(Book.store);
          
         // =========================================
