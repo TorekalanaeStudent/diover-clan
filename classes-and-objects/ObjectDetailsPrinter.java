@@ -105,8 +105,8 @@ public class ObjectDetailsPrinter {
         Book b2 = new Book("Maria", 20, "BSCS");
 
         // Print attributes and trigger behaviors
-        b1.introduce();
-        b2.introduce();
+        System.out.println(b1.getTitle());
+        System.out.println(b2.getTitle());
 
         // Method with parameter to update course
         b2.updateCourse("BS Data Science");
