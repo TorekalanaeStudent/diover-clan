@@ -1,5 +1,8 @@
 /**
  * @author canilloPC
+ *
+ * This class represents a PC (Desktop) with a pcCount, sockettype, GPUManufacturer, caseColor, GPUModel, mobo, cpu, ramspeed , ramsize, and turnedOn boolean.
+ * Created by Canillo, Diover Vincent L.
  */
 public class PC {
     
