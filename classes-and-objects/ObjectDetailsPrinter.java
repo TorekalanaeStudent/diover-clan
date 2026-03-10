@@ -73,6 +73,30 @@ public class ObjectDetailsPrinter {
         System.out.println("Total Guns:" + Gun.stock);
         Gun.displayTotalStock(); // static method
  
+        // This is the object instance created from the Laptop class
+        // This instance object was created by <Onte>. This Laptop class was created by <Margreleigne>
+        System.out.println("\n This instance object was created by <Onte>. This Laptop class was created by <Margreleigne>"); 
+        Laptop l1 = new Laptop ();
+        Laptop l2 = new Laptop ("Macbook", 109990);
+
+        // Attributes of l1
+        System.out.println("=== Attributes of l1 ==="
+            + "\nName: " + l1.name
+            + "\nPrice: " + l1.price
+            + "\nColor: " + l1.color
+            + "\nStock: " + l1.stock);
+
+        // usage for methods with parameter and without
+        System.out.println("\n=== METHODS ===");
+        l2.displayDetails(); //Display for l2 (method without parameter)
+        l2.applyDiscount(67.0); //Discount for l2 (method with parameter)
+
+        System.out.println("\n === STATIC METHOD ===");
+        // Display total keyboards using static attribute
+        System.out.println("Laptops total: " + l1.totalLaptop);
+        //Display Total Laptop using static method
+        l2.displayTotalLaptop();
+        
     }
 }
 
