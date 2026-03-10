@@ -167,6 +167,31 @@ public class ObjectDetailsPrinter {
         Order o3 = new Order("ORD-1002", "Alex Cruz", "Mechanical Keyboard", 1, 2899.00, "2026-03-11");
         Order.printTotalOrders();
         
+        // This is the object instance created from the Keyboard class
+        // This instance object was created by <Cardeño>. This Keyboard class was created by <Nono>
+        System.out.println("\nThis instance object was created by <Cardeño>. This Keyboard class was created by <Nono>");
+        // Object using default constructor
+        Seller seller1 = new Seller();
+        Seller seller2 = new Seller("Cardeño", "Faye's Boutique");
+        Seller seller3 = new Seller("Nono", "Nono's Shop", 4.5);
+
+        // Attributes of seller1
+        System.out.println("=== Attributes of seller1 ==="
+        + "\nName: " + seller1.name
+        + "\nShop Name: " + seller1.shopName
+        + "\nRating: " + seller1.rating);
+
+        // usage for methods with parameter and without
+        System.out.println("\n=== METHODS ===");
+        seller2.displaySeller(); // method without parameter
+        seller2.setRating(5.0);  // method with parameter
+        System.out.println("=== Updated Info of seller2 ===");
+        seller2.displaySeller();
+
+        // Static usage
+        System.out.println("\n=== STATIC METHOD ===");
+        System.out.println("Total Sellers: " + Seller.totalSellers); // static attribute
+        Seller.printTotalSellers(); // static method
         // This is the object instance created from the StudySession class
         // This instance object was created by <Jagunap>. This StudySession class was created by <Cardeño>
         // object using default constructor
