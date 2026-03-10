@@ -15,7 +15,7 @@ public class PC {
     private int RAMSize;
     private boolean turnedON;
     
-    // default
+    // default constructor
     PC(){
        this.GPUManufacturer = "NVIDIA";
        this.caseColor = "Black";
@@ -27,18 +27,21 @@ public class PC {
        turnedON = false;
        pcCount++;
     }
-    
+
+    // overloading constructor
     PC(String caseColor){
        this();
        this.caseColor = caseColor;
     }
-    
+
+    // overloading constructor (2)
     PC(String GPUManufacturer, int GPUModel){
        this();
        this.GPUManufacturer = GPUManufacturer;
        this.GPUModel = GPUModel;
     }
-    
+
+    // parameterized constructor
     PC(String GPUManufacturer, int GPUModel, String MOBO, String CPU, int RSpeed, int RSize){
        this.GPUManufacturer = GPUManufacturer;
        this.GPUModel = GPUModel;
@@ -49,7 +52,7 @@ public class PC {
     }
     
     // =======================================
-    // GETTER AND SETTERS
+    // GETTER AND SETTERS - Behavior with parameter
     // =======================================
     
     // GETTERS
@@ -126,5 +129,26 @@ public class PC {
     public void openPC(boolean on){
         this.turnedON = on;
     }
+
+    // Behavior without parameter
+    public void introduceSpecs(){
+        System.out.println("GPU manufacturer: " + GPUManufacturer + ".");
+        System.out.println("GPU model: " + GPUModel + ".");
+        System.out.println("Case Color: " + caseColor + ".");
+        System.out.println("Motherboard: " + MOBO + ".");
+        System.out.println("CPU: " + CPU + ".");
+        System.out.println("Ram Speed: " + RAMSpeed + ".");
+        System.out.println("Ram Size: " + RAMSize + ".");
+    }
+
+    // Static methods
+    public static void displayTotalPC(){
+        System.out.println("Total PC Created: " + pcCount + ".");
+    }
+    
+    public static void displaySocketType(){
+        System.out.println("Socket Type: " + socketType + ".");
+    }
+
     
 }
