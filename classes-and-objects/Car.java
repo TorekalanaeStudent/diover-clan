@@ -3,7 +3,7 @@ public class Car {
     String model;
     String color;
 
-    public static manufacturer = "Ramon";
+    public static String manufacturer = "Ramon";
 
     public Car() {
         this.model = "Toyota";
