@@ -1,10 +1,10 @@
-public class Coffee {
+public class CoffeeOrder {
 
      String type;
      String size;
      double price;
 
-    public Coffee(String type, String size) {
+    public CoffeeOrder(String type, String size) {
     this.type = type;
     this.size = size;
     setPrice();
