@@ -288,6 +288,34 @@ public class ObjectDetailsPrinter {
         System.out.println("The static attribute \"Socket type\"for PC1: "+ PC1.socketType);
         // static method
         PC1.displayTotalPC();
+
+        // This is the object instance created from the Coffee Class
+        // This instance was created by <Go>. This class was made by <Realon> 
+ 
+        // Object making use of the default constructor
+        Coffee c1 = new Coffee();
+
+        // Object making use of the parametized constructor
+        Coffee c2 = new Coffee("Cappucino", 70.99, "Small", "Coffee", 17);
+
+        // Object making use of the overloaded constructor
+        Coffee c3 = new Coffee("Americano", 40.99, "Small");
+
+        // Print default attributes and other objects
+        c1.displayFixedDetails();
+        System.out.println();
+        c2.displayFixedDetails();
+        System.out.println();
+        c3.displayFixedDetails();
+        System.out.println();
+
+        // Method with parameter
+        c3.addStock(30);
+
+        // Static method
+        Coffee.displayTotalAmount();
+        System.out.println();
+
     }
 }
 
