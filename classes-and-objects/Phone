@@ -1,0 +1,35 @@
+public class Phone {
+
+    String model;
+    String color;
+
+    public static String brand = "Samsung";
+
+    public Phone() {
+        this.model = "Galaxy S26";
+        this.color = "White";
+    }
+
+    public Phone(String color) {
+        this.model = "Galaxy S26";
+        this.color = color;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public static String getManufacturer() {
+        return brand;
+    }
+
+    public static void main(String[] args) {
+
+        Phone p1 = new Phone();
+        Phone p2 = new Phone("Black");
+
+        System.out.println(p1.getColor());
+        System.out.println(p2.getColor());
+        System.out.println(Phone.getManufacturer());
+    }
+}
