@@ -108,7 +108,7 @@ public class ObjectDetailsPrinter {
         System.out.println(b1.getTitle());
         System.out.println(b2.getTitle());
 
-        // Method with parameter to update course -
+        // Method with parameter to update course 
         b2.updateCourse("BS Data Science");
 
         // Static method to display total students
