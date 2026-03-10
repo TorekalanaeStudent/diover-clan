@@ -1,43 +1,53 @@
-public class Selling {
+public class Selling { 
+    /*
+    * This class represents a product with a name, price, brand, and status.
+    * Created by Rich Matthew Malig
+    */
 
     String productName;
-    int quantity;
-    String sellerName;
+    double price;
+    String brand;
+    String status;
 
     public static String store = "Online Shop";
 
     public Selling() {
         this.productName = "Tennis";
-        this.quantity = 1;
-        this.sellerName = "Anonymous";
+        this.price = 100.0;
+        this.brand = "Nike";
+        this.status = "Available";
     }
 
     public Selling(String productName) {
         this.productName = productName;
-        this.quantity = 1;
-        this.sellerName = "Anonymous";
+        this.price = 100.0;
+        this.brand = "Nike";
+        this.status = "Available";
     }
 
-    public Selling(String productName, int quantity) {
+    public Selling(String productName, double price) {
         this.productName = productName;
-        this.quantity = quantity;
-        this.sellerName = "Anonymous";
+        this.price = price;
+        this.brand = "Nike";
+        this.status = "Available";
     }
 
-    public Selling(String productName, int quantity, String sellerName) {
+    public Selling(String productName, double price, String brand, String status) {
         this.productName = productName;
-        this.quantity = quantity;
-        this.sellerName = sellerName;
+        this.price = price;
+        this.brand = brand;
+        this.status = status;
     }
 
     public void displaySelling() {
-        System.out.println("Seller: " + sellerName);
         System.out.println("Product: " + productName);
-        System.out.println("Quantity: " + quantity);
+        System.out.println("Price: " + price);
+        System.out.println("Brand: " + brand);
+        System.out.println("Status: " + status);
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getProductName() {
