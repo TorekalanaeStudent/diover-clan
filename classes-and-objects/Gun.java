@@ -7,16 +7,6 @@ public class Gun { // Made by Sean Go
     String caliber;
     String manufacturer;
 
-        // Main method
-    public static void main(String[] args) {
-
-        Gun gunKalashnikov = new Gun("AK-47", 1947, 600, "7.62x39", "Kalashnikov Concern");
-        Gun gunColt = new Gun("M4", 1994, 700, "5.56x45", "Colt");
-
-        gunKalashnikov.displayInfo();
-        gunColt.displayInfo();
-    }
-
     // Parameterized constructor
     public Gun(String model, int year, int roundsPerMinute, String caliber, String manufacturer) {
 
