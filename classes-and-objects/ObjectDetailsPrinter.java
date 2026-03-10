@@ -20,6 +20,15 @@ public class ObjectDetailsPrinter {
         // Static method
         Student.displayTotalStudents();
         
+
+        // Object Created by <Surname>, Class created by <Teammate's Surname>
+        Car car1 = new Car();
+        Car car2 = new Car("colorblue");
+
+        System.out.println(car1.getColor());
+        System.out.println(car2.getColor());
+        System.out.println(car1.manufacturer);
+        System.out.println(car1.getManufacturer());
     }
 }
 
