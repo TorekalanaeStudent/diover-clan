@@ -97,6 +97,28 @@ public class ObjectDetailsPrinter {
         //Display Total Laptop using static method
         l2.displayTotalLaptop();
         
+        // This is the object instance created from the StudySession class
+        // This instance object was created by <Jagunap>. This StudySession class was created by <Cardeño>
+        // object using default constructor
+        StudySession ss1 = new StudySession();
+
+        // object using parameterized constructor
+        StudySession ss2 = new StudySession("Science");
+
+        // object using overloaded constructor
+        StudySession ss3 = new StudySession("Mathematics", 3, "Faye");
+
+        // call method without parameters
+        ss1.displaySession();
+        ss2.displaySession();
+        ss3.displaySession();
+
+        // call method with parameter
+        ss2.setHours(4);
+
+        // static method usage
+        StudySession.getSchool();
+        System.out.println(StudySession.getSchool());
     }
 }
 
