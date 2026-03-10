@@ -96,7 +96,24 @@ public class ObjectDetailsPrinter {
         System.out.println("Laptops total: " + l1.totalLaptop);
         //Display Total Laptop using static method
         l2.displayTotalLaptop();
-        
+
+        // This instance was made by Clint.
+        // Create object using default constructor
+        Book b1 = new Book();
+
+        // Create object using parameterized constructor
+        Book b2 = new Book("Maria", 20, "BSCS");
+
+        // Print attributes and trigger behaviors
+        b1.introduce();
+        b2.introduce();
+
+        // Method with parameter to update course
+        b2.updateCourse("BS Data Science");
+
+        // Static method to display total students
+        Book.getTitle();
+        System.out.println(Book.store);
     }
 }
 
