@@ -314,6 +314,7 @@ public class ObjectDetailsPrinter {
 
         // Static method
         Coffee.displayTotalAmount();
+        System.out.println("Kinds of Coffee Available:" + Coffee.totalAmount);
         System.out.println();
 
         // This object instance was created by <Malig>. This Minerals class was created by <Caneda>
