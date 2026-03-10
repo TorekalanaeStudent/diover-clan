@@ -1,4 +1,7 @@
 public class Guitar {
+
+    // Static Attribute
+    private static String storeName = "Kyle's Music Shop";
     
     // Fields 
     private String itemModel;
