@@ -3,17 +3,17 @@
  */
 public class PC {
     
-    private static int pcCount = 0;
-    private static String socketType = "AM4";
+    static int pcCount = 0;
+    static String socketType = "AM4";
     
-    private String GPUManufacturer;
-    private String caseColor;
-    private int GPUModel;
-    private String MOBO;
-    private String CPU; // am4 only
-    private int RAMSpeed;
-    private int RAMSize;
-    private boolean turnedON;
+    String GPUManufacturer;
+    String caseColor;
+    int GPUModel;
+    String MOBO;
+    String CPU; // am4 only
+    int RAMSpeed;
+    int RAMSize;
+    boolean turnedON;
     
     // default constructor
     PC(){
@@ -52,7 +52,7 @@ public class PC {
     }
     
     // =======================================
-    // GETTER AND SETTERS - Behavior with parameter
+    // GETTER AND SETTERS - Behavior with parameter AND Behavior without parameter
     // =======================================
     
     // GETTERS
@@ -130,7 +130,7 @@ public class PC {
         this.turnedON = on;
     }
 
-    // Behavior without parameter
+    // Behavior without parameter (again)
     public void introduceSpecs(){
         System.out.println("GPU manufacturer: " + GPUManufacturer + ".");
         System.out.println("GPU model: " + GPUModel + ".");
