@@ -10,7 +10,7 @@ public class Minerals {
 
     // static Attributes
     static int totalMinerals = 0;
-    public static string mineralsMiner = "Steve";
+    public static String mineralsMiner = "Steve";
 
     // Default constructor
     Minerals() {
@@ -22,9 +22,9 @@ public class Minerals {
         totalMinerals++;
     }
     // Parameteried constructor 
-    Minerals (String mineralsName, String color, String Biome, String Cords, int mineralsInInventory) {
-        this.mineralsName = MineralsNamel;
-        this.Color = Color;
+    Minerals(String mineralsName, String color, String Biome, String Cords, int mineralsInInventory) {
+        this.mineralsName = mineralsName;
+        this.Color = color;
         this.Biome = Biome;
         this.Cords = Cords;
         this.mineralsInInventory = mineralsInInventory;
@@ -49,11 +49,11 @@ public class Minerals {
     }
     // Behavior with Parameters
     void updateMineral(String newMineral) {
-        System.out.println(mineralsMiner +"now has thrown out their "+mineralsName+" for "+newMinerals )
+        System.out.println(mineralsMiner +"now has thrown out their "+mineralsName+" for "+newMinerals);
         mineralsName = newMinerals;
     }
     // Static method
     static void displayTotalMineralsInInventory () {
-        System.out.println("Total Minerals In Inventory is "+totalMinerals)
+        System.out.println("Total Minerals In Inventory is "+totalMinerals);
     }
 }
