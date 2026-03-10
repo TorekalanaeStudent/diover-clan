@@ -316,6 +316,33 @@ public class ObjectDetailsPrinter {
         Coffee.displayTotalAmount();
         System.out.println();
 
+        // This object instance was created by <Malig>. This Minerals class was created by <Caneda>
+
+        // Object using default constructor
+        Minerals m1 = new Minerals();
+
+        // Object using parameterized constructor
+        Minerals m2 = new Minerals("Diamond", "Red", "Plains biome", "500 -43 124", 56);
+
+        // Print attributes
+        System.out.println();
+        System.out.println(m1.mineralsName);
+        System.out.println(m1.Color);
+        System.out.println(m1.mineLocation);
+        System.out.println(m1.Cords);
+        System.out.println(m1.mineralsInInventory);
+
+        // Method without parameters
+        m1.displayMinerals();
+        m2.displayMinerals();
+
+        // Method with parameter
+        m2.updateMineral("Emerald");
+        System.out.println();
+
+        // Static method and Static variable
+        Minerals.displayTotalMineralsInInventory();
+        System.out.println(Minerals.mineralsMiner); 
     }
 }
 
