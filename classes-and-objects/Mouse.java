@@ -14,7 +14,9 @@ public class Mouse {
         this.color = color;
         this.model = "Logitech";
     }
-
+    public void setColor(String color){
+         this.color = color;
+    }
     public String getColor() {
         return this.color;
     }
