@@ -50,7 +50,7 @@ public class Product {
     }
 
     // Static method
-    static void displayTotalProducts() {
-        System.out.println("Total Products Created: " + totalProducts);
+    static String getTotalProducts() {
+        return "Total Products Created: " + totalProducts;
     }
 }
