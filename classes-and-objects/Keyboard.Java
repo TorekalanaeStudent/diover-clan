@@ -1,3 +1,7 @@
+/*
+* This class represents a product with a name, price, color, type, and stock.
+* Created by Vince Gian Onte
+*/
 public class Keyboard {
     // Attributes
     String brand;
