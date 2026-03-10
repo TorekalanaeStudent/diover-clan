@@ -96,6 +96,76 @@ public class ObjectDetailsPrinter {
         System.out.println("Laptops total: " + l1.totalLaptop);
         //Display Total Laptop using static method
         l2.displayTotalLaptop();
+         
+        // =========================================
+        // Object 1 → Default constructor
+        // This object instance was created by <Nono>. Order class was created by <Jagunap>
+        // =========================================
+        Order o1 = new Order(); // default constructor
+ 
+        // Access & Display Attributes
+        System.out.println("=== Object 1 (Default) Attributes ===");
+        System.out.println(o1.getOrderId());
+        System.out.println(o1.getCustomerName());
+        System.out.println(o1.getProductName());
+        System.out.println(o1.getQuantity());
+        System.out.println(o1.getPrice());
+        System.out.println(o1.getOrderDate());
+        System.out.println("toString(): " + o1); // uses overridden toString()
+ 
+        // Trigger Behaviors
+        System.out.println("\n=== Object 1 Behaviors ===");
+        // Call method without parameters
+        o1.printSummary();
+        // Call method with parameters
+        o1.applyDiscount(5); // 5% discount on price (though it's 0.0 initially)
+ 
+        // =========================================
+        // Object 2 → Parameterized constructor
+        // =========================================
+        Order o2 = new Order(
+                "ORD-1001",
+                "Janelle Jagunap",
+                "Wireless Mouse",
+                2,
+                599.00,
+                "2026-03-10"
+        );
+ 
+        // Access & Display Attributes
+        System.out.println("\n=== Object 2 (Parameterized) Attributes ===");
+        System.out.println(o2.getOrderId());
+        System.out.println(o2.getCustomerName());
+        System.out.println(o2.getProductName());
+        System.out.println(o2.getQuantity());
+        System.out.println(o2.getPrice());
+        System.out.println(o2.getOrderDate());
+        System.out.println("Total Amount: " + o2.getTotalAmount());
+ 
+        // Trigger Behaviors
+        System.out.println("\n=== Object 2 Behaviors ===");
+        // Call method without parameters
+        o2.printSummary();
+        // Call method with parameters
+        o2.applyDiscount(10); // Apply 10% discount
+        o2.printSummary();    // Show summary again after discount
+ 
+        // Demonstrate setters (method with parameter)
+        o2.setProductName("Wireless Gaming Mouse");
+        o2.setQuantity(3);
+        System.out.println("\nAfter updates:");
+        o2.printSummary();
+ 
+        // =========================================
+        // Demonstrate Static Usage
+        // =========================================
+        System.out.println("\n=== Static Usage ===");
+        Order.printTotalOrders(); // static method to show count of created objects
+        // (If you had a public static field, you'd access it like: ClassName.staticField)
+ 
+        // Optional: Create another object to see the counter increment
+        Order o3 = new Order("ORD-1002", "Alex Cruz", "Mechanical Keyboard", 1, 2899.00, "2026-03-11");
+        Order.printTotalOrders();
         
         // This is the object instance created from the Keyboard class
         // This instance object was created by <Cardeño>. This Keyboard class was created by <Nono>
@@ -122,6 +192,54 @@ public class ObjectDetailsPrinter {
         System.out.println("\n=== STATIC METHOD ===");
         System.out.println("Total Sellers: " + Seller.totalSellers); // static attribute
         Seller.printTotalSellers(); // static method
+        // This is the object instance created from the StudySession class
+        // This instance object was created by <Jagunap>. This StudySession class was created by <Cardeño>
+        // object using default constructor
+        StudySession ss1 = new StudySession();
+
+        // object using parameterized constructor
+        StudySession ss2 = new StudySession("Science");
+
+        // object using overloaded constructor
+        StudySession ss3 = new StudySession("Mathematics", 3, "Faye");
+
+        // call method without parameters
+        ss1.displaySession();
+        ss2.displaySession();
+        ss3.displaySession();
+
+        // call method with parameter
+        ss2.setHours(4);
+
+        // static method usage
+        StudySession.getSchool();
+        System.out.println(StudySession.getSchool());
+
+        // This is the object instance created from the Product Class
+        // This instance was created by <Obedoza>. This class was made by <Navarro> 
+        // Object using default constructor
+        Product p1 = new Product();
+
+        // Object using parameterized constructor
+        Product p2 = new Product("Bose", 10000, "Speaker", 5);
+
+        // Object using overloaded constructor
+        Product p3 = new Product("Gibson Guitar", 50000);
+
+        // Print attributes and trigger behaviors
+        p1.displayDetails();
+        System.out.println();
+        p2.displayDetails();
+        System.out.println();
+        p3.displayDetails();
+        System.out.println();
+
+        // Method with parameter
+        p2.applyDiscount(10);
+
+        // Static method
+        Product.displayTotalProducts();
+        System.out.println(p2.totalProducts);
     }
 }
 
