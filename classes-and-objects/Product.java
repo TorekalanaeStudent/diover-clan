@@ -1,3 +1,8 @@
+/*
+* This class represents a product with a name, price, category, and stock.
+* Created by Vince Justine Navarro
+*/
+
 public class Product {
     // Attributes
     String name;
