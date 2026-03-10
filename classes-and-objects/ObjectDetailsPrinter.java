@@ -97,29 +97,29 @@ public class ObjectDetailsPrinter {
         //Display Total Laptop using static method
         l2.displayTotalLaptop();
 
-        // This instance was made by <Clint>. This Book class was made by <Trespeces>
+       // This instance was made by <Clint>. This Book class was made by <Trespeces>
         // Create object using default constructor
         Book b1 = new Book();
 
         // Create object using overloaded constructor
         Book b2 = new Book("Maria");
 
-        // Print attributes
-        System.out.println(b1.title);
-        System.out.println(b1.author);
-        System.out.println(b1.price);
-      
-        // Method without parameter
-        System.out.println(b1.getTitle());
-        System.out.println(b2.getTitle());
+        // Print attributes directly (instance variables)
+        System.out.println("b1 Title: " + b1.title);
+        System.out.println("b1 Author: " + b1.author);
+        System.out.println("b1 Price: " + b1.price);
 
-        // Method with parameter 
+        // Method without parameter
+        System.out.println("b1 Title (using getTitle): " + b1.getTitle());
+        System.out.println("b2 Title (using getTitle): " + b2.getTitle());
+
+        // Method with parameter to update title
         b2.setTitle("Bible");
-        System.out.println("Updated Title: " + b2.getTitle());
+        System.out.println("Updated b2 Title: " + b2.getTitle());
         
         // Static method and static variable
-        System.out.println(Book.getTitle());
-        System.out.println(Book.store);
+        System.out.println("Store Name (using getStore): " + Book.getStore());
+        System.out.println("Store Name (direct access): " + Book.store);
          
         // =========================================
         // Object 1 → Default constructor
