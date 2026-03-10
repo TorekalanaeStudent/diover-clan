@@ -252,7 +252,7 @@ public class ObjectDetailsPrinter {
         System.out.println("The GPU Manufacturer For PC1 is: " + PC1.GPUManufacturer);
         System.out.println("The GPU Manufacturer For PC2 is: " + PC2.GPUManufacturer);
 
-        System.out.println("\nPC1 STATS")
+        System.out.println("\nPC1 STATS");
         //method without parameter
         PC1.introduceSpecs();
         // method with parameter
