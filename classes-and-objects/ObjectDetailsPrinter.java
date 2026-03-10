@@ -20,6 +20,30 @@ public class ObjectDetailsPrinter {
         // Static method
         Student.displayTotalStudents();
 
+        // This is the object instance created from the Keyboard class
+        // This instance object was created by <Canillo>. This Keyboard class was created by <Onte>
+        System.out.println("\nThis instance object was created by <Canillo>. This Keyboard class was created by <Onte>"); // spacer
+        Keyboard k1 = new Keyboard(); // Object created using default constructor
+        Keyboard k2 = new Keyboard("Aula", 2499.00, "White", "Mechanical", 10); // Object created using parameterized constructor
+
+        // Attributes of k1
+        System.out.println("=== Attributes of k1 ===" 
+                + "\nBrand: " + k1.brand 
+                + "\nPrice: " + k1.price
+                + "\nColor: " + k1.color
+                + "\nType: " + k1.type
+                + "\nStock: " + k1.stock);
+
+        // usage for methods with parameter and without
+        System.out.println("\n=== METHODS ===");
+        k2.displayKeyboard(); // display of k2 (method without parameter)
+        k2.applyDiscount(20.0); // discount for k2 (method with parameter)
+
+        System.out.println("\n=== STATIC METHODS ===");
+        // Display total keyboards using static attribute
+        System.out.println("Keyboards Total: " + k1.totalKeyboard);
+        // Display total keyboards using static method
+        k2.displayTotalKeyboard();
     }
 }
 
