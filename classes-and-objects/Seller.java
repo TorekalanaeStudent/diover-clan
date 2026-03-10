@@ -1,3 +1,8 @@
+/*
+* This class represents a seller in a marketplace or online selling system. It contains attributes such as the seller's name, shop name, and ratings.
+* Created by Mary Angeline Nono
+*/
+
 public class Seller {
 
     // Attributes
