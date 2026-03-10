@@ -19,13 +19,6 @@ public class ObjectDetailsPrinter {
 
         // Static method
         Student.displayTotalStudents();
-        
-
-        // This instance was created by <Ziggy>. This class was made by <Jhave> "Ball.java"
-System.out.println("This instance was created by <Ziggy>. This class was made by <Jhave> \"Ball.java\"");
-Ball b1 = new Ball("Test1", 100.00, "Black", 2);
-
-b1.displayDetails();
 
     }
 }
