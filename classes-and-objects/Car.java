@@ -4,7 +4,9 @@ public class Car {
     String color;
 
     public static String manufacturer = "Ramon";
+    
 
+    //this is the default constructor
     public Car() {
         this.model = "Toyota";
         this.color = "White";
