@@ -61,11 +61,11 @@ public class Gun {
     // Method with parameters
     public void setInfo(String model, int year, int roundsPerMinute, String caliber, String manufacturer) {
         
-    model = mod;
-    year = yr;
-    roundsPerMinute = rpm;
-    caliber = cal;
-    manufacturer = mf;
+    this.model = model;
+    this.year = year;
+    this.roundsPerMinute = roundsPerMinute;
+    this. caliber = caliber;
+    this. manufacturer = manufacturer;
 
     }
     // Static method
