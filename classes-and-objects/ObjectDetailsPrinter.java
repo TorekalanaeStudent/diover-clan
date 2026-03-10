@@ -1,27 +1,31 @@
 public class ObjectDetailsPrinter {
     public static void main(String[] args) {
-        // This is the object instance created from the Student class
+        // This is the object instance created from the Product Class
         // Object using default constructor
-        Student s1 = new Student();
+        Product p1 = new Product();
 
         // Object using parameterized constructor
-        Student s2 = new Student("Maria", 20, "BSCS");
+        Product p2 = new Product("Bose", 10000, "Speaker", 5);
 
         // Object using overloaded constructor
-        Student s3 = new Student("Carlos", "BSIT");
+        Product p3 = new Product("Gibson Guitar", 50000);
 
         // Print attributes and trigger behaviors
-        s1.introduce();
-        s2.introduce();
+        p1.displayDetails();
+        System.out.println();
+        p2.displayDetails();
+        System.out.println();
+        p3.displayDetails();
+        System.out.println();
+
 
         // Method with parameter
-        s2.updateCourse("BS Data Science");
+        p2.applyDiscount(10);
 
         // Static method
-        Student.displayTotalStudents();
+        Product.displayTotalProducts();
+
+        
 
     }
 }
-
-// javac classes-and-objects-lab/Student.java classes-and-objects-lab/ObjectDetailsPrinter.java
-// java -cp classes-and-objects-lab ObjectDetailsPrinter
