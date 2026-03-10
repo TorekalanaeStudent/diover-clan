@@ -1,4 +1,8 @@
 public class Guitar {
+
+
+    // Static Attribute
+    private static String storeName = "Kyle's Music Shop";
     
     // Fields 
     private String itemModel;
@@ -25,6 +29,14 @@ public class Guitar {
         System.out.println("Model: "+itemModel);
         System.out.println("Material: "+ itemMaterial);
         System.out.println("Condition: "+itemCondition);
+    }
+
+    public static void displayStoreName(){
+        System.out.println("Store: "+storeName);
+    }
+
+    public void updateCondition(String newCondition){
+        this.itemCondition = newCondition;
     }
 
     // Getters
