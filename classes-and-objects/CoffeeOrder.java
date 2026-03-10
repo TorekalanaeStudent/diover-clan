@@ -4,6 +4,8 @@ public class CoffeeOrder {
      String size;
      double price;
 
+     public static String shopName = "Nick's Coffee Shop";
+
     public CoffeeOrder(String type, String size) {
     this.type = type;
     this.size = size;
@@ -29,5 +31,9 @@ public class CoffeeOrder {
     public double getPrice() {
     return price;
     }
+
+     public static String getShopName(){
+     return shopName;     
+     }
 
 }
