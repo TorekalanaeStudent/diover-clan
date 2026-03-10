@@ -343,6 +343,30 @@ public class ObjectDetailsPrinter {
         // Static method and Static variable
         Minerals.displayTotalMineralsInInventory();
         System.out.println(Minerals.mineralsMiner); 
+
+        // This instance was made by <Trespeces>. This Mouse class was made by <Clint>
+
+        // Create object using default constructor
+        Mouse m1 = new Mouse();
+
+        // Create object using overloaded constructor
+        Mouse m2 = new Mouse("Red");
+
+        // Print attributes directly (instance variables)
+        System.out.println("m1 Model: " + m1.model);
+        System.out.println("m1 Color: " + m1.color);
+
+        // Method without parameter
+        System.out.println("m1 Color: " + m1.getColor());
+        System.out.println("m2 Color: " + m2.getColor());
+
+        // Method with parameter to update color
+        m2.setColor("Blue");
+        System.out.println("Updated m2 Color: " + m2.getColor());
+
+        // Static method and static variable
+        System.out.println("Manufacturer: " + Mouse.getManufacturer());
+        System.out.println("Manufacturer: " + Mouse.manufacturer);
     }
 }
 
