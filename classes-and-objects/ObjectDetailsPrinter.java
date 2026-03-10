@@ -240,6 +240,30 @@ public class ObjectDetailsPrinter {
         // Static method
         Product.displayTotalProducts();
         System.out.println(p2.totalProducts);
+
+        // This is the object instance created from the PC class
+        // This instance object was created by <Caneda>. This PC class was created by <Canillo>
+        System.out.println("\n This instance object was created by <Caneda>. This PC class was created by <Canillo>");
+        PC PC1 = new PC();
+        PC PC2 = new PC("Yellow");
+
+        //Access and Display Attributes: 
+        System.out.println("=== Attributes of P1 ===");
+        System.out.println("The GPU Manufacturer For PC1 is: " + PC1.GPUManufacturer);
+        System.out.println("The GPU Manufacturer For PC2 is: " + PC2.GPUManufacturer);
+
+        System.out.println("\nPC1 STATS")
+        //method without parameter
+        PC1.introduceSpecs();
+        // method with parameter
+        PC2.setCaseColor("Black"); 
+        //print of line 86
+        System.out.println("The new color of pc1 is: " + PC1.caseColor );
+
+        // static attribute 
+        System.out.println("The static attribute \"Socket type\"for PC1: "+ PC1.socketType);
+        // static method
+        PC1.displayTotalPC();
     }
 }
 
