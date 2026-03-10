@@ -16,13 +16,14 @@
 7. Gedoria, Rajan <br>
 8. Go, Sean Ethan G. <br>
 9. Jagunap, Janelle <br>
-10. Navarro, Vince Justine <br>
-11. Nono, Mary Angeline B. <br>
-12. Obedoza, John Kyle B. <br>
-13. Onte, Vince Gian <br>
-14. Ovejera, Ziggy T. <br>
-15. Romnick, Realon <br>
-16. Trespeces, Guillermo II O. <br>
+10. Malig, Rich Matthew <br>
+11. Navarro, Vince Justine <br>
+12. Nono, Mary Angeline B. <br>
+13. Obedoza, John Kyle B. <br>
+14. Onte, Vince Gian <br>
+15. Ovejera, Ziggy T. <br>
+16. Romnick, Realon <br>
+17. Trespeces, Guillermo II O. <br>
 </p>
 
 <hr>
