@@ -21,3 +21,5 @@
 =========================================================================================
 
 ## Date : 03/11/2026 : Activity : Classes and Objects Lab
+
+<Cardeño, Faye> <2025-1025317> <03/11/2026> <Classes and Objects Lab> Completed!
