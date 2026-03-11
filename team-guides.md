@@ -20,9 +20,9 @@ Switching from one branch to another when working on different features.
 Restoring a file to its previous version.
 Viewing a previous state of the project.
 
-
-**git add**
-
+```bash
+git add
+```
 Function:
 git add adds changes to the staging area. It prepares modified or new files so they can be included in the next commit.
 
@@ -30,8 +30,9 @@ Use Cases:
 Selecting which files should be included in the next commit.
 Preparing updated files before saving them permanently in the repository.
 
-
-**git commit**
+```bash
+git commit
+```
 
 Function:
 git commit saves the staged changes into the repository. It records a snapshot of the project at a specific point in time.
@@ -41,8 +42,9 @@ Recording progress in the project.
 Saving updates and improvements in the project history.
 Adding messages to describe what changes were made.
 
-
-**git push**
+```bash
+git push
+```
 
 Function:
 git push transfers commits from a local repository to a remote repository such as GitHub.
@@ -52,7 +54,9 @@ Uploading your work to GitHub.
 Sharing updates with teammates in collaborative projects.
 Backing up your project online.
 
-**git pull**
+```bash
+git pull
+```
 
 Function:
 git pull retrieves changes from a remote repository and updates the local repository with those changes.
@@ -61,8 +65,9 @@ Use Cases:
 Getting the latest updates from other collaborators.
 Synchronizing your local project with the remote repository.
 
-
-**git rebase**
+```bash
+git rebase
+```
 
 Function:
 git rebase reapplies commits from one branch onto another base branch. This helps maintain a cleaner and more organized commit history.
@@ -71,7 +76,9 @@ Use Cases:
 Updating a feature branch with the latest changes from the main branch.
 Cleaning up commit history before merging branches.
 
-**git clone**
+```bash
+git clone
+```
 
 Function:
 git clone creates a copy of a remote repository on a local machine.
@@ -80,7 +87,9 @@ Use Cases:
 Downloading an existing project from GitHub.
 Starting work on a repository shared by other developers.
 
-**git status**
+```bash
+git status
+```
 
 Function:
 git status shows the current condition of the repository, including modified files and files waiting to be committed.
@@ -89,8 +98,9 @@ Use Cases:
 Checking which files have been changed.
 Seeing which files are staged or not yet staged.
 
-
-**git branch**
+```bash
+git branch
+```
 
 Function:
 git branch is used to create, list, or manage branches in a repository.
@@ -134,29 +144,39 @@ Group 3
 Group 4 
 ### Classes (PascalCase)
 
-*PascalCase* is utilized to have classes represent main objects or entities in a program. Capitalizing every word assists the programmer to identify and separate from variables and methods. This allows for an easier way to recognize that they are classes, an important function of a program.
+- utilized to have classes represent main objects or entities in a program. Capitalizing every word assists the programmer to identify and separate from variables and methods. This allows for an easier way to recognize that they are classes, an important function of a program.
+  
 Example: Student, LibraryManager
 
-**Interfaces (PascalCase)**
+### Interfaces (PascalCase)
 
-*Interfaces* also use PascalCase as they define a specific type or capability that classes can implement. This allows loose coupling, allowing a code to use a non-class, or polymorphism, which allows the same task be done on different objects. Using the same style as classes shows that they are also reference types in Java.
+- also use PascalCase as they define a specific type or capability that classes can implement. This allows loose coupling, allowing a code to use a non-class, or polymorphism, which allows the same task be done on different objects. Using the same style as classes shows that they are also reference types in Java.
 
-Fields / Instance Variables (camelCase)
+### Fields / Instance Variables (camelCase)
 
-*Variables* are used as containers of data and use camelCase, which is a way of naming variables that starts with a lowercase letter with the next letter starting with a capital letter to distinguish variables from classes. It is used for the programmer to be able to read and know that they belong to an object and are able to store data.
+- are used as containers of data and use camelCase, which is a way of naming variables that starts with a lowercase letter with the next letter starting with a capital letter to distinguish variables from classes. It is used for the programmer to be able to read and know that they belong to an object and are able to store data.
+  
 Example: firstName, accountBalance, totalGrade
 
-*Methods (camelCase)*
-Methods are used to perform specific tasks when it is called and use camelCase to represent actions performed by the program. This starts with a lowercase letter with the next letter starting with a capital letter to distinguish itself for easier readability.
+### Methods (camelCase)
+
+- Methods are used to perform specific tasks when it is called and use camelCase to represent actions performed by the program. This starts with a lowercase letter with the next letter starting with a capital letter to distinguish itself for easier readability.
+  
 Example: calculateTotal(), printReceipt(), getRecords()
 
-*Parameters (camelCase)*
-Parameters follow the same style as variables because they are temporary variables used inside methods. This keeps naming consistent and easy to understand and find making it much more easier to manipulate if needed only exception being data types to the rule.                                                                                                              Example: (String firstName, String accountBalance, Scanner in); 
+### Parameters (camelCase)
+- follow the same style as variables because they are temporary variables used inside methods. This keeps naming consistent and easy to understand and find making it much more easier to manipulate if needed only exception being data types to the rule.
 
-*Local Variables (camelCase)*
-Local variables also use camelCase for consistency with fields and parameters. It helps programmers quickly recognize them as variables rather than classes or constants making it viable to be manipulated if required, use cases for variables being used as temporary storage to hold data temporarily.                                                               Example:  public static void main(String[] args)
+Example: (String firstName, String accountBalance, Scanner in); 
+
+### Local Variables (camelCase)
+
+- also use camelCase for consistency with fields and parameters. It helps programmers quickly recognize them as variables rather than classes or constants making it viable to be manipulated if required, use cases for variables being used as temporary storage to hold data temporarily.
+  
+Example:  public static void main(String[] args)
     {
        int studentId = 000000;
-    } 
+    }
+  
 **Overall reason these naming styles are used to improve readability and make it easy to identify what each part of the code represents just by looking at the name and making it much more easier, to debug or manipulated if error is found within the code or any changes that needs to be made.**
 
