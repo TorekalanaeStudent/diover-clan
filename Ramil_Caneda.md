@@ -11,3 +11,6 @@ Ramil Caneda
 
 📘 Journals
 <03/06/2026> : I learned Object and Class in our lab and to improve, next time I will __.
+
+## Peer Feedback
+<03/11/2026> : Comment by:Malig; You have done well in our activity; your code is easy to understand.
