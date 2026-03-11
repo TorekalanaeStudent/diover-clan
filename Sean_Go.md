@@ -18,3 +18,7 @@
 
 **\<03/10/2026>** :  I learned how constructors work and to improve, next time I will practice more on this concept to be proficient and advance study when I can to have a general gist of topics surrounding this course.
 
+**\<03/11/2026\>** : Comment by: Navarro, Vince Justine; You did well on applying your classes and objects with different constructors and you met all the requirements for this activity!"
+
+
+
