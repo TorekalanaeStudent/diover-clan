@@ -287,6 +287,22 @@ public class ObjectDetailsPrinter {
         p3.displayDetails();
         System.out.println();
 
+        // Call attributes using object instance
+        System.out.println(p1.name);
+        System.out.println(p1.price);
+        System.out.println(p1.category);
+        System.out.println(p1.stock);
+
+        System.out.println();
+
+        System.out.println(p2.name);
+        System.out.println(p2.price);
+
+        System.out.println();
+
+        System.out.println(p3.name);
+        System.out.println(p3.price);
+
         // Method with parameter
         p2.applyDiscount(10);
 
