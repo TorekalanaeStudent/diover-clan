@@ -31,3 +31,4 @@
 <Jagunap,Janelle> <2025-1025460> <03/11/2026> <Classes and Objects Lab> Completed!
 <Arban, Jhave P.> <2025-1028156> <03/11/2026> <Classes and Objects Lab> Completed!
 <Trespeces, Guillermo> <2025-1025412> <03/11/2026> <Classes and Objects Lab> Completed!
+<Malig, Rich Matthew A.> <2025-1027707> <03/11/2026> <Classes and Objects Lab> Completed!
