@@ -16,3 +16,5 @@
 <Realon, Romnick> <2025-1027526> <03/06/2026> <TermProjectPlanningPart1> Completed! \
 <Obdoza, John Kyle> <2025-1029134> <03/06/2026> <TermProjectPlanningPart1> Completed! \
 <Ablis, Margreleigne M.> <2025-1020011> <03/06/2026> <TermProjectPlanningPart1> Completed! \
+
+<Nono,Mary Angeline B.> <2025-1022691> <03/11/2026> <Classes and Objects Lab> Completed!
