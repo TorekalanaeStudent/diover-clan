@@ -420,6 +420,42 @@ public class ObjectDetailsPrinter {
 
         // Display total phones using static method
         Phone.displayTotalPhones();
+
+        // This instance was created by <Ziggy>. This class was made by <Jhave> "Ball.java"
+
+        // Create objects
+        Ball b1 = new Ball();
+        Ball b2 = new Ball("Nike", 400.00, "Orange", 5);
+
+        // Print attributes directly
+        System.out.println("b1 Name: " + b1.name);
+        System.out.println("b1 Color: " + b1.color);
+
+        // Using getter
+        System.out.println("b1 Color: " + b1.getColor());
+        System.out.println("b2 Color: " + b2.getColor());
+
+        // Update color using setter
+        b2.setColor("Blue");
+        System.out.println("Updated b2 Color: " + b2.getColor());
+
+        // Object details printer
+        b1.printDetails();
+        System.out.println();
+        b2.printDetails();
+
+        System.out.println("Manufacturer: " + Ball.manufacturer);
+        System.out.println("Manufacturer: " + Ball.getManufacturer());
+
+        // Static method
+        Ball.displayTotalBall();
+    }
+}
+    }
+
+}
+
+
     
     }
 }
