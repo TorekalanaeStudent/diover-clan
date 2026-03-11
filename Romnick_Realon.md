@@ -13,3 +13,5 @@
 ## 📘 Journals
 
 **\<03/06/2026\>** : I learned the 4 pillars of OOP in our lab and to improve, next time I will do my best to participate and communicate in group works.
+
+**<\03/10/2026\>** : Comment by: Sean Go; You did well in coding your specific class and you can improve by being quicker in coding outputs.
