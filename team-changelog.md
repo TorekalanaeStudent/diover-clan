@@ -35,4 +35,4 @@
 <Canillo, Diover Vincent L.> <2025-1023980> <Classes and Objects Lab> Completed!
 <Malig, Rich Matthew A.> <2025-1027707> <03/11/2026> <Classes and Objects Lab> Completed!
 <Go, Sean Ethan G.> <2025-1024028> <03/11/2026> <Classes and Objects Lab> Completed!
-
+<Gedoria, Rajan Kurt O.> <2025-1021948> <03/11/2026> <Classes and Objects Lab> Completed!
