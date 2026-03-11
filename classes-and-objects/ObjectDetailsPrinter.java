@@ -424,32 +424,27 @@ public class ObjectDetailsPrinter {
         // This instance was created by <Ziggy>. This class was made by <Jhave> "Ball.java"
         // Create objects
         System.out.println();
-        Ball b1 = new Ball();  // Default constructor
-        Ball b2 = new Ball("Nike", 400.00, "Orange", 5); // Parameterized constructor
+        Ball bl1 = new Ball();  // Default constructor
+        Ball bl2 = new Ball("Nike", 400.00, "Orange", 5); // Parameterized constructor
 
         // Print at least 2 attributes directly
-        System.out.println("b1 Name: " + b1.name);
-        System.out.println("b1 Color: " + b1.color);
+        System.out.println("bl1 Name: " + bl1.name);
+        System.out.println("bl1 Color: " + bl1.color);
 
-        System.out.println("b2 Name: " + b2.name);
-        System.out.println("b2 Price: $" + b2.price);
-
-        // Using getter and setter
-        System.out.println("b1 Color via getter: " + b1.getColor());
-        b2.setColor("Blue");
-        System.out.println("Updated b2 Color via getter: " + b2.getColor());
+        System.out.println("bl2 Name: " + bl2.name);
+        System.out.println("bl2 Price: $" + bl2.price);
 
         System.out.println();
 
         // Display details using method
-        b1.displayDetails();
+        bl1.displayDetails();
         System.out.println();
-        b2.displayDetails();
+        bl2.displayDetails();
 
         System.out.println();
 
         // Apply discount
-        b2.applyDiscount(10); 
+        bl2.applyDiscount(10); 
         System.out.println();
 
         // Static method to show total balls created
