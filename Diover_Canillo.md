@@ -13,7 +13,7 @@
 ## 📘 Journals
 
 **<03/06/2026>** :  I learned the 4 pillars of OOP in our lab and to improve, next time I will try my best to participate in the class
-**<03/11/2026** : I learned how to manage my teammates in github, next time I will try my best to be a more cooperative leader
+**<03/11/2026** : I learned how to manage my teammates in github, next time I will try my best to be more cooperative as a leader
 
 ## 📖 Peer Feedbacks
 
