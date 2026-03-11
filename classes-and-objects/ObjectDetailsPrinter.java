@@ -97,7 +97,36 @@ public class ObjectDetailsPrinter {
         //Display Total Laptop using static method
         l2.displayTotalLaptop();
 
-       // This instance was made by <Clint>. This Book class was made by <Trespeces>
+        //This is the object instance created from the Selling Class
+        //This instance object was created by <Gedoria>. This Selling Class was created by <Malig>
+
+        System.out.println("This instance object was created by <Gedoria>. This Selling Class was created by <Malig>");
+        //Object using default constructor
+        Selling sell1 = new Selling();
+        // Object using parameterized constructor
+        Selling sell2 = new Selling("Tennis", 150.50, "Adidas", "Available");
+        // Object using overloaded constructor
+        Selling sell3 = new Selling("Jacket", 250.75);
+
+        // Display attributes
+        System.out.println("=== Attributes ==="
+        + "\nProduct Name: " + sell1.productName
+        + "\nPrice: " + sell1.price
+        + "\nBrand: " + sell1.brand
+        + "\nStatus: " + sell1.status);
+        // Methods
+        System.out.println("\n=== METHODS ===");
+        sell2.displaySelling(); // method without parameter
+        sell3.displaySelling(); // display overloaded constructor object
+        sell1.setStatus("Unavailable"); // method with parameter
+        System.out.println("=== Updated Info ===");
+        sell1.displaySelling(); // display updated sell1
+        // Static
+        System.out.println("=== STATIC METHOD ===");
+        System.out.println("Store Name: " + Selling.store);
+        System.out.println("Store: " + Selling.getStore()); // static method
+        
+        // This instance was made by <Clint>. This Book class was made by <Trespeces>
         // Create object using default constructor
         Book b1 = new Book();
 
