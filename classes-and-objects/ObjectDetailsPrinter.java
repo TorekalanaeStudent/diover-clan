@@ -102,10 +102,8 @@ public class ObjectDetailsPrinter {
 
         //Object using default constructor
         Selling sell1 = new Selling();
-
         // Object using parameterized constructor
         Selling sell2 = new Selling("Tennis", 150.50, "Adidas", "Available");
-
         // Object using overloaded constructor
         Selling sell3 = new Selling("Jacket", 250.75);
 
