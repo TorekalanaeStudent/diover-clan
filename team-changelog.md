@@ -19,3 +19,4 @@
 =========================================================================================
 <Cardeño, Faye> <2025-1025317> <03/11/2026> <Classes and Objects Lab> Completed!
 <Nono,Mary Angeline B.> <2025-1022691> <03/11/2026> <Classes and Objects Lab> Completed!
+<Onte, Vince Gian> <2026-1021082> <03/11/2026> <Classes and Objects Lab> Completed!
