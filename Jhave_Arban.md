@@ -13,3 +13,4 @@
 ## 📘 Journals
 
 **\<03/06/2026\>** : I learned the definition of OOP course subject in our lab and to improve, next time I listen carefully to understand the all of the lessons.
+<03/11/2026> : Comment by: <Ziggy Ovejera>; You did well in our activity and you can improve by submitting on time

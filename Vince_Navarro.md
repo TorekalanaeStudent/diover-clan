@@ -13,3 +13,5 @@
 ## 📘 Journals
 
 **\<03/06/2026\>** : Today, I learned about all the of Object-Oriented Programming in our lab and to improve, I will try to be more proactive.
+
+**\<03/11/2026\>** : Comment by John Kyle Obedoza; You did well in creating your java class. You can improve by adding proper encapusulation to your program next time. 
