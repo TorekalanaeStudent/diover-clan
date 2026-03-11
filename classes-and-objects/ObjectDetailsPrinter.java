@@ -369,6 +369,29 @@ public class ObjectDetailsPrinter {
         System.out.println("Manufacturer: " + Mouse.getManufacturer());
         System.out.println("Manufacturer: " + Mouse.manufacturer);
 
+        // This is the object instance created from the Phone class.
+        // This instance object was created by <Ablis>. This Phone class was created by <Gedoria>.
+        Phone p1= new Phone();
+        Phone p2= new Phone("S26 Series", "Black", 128);
+
+        // Attributes of p1
+        System.out.println("=== Attributes of p1==="
+            + "\nModel: " + p1.model
+            + "\nColor: " + p1.color
+            + "\nStorage: " + p1.storage + "GB");
+
+        // usage for methods with parameter and without
+        System.out.println("\n=== METHODS ===");
+        p2.displayPhoneInfo(); // Method without parameter
+        p2.changeColor("Blue"); // Method with parameter
+
+        System.out.println("\n=== STATIC METHOD ===");
+        // Display total phones using static attribute
+        System.out.println("Phone total: " + Phone.totalPhones);
+
+        // Display total phones using static method
+        Phone.displayTotalPhones();
+    
     }
 }
 
