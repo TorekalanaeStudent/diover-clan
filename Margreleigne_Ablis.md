@@ -13,3 +13,6 @@
 ## 📘 Journals
 
 **\<03/06/2026\>** : I learned about OOP in our lab and to improve, next time I will participate in quizzes.
+
+## Peer Feedback
+**\<03/06/2026\>** : Comment by: <Onte, Vince>; You were able to participate and finish your task on time, you can improve by practicing and complete code exercises.
