@@ -30,8 +30,10 @@
 
 ## Activities Done
 
-- Activity 1 – TermProjectPlanningPart1 | *03/06/2026*
-- Activity 2 - Classes and Objects Lab  | *03/06/2026*
+| Activity | Date |
+|-----|-----|
+| TermProjectPlanningPart1 | *03/06/2026* |
+| Classes and Objects Lab | *03/11/2026* |
 
 *(More activities will be added as the course progresses.)*
 
