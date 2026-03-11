@@ -1,31 +1,77 @@
 public class Chair {
+    //Attributes
 
     String model;
     String color;
+    double price;
+    int stock;
 
-    public static String manufacturer = "Ziggy";
+    // Static Attribute
+    static int totalChair = 0;
 
-    public Chair() {
-        this.model = "IKEA";
-        this.color = "Red";
+    //default constructor
+
+    Chair(){
+
+        model = "IKEA";
+        color = "Red";
+        price = 1800.00;
+        stock = 900;
+        totalChair++;
+    
     }
+    //Parameterized Constructor
+    Chair(String model, String color, double price, int stock){
 
-    public Chair(String color) {
+
+        this.model = model;
         this.color = color;
-        this.model = "IKEA";
+        this.price = price;
+        this.stock = stock;
+
+        totalChair++;
+
     }
+   //Overload Constructor
+   Chair(String model, double price){
 
-    public String getColor() {
-        return this.color;
-    }
+       this.model = model;
+        this.color = color; 
+        this.price = price;
+        this.stock = 900;
 
-    public static String getManufacturer() {
-        return manufacturer;
+        totalChair++;
 
-}
+   }
 
- public void setColor(String color){
-     this.color = color;
-    }
+   //The behavior without parameters
+   void displayDetails(){
+
+   System.out.println("Model" + model);
+   System.out.println("Color" + color);
+   System.out.println("Price P" + price);
+   System.out.println("Stock" + stock);
+
+
+   }
+
+   //Behavior with parameter
+   void changeColor(String newColor){
+
+   color=newColor;
+   System.out.println(model + "Color Change to" + color);
+
+
+
+   }
+   //Static Method
+   static void displayTotalChair(){
+
+   System.out.println("Total Chair Created" + totalChair);
+
+
+
+   }
+
 
 }
