@@ -1,4 +1,5 @@
-1. Create an entry in your Team changelog with format (team-changelog.md): \
+
+## Date : 03/06/2026 | Activity : TermProjectPlanningPart1
   
 <Canillo, Diover Vincent> <2025-1023980> <03/06/2026> <TermProjectPlanningPart1> Completed! \
 <Cardeño, Faye> <2025-1025317> <03/06/2026> <TermProjectPlanningPart1> Completed! \
@@ -16,7 +17,7 @@
 <Realon, Romnick> <2025-1027526> <03/06/2026> <TermProjectPlanningPart1> Completed! \
 <Obdoza, John Kyle> <2025-1029134> <03/06/2026> <TermProjectPlanningPart1> Completed! \
 <Ablis, Margreleigne M.> <2025-1020011> <03/06/2026> <TermProjectPlanningPart1> Completed! \
+
 =========================================================================================
-<Cardeño, Faye> <2025-1025317> <03/11/2026> <Classes and Objects Lab> Completed!
-<Nono,Mary Angeline B.> <2025-1022691> <03/11/2026> <Classes and Objects Lab> Completed!
-<Ablis, Margreleigne M.> <2025-1020011> <03/11/2026> <Classes and Objects Lab> Completed!
+
+## Date : 03/11/2026 : Activity : Classes and Objects Lab
