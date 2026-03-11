@@ -28,4 +28,6 @@
 
 <Onte, Vince Gian D.> <2025-1021082> <03/11/2026> <Classes and Objects Lab> Completed! 
 <Nono, Mary Angeline B.> <2025-1022691> <03/11/2026> <Classes and Objects Lab> Completed!
+<Ovejera, Ziggy T.> <2025-1021339> <03/11/2026> <Classes and Objects Lab> Completed! \
+
 <Jagunap,Janelle> <2025-1025460> <03/11/2026> <Classes and Objects Lab> Completed!
