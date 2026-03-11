@@ -16,4 +16,4 @@
 
 **\<03/06/2026>** :  I learned how to coordinate with my groupmates in our lab and to improve, next time I will greatly increase my particitation amongst my peers.
 
-
+**\<03/11/2026>** :  I learned how to create obects in OOP and coordinate with my groupmates to connect classes to a primary program and to improve, next time I will greatly refine my skills and knowledge pertaining to OOP and coding itself.
