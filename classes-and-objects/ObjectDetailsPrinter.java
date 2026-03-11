@@ -100,6 +100,7 @@ public class ObjectDetailsPrinter {
         //This is the object instance created from the Selling Class
         //This instance object was created by <Gedoria>. This Selling Class was created by <Malig>
 
+System.out.println("This instance object was created by <Gedoria>. This Selling Class was created by <Malig>");
         //Object using default constructor
         Selling sell1 = new Selling();
         // Object using parameterized constructor
