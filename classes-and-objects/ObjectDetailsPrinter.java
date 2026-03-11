@@ -287,6 +287,22 @@ public class ObjectDetailsPrinter {
         p3.displayDetails();
         System.out.println();
 
+        // Call attributes using object instance
+        System.out.println(p1.name);
+        System.out.println(p1.price);
+        System.out.println(p1.category);
+        System.out.println(p1.stock);
+
+        System.out.println();
+
+        System.out.println(p2.name);
+        System.out.println(p2.price);
+
+        System.out.println();
+
+        System.out.println(p3.name);
+        System.out.println(p3.price);
+
         // Method with parameter
         p2.applyDiscount(10);
 
@@ -421,30 +437,62 @@ public class ObjectDetailsPrinter {
         // Display total phones using static method
         Phone.displayTotalPhones();
         // This is the object instance created from the Chair class.
-// This instance object was created by <Arban>. This Chair class was created by <Ovejera>.
+        // This instance object was created by <Arban>. This Chair class was created by <Ovejera>.
 
-Chair ch1 = new Chair();
-Chair ch2 = new Chair("Office Chair", "Black", 2500.00, 50);
+        Chair ch1 = new Chair();
+        Chair ch2 = new Chair("Office Chair", "Black", 2500.00, 50);
 
-// Attributes of ch1
-System.out.println("=== Attributes of ch1 ==="
-        + "\nModel: " + ch1.model
-        + "\nColor: " + ch1.color
-        + "\nPrice: P" + ch1.price
-        + "\nStock: " + ch1.stock);
+        // Attributes of ch1
+        System.out.println("=== Attributes of ch1 ==="
+               + "\nModel: " + ch1.model
+               + "\nColor: " + ch1.color
+               + "\nPrice: P" + ch1.price
+               + "\nStock: " + ch1.stock);
 
-// Usage for methods with parameter and without
-System.out.println("\n=== METHODS ===");
-ch2.displayDetails(); // Method without parameter
-ch2.changeColor("Blue"); // Method with parameter
+        // Usage for methods with parameter and without
+        System.out.println("\n=== METHODS ===");
+        ch2.displayDetails(); // Method without parameter
+        ch2.changeColor("Blue"); // Method with parameter
 
-System.out.println("\n=== STATIC METHOD ===");
+        System.out.println("\n=== STATIC METHOD ===");
 
-// Display total chairs using static attribute
-System.out.println("Chair total: " + Chair.totalChair);
+        // Display total chairs using static attribute
+        System.out.println("Chair total: " + Chair.totalChair);
 
-// Display total chairs using static method
-Chair.displayTotalChair();
+        // Display total chairs using static method
+        Chair.displayTotalChair();
+
+        // This instance was created by <Ziggy>. This class was made by <Jhave> "Ball.java"
+        // Create objects
+        System.out.println();
+        Ball bl1 = new Ball();  // Default constructor
+        Ball bl2 = new Ball("Nike", 400.00, "Orange", 5); // Parameterized constructor
+
+        // Print at least 2 attributes directly
+        System.out.println("bl1 Name: " + bl1.name);
+        System.out.println("bl1 Color: " + bl1.color);
+
+        System.out.println("bl2 Name: " + bl2.name);
+        System.out.println("bl2 Price: $" + bl2.price);
+
+        System.out.println();
+
+        // Display details using method
+        bl1.displayDetails();
+        System.out.println();
+        bl2.displayDetails();
+
+        System.out.println();
+
+        // Apply discount
+        bl2.applyDiscount(10); 
+        System.out.println();
+
+        // Static method to show total balls created
+        Ball.displayTotalBall();
+
+        // Print static variable directly
+        System.out.println("Total balls (static variable): " + Ball.totalBall);
     
     }
 }
