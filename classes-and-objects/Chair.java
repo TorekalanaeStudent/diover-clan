@@ -21,6 +21,11 @@ public class Chair {
 
     public static String getManufacturer() {
         return manufacturer;
+
+}
+
+ public void setColor(String color){
+     this.color = color;
     }
 
 }
