@@ -448,15 +448,7 @@ public class ObjectDetailsPrinter {
         System.out.println("Manufacturer: " + Ball.getManufacturer());
 
         // Static method
-        Ball.displayTotalBall();
-    }
-}
-    }
-
-}
-
-
-    
+        Ball.displayTotalBall();   
     }
 }
 
