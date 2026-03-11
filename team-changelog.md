@@ -24,3 +24,4 @@
 <Obedoza, John Kyle B.> <2025-1029134> <03/11/2026> <Classes and Objects Lab> Completed! \
 <Navarro, Vince Justine> <2025-1029521> <03/11/2026> <Classes and Objects Lab> Completed!
 <Onte, Vince Gian D.> <2025-1021082> <03/11/2026> <Classes and Objects Lab> Completed! 
+<Nono, Mary Angeline B.> <2025-1022691> <03/11/2026> <Classes and Objects Lab> Completed!
