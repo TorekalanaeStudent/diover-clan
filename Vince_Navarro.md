@@ -13,3 +13,4 @@
 ## 📘 Journals
 
 **\<03/06/2026\>** : Today, I learned about all the of Object-Oriented Programming in our lab and to improve, I will try to be more proactive.
+**\<03/11/2026\>** : This activity helped me understand the OOP concepts like classes, objects, and constructors, and I aim to be more efficient and faster.
