@@ -436,6 +436,31 @@ public class ObjectDetailsPrinter {
 
         // Display total phones using static method
         Phone.displayTotalPhones();
+        // This is the object instance created from the Chair class.
+        // This instance object was created by <Arban>. This Chair class was created by <Ovejera>.
+
+        Chair ch1 = new Chair();
+        Chair ch2 = new Chair("Office Chair", "Black", 2500.00, 50);
+
+        // Attributes of ch1
+        System.out.println("=== Attributes of ch1 ==="
+               + "\nModel: " + ch1.model
+               + "\nColor: " + ch1.color
+               + "\nPrice: P" + ch1.price
+               + "\nStock: " + ch1.stock);
+
+        // Usage for methods with parameter and without
+        System.out.println("\n=== METHODS ===");
+        ch2.displayDetails(); // Method without parameter
+        ch2.changeColor("Blue"); // Method with parameter
+
+        System.out.println("\n=== STATIC METHOD ===");
+
+        // Display total chairs using static attribute
+        System.out.println("Chair total: " + Chair.totalChair);
+
+        // Display total chairs using static method
+        Chair.displayTotalChair();
 
         // This instance was created by <Ziggy>. This class was made by <Jhave> "Ball.java"
         // Create objects
