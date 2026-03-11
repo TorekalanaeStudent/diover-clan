@@ -422,33 +422,41 @@ public class ObjectDetailsPrinter {
         Phone.displayTotalPhones();
 
         // This instance was created by <Ziggy>. This class was made by <Jhave> "Ball.java"
-
         // Create objects
-        Ball b1 = new Ball();
-        Ball b2 = new Ball("Nike", 400.00, "Orange", 5);
+        System.out.println();
+        Ball b1 = new Ball();  // Default constructor
+        Ball b2 = new Ball("Nike", 400.00, "Orange", 5); // Parameterized constructor
 
-        // Print attributes directly
+        // Print at least 2 attributes directly
         System.out.println("b1 Name: " + b1.name);
         System.out.println("b1 Color: " + b1.color);
 
-        // Using getter
-        System.out.println("b1 Color: " + b1.getColor());
-        System.out.println("b2 Color: " + b2.getColor());
+        System.out.println("b2 Name: " + b2.name);
+        System.out.println("b2 Price: $" + b2.price);
 
-        // Update color using setter
+        // Using getter and setter
+        System.out.println("b1 Color via getter: " + b1.getColor());
         b2.setColor("Blue");
-        System.out.println("Updated b2 Color: " + b2.getColor());
+        System.out.println("Updated b2 Color via getter: " + b2.getColor());
 
-        // Object details printer
-        b1.printDetails();
         System.out.println();
-        b2.printDetails();
 
-        System.out.println("Manufacturer: " + Ball.manufacturer);
-        System.out.println("Manufacturer: " + Ball.getManufacturer());
+        // Display details using method
+        b1.displayDetails();
+        System.out.println();
+        b2.displayDetails();
 
-        // Static method
-        Ball.displayTotalBall();   
+        System.out.println();
+
+        // Apply discount
+        b2.applyDiscount(10); 
+        System.out.println();
+
+        // Static method to show total balls created
+        Ball.displayTotalBall();
+
+        // Print static variable directly
+        System.out.println("Total balls (static variable): " + Ball.totalBall);
     }
 }
 
