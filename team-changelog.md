@@ -18,5 +18,5 @@
 <Ablis, Margreleigne M.> <2025-1020011> <03/06/2026> <TermProjectPlanningPart1> Completed! \
 =========================================================================================
 <Cardeño, Faye> <2025-1025317> <03/11/2026> <Classes and Objects Lab> Completed!
-<Nono,Mary Angeline B.> <2025-1022691> <03/11/2026> <Classes and Objects Lab> Completed!
+<Nono,Mary Angeline> <2025-1022691> <03/11/2026> <Classes and Objects Lab> Completed!
 <Ablis, Margreleigne M.> <2025-1020011> <03/11/2026> <Classes and Objects Lab> Completed!
