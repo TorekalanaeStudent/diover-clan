@@ -436,6 +436,38 @@ public class ObjectDetailsPrinter {
 
         // Display total phones using static method
         Phone.displayTotalPhones();
+
+        // This instance was created by <Ziggy>. This class was made by <Jhave> "Ball.java"
+        // Create objects
+        System.out.println();
+        Ball bl1 = new Ball();  // Default constructor
+        Ball bl2 = new Ball("Nike", 400.00, "Orange", 5); // Parameterized constructor
+
+        // Print at least 2 attributes directly
+        System.out.println("bl1 Name: " + bl1.name);
+        System.out.println("bl1 Color: " + bl1.color);
+
+        System.out.println("bl2 Name: " + bl2.name);
+        System.out.println("bl2 Price: $" + bl2.price);
+
+        System.out.println();
+
+        // Display details using method
+        bl1.displayDetails();
+        System.out.println();
+        bl2.displayDetails();
+
+        System.out.println();
+
+        // Apply discount
+        bl2.applyDiscount(10); 
+        System.out.println();
+
+        // Static method to show total balls created
+        Ball.displayTotalBall();
+
+        // Print static variable directly
+        System.out.println("Total balls (static variable): " + Ball.totalBall);
     
     }
 }
