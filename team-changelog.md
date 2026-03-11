@@ -21,6 +21,7 @@
 =========================================================================================
 
 ## Date : 03/11/2026 : Activity : Classes and Objects Lab
+<Ablis, Margreleigne M.> <2025-1020011> <03/11/2026> <Classes and Objects Lab> Completed! \
 <Obedoza, John Kyle B.> <2025-1029134> <03/11/2026> <Classes and Objects Lab> Completed! \
 <Navarro, Vince Justine> <2025-1029521> <03/11/2026> <Classes and Objects Lab> Completed!
 <De Juras, Clint Norbert P.> <2025-1025222> <03/11/2026> <Classes and Objects Lab> Completed!
