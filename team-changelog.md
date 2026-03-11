@@ -21,3 +21,4 @@
 =========================================================================================
 
 ## Date : 03/11/2026 : Activity : Classes and Objects Lab
+<Navarro, Vince Justine> <2025-1029521> <03/11/2026> <Classes and Objects Lab> Completed!
