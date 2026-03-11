@@ -11,3 +11,5 @@ Rich Matthew Malig
 
 📘 Journals
 <03/06/2026> : I learned Object and Class in our lab and to improve, next time I will __.
+
+<03/11/2026> : Comment by: Rajan Kurt O. Gedoria; You did well on implementing your objects and making it clear and readable, i think there is nothing to improve further!
