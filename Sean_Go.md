@@ -16,4 +16,6 @@
 
 **\<03/06/2026>** :  I learned how to coordinate with my groupmates in our lab and to improve, next time I will greatly increase my particitation amongst my peers.
 
+**\<03/11/2026\>** : Comment by: Navarro, Vince Justine; You did well on applying your classes and objects with different constructors and you met all the requirements for this activity!"
+
 
