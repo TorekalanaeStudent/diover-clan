@@ -13,3 +13,4 @@
 ## 📘 Journals
 
 <03/06/2026> :  I learned a lot about OOP in our lab and to improve, next time I will advance study
+<03/11/2026> : I learned a lot about codespace and next time I will cooperate more.
