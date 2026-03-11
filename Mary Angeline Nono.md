@@ -13,3 +13,4 @@ Mary Angeline Nono
 ## 📘 Journals
 
 **\<03/06/2026\>** : I learned how OOP works in our lab and to improve, next time I will practice creating objects on my own.
+<03/11/2026> : I learned how to create classes, attributes,methods, and constructors in Java and next time I will practice writing cleaner code and texting my program earlier.
