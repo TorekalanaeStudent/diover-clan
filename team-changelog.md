@@ -19,3 +19,5 @@
 =========================================================================================
 <Cardeño, Faye> <2025-1025317> <03/11/2026> <Classes and Objects Lab> Completed!
 <Nono,Mary Angeline B.> <2025-1022691> <03/11/2026> <Classes and Objects Lab> Completed!
+<Navarro, Vince Justine> <2025-1029521> <03/11/2026> <Classes and Objects Lab> Completed!
+
