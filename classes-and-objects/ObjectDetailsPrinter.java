@@ -100,7 +100,7 @@ public class ObjectDetailsPrinter {
         //This is the object instance created from the Selling Class
         //This instance object was created by <Gedoria>. This Selling Class was created by <Malig>
 
-System.out.println("This instance object was created by <Gedoria>. This Selling Class was created by <Malig>");
+        System.out.println("This instance object was created by <Gedoria>. This Selling Class was created by <Malig>");
         //Object using default constructor
         Selling sell1 = new Selling();
         // Object using parameterized constructor
@@ -108,8 +108,8 @@ System.out.println("This instance object was created by <Gedoria>. This Selling 
         // Object using overloaded constructor
         Selling sell3 = new Selling("Jacket", 250.75);
 
-// Display attributes
-System.out.println("=== Attributes ==="
+        // Display attributes
+        System.out.println("=== Attributes ==="
         + "\nProduct Name: " + sell1.productName
         + "\nPrice: " + sell1.price
         + "\nBrand: " + sell1.brand
@@ -125,7 +125,8 @@ System.out.println("=== Attributes ==="
         System.out.println("=== STATIC METHOD ===");
         System.out.println("Store Name: " + Selling.store);
         System.out.println("Store: " + Selling.getStore()); // static method
-       // This instance was made by <Clint>. This Book class was made by <Trespeces>
+        
+        // This instance was made by <Clint>. This Book class was made by <Trespeces>
         // Create object using default constructor
         Book b1 = new Book();
 
