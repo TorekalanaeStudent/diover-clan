@@ -1,9 +1,8 @@
-# Diover Clan - BSCS251A
+# Diover Clan [![Section](https://img.shields.io/badge/Section-BSCS251A-green)](#)
+
+[![Teacher](https://img.shields.io/badge/Teacher-Ramon%20Leonardo%20C.%20Capunpon-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/capunponrlc/)
 
 ### Hello Sir, this is our group!
-
-**Course Code:** *CCOBJPGL*  
-**Teacher:** *Ramon Leonardo C. Capunpon*
 
 ---
 
@@ -41,4 +40,5 @@
 
 ### Join our Teams channel
 
-https://teams.microsoft.com/l/channel/19%3Aa119c3b9b5bc4ba08f3a147c41ff30ec%40thread.tacv2/BSCS251A?groupId=d43f4421-eaea-4f84-b2d0-b869a915d337&tenantId=1d981f77-3ca3-46ae-b0d4-e8044e6c7f84
+[![Microsoft Teams](https://img.shields.io/badge/Microsoft%20Teams-Join%20Channel-6264A7?logo=microsoftteams&logoColor=white)](https://teams.microsoft.com/l/channel/19%3Aa119c3b9b5bc4ba08f3a147c41ff30ec%40thread.tacv2/BSCS251A?groupId=d43f4421-eaea-4f84-b2d0-b869a915d337&tenantId=1d981f77-3ca3-46ae-b0d4-e8044e6c7f84)
+[![Members](https://img.shields.io/badge/Members-17-orange)](#) 
