@@ -149,7 +149,7 @@ Examples:
 - Track total users created
 
 Example:
-```
+```java
 static int totalAccounts = 0;
 
 public BankAccount(){
