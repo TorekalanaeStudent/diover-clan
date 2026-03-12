@@ -163,7 +163,7 @@ Commit message example:
 ```
 Added encapsulated BankAccount class with validation and static counter
 ```
-Push your branch to GitHub.
+Push your branch to GitHub and create a PR to main.
 
 ## 8. Use Two Classes Created by Teammates
 
