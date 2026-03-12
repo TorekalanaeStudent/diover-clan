@@ -129,11 +129,14 @@ Examples:
 Your methods must prevent the object from entering an invalid state.
 
 Example:
+
+```java
 public void withdraw(double amount){
     if(amount > 0 && amount <= balance){
         balance -= amount;
     }
 }
+```
 
 ## 6. Implement Static Class Behavior
 
