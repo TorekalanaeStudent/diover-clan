@@ -10,4 +10,12 @@ John Kyle Obedoza
 ---
 
 📘 Journals 
-<03/06/2026> : I learned the 4 Cores Principles of OOP in our lab and to improve, next time I will continue perform better during class and solidify mt fundamentals in order to carry out my asks better.
+**\<03/06/2026\>** : I learned the 4 Cores Principles of OOP in our lab and to improve, next time I will continue perform better during class and solidify mt fundamentals in order to carry out my asks better.
+
+**\<03/11/2026\>** : I learned how to structure clesses and objects better in order to create a good workflow for each part of a class and objects. Next time, I will do better in writing more understandable code, and better the completeness of my work
+
+
+
+
+
+
