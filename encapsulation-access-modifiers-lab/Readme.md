@@ -222,15 +222,18 @@ Collaboration Main_Lastname.java program
 Think of at least 2 things you each could have done better during the activity.
 
 ## 13. Update your changelog files
-a. Create an entry in your Team changelog with format:
+### a. Create an entry in your Team changelog with format:
+
+```
 <Name> <StudentNo/ID> <MM/DD/YYYY> <LabTopic> Completed!
+```
 
 Example:
 ```
 Juan Dela Cruz 2025-1023456 03/15/2026 Encapsulation Lab Completed!
 ```
 
-b. Update your personal .md file
+#### b. Update your personal .md file
 
 Create a short journal on how you completed today's tasks and the 2 things you raised during retrospection.
 
@@ -239,7 +242,7 @@ Format:
 <MM/DD/YYYY> : I learned _____ and next time I will _____
 ```
 
-c. Add a feedback entry in your teammates' personal.md file
+### c. Add a feedback entry in your teammates' personal.md file
 
 Answer the questions in one sentence.
 
@@ -248,10 +251,12 @@ Format:
 <MM/DD/YYYY> : Comment by: <COMMENTER's name>; You did well in _____ and you can improve by _____
 ```
 
-d. Create a Pull Request
+### d. Create a Pull Request
 
 Create a PR and ask 2 teammates to approve.
 
 Each teammate must approve and add the comment:
 
+```
 I confirm that <Your Name> completed this lab.
+```
