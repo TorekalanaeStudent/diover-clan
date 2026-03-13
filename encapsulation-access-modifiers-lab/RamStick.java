@@ -3,6 +3,8 @@ class = RAM Stick product
 properties = model, speed, capacity, type, and manufacturer
 stock = checks the number of RAM sticks available
 attributes are in private and values can be accessed through getters and setters
+
+Class Created by Ablis
 */
 
 public class RamStick {
