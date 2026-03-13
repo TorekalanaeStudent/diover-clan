@@ -25,9 +25,9 @@ public class StudySession {
 
     // parameterized constructor 
     public StudySession(String subject, int hours, String studentName) {
-        this.subject = subject;
+        setSubject(subject);  
         setHours(hours);
-        this.studentName = studentName;
+        setStudentName(studentName);
         status = "Active";
     }
 
@@ -53,17 +53,30 @@ public class StudySession {
     }
 
     // setter with validation rule
-    // validation: hours must be greater than 0
-    // object invariant: hours cannot be negative
     public void setHours(int hours) {
         if(hours > 0) {
             this.hours = hours;
+        }
+    }
+    public void setStudentName(String studentName) {
+        if(studentName != null && !studentName.isEmpty()) {
+            this.studentName = studentName;
+        } else {
+            System.out.println("Name invalid!");
+        }
+    }
+    public void setSubject(String subject) {
+        if(subject != null && !subject.isEmpty()) {
+            this.subject = subject;
+        } else {
+            System.out.println("Subject invalid!");
         }
     }
 
     // behavior 1
     // is used to display the session details
     public void displaySession() {
+        System.out.println("School: " + school);
         System.out.println("Student: " + studentName);
         System.out.println("Subject: " + subject);
         System.out.println("Hours: " + hours);
