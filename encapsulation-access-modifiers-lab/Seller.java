@@ -5,8 +5,7 @@
 */
 
 public class Seller {
-
-    // Private attributes (Encapsulation)
+    // Private attributes
     private String name;
     private String shopName;
     private double rating;
@@ -16,75 +15,51 @@ public class Seller {
     private static int totalSellers = 0;
 
     // Default constructor
-    public Seller(){
-        name = "Unknown";
-        shopName = "No Shop";
-        rating = 0.0;
-        productCount = 0;
-        totalSellers++;
+    public Seller() {
+        this("Unknown", "No Shop", 0.0); // call main constructor
     }
 
     // Constructor with parameters
-    public Seller(String name, String shopName){
-        this.name = name;
-        this.shopName = shopName;
-        rating = 0.0;
-        productCount = 0;
-        totalSellers++;
+    public Seller(String name, String shopName) {
+        this(name, shopName, 0.0); // call main constructor
     }
 
-    // Overloaded constructor
-    public Seller(String name, String shopName, double rating){
+    // Main constructor with all parameters
+    public Seller(String name, String shopName, double rating) {
         this.name = name;
         this.shopName = shopName;
 
-        if(rating >= 0 && rating <= 5){
+        // Use same validation as setter
+        if (rating >= 0 && rating <= 5) {
             this.rating = rating;
         } else {
             this.rating = 0.0;
         }
 
-        productCount = 0;
+        this.productCount = 0;
         totalSellers++;
     }
 
     // Getters
-    public String getName(){
-        return name;
-    }
-
-    public String getShopName(){
-        return shopName;
-    }
-
-    public double getRating(){
-        return rating;
-    }
-
-    public int getProductCount(){
-        return productCount;
-    }
-
-    public static int getTotalSellers(){
-        return totalSellers;
-    }
+    public String getName() { return name; }
+    public String getShopName() { return shopName; }
+    public double getRating() { return rating; }
+    public int getProductCount() { return productCount; }
+    public static int getTotalSellers() { return totalSellers; }
 
     // Setter with validation
-    public void setRating(double newRating){
-        if(newRating >= 0 && newRating <= 5){
+    public void setRating(double newRating) {
+        if (newRating >= 0 && newRating <= 5) {
             rating = newRating;
         } else {
             System.out.println("Invalid rating. Rating must be between 0 and 5.");
         }
     }
 
-    // Behavior method 1
-    public void addProduct(){
-        productCount++;
-    }
+    // Behavior methods
+    public void addProduct() { productCount++; }
 
-    // Behavior method 2
-    public void displaySeller(){
+    public void displaySeller() {
         System.out.println("Seller Name: " + name);
         System.out.println("Shop Name: " + shopName);
         System.out.println("Rating: " + rating);
@@ -92,7 +67,7 @@ public class Seller {
     }
 
     // Static behavior
-    public static void printTotalSellers(){
+    public static void printTotalSellers() {
         System.out.println("Total Sellers: " + totalSellers);
     }
 }
