@@ -1,6 +1,7 @@
 ## Date : 03/13/2026 | Activity : Encapsulation Lab 
 Canillo, Diover Vincent 2025-1023980 03/13/2026 Encapsulation Lab Completed!
 Malig,, Rich Matthew 2025-1027707 03/13/2026 Encapsulation Lab Completed!
+Cardeño, Faye 2025-1025317 03/13/2026 Encapsulation Lab Completed!
 ## Date : 03/06/2026 | Activity : TermProjectPlanningPart1
 
 | Name                    | Student ID   | Date       | Activity                 | Status    |
