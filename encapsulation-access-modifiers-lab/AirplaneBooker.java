@@ -21,8 +21,9 @@ public class AirplaneBooker {
     totalPassengersOnFlight++;
     }
     //parametized constructor 
-    public AirplaneBooker (String passengerName, passengerDeparturetime, int passengerPassportNumb, int passengerWeight, int passengerLuggageWeight) {
+    public AirplaneBooker (String passengerName, String passengerDeparturetime, int passengerPassportNumb, int passengerWeight, int passengerLuggageWeight) {
         this.passengerName = passengerName;
+        this.passengerDeparturetime = passengerDeparturetime;
         this.passengerPassportNumb = passengerPassportNumb;
         this.passengerWeight = passengerWeight;
         this.passengerLuggageWeight = passengerLuggageWeight;
@@ -67,7 +68,7 @@ public class AirplaneBooker {
     public void setPassengerPassportNumb (int passengerPassportNumb) {
         if (passengerPassportNumb >= 100_000_000 && passengerPassportNumb <= 999_999_999) {
          System.out.println(passengerPassportNumb+ " is Valid");
-         this.passengerPassportNumb = passengerPassportNumb
+         this.passengerPassportNumb = passengerPassportNumb;
          return;
         }
         else {
@@ -79,7 +80,7 @@ public class AirplaneBooker {
     public void setPassengerWeight (int passengerWeight) {
         if (passengerWeight >= 0 && passengerWeight <= 300) {
          System.out.println(passengerName + "is fit enough for this flight");
-         this.passengerWeight = passengerWeight
+         this.passengerWeight = passengerWeight;
          return;
         }
         else {
@@ -107,10 +108,3 @@ public class AirplaneBooker {
    
     }
 
-
-
-
- 
-
-
-}
