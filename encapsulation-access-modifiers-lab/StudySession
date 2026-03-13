@@ -1,0 +1,78 @@
+/*
+ * this class represents a study session with attributes like subject, hours, student name, and status.
+ * includes behaviors to display and end a session.
+ * Created by Faye Cardeño
+ */
+
+public class StudySession {
+
+    // attributes of the class
+    private String subject;
+    private int hours;
+    private String studentName;
+    private String status;
+
+    // static variable 
+    public static String school = "National University";
+
+    // default constructor 
+    public StudySession() {
+        subject = "Math";
+        hours = 2;
+        studentName = "Anonymous";
+        status = "Active";
+    }
+
+    // parameterized constructor 
+    public StudySession(String subject, int hours, String studentName) {
+        this.subject = subject;
+        setHours(hours);
+        this.studentName = studentName;
+        status = "Active";
+    }
+
+    // getters 
+    public String getSubject() {
+        return subject;
+    }
+
+    public int getHours() {
+        return hours;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public static String getSchool() {
+        return school;
+    }
+
+    // setter with validation rule
+    // validation: hours must be greater than 0
+    // object invariant: hours cannot be negative
+    public void setHours(int hours) {
+        if(hours > 0) {
+            this.hours = hours;
+        }
+    }
+
+    // behavior 1
+    // is used to display the session details
+    public void displaySession() {
+        System.out.println("Student: " + studentName);
+        System.out.println("Subject: " + subject);
+        System.out.println("Hours: " + hours);
+        System.out.println("Status: " + status);
+    }
+
+    // behavior 2
+    // is used to end the session
+    public void endSession() {
+        status = "Finished";
+    }
+}
