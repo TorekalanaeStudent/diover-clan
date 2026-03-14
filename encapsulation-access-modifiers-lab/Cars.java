@@ -1,6 +1,6 @@
  //Clint Class
  
- public class Car{
+ public class Cars{
      // Private attributes
     private String brand; 
     private String model;
@@ -8,7 +8,7 @@
     private int speed;
 
     // Default constructor
-    public Car (){
+    public Cars(){
         brand = "Toyota";
         model = "AE86 Trueno" ;
         color = "Black and White";
@@ -16,7 +16,7 @@
 
     }
     // Parameterized constructor
-    public Car(String brand, String model, String color, int speed){
+    public Cars(String brand, String model, String color, int speed){
         this.brand = brand;
         this.model = model;
         this.color = color;
