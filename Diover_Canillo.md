@@ -19,4 +19,4 @@
 ## 📖 Peer Feedbacks
 
 **<03/10/2026>** : Comment by: <Cañeda, Ramil>: You did everything as best as you could, and went further beyond to guide us, as the leader of our group. Thank you so much for leading our group keep up the good work!. 
-
+**<03/15/2026>** Comment by: Malig, Rich Matthew; You did well; your code was easy to understand. You were very helpful in this activity, easy to communicate with, and demonstrated great leadership skills.
