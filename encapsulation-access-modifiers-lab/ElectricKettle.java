@@ -2,6 +2,7 @@
 * This class represents an Electric Kettle with a brand, capacity,
 * temperature, and lid status.
 * Created by Vince Gian Onte
+* AI was used to fix some errors and check if the logic is correct
 */
 
 public class ElectricKettle {
