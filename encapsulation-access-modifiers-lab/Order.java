@@ -1,6 +1,6 @@
-// Product.java (created by Janelle Jagunap)
+// Order.java (created by Janelle Jagunap)
 
-public class Product {
+public class Order {
 
     // === Static attribute ===
     private static int totalProducts = 0; // Counts how many Product objects were created
