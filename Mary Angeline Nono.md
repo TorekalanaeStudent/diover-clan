@@ -17,3 +17,4 @@ Mary Angeline Nono
 
 ## Peer Feedback
 **\<03/06/2026\>** : Comment by: <Cardeño, Faye>; You did well in participating and  finishing the task, and you can improve by practicing more coding exercises.
+**\<03/15/2026\>** : Comment by: Jagunap Janelle; You did well on creating objects for class with getters and setters and is fully functional with validation, I think there is nothing more to improve since all requirements are met.
