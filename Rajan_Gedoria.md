@@ -14,4 +14,5 @@ Rajan Kurt O. Gedoria
 <03/08/2026> : I learned how constructors work and next time I will memorize the git commands better.
 
 ## Peer Feedbacks
-<03/11/2026> : Comment by: Ablis; You have done well in our activity and You are always present whenever you are needed. More activities will surely improve our perfomances.
+<03/11/2026> : Comment by <Ablis>; You have done well in our activity and You are always present whenever you are needed. More activities will surely improve our perfomances.
+<03/16/2026> : Comment by <Ablis>; Keep up the good work!
