@@ -17,3 +17,4 @@ Mary Angeline Nono
 
 ## Peer Feedback
 **\<03/06/2026\>** : Comment by: <Cardeño, Faye>; You did well in participating and  finishing the task, and you can improve by practicing more coding exercises.
+**\<03/15/2026\>** : Comment by: Cardeño, Faye; You did well in understanding how encapsulation works and applying it in the lab, and you can improve by practicing more coding examples on your own.
