@@ -1,6 +1,6 @@
 // Order.java (created by Janelle Jagunap)
 
-public class Order {
+public class Order_Two {
 
     // === Static attribute ===
     private static int totalOrders = 0; // Counts how many Order objects were created
@@ -15,7 +15,7 @@ public class Order {
     // === Constructors ===
 
     // 1) Default constructor
-    public Order() {
+    public Order_Two() {
         this.orderId = "N/A";
         this.name = "Unnamed Order";
         this.price = 0.0;
@@ -25,7 +25,7 @@ public class Order {
     }
 
     // 2) Parameterized constructor
-    public Order(String orderId, String name, double price, int stock) {
+    public Order_Two(String orderId, String name, double price, int stock) {
 
         // Validation rules
         if (name == null || name.trim().isEmpty()) {
