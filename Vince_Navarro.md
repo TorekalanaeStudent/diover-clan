@@ -16,4 +16,13 @@
 **\<03/11/2026\>** : This activity helped me understand the OOP concepts like classes, objects, and constructors, and I aim to be more efficient and faster.
 **\<03/13/2026\>** : Today, I truly leanred on how to do Encapsulation correcly, and next time I will try to learn the topics in advance to be more prepared and faster.
 
-**\<03/11/2026\>** : Comment by John Kyle Obedoza; You did well in creating your java class. You can improve by adding proper encapusulation to your program next time. 
+Peer Review:
+
+**\<03/11/2026\>** : Comment by John Kyle Obedoza; You did well in creating your java class. You can improve by adding proper encapusulation to your program next time.
+
+**\<03/11/2026\>** : Comment by: Go, Sean Ethan; You did well on applying classes and objects with constructors and all given requirements have been met.
+
+**\<03/13/2026\>** : Comment by: Go, Sean Ethan; You did really good with applying the concept of Encapsulation to a Class; code is clean, easily readable and in turn, easy to work with.
+
+
+
