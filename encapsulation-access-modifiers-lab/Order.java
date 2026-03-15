@@ -15,7 +15,7 @@ public class Order {
     // === Constructors ===
 
     // 1) Default constructor
-    public Product() {
+    public Order() {
         this.productId = "N/A";
         this.name = "Unnamed Product";
         this.price = 0.0;
@@ -25,7 +25,7 @@ public class Order {
     }
 
     // 2) Parameterized constructor
-    public Product(String productId, String name, double price, int stock) {
+    public Order(String productId, String name, double price, int stock) {
 
         // Validation rules
         if (name == null || name.trim().isEmpty()) {
