@@ -4,7 +4,7 @@
  * Created by Faye Cardeño
  */
 
-public class StudySession {
+public class StudySessionEncap {
 
     // attributes of the class
     private String subject;
@@ -16,7 +16,7 @@ public class StudySession {
     public static String school = "National University";
 
     // default constructor 
-    public StudySession() {
+    public StudySessionEncap() {
         subject = "Math";
         hours = 2;
         studentName = "Anonymous";
@@ -24,7 +24,7 @@ public class StudySession {
     }
 
     // parameterized constructor 
-    public StudySession(String subject, int hours, String studentName) {
+    public StudySessionEncap(String subject, int hours, String studentName) {
         setSubject(subject);  
         setHours(hours);
         setStudentName(studentName);
