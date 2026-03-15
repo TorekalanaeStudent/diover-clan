@@ -4,6 +4,7 @@ Malig,, Rich Matthew 2025-1027707 03/13/2026 Encapsulation Lab Completed! \
 Onte, Vince Gian D. 2025-1021082 03/13/2026 Encapsulation Lab Completed! \
 Malig, Rich Matthew 2025-1027707 03/13/2026 Encapsulation Lab Completed! \
 Navarro, Vince Justine 2025-1029521 03/13/2026 Encapsulation Lab Completed! 
+Cardeño, Faye 2025-1025317 03/13/2026 Encapsulation Lab Completed!
 
 ---
 
