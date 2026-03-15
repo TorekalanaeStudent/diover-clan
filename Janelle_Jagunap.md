@@ -18,3 +18,4 @@
 
 ## 📘 Peer Feedback
 <03/11/2026> : Comment by: <Nono, Mary Angeline B.>; You did well in Organizing your methods and constructors and you can improve by testing your methods more.
+**\<03/15/2026\>** : Comment by: Mary Angeline Nono; You did well in implementing strong encapsulation and validation in your class and you can improve by adding more comments to explain your methods clearly.
