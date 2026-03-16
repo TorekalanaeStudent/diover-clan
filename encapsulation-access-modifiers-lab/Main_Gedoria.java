@@ -53,5 +53,36 @@ public class Main_Gedoria {
         RamStick.displayTotalStock();
 
         System.out.println("\nAClass created by Ablis.");
+
+        System.out.println("\nCreation of Chair Objects:");
+
+        // Default constructor
+        Chairs chair1 = new Chairs();
+
+        // Parameterized constructor
+        Chairs chair2 = new Chairs("Monoblock", "White", 950.00, 500);
+
+        // Using getters and setters
+        System.out.println("\nUsing getters and setters:");
+        chair1.setModel("Office Chair");
+        System.out.println("Chair 1 Model: " + chair1.getModel());
+
+        chair2.setColor("Black");
+        System.out.println("Chair 2 Color: " + chair2.getColor());
+
+        // Display chair information
+        System.out.println("\nDisplaying Chair Information:");
+
+        System.out.println("Chair 1 Info:");
+        chair1.displayDetails();
+
+        System.out.println("\nChair 2 Info:");
+        chair2.displayDetails();
+
+        // Static method
+        System.out.println("\nTotal Chairs Created:");
+        Chairs.displayTotalChairs();
+
+        System.out.println("\nAClass created by Ovejera.");
     }
 }
