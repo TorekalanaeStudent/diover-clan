@@ -84,5 +84,6 @@ public class Main_Gedoria {
         Chairs.displayTotalChairs();
 
         System.out.println("\nAClass created by Ovejera.");
+        
     }
 }
