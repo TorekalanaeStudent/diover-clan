@@ -51,5 +51,56 @@ public class Main_Ablis {
 
         // static attribute
         System.out.println("\nTotal Smartphones Created: " + Smartphone.getTotalPhones());
+
+          // BANK ACCOUNT CLASS BY OBEDOZA
+    // second class created by Ablis
+   // note: AI was used to correct and explain errors
+        System.out.println("=== Bank Account Class by Obedoza ===");
+
+        // create objects for bank account
+        BankAccount acc1 = new BankAccount("Meme", "ACC001", 1000, true);
+        BankAccount acc2 = new BankAccount("", "ACC002", -500, false);
+
+        // ba1 details
+        System.out.println("\nACCOUNT 1 DETAILS");
+        System.out.println("Username: " + acc1.getUserName());
+        System.out.println("User ID: " + acc1.getUserId());
+        System.out.println("Balance: " + acc1.getAccBalance());
+        System.out.println("Active: " + acc1.isActive());
+
+        // ba2 details
+        System.out.println("\nACCOUNT 2 DETAILS");
+        System.out.println("Username: " + acc2.getUserName()); // becomes Unknown
+        System.out.println("User ID: " + acc2.getUserId());
+        System.out.println("Balance: " + acc2.getAccBalance()); // becomes 0
+        System.out.println("Active: " + acc2.isActive());
+
+        // setters
+        System.out.println("\nUpdating Account 2 Information:");
+        acc2.setUserName("Obedoza");
+        acc2.setAccBalance(1500);
+        acc2.setActive(true);
+
+        // getters after updating bank account
+        System.out.println("Updated Name: " + acc2.getUserName());
+        System.out.println("Updated Balance: " +acc2.getAccBalance());
+        System.out.println("Account Active: " + acc2.isActive());
+
+        // transactions of bank sccount
+        System.out.println("\nTRANSACTIONS: ");
+        acc1.deposit(500);
+        acc1.withdraw(200);
+
+        // bank account validation fules
+        System.out.println("\nVALIDATION RULES");
+        acc1.deposit(-100);     // invalid deposit
+        acc1.withdraw(5000);    // insufficient balance
+        acc1.withdraw(-50);     // invalid withdrawal
+
+        // final balance of bacnk account
+        System.out.println("\nFINAL BALANCE: ");
+        System.out.println("Account 1 Final Balance: " + acc1.getAccBalance());
+
+
     }
 }
