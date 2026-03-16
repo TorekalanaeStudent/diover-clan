@@ -21,3 +21,4 @@ I like sleeping
 
 ## 💌 Peer Feedback
 **\<03/11/2026\>** : Comment by: Jagunap Janelle; You did well on implementing your objects with and without parameter, i think there is nothing more to improve in this tasks because you met the requirements well!
+**\<03/15/2026\>** : Comment by: Mary Angeline Nono; You did well in organizing your code and creating useful behaviors for your class and you can improve by testing more invalid inputs to strengthen your validation logic.
