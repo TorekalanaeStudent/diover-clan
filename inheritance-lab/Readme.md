@@ -90,7 +90,7 @@ Commit example:
 Added Animal parent class
 ```
 
-Push your branch create a PR to main.
+Push your branch and create PR to main.
 
 Your classmates will **extend your class later**.
 
@@ -162,7 +162,7 @@ This demonstrates **method overriding**.
 
 ## 8. Demonstrate Dynamic Binding
 
-Create a test program (Main_<Lastname>.java) that demonstrates **runtime polymorphism**.
+Create a test program (Main_Lastname.java) that demonstrates **runtime polymorphism**.
 
 
 Example:
@@ -196,16 +196,16 @@ This demonstrates **hierarchical inheritance**.
 
 ---
 
-## 10. Create an Inheritance Demo Program
+## 10. Create an Inheritance Demo Program - Main that executes
 
-Update Main_<Lastname>.java file:
+Update Main_Lastname.java file:
 
 The program must:
 
 - Create objects of your subclass
-- Call inherited methods
-- Call overridden methods
-- Show dynamic binding behavior
+- Call inherited methods for every subclass you create
+- Call overridden methods for every subclass you create
+- Show dynamic binding behavior for every subclass you create
 
 Example output:
 
@@ -218,15 +218,15 @@ Animal moves
 
 ## 11. Analyze the Inheritance Behavior
 
-Update Main_<Lastname>.java file:
+Update Main_Lastname.java file:
 
 Answer the following questions, just add them as comments on top of the actual implementation:
 
-- What is the **IS-A relationship** in your program?
-- Which method was **overridden**?
+- What is the **IS-A relationship** in your program? // This line of code shows the IS-A relationship because a Dog is an Animal
+- Which method was **overridden**? // This method was overriden ..
 - What happens during **dynamic binding**?
 - What methods were **inherited from the parent class**?
-- What new behavior did the subclass introduce?
+- What new behavior did the subclass introduce? 
 
 ---
 
@@ -234,8 +234,8 @@ Answer the following questions, just add them as comments on top of the actual i
 
 Create a PR and after completion of your PR, your team's main branch should contain:
 - Your parent class
-- Your subclass
-- Main_<Lastname>.java
+- Your subclass that you created using a teammate's parent class - You extended your teammate's class
+- Main_Lastname.java with comments that answers items in task no.11
 
 ---
 
@@ -256,7 +256,7 @@ Think of **at least 2 things you each could have done better** during the activi
 Example:
 
 ```
-Juan Dela Cruz 2025-1023456 03/20/2026 Inheritance Lab Completed!
+Juan Dela Cruz 2025-1023456 03/20/2026 Inheritance Lab Completed! 
 ```
 
 ---
