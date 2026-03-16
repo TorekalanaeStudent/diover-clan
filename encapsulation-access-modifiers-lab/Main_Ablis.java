@@ -51,5 +51,40 @@ public class Main_Ablis {
 
         // static attribute
         System.out.println("\nTotal Smartphones Created: " + Smartphone.getTotalPhones());
+        
+   // Bank account java file made by Obedoza
+   // 2nd object class created by Ablis
+   // Create objects for bank account
+        BankAccount acc1 = new BankAccount("Meme", "ACC", 1000, true);
+        BankAccount acc2 = new BankAccount("", "ACC", -500, false);
+
+        // using getters
+        System.out.println("===== ACCOUNT 1 DETAILS =====");
+        System.out.println("User Name: " + acc1.getUserName());
+        System.out.println("User ID: " + acc1.getUserId());
+        System.out.println("Balance: " + acc1.getAccBalance());
+        System.out.println("Active: " + acc1.isActive());
+        System.out.println();
+        System.out.println("===== ACCOUNT 2 DETAILS =====");
+        System.out.println("User Name: " + acc2.getUserName()); // becomes unkown
+        System.out.println("User ID: " + acc2.getUserId());
+        System.out.println("Balance: " + acc2.getAccBalance()); // becomes 0
+        System.out.println("Active: " + acc2.isActive());
+
+        System.out.println("\n===== TRANSACTIONS =====");
+        // behavior
+        acc1.deposit(500);
+        acc1.withdraw(200);
+
+        System.out.println("\n===== VALIDATION RULES =====");
+        // bank account validation rules
+        acc1.deposit(-100);     // invalid deposit
+        acc1.withdraw(5000);    // insufficient balance
+        acc1.withdraw(-50);     // invalid withdrawal
+
+        // finql balance
+        System.out.println("\n===== FINAL BALANCE =====");
+        System.out.println("Account 1 Final Balance: " + acc1.getAccBalance());
+     
     }
 }
