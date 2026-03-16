@@ -57,5 +57,39 @@ public class Main_Trespeces {
 
         // Static attribute
         System.out.println("Total Chairs Created: " + Chairs.totalChairs);
+
+        System.out.println("\n Clint's Car Object");
+
+        // Default constructor
+        Cars car1 = new Cars();
+
+        // Parameterized constructor
+        Cars car2 = new Cars("Mazda", "RX-7", "Red", 0);
+
+        // Using behaviors
+        car1.accelerate();
+        car2.accelerate();
+
+        // Using setter
+        car2.setSpeed(120);
+
+        // Using getters
+        System.out.println("Brand: " + car1.getCar());
+        System.out.println("Model: " + car1.getModel());
+        System.out.println("Color: " + car1.getColor());
+        System.out.println("Speed: " + car1.getSpeed());
+
+        // Display
+        car1.displayCarInfo();
+        System.out.println();
+        car2.displayCarInfo();
+
+        // Validation
+        int newSpeed = -50;
+        if (newSpeed < 0) {
+            System.out.println("Error: Speed cannot be negative.");
+        } else {
+            car2.setSpeed(newSpeed);
+        }
     }
 }
