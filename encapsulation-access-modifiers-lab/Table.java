@@ -1,5 +1,5 @@
 public class Table {
-
+ 
     // private attributes
     private String tableName;
     private String tableColor;
@@ -8,10 +8,10 @@ public class Table {
     private double tableWidthCm;
     private double tableLengthCm;
     private double tableHeightCm;
-
+ 
     // static attribute
     private static int totalTablesSold;
-
+ 
     // default constructor
     public Table() {
         tableName     = "ODD ATELIER";
@@ -23,20 +23,20 @@ public class Table {
         tableHeightCm = 80.0;
         totalTablesSold++;
     }
-
+ 
     // parameterized constructor
     public Table(String tableName, String tableColor, String tableMaterial,
                  double tablePrice, double tableWidthCm, double tableLengthCm, double tableHeightCm) {
-        this.tableName     = tableName;
-        this.tableColor    = tableColor;
-        this.tableMaterial = tableMaterial;
-        this.tablePrice    = tablePrice;
-        this.tableWidthCm  = tableWidthCm;
-        this.tableLengthCm = tableLengthCm;
-        this.tableHeightCm = tableHeightCm;
+        setTableName(tableName);
+        setTableColor(tableColor);
+        setTableMaterial(tableMaterial);
+        setTablePrice(tablePrice);
+        setTableWidthCm(tableWidthCm);
+        setTableLengthCm(tableLengthCm);
+        setTableHeightCm(tableHeightCm);
         totalTablesSold++;
     }
-
+ 
     // GETTERS
     public String getTableName() {
         return tableName;
@@ -59,32 +59,63 @@ public class Table {
     public double getTableHeightCm() {
         return tableHeightCm;
     }
-
-    // SETTERS
+ 
+    // SETTERS w validation
+ 
+    // Validation #1
     public void setTableName(String tableName) {
+        if (tableName == null || tableName.trim().isEmpty()) {
+            throw new IllegalArgumentException("Table name must not be null or empty.");
+        }
         this.tableName = tableName;
     }
+ 
     public void setTableColor(String tableColor) {
+        if (tableColor == null || tableColor.trim().isEmpty()) {
+            throw new IllegalArgumentException("Table color must not be null or empty.");
+        }
         this.tableColor = tableColor;
     }
+ 
     public void setTableMaterial(String tableMaterial) {
+        if (tableMaterial == null || tableMaterial.trim().isEmpty()) {
+            throw new IllegalArgumentException("Table material must not be null or empty.");
+        }
         this.tableMaterial = tableMaterial;
     }
+ 
+    // Validation #2
     public void setTablePrice(double tablePrice) {
+        if (tablePrice <= 0) {
+            throw new IllegalArgumentException("Table price must be greater than 0.");
+        }
         this.tablePrice = tablePrice;
     }
+ 
+    // Validation #3
     public void setTableWidthCm(double tableWidthCm) {
+        if (tableWidthCm <= 0) {
+            throw new IllegalArgumentException("Table width must be a positive value.");
+        }
         this.tableWidthCm = tableWidthCm;
     }
+ 
     public void setTableLengthCm(double tableLengthCm) {
+        if (tableLengthCm <= 0) {
+            throw new IllegalArgumentException("Table length must be a positive value.");
+        }
         this.tableLengthCm = tableLengthCm;
     }
+ 
     public void setTableHeightCm(double tableHeightCm) {
+        if (tableHeightCm <= 0) {
+            throw new IllegalArgumentException("Table height must be a positive value.");
+        }
         this.tableHeightCm = tableHeightCm;
     }
-
+ 
     // BEHAVIORS
-
+ 
     // Behavior #1 - display all table info
     public void displayTableInfo() {
         System.out.println("Table Name: "  + tableName);
@@ -95,11 +126,10 @@ public class Table {
         System.out.println("Length: "      + tableLengthCm + " cm");
         System.out.println("Height: "      + tableHeightCm + " cm");
     }
-
+ 
     // Behavior #2 - display total tables sold
     public void displayTotalTablesSold() {
         System.out.println("Total Tables Sold: " + totalTablesSold);
     }
-
+ 
 }
-
