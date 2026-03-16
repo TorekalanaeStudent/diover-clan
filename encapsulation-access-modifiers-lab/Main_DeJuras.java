@@ -59,6 +59,6 @@ public class Main_DeJuras {
         System.out.println("=====================");
         table2.displayTableInfo();
         System.out.println("=====================");
-        
+        //
     }
 }
