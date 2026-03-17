@@ -6,7 +6,7 @@
  * This class is made by Vince Justine Navarro.
  */
 
-public class RPG_Character {
+public class RPG_Character_Navarro {
 	
 		// Attributes
 	    String name;   
@@ -19,7 +19,7 @@ public class RPG_Character {
 	    int mana;
 	    
 	    // Constructor
-	    public RPG_Character(String name, String alignment, int health, int attackPower, int defense, int mana) {
+	    public RPG_Character_Navarro(String name, String alignment, int health, int attackPower, int defense, int mana) {
 	        this.name       = name;
 	        this.alignment    = alignment;	
 	        this.health     = health;
@@ -32,7 +32,7 @@ public class RPG_Character {
 	        
 	    // Behaviors (Methods) 
 	    //This can be Overridden	
-	    public void attack(RPG_Character target) {
+	    public void attack(RPG_Character_Navarro target) {
 	        int damage = Math.max(0, this.attackPower - target.defense);
 	        target.health -= damage;
 	        System.out.println(name + " attacks " + target.name + " for " + damage + " damage!");
