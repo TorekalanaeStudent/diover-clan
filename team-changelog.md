@@ -17,6 +17,7 @@ Nono, Mary Angeline 2025-1022691 03/15/2026 Encapsulation Lab Completed! \
 Cañeda, Ramil Jr, M. 2025-1022691 03/17/2026 Encapsulation Lab Completed! \
 Obedoza, John Kyle B. 2025-1029134 03/15/2026 Encapsulation Lab Completed! \
 De Juras, Clint Norbert P. 2025-1025222 03/16/2026 Encapsulation Lab Completed!  
+Ovejera, Ziggy T. 2025-1021339 3/17/2026 Encapsulation Lab Completed! \
 
 ## Date : 03/11/2026 | Activity : Classes and Objects Lab
 Ablis, Margreleigne M. 2025-1020011 03/11/2026 Classes and Objects Lab Completed! \
