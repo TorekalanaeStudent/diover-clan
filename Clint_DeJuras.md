@@ -15,3 +15,5 @@
 <Guillermo Trespeces> <03/11/2026> : Comment by: Guillermo Trespeces; Your implementation of objects with and without parameters was well done. There's still room for improvement, but great work overall.
 
 <Guillermo Trespeces> <03/15/2026> : Comment by: Guillermo Trespeces; You have great use of constructors and encapsulation, code is clean and easy to follow. 👍
+
+<03/17/2026> : Comment by: Ziggy Ovejera; You did well in our encapsulation activity and you can improve by submitting on time
