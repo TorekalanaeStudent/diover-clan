@@ -17,7 +17,7 @@ public class UserTypes_Caneda {
         userActivity = false;
     }
 
-//Paremeterrized Constructor 
+//Paremeterized Constructor 
     public UserTypes_Caneda(String userName, String userCode, String userType, boolean userActivity ){
         this.userName = userName;
         this.userCode = userCode;

@@ -10,16 +10,23 @@ public class Student_Obedoza extends UserTypes_Caneda {
     private String nickName;
     private String iconColor;
 
-    public Student_Obedoza (String userName, String userCode, String userType, boolean userActivity, String nickName, String iconColor) {
+    public Student_Obedoza (String userName, String userCode, String userType, boolean userActivity, String nickName) {
         super(userName, userCode, userType, userActivity);
 
         this.nickName = nickName;
-        this.iconColor = iconColor;
+    }
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName){
+        this.nickName = nickName;
     }
 
     // Child Specific method 1
     public void displayNickName() {
-        if (userActivity) {
+        if (getUserActivity()) {
             System.out.println(nickName + " is active!");
         } else {
             System.out.println(nickName + " is offline!");
@@ -29,7 +36,7 @@ public class Student_Obedoza extends UserTypes_Caneda {
     // Override parent method 
     @Override
     public void checkUserActivity() {
-        if (userActivity) {
+        if (getUserActivity()) {
             System.out.println("Do not Disturb...");
         } else {
             System.out.println("Sleeping!");
