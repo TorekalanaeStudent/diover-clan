@@ -1,6 +1,6 @@
 package sub_class;
 
-import parent_class.Gun_go;
+import parent_class.Gun_Go;
 
 /**
  *
