@@ -9,7 +9,7 @@ public class Person_DeJuras{
 	
 	//constructor//
 	
-	public Person_DeJuras() {
+	public Person_DeJuras(String name, String occupation, int age) {
 		name = "Willj";
 		occupation = "Student";
 		age = 0;
