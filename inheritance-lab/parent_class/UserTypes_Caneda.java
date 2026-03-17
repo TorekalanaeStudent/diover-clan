@@ -1,6 +1,6 @@
 package parent_class;
 
-public class UserTypes {
+public class UserTypes_Caneda {
 
 
 //Attributes
@@ -10,7 +10,7 @@ public class UserTypes {
     boolean userActivity;
 
 //Default Constructor
-    UserTypes(){
+    UserTypes_Caneda(){
         userName = "N/A";    
         userCode = "N/A";
         userType = "N/A";
@@ -18,7 +18,7 @@ public class UserTypes {
     }
 
 //Paremeterrized Constructor 
-    UserTypes(String userName, String userCode, String userType, Boolean userActivity ){
+    UserTypes_Caneda(String userName, String userCode, String userType, Boolean userActivity ){
         this.userName = userName;
         this.userCode = userCode;
         this.userType = userType;
