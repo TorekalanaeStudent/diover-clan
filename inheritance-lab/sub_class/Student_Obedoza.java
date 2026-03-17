@@ -9,10 +9,16 @@ public class Student_Obedoza extends UserTypes_Caneda {
     // Child Specific attribute 
     private String nickName;
 
+    // Static Attribute
+    private static int employeeCount = 0;
+
     public Student_Obedoza (String userName, String userCode, String userType, boolean userActivity, String nickName) {
         super(userName, userCode, userType, userActivity);
 
         this.nickName = nickName;
+
+        employeeCount++;
+
     }
 
     public String getNickName() {
@@ -41,6 +47,10 @@ public class Student_Obedoza extends UserTypes_Caneda {
             System.out.println("Sleeping!");
         }
     }
+
+    public static int getEmployeeCount() {
+    return employeeCount;
+    }   
 
 
 

@@ -32,7 +32,7 @@ public class Employee_Obedoza extends UserTypes_Caneda{
         System.out.println("Employee Code: "+ getUserCode());
         System.out.println("User Type: " + getUserType());
         System.out.println("Department: " + employeeDepartment);
-        System.out.println("Company Log: " + getUserActivity());
+        System.out.println("Company Log: " + (getUserActivity() ? "Online" : "Offline"));
     }
 
     @Override 
