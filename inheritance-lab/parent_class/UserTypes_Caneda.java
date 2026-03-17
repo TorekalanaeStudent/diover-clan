@@ -4,13 +4,13 @@ public class UserTypes_Caneda {
 
 
 //Attributes
-    String userName;
-    String userCode;
-    String userType;
-    boolean userActivity;
+    protected String userName;
+    protected String userCode;
+    protected String userType;
+    protected boolean userActivity;
 
 //Default Constructor
-    UserTypes_Caneda(){
+    public UserTypes_Caneda(){
         userName = "N/A";    
         userCode = "N/A";
         userType = "N/A";
@@ -18,46 +18,81 @@ public class UserTypes_Caneda {
     }
 
 //Paremeterrized Constructor 
-    UserTypes_Caneda(String userName, String userCode, String userType, Boolean userActivity ){
+    public UserTypes_Caneda(String userName, String userCode, String userType, boolean userActivity ){
         this.userName = userName;
         this.userCode = userCode;
         this.userType = userType;
         this.userActivity = userActivity;
      }
+//Getters
+    
+    //Getter #1
+    public String getUserName() {
+        return userName;
+    }
+    //Getter #2
+    public String getUserCode() {
+        return userCode;
+    }
+    //Getter #3
+    public String getUserType() {
+        return userType;
+    }
+    //Getter #4
+    public boolean getUserActivity() {
+        return userActivity;
+    }
+
+//Setters
+    
+    //Setter #1
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+    public void setUserCode(String userCode) {
+        this.userCode = userCode;
+    }
+    public void setUserType(String userType) {
+        this.userType = userType;
+    }
+    public void setUserActivity(boolean userActivity) {
+        this.userActivity = userActivity;
+    }
+
 //Behaviors 
     
     //Behavior #1
-    void userCorectionInputs () {
+    public void userCorrectionInputs (String userName, String userCode, String userType, boolean userActivity) {
     //Checks if userName is empty
-    if (userName == null){
+
+    if (userName == null) {
         System.out.println("The User Has No Name");
-        }
-    else {
-        System.out.println("Username has Been inplemented");
+        this.userName = "Unknown";
+    } else {
+        System.out.println("Username has been implemented");
         this.userName = userName;
-     }
-
-    //Checks if userCode is empty
-    if (userCode == null) {
-         System.out.println("The User Has Inputed Invalid Code");
-     }
-    else {
-         System.out.println("User Inputed Code");
-         this.userCode = userCode;
-     }
-
-    //Checks if userType is empty
-    if (userType == null) {
-        System.out.println("The User Has Inputed User Type");
-        }
-     else {
-         System.out.println("Sucessfuly Inputed User Type");
-         this.userType = userType;
-        }
     }
+
+    if (userCode == null) {
+        System.out.println("Invalid Code");
+        this.userCode = "0000";
+    } else {
+        this.userCode = userCode;
+    }
+
+    if (userType == null) {
+        System.out.println("No User Type");
+        this.userType = "Guest";
+    } else {
+        this.userType = userType;
+    }
+
+    this.userActivity = userActivity;
+    }
+    
     //Behavior #2 
-    void checkUserActivity () {
-        if (userActivity == false){
+    public void checkUserActivity () {
+        if (!userActivity){
             System.out.println("User Offline");
         }
         else {
