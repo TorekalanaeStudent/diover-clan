@@ -3,7 +3,7 @@
 ```java
 package parent_class;
 
-public class Animal {
+public class Animal_Surname {
   // code here
 }
 ```
