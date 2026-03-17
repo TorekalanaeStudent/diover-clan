@@ -1,11 +1,10 @@
 package main_class;
 
-
 import parent_class.Wood_Canillo;
 import sub_class.CrimsonWood_Go;
 import sub_class.WarpedWood_Go;
 
-public class Main {
+public class Main_Go {
     public static void main(String[] args) {
         // Create a CrimsonWood object
         CrimsonWood_Go crimson = new CrimsonWood_Go();
