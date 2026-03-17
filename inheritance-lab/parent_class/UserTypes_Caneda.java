@@ -88,7 +88,6 @@ public class UserTypes_Caneda {
          System.out.println("Sucessfuly Inputed User Type");
 
         }
-    }
     //Behavior #2 
     void checkUserActivity () {
         if (userActivity == false){
