@@ -1,3 +1,5 @@
+package parent_class;
+
 public class UserTypes {
 
 
