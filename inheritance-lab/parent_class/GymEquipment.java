@@ -1,5 +1,7 @@
-public class GymEquipment{
+package parent_class;
 
+public class GymEquipment{
+    
     // Attributes
     private String equipmentName;
     private String equipmentBrand;
