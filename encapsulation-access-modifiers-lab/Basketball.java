@@ -66,7 +66,31 @@ public class Basketball {
         this.stock = stock;
 
     }
+  // Behavior: Purchase basketball (reduces stock)
+    public void purchaseBall(int quantity) {
 
+        if (quantity > 0 && quantity <= stock) {
+            stock -= quantity;
+            System.out.println(quantity + " basketball(s) purchased.");
+            System.out.println("Remaining stock: " + stock);
+        } else {
+            System.out.println("Not enough stock available.");
+        }
+
+    }
+
+    // Behavior: Restock basketball (adds stock)
+    public void restockBall(int quantity) {
+
+        if (quantity > 0) {
+            stock += quantity;
+            System.out.println("Restocked " + quantity + " basketball(s).");
+            System.out.println("New stock: " + stock);
+        } else {
+            System.out.println("Invalid restock amount.");
+        }
+
+    }
     // Static Method
     public static void displayTotalBasketball() {
 
