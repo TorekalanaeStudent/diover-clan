@@ -3,9 +3,9 @@ package parent_class;
   public class Gun_Go {
 
   // Variables
-  String name;
-  String caliber;
-  int capacity;
+  protected String name;
+  protected String caliber;
+  protected int capacity;
   
   public Gun_Go()	 {
     
