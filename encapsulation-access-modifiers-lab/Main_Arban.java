@@ -84,7 +84,7 @@ public class Main_Arban {
         chair1.setStock(850);
         System.out.println("Chair1 New Stock: " + chair1.getStock());
 
-        // display total objects
+        // display the total objects
         System.out.println("\n=== Total Objects Created ===");
         Chairs.displayTotalChairs();
     }

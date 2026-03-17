@@ -3,12 +3,12 @@ package parent_class;
 public class Wood_Canillo{
 
     // Static Attributes
-    private static boolean flammable;
+    protected static boolean flammable;
 
     // Normal Attributes
-    private String woodType;
-    private String woodColor;
-    private String woodName;
+    protected String woodType;
+    protected String woodColor;
+    protected String woodName;
 
     // Default Constructor
     public Wood_Canillo(){
