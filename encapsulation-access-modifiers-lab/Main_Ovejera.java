@@ -3,8 +3,10 @@ public class Main_Ovejera {
     public static void main(String[] args){
 
         // RAM Objects
-        Ramstick r1 = new Ramstick();
-        Ramstick r2 = new Ramstick();
+        RamStick r1 = new RamStick();
+        RamStick r2 = new RamStick();
+
+        //Assisted by AI
 
         r1.setModel("Corsair Vengeance");
         r1.setSpeed(3200);
