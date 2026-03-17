@@ -5,33 +5,33 @@ package parent_class;
  */
 
 public class Smartphone_Gedoria {
+    
+    // Attributes
+    protected String brand;
+    protected String model;
+    protected String operatingSystem;
+    protected boolean powerStatus;
 
-// Attributes
-    String brand;
-    String model;
-    String operatingSystem;
-    boolean powerStatus;
-
-// Default Constructor
-    Smartphone_Gedoria() {
+    // Default Constructor
+    public Smartphone_Gedoria() {
         brand = "NA";
         model = "NA";
         operatingSystem = "NA";
         powerStatus = false;
     }
 
-// Parameterized Constructor
-    Smartphone_Gedoria(String brand, String model, String operatingSystem, boolean powerStatus) {
+    // Parameterized Constructor
+    public Smartphone_Gedoria(String brand, String model, String operatingSystem, boolean powerStatus) {
         this.brand = brand;
         this.model = model;
         this.operatingSystem = operatingSystem;
         this.powerStatus = powerStatus;
     }
 
-// Behaviors
+    // Behaviors
 
     // Behavior #1: Validate Inputs
-    void checkDeviceInputs() {
+    public void checkDeviceInputs() {
 
         // Check brand
         if (brand == null) {
@@ -56,7 +56,7 @@ public class Smartphone_Gedoria {
     }
 
     // Behavior 2: Check Power Status
-    void checkPowerStatus() {
+    public void checkPowerStatus() {
         if (powerStatus == false) {
             System.out.println("Smartphone is OFF");
         } else {
