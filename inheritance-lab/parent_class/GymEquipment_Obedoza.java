@@ -1,7 +1,7 @@
 package parent_class;
 
-public class GymEquipment{
-
+public class GymEquipment_Obedoza{
+    
     // Attributes
     private String equipmentName;
     private String equipmentBrand;
@@ -9,7 +9,7 @@ public class GymEquipment{
     private boolean inUse;
 
     // Constructor
-    public GymEquipment(String equipmentName, String equipmentBrand, int equipmentWeight) {
+    public GymEquipment_Obedoza(String equipmentName, String equipmentBrand, int equipmentWeight) {
         this.equipmentName = equipmentName;
         this.equipmentBrand = equipmentBrand;
         this.equipmentWeight = equipmentWeight;
