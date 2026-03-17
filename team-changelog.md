@@ -1,5 +1,5 @@
 ## Date : 03/17/2026 | Activity : Inheritance Lab 
-Navarro, Vince Justine 2025-102952 03/17/2026 Inheritance Lab Completed! 
+Navarro, Vince Justine 2025-102952 03/17/2026 Inheritance Lab Completed 4x Multiplier! 
 
 
 ## Date : 03/13/2026 | Activity : Encapsulation Lab 
