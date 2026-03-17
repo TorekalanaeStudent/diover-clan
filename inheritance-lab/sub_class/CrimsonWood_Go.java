@@ -6,7 +6,7 @@ public class CrimsonWood_Go extends Wood_Canillo {
 
     public CrimsonWood_Go() {
         super();
-        this.flammable = false;
+        this.setFlammable(false);
         this.woodType = "Crimson";
         this.woodColor = "Maroon";
         this.woodName = "Go's Crimson Wood";
@@ -14,7 +14,7 @@ public class CrimsonWood_Go extends Wood_Canillo {
 
     @Override
     public void burn() {
-        System.out.println(flammable ? woodName + " is burning." : woodName + " is flame resistant.");
+        System.out.println(isFlammable() ? getWoodName() + " is burning." : getWoodName() + " is flame resistant.");
     }
 
     @Override
