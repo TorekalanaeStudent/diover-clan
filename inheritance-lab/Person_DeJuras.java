@@ -1,6 +1,6 @@
 package parent_class;
 
-public class Person{
+public class Person_DeJuras{
 	
 	//attributes:
 	String name;
@@ -9,7 +9,7 @@ public class Person{
 	
 	//constructor
 	
-	public Person() {
+	public Person_DeJuras() {
 		name = "Willj";
 		occupation = "Student";
 		age = 0;
