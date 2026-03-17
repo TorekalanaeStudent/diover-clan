@@ -2,6 +2,8 @@ package sub_class;
 
 import parent_class.UserTypes_Caneda;
 
+// Child Class 1 of UserTypes_Caneda, created by John Kyle Obedoza
+
 public class Student_Obedoza extends UserTypes_Caneda {
   
     // Child Specific attribute 
