@@ -96,8 +96,8 @@ public class Main_Navarro {
         System.out.println("   DYNAMIC BINDING DEMONSTRATION");
         System.out.println("========================================\n");
  
-        Gun_Go g1 = new SVD();
-        Gun_Go g2 = new M4();
+        Gun_Go g1 = new SVD_Navarro();
+        Gun_Go g2 = new M4_Navarro();
  
         Gun_Go[] arsenal = { g1, g2 };
  
