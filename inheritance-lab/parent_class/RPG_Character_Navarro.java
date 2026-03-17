@@ -10,14 +10,14 @@ package parent_class;
 public class RPG_Character_Navarro {
 	
 		// Attributes
-	    String name;   
-	    String alignment;   
-	    int health;
-	    int maxHealth;
-	    int level;        
-	    int attackPower;  
-	    int defense;   
-	    int mana;
+	    protected String name;   
+	    protected String alignment;   
+	    protected int health;
+	    protected int maxHealth;
+	    protected int level;        
+	    protected int attackPower;  
+	    protected int defense;   
+	    protected int mana;
 	    
 	    // Constructor
 	    public RPG_Character_Navarro(String name, String alignment, int health, int attackPower, int defense, int mana) {
