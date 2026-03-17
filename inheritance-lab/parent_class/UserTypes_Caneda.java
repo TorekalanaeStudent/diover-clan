@@ -18,7 +18,7 @@ public class UserTypes_Caneda {
     }
 
 //Paremeterrized Constructor 
-    UserTypes_Caneda(String userName, String userCode, String userType, Boolean userActivity ){
+    UserTypes_Caneda(String userName, String userCode, String userType, boolean userActivity ){
         this.userName = userName;
         this.userCode = userCode;
         this.userType = userType;
@@ -90,7 +90,7 @@ public class UserTypes_Caneda {
         }
     }
     //Behavior #2 
-    void checkUserActivity () {
+    public void checkUserActivity () {
         if (userActivity == false){
             System.out.println("User Offline");
         }
