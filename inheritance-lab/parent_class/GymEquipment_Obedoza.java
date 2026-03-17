@@ -1,6 +1,6 @@
 package parent_class;
 
-public class GymEquipment{
+public class GymEquipment_Obedoza{
     
     // Attributes
     private String equipmentName;
