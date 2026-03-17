@@ -27,6 +27,7 @@ Peer Review:
 
 **\<03/13/2026\>** : Comment by: Caneda; You did greatly and efficiently on applying Encapsulation to the class, Perhaps you can improve more by the next time if you make a missile targeting system next
 
+**\<03/17/2026\>** :  Comment by: Navarro, Vince Justine; I think you did really great at using the Inheritnace to class, next time I think to improve, you should truly lock in to fulfill your potential of being a gun maker.
 **\<03/17/2026\>** : Comment by: Canillo, Diover Vincent: You did well in making the Gun_Go class and you can improve by making sure you have multiple constructor, one for default, parameterized, and overloading next time
 
 
