@@ -8,7 +8,6 @@ public class Student_Obedoza extends UserTypes_Caneda {
   
     // Child Specific attribute 
     private String nickName;
-    private String iconColor;
 
     public Student_Obedoza (String userName, String userCode, String userType, boolean userActivity, String nickName) {
         super(userName, userCode, userType, userActivity);
