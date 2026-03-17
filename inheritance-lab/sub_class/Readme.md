@@ -3,9 +3,9 @@
 ```java
 package sub_class;
 
-import parent_class.Animal;
+import parent_class.Animal_Surname;
 
-public class Dog extends Animal {
+public class Dog_Surname extends Animal_Surname {
   // code here
 }
 ```
