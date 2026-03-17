@@ -25,5 +25,7 @@ Peer Review:
 
 **\<03/13/2026\>** : Comment by: Navarro, Vince Justine; You did really good on applying the Encapsulation to the Class and I think you can improve more if you lock in and study more.
 
+**\<03/13/2026\>** : Comment by: Caneda; You did greatly and efficiently on applying Encapsulation to the class, Perhaps you can improve more by the next time if you make a missile targeting system next
+
 
 
