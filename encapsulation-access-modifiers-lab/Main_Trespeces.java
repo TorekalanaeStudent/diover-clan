@@ -2,7 +2,7 @@ public class Main_Trespeces {
 
     public static void main(String[] args) {
 
-        System.out.println("\n Trespeces' Chair Object");
+        System.out.println("\n Ziggy's Chair Object");
 
         // Default constructor
         Chairs chair1 = new Chairs();
