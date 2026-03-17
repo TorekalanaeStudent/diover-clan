@@ -15,6 +15,10 @@
 **\<03/06/2026\>** : Today, I learned about all the of Object-Oriented Programming in our lab and to improve, I will try to be more proactive.
 **\<03/11/2026\>** : This activity helped me understand the OOP concepts like classes, objects, and constructors, and I aim to be more efficient and faster.
 **\<03/13/2026\>** : Today, I truly leanred on how to do Encapsulation correcly, and next time I will try to learn the topics in advance to be more prepared and faster.
+**\<03/17/2026\>** : I learned how about the Parent and Child Class today, and next time to improve I will be more prepared and be faster.
+
+
+
 
 Peer Review:
 
@@ -24,5 +28,6 @@ Peer Review:
 
 **\<03/13/2026\>** : Comment by: Go, Sean Ethan; You did really good with applying the concept of Encapsulation to a Class; code is clean, easily readable and in turn, easy to work with.
 
+**\<03/15/2026\>** : Comment by: Caneda; You were fanstic when applying the concepts of encapsulation in the class, the code itself was clean and easy to work even.
 
 

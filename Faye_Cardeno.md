@@ -17,7 +17,7 @@ I like sleeping
 
 **\<03/06/2026\>** : I learned how to work with my group to create a project proposal in our lab, and to improve, next time I will contribute more ideas during the planning.
 **\<03/11/2026\>** : I learned about classes, objects, constructors, and variables in OOP, and next time I will improve how I use and apply them when coding.
-**\<03/13/2026\>** : I learned about how encapsulation works and next time I will practice coding these more.
 
-## 💌 Peer Feedback
+## 📘 Peer Feedback
 **\<03/11/2026\>** : Comment by: Jagunap Janelle; You did well on implementing your objects with and without parameter, i think there is nothing more to improve in this tasks because you met the requirements well!
+**\<03/15/2026\>** : Comment by: Mary Angeline Nono; You did well in organizing your code and creating useful behaviors for your class and you can improve by testing more invalid inputs to strengthen your validation logic.
