@@ -46,6 +46,7 @@
 
 package main_class;
 
+import parent_class.Wood_Canillo;
 import sub_class.CrimsonWood_Go;
 import sub_class.WarpedWood_Go;
 
