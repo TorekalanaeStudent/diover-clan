@@ -1,7 +1,6 @@
 ## Date : 03/17/2026 | Activity : Inheritance Lab 
-Navarro, Vince Justine 2025-102952 03/17/2026 Inheritance Lab Completed 4x Multiplier! 
-Canillo, Diover Vincent L. 2025-1023980 03/17/2026 Inheritance Lab Completed! 5x (x2 for demonstrating hierarchical inheritance, x3 for completion before 12pm)\
-
+Navarro, Vince Justine 2025-102952 03/17/2026 Inheritance Lab Completed 4x Multiplier! \
+Canillo, Diover Vincent L. 2025-1023980 03/17/2026 Inheritance Lab Completed! 5x (x2 for demonstrating hierarchical inheritance, x3 for completion before 12pm)
 
 ## Date : 03/13/2026 | Activity : Encapsulation Lab 
 Ablis, Margreleivne M. 2025-1020011 03/13/2026 Encapsulation Lab Completed! \
@@ -9,9 +8,9 @@ Canillo, Diover Vincent 2025-1023980 03/13/2026 Encapsulation Lab Completed! \
 Malig, Rich Matthew 2025-1027707 03/13/2026 Encapsulation Lab Completed! \
 Onte, Vince Gian D. 2025-1021082 03/13/2026 Encapsulation Lab Completed! \
 Malig, Rich Matthew 2025-1027707 03/13/2026 Encapsulation Lab Completed! \
-Navarro, Vince Justine 2025-1029521 03/13/2026 Encapsulation Lab Completed! 
-Cardeño, Faye 2025-1025317 03/13/2026 Encapsulation Lab Completed!
-Navarro, Vince Justine 2025-1029521 03/13/2026 Encapsulation Lab Completed! 
+Navarro, Vince Justine 2025-1029521 03/13/2026 Encapsulation Lab Completed! \ 
+Cardeño, Faye 2025-1025317 03/13/2026 Encapsulation Lab Completed! \
+Navarro, Vince Justine 2025-1029521 03/13/2026 Encapsulation Lab Completed! \
 Arban, Jhave P. 2025-1028156 03/13/2026 Encapsulation Lab Completed! \
 Jagunap, Janelle 2025-1029521 03/15/2026 Encapsulation Lab Completed! \
 Nono, Mary Angeline 2025-1022691 03/15/2026 Encapsulation Lab Completed! \
