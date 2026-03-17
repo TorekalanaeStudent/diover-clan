@@ -42,7 +42,7 @@ public class Main_Ovejera {
         System.out.println();
 
         // Accessing Car Information (Getters)
-        System.out.println("Brand : " + carB.getBrand());
+        System.out.println("Brand : " + carB.getCar());
         System.out.println("Model : " + carB.getModel());
         System.out.println("Color : " + carB.getColor());
         System.out.println("Current Speed : " + carB.getSpeed());
