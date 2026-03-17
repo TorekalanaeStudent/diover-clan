@@ -1,4 +1,5 @@
-## Date : 03/17/2026 | Activity : Inheritance Lab
+## Date : 03/17/2026 | Activity : Inheritance Lab 
+Navarro, Vince Justine 2025-102952 03/17/2026 Inheritance Lab Completed 4x Multiplier! 
 Canillo, Diover Vincent L. 2025-1023980 03/17/2026 Inheritance Lab Completed! 5x (x2 for demonstrating hierarchical inheritance, x3 for completion before 12pm)\
 
 
