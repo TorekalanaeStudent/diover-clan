@@ -9,6 +9,7 @@ Navarro, Vince Justine 2025-1029521 03/13/2026 Encapsulation Lab Completed! \
 Jagunap, Janelle 2025-1029521 03/15/2026 Encapsulation Lab Completed! \
 Obedoza, John Kyle B. 2025-1029134 03/15/2026 Encapsulation Lab Completed! \
 Nono, Mary Angeline 2025-1022691 03/15/2026 Encapsulation Lab Completed! 
+De Juras, Clint Norbert P. 2025-1025222 03/15/2026 Encapsulation Lab Completed! 
 
 ---
 
