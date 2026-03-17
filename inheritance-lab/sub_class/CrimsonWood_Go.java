@@ -21,4 +21,17 @@ public class CrimsonWood_Go extends Wood_Canillo {
     public void knock() {
         System.out.println("You knocked on the wood for 5 times to test its durability.");
     }
+
+    public void setFlammable(boolean flammable) {
+        this.flammable = flammable;
+    }
+
+    public boolean isFlammable() {
+        return this.flammable;
+    }
+
+    public String getWoodName() {
+        return this.woodName;
+    }
+
 }
