@@ -63,8 +63,8 @@ public class Main_Navarro {
 
         System.out.println("- Prints out the methods ");
         //Dynamic Binding
-        SVD_Navarro svd = new SVD();
-        M4_Navarro  m4  = new M4();
+        SVD_Navarro svd = new SVD_Navarro();
+        M4_Navarro  m4  = new M4_Navarro();
         svd.shoot();
         m4.shoot();    
         System.out.println();
@@ -113,11 +113,11 @@ public class Main_Navarro {
         System.out.println("- Checking each gun's actual type: \n");
  
         for (Gun_Go g : arsenal) {
-            if (g instanceof SVD s) {
+            if (g instanceof SVD_Navarro s) {
                 s.scope();
                 s.holdBreath();
                 s.shoot();
-            } else if (g instanceof M4 m) {
+            } else if (g instanceof M4_Navarro m) {
                 m.switchFireMode();
                 m.shoot();
             }
