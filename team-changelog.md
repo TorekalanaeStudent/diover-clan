@@ -15,7 +15,8 @@ Navarro, Vince Justine 2025-1029521 03/13/2026 Encapsulation Lab Completed!
 Arban, Jhave P. 2025-1028156 03/13/2026 Encapsulation Lab Completed! \
 Jagunap, Janelle 2025-1029521 03/15/2026 Encapsulation Lab Completed! \
 Nono, Mary Angeline 2025-1022691 03/15/2026 Encapsulation Lab Completed! \
-Cañeda, Ramil Jr, M. 2025-1022691 03/17/2026 Encapsulation Lab Completed!  
+Cañeda, Ramil Jr, M. 2025-1022691 03/17/2026 Encapsulation Lab Completed! \
+Obedoza, John Kyle B. 2025-1029134 03/15/2026 Encapsulation Lab Completed! \
 
 ## Date : 03/11/2026 | Activity : Classes and Objects Lab
 Ablis, Margreleigne M. 2025-1020011 03/11/2026 Classes and Objects Lab Completed! \
@@ -33,7 +34,8 @@ Canillo, Diover Vincent L. 2025-1023980 03/11/2026 Classes and Objects Lab Compl
 Malig, Rich Matthew A. 2025-1027707 03/11/2026 Classes and Objects Lab Completed! \
 Go, Sean Ethan G. 2025-1024028 03/11/2026 Classes and Objects Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 03/11/2026 Classes and Objects Lab Completed! \
-Cañeda, Ramil Jr, M. 2025-1027707 03/11/2026 Classes and Objects Lab Completed! 
+Cañeda, Ramil Jr, M. 2025-1027707 03/11/2026 Classes and Objects Lab Completed! \
+
 
 ---
 
@@ -52,5 +54,5 @@ De Juras, Clint Norbert 2025-1025222 03/06/2026 TermProjectPlanningPart1 Complet
 Arban, Jhave 2025-1028256 03/06/2026 TermProjectPlanningPart1 Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 03/06/2026 TermProjectPlanningPart1 Completed! \
 Realon, Romnick 2025-1027526 03/06/2026 TermProjectPlanningPart1 Completed! \
-Obdoza, John Kyle 2025-1029134 03/06/2026 TermProjectPlanningPart1 Completed! \
+Obedoza, John Kyle B. 2025-1029134 03/06/2026 TermProjectPlanningPart1 Completed! \
 Ablis, Margreleigne M. 2025-1020011 03/06/2026 TermProjectPlanningPart1 Completed!
