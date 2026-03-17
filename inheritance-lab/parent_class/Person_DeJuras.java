@@ -7,7 +7,7 @@ public class Person_DeJuras{
 	String occupation;
 	int age;
 	
-	//constructor
+	//constructor//
 	
 	public Person_DeJuras() {
 		name = "Willj";
