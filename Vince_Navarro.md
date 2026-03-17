@@ -24,5 +24,6 @@ Peer Review:
 
 **\<03/13/2026\>** : Comment by: Go, Sean Ethan; You did really good with applying the concept of Encapsulation to a Class; code is clean, easily readable and in turn, easy to work with.
 
+**\<03/15/2026\>** : Comment by: Caneda; You were fanstic when applying the concepts of encapsulation in the class, the code itself was clean and easy to work even.
 
 
