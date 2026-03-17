@@ -1,3 +1,7 @@
+## Date : 03/17/2026 | Activity : Inheritance Lab
+Canillo, Diover Vincent L. 2025-1023980 03/17/2026 Inheritance Lab Completed! 5x (x2 for demonstrating hierarchical inheritance, x3 for completion before 12pm)\
+
+
 ## Date : 03/13/2026 | Activity : Encapsulation Lab 
 Ablis, Margreleivne M. 2025-1020011 03/13/2026 Encapsulation Lab Completed! \
 Canillo, Diover Vincent 2025-1023980 03/13/2026 Encapsulation Lab Completed! \
