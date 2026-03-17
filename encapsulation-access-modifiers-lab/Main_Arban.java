@@ -56,5 +56,36 @@ public class Main_Arban {
 
         System.out.println("Car D:");
         carD.displayCarInfo();
+
+         System.out.println("\n=== Using Chairs Class made by Ovejera ===");
+
+        // creating chair objects
+        Chairs chair1 = new Chairs(); // default constructor
+        Chairs chair2 = new Chairs("OfficePro", "Black", 2500.0, 20); // parameterized constructor
+        Chairs chair3 = new Chairs("GamingChair", 3500.0); // overloaded constructor
+
+        // using getters
+        System.out.println("\nChair1 Model (default): " + chair1.getModel());
+        System.out.println("Chair2 Price (before change): " + chair2.getPrice());
+
+        // using setters
+        chair2.setPrice(2300);
+        System.out.println("Chair2 Price (after change): " + chair2.getPrice());
+
+        // behaviors
+        System.out.println("\nDisplaying Chair2 Details:");
+        chair2.displayDetails();
+
+        System.out.println("\nChanging Chair3 Color:");
+        chair3.changeColor("Blue");
+
+        // testing setters
+        System.out.println("\nChanging Chair1 Stock:");
+        chair1.setStock(850);
+        System.out.println("Chair1 New Stock: " + chair1.getStock());
+
+        // display total objects
+        System.out.println("\n=== Total Objects Created ===");
+        Chairs.displayTotalChairs();
     }
 }
