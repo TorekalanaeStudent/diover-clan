@@ -32,27 +32,27 @@ public class Main_Obedoza {
     // CHILD CLASSES DEMONSTRATION
 
         // Object Creation 
-        Student_Obedoza studObe = new Student_Obedoza();
-        Employee_Obedoza empObe = new Employee_Obedoza();
+        Student_Obedoza studObe = new Student_Obedoza("Kyle Obedoza", "BSCS251A", "Student", true, "Koykoy");
+        Employee_Obedoza empObe = new Employee_Obedoza("Willj Tespeces", "ABCOM252B", "Employee", true, "IT");
 
         System.out.println("=== Child Specific Behavior and Overridden ===");
         studObe.displayNickName(); // Child Specific Behavior
         studObe.checkUserActivity(); // Overidden 
 
         empObe.displayEmployeeInfo(); // Child Specific Behavior 
-        empObe.userCorrectionInputs(); // Overridden 
+        empObe.userCorrectionInputs("John", "Y0M4M4", "Janitor", true); // Overridden 
 
         System.out.println("=== Dynamic Binding Demo ===");
 
         // Demonstration of Dynamic Binding (Child Class 1)
         UserTypes_Caneda user; // Creation of reference variable 
 
-        user = new Student_Obedoza();
+        user = new Student_Obedoza("Clint", "6769", "Student", true, "G.O.A.T");
         user.checkUserActivity();
 
         // Demonstration of Dynamic Binding (Child Class 2)
-        user = new Employee_Obedoza();
-        user.userCorrectionInputs();
+        user = new Employee_Obedoza("Kyle Obedoza", "251A", "Employee", true, "IT");
+        user.userCorrectionInputs("Kyle Obedoza", "251A", "Employee", true);
 
         /** Explanation: 
          * - ParentClass (UserTypes_Caneda user;) is a reference variable
