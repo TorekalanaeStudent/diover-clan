@@ -27,6 +27,6 @@ public class Appliances_Arban {
         }
     }
     public void action(){
-        System.out.println("your watching in " + " " brand + " " + type );
+        System.out.println("your watching on " + brand + " " + type );
     }
 }
