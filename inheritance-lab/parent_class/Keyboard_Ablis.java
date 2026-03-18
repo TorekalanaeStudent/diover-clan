@@ -2,11 +2,11 @@ package parent_class;
 
 public class Keyboard_Ablis {
 
-    // kb attrqibutes
-    protected String keyboardBrand;
-    protected String keyboardType;
-    protected String connectionType;
-    protected boolean plugStatus;
+    // keyboardd attributes
+    private String keyboardBrand; // I used logitech, razor, and corsair
+    private String keyboardType; // mechanical, gaming, and membrane
+    private String connectionType; // bluetooth/wireless and wired/
+    private boolean plugStatus; // plug in and out
 
     // default constructor
     public Keyboard_Ablis() {
@@ -24,35 +24,66 @@ public class Keyboard_Ablis {
         this.plugStatus = plugStatus;
     }
 
+    // getters
+    public String getKeyboardBrand() {
+        return keyboardBrand;
+    }
+    public String getKeyboardType() {
+        return keyboardType;
+    }
+    public String getConnectionType() {
+        return connectionType;
+    }
+    public boolean isPlugStatus() {
+        return plugStatus;
+    }
+
+    // SETTERS
+    public void setKeyboardBrand(String keyboardBrand) {
+        this.keyboardBrand = keyboardBrand;
+    }
+    public void setKeyboardType(String keyboardType) {
+        this.keyboardType = keyboardType;
+    }
+    public void setConnectionType(String connectionType) {
+        this.connectionType = connectionType;
+    }
+    public void setPlugStatus(boolean plugStatus) {
+        this.plugStatus = plugStatus;
+    }
+    
+    // BEHAVIOURS
     // behaviour #1: validate input
     public void checkKeyboardInput() {
-        // check keyboard brand 
+        // check keyboard brand
         if (keyboardBrand.equals("Logitech") || keyboardBrand.equals("Razer") || keyboardBrand.equals("Corsair")) {
             System.out.println("Keyboard brand found.");
         } else {
             System.out.println("Keyboard brand cannot be found.");
         }
-
-        // check connection type 
-        if (connectionType.equals("wired") || connectionType.equals("wireless")) {
+        // check connection type
+        if (connectionType.equals("wired") || connectionType.equals("bluetooth") || connectionType.equals("wireless")) {
             System.out.println("Connection type is valid.");
         } else {
             System.out.println("Connection type is not valid.");
         }
     }
 
-    // behaviour #2: check plug status
+    // behaviour #2;
+    public void checkKeyboardType() {
+        if (keyboardType.equals("membrane") || keyboardType.equals("gaming") || keyboardType.equals("mechanical")) {
+            System.out.println("Keyboard Type is valid");
+        } else {
+            System.out.println("Keyboard Type is invalid");
+        }
+    }
+    
+    // behaviour #3: check plug status
     public void checkPlugStatus() {
-        if (plugStatus == true) {
+        if (plugStatus) {
             System.out.println("Keyboard is PLUGGED IN.");
         } else {
             System.out.println("Keyboard is PLUGGED OUT.");
         }
-    }
-
-    public static void main(String[] args) {
-        Keyboard_Ablis kb = new Keyboard_Ablis("Logitech", "mechanical", "wired", true);
-        kb.checkKeyboardInput();
-        kb.checkPlugStatus();
     }
 }
