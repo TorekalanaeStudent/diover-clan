@@ -12,7 +12,7 @@ public class ArtPiece_Cardeno {
         this.artist = "Vincent Van Gogh";
         this.medium = "oil on canvas";
     }
-    // constructor - parmeterized
+    // constructor - parameterized
     public ArtPiece_Cardeno(String title, String artist, String medium) {
         this.title = title;
         this.artist = artist;
