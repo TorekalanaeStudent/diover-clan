@@ -26,14 +26,14 @@ public class Keyboard_Ablis {
 
     // behaviour #1: validate input
     public void checkKeyboardInput() {
-        // check keyboard brand (fixed swapped messages)
+        // check keyboard brand 
         if (keyboardBrand.equals("Logitech") || keyboardBrand.equals("Razer") || keyboardBrand.equals("Corsair")) {
             System.out.println("Keyboard brand found.");
         } else {
             System.out.println("Keyboard brand cannot be found.");
         }
 
-        // check connection type (moved inside the method)
+        // check connection type 
         if (connectionType.equals("wired") || connectionType.equals("wireless")) {
             System.out.println("Connection type is valid.");
         } else {
