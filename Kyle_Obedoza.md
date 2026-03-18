@@ -16,6 +16,8 @@ John Kyle Obedoza
 
 **\<03/13/2026\>** : I learned how to impliment encapsulation into my classes and further develope my class and object code. Next time I will do better in learning to code eariler for the sake of advanced learning.
 
+**\<03/18/2026\>** : I learned how to effectively create Parent classes and child classes and how they all work together. Next time will be more prepared, learn and code quicker. 
+
 ### Peer Review
 **\<03/11/2026\>** : Comment by: Go, Sean Ethan; You did well on applying classes and objects with different constructors and you met all the requirements for the given activity. \
 
