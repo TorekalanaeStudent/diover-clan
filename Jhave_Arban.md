@@ -20,3 +20,4 @@
 <03/11/2026> : Comment by: Ziggy Ovejera; You did well in our activity and you can improve by submitting on time
 <03/11/2026> : Comment by: De Juras, Clint Norbert; You did well using classes and objects with different constructors, and you successfully met all the requirements of the activity. 🤑
 <03/15/2026> : Comment by: De Juras, Clint Nobert; You did well applying encapsulation in your Class. With more study and practice, you can improve even more. 👍
+<03/17/2026> : Comment by: Ziggy Ovejera; You did well in our encapsulation activity and you can improve by submitting on time
