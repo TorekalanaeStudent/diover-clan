@@ -63,7 +63,6 @@ public class UserTypes_Caneda {
     
     //Behavior #1
     public void userCorrectionInputs (String userName, String userCode, String userType, boolean userActivity) {
-    //Checks if userName is empty
 
     if (userName == null) {
         System.out.println("The User Has No Name");
@@ -87,7 +86,7 @@ public class UserTypes_Caneda {
         this.userType = userType;
     }
 
-    this.userActivity = userActivity;
+      this.userActivity = userActivity;
     }
     
     //Behavior #2 
