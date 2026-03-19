@@ -1,6 +1,6 @@
 package parent_class;
 
-class Book_Jagunap {
+public class Book_Jagunap {
 
     // Attributes
     String title;
