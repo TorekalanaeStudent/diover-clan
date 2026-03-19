@@ -8,14 +8,14 @@ public class Main_Jagunap {
     public static void main(String[] args) {
 
         System.out.println("=== Painting Object ===");
-        Painting_Jagunap p = new Painting_Cardeno();
+        Painting_Jagunap p = new Painting_Jagunap();
         p.display();             // inherited
         p.evaluate();            // inherited
         p.description();         // overridden
         p.analyzeBrushwork();    // new behavior
 
         System.out.println("\n=== Sculpture Object ===");
-        Sculpture_Jagunap s = new Sculpture_Cardeno();
+        Sculpture_Jagunap s = new Sculpture_Jagunap();
         s.display();             // inherited
         s.evaluate();            // inherited
         s.description();         // overridden
