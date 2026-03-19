@@ -18,3 +18,4 @@ Ramil Caneda
 
 ## Peer Feedback
 <03/11/2026> : Comment by:Malig; You have done well in our activity; your code is easy to understand.
+<03/18/2026> : Comment by: Obedoza, John Kyle B; You did well in creating your parent and child classes today! and you can improve by refining your code and completing proper syntax
