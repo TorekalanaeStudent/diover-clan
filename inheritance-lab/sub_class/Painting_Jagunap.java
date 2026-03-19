@@ -6,13 +6,13 @@ public class Painting_Jagunap extends ArtPiece_Cardeno {
     protected String style;
 
     // default constructor
-    public Painting_Cardeno() {
+    public Painting_Jagunap() {
         super("Mona Lisa", "Leonardo da Vinci", "oil on poplar panel");
         this.style = "Renaissance";
     }
 
     // parameterized constructor
-    public Painting_Cardeno(String title, String artist, String medium, String style) {
+    public Painting_Jagunap(String title, String artist, String medium, String style) {
         super(title, artist, medium);
         this.style = style;
     }

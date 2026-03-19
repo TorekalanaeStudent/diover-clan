@@ -3,16 +3,16 @@ import parent_class.ArtPiece_Cardeno;
 
 public class Sculpture_Jagunap extends ArtPiece_Cardeno {
 
-    private String material;
+    protected String material;
 
     // default constructor
-    public Sculpture_Cardeno() {
+    public Sculpture_Jagunap() {
         super("David", "Michelangelo", "marble");
         this.material = "Carrara marble";
     }
 
     // parameterized constructor
-    public Sculpture_Cardeno(String title, String artist, String medium, String material) {
+    public Sculpture_Jagunap(String title, String artist, String medium, String material) {
         super(title, artist, medium);
         this.material = material;
     }
@@ -29,4 +29,3 @@ public class Sculpture_Jagunap extends ArtPiece_Cardeno {
                            ", carved from: " + material);
     }
 }
-``
