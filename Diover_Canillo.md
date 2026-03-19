@@ -26,14 +26,14 @@
 ## ➕ Plus Points
 
 ### did 03/19/2026 for plus points: 
-commented and approved on obedoza's (main_class) pr: 2 points - #521
-commented and approved on cardeno's (parent_class) pr: 2 points - #518
-commented and approved on sean go's (peer_feedback) pr: 2 points - #522
-commented and approved on sean go's (journal_update) pr: 2 points - #523
-commented and approved on jagunap's (parent_class) pr: 2 points - #525
-commented and approved on cardeno's (sub_class) pr: 2 points - #526
-commented and approved on cardeno's (sub_class) pr: 2 points - #527
-commented, approved, and requested change on jagunap's (parent_class) pr: 4 points - #528
-commented and approved on nono's (sub_class) pr: 2 points - #531
-commented and approved on malig's (parent_class) pr: 2 points - #532
+commented and approved on obedoza's (main_class) pr: 2 points - #521 \
+commented and approved on cardeno's (parent_class) pr: 2 points - #518 \
+commented and approved on sean go's (peer_feedback) pr: 2 points - #522 \
+commented and approved on sean go's (journal_update) pr: 2 points - #523 \
+commented and approved on jagunap's (parent_class) pr: 2 points - #525 \
+commented and approved on cardeno's (sub_class) pr: 2 points - #526 \
+commented and approved on cardeno's (sub_class) pr: 2 points - #527 \
+commented, approved, and requested change on jagunap's (parent_class) pr: 4 points - #528 \
+commented and approved on nono's (sub_class) pr: 2 points - #531 \
+commented and approved on malig's (parent_class) pr: 2 points - #532 \
 total points: 22
