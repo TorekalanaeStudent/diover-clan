@@ -8,14 +8,14 @@ public class Book_Jagunap {
     protected int pageCount;
 
     // Default constructor
-    public Book() {
+    public Book_Jagunap() {
         title = "Untitled";
         author = "Unknown";
         pageCount = 0;
     }
 
     // Parameterized constructor
-    public Book(String title, String author, int pageCount) {
+    public Book_Jagunap(String title, String author, int pageCount) {
         this.title = title;
         this.author = author;
         this.pageCount = pageCount;
@@ -31,10 +31,10 @@ public class Book_Jagunap {
         System.out.println(title + " by " + author);
     }
 
-    // Extra
+    // Extra behavior
     public void openBook() {
         System.out.println("Opening the book...");
     }
 
 }
-
+``
