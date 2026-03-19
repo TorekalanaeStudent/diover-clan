@@ -2,37 +2,37 @@ package parent_class;
 
 public class Book_Jagunap {
 
-    // Attributes
-    String title;
-    String author;
-    int pageCount;
+    // Attributes (protected)
+    protected String title;
+    protected String author;
+    protected int pageCount;
 
-    // Default constructor
-    Book() {
+    // Default constructor (protected)
+    protected Book_Jagunap() {
         title = "Untitled";
         author = "Unknown";
         pageCount = 0;
     }
 
-    // Parameterized constructor
-    Book(String title, String author, int pageCount) {
+    // Parameterized constructor (protected)
+    protected Book_Jagunap(String title, String author, int pageCount) {
         this.title = title;
         this.author = author;
         this.pageCount = pageCount;
     }
 
-    // Behavior 1
-    void read() {
+    // Behavior 1 (protected)
+    protected void read() {
         System.out.println("Reading the book: " + title);
     }
 
-    // Behavior 2 (can be overridden)
-    void printInfo() {
+    // Behavior 2 (protected)
+    protected void printInfo() {
         System.out.println(title + " by " + author);
     }
 
-    // Extra
-    void openBook() {
+    // Extra (protected)
+    protected void openBook() {
         System.out.println("Opening the book...");
     }
 
