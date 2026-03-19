@@ -20,6 +20,8 @@
 
 **\<03/13/2026>** :  I learned how to apply encasulation in OOP and likewise, coordinate with my groupmates to connect classes to a primary program, and with readability at its decent state, improvement will come at making quicker maneuvers in the coding itself.
 
+**<03/15/2026>** : I learned how to perform inheritance with sub classes towards their respective parent classes, and execute the objects in a main class and next time I'll advance study and be quick about it.
+
 Peer Review:
 **\<03/11/2026\>** : Comment by: Navarro, Vince Justine; You did well on applying your classes and objects with different constructors and you met all the requirements for this activity!"
 
