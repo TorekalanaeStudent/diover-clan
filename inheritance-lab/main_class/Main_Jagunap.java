@@ -8,22 +8,22 @@ public class Main_Jagunap {
     public static void main(String[] args) {
 
         System.out.println("=== Painting Object ===");
-        Painting_Cardeno p = new Painting_Cardeno();
+        Painting_Jagunap p = new Painting_Cardeno();
         p.display();             // inherited
         p.evaluate();            // inherited
         p.description();         // overridden
         p.analyzeBrushwork();    // new behavior
 
         System.out.println("\n=== Sculpture Object ===");
-        Sculpture_Cardeno s = new Sculpture_Cardeno();
+        Sculpture_Jagunap s = new Sculpture_Cardeno();
         s.display();             // inherited
         s.evaluate();            // inherited
         s.description();         // overridden
         s.inspectMaterial();     // new behavior
 
         System.out.println("\n=== Dynamic Binding Demo ===");
-        ArtPiece_Cardeno art1 = new Painting_Cardeno();
-        ArtPiece_Cardeno art2 = new Sculpture_Cardeno();
+        ArtPiece_Cardeno art1 = new Painting_Jagunap();
+        ArtPiece_Cardeno art2 = new Sculpture_Jagunap();
 
         // runtime polymorphism
         art1.description();  // Painting version runs
