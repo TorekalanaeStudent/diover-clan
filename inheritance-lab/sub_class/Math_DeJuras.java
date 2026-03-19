@@ -44,7 +44,7 @@
             return grade;
         }
     // Setter :
-        public void setGrade (double grade){
+        public void getGrade (double grade){
             this.grade = grade;
         }
     }
