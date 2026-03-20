@@ -1,6 +1,6 @@
 package parent_class;
 
-public class UserTypes_Caneda {
+public class UserTypes_Caneda  {
 
 
 //Attributes
