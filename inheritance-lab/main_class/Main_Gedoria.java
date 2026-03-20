@@ -2,14 +2,14 @@ package main_class;
 
 import parent_class.Appliances_Arban;
 import sub_class.SmartTV_Gedoria;
-import sub_class.WashingMachine_Gedoria;
+import sub_class.AirPurifier_Gedoria;
 
 /*
-1.) This line of code shows the IS-A relationship because a SmartTV and WashingMachine are types of Appliances:
+1.) This line of code shows the IS-A relationship because a SmartTV and AirPurifier are types of Appliances:
 Appliances_Arban tv1 = new SmartTV_Gedoria(...);
-Appliances_Arban wm1 = new WashingMachine_Gedoria(...);
+Appliances_Arban ap1 = new AirPurifier_Gedoria(...);
 
-2.) This method was overriden
+2.) This method was overridden
 public void action()
 
 3.) The reference type is Appliances_Arban, Java calls the actual method of the object:
@@ -23,8 +23,9 @@ action()
 5.) The subclasses introduced their own new behaviors:
 SmartTV_Gedoria
 displaySmartTVInfo()
-WashingMachine_Gedoria
-displayWashingMachineInfo()
+
+AirPurifier_Gedoria
+displayAirPurifierInfo()
 */
 
 public class Main_Gedoria {
@@ -50,19 +51,19 @@ public class Main_Gedoria {
         System.out.println();
 
         // The 2nd Subclass
-        System.out.println("Second Subclass (Washing Machine)");
+        System.out.println("Second Subclass (Air Purifier)");
 
-        Appliances_Arban wm1 = new WashingMachine_Gedoria("Washing Machine", "Whirlpool", 4, false, 7, "Automatic");
+        Appliances_Arban ap1 = new AirPurifier_Gedoria("Air Purifier", "Xiaomi", 4, false, 80, "HEPA");
 
-        wm1.on();
-        wm1.action(); // overridden
-        wm1.off();
+        ap1.on();
+        ap1.action(); // overridden
+        ap1.off();
 
         System.out.println();
 
-        WashingMachine_Gedoria wm2 = new WashingMachine_Gedoria("Washing Machine", "Panasonic", 2, true, 10, "Semi-Automatic");
+        AirPurifier_Gedoria ap2 = new AirPurifier_Gedoria("Air Purifier", "Philips", 2, true, 60, "Carbon");
 
-        wm2.displayWashingMachineInfo();
-        wm2.action();
+        ap2.displayAirPurifierInfo();
+        ap2.action();
     }
 }
