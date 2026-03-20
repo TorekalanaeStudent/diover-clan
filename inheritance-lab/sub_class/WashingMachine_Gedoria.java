@@ -30,7 +30,7 @@ public class WashingMachine_Gedoria extends Appliances_Arban {
         return loadCapacity;
     }
 
-    public void setLoadCapacity(int loadCapacity) {
+public void setLoadCapacity(int loadCapacity) {
         this.loadCapacity = loadCapacity;
     }
 
@@ -63,3 +63,4 @@ public class WashingMachine_Gedoria extends Appliances_Arban {
             System.out.println("Please turn on the washing machine first.");
         }
     }
+}
