@@ -1,6 +1,6 @@
 package parent_class;
 
-public class GadgetOvejera {
+public class Gadget_Ovejera {
 
     // attributes
     protected String gadgetName;
