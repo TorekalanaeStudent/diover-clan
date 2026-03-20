@@ -8,6 +8,8 @@ public class GymEquipment_Obedoza{
     private int equipmentWeight;
     private boolean inUse;
 
+
+    
     // Constructor
     public GymEquipment_Obedoza(String equipmentName, String equipmentBrand, int equipmentWeight) {
         this.equipmentName = equipmentName;
