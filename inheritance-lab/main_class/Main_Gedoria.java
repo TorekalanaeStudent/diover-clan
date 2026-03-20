@@ -4,6 +4,29 @@ import parent_class.Appliances_Arban;
 import sub_class.SmartTV_Gedoria;
 import sub_class.WashingMachine_Gedoria;
 
+/*
+1.) This line of code shows the IS-A relationship because a SmartTV and WashingMachine are types of Appliances:
+Appliances_Arban tv1 = new SmartTV_Gedoria(...);
+Appliances_Arban wm1 = new WashingMachine_Gedoria(...);
+
+2.) This method was overriden
+public void action()
+
+3.) The reference type is Appliances_Arban, Java calls the actual method of the object:
+tv1.action();
+
+4.) The subclasses inherited the following methods from Appliances_Arban:
+on()
+off()
+action()
+
+5.) The subclasses introduced their own new behaviors:
+SmartTV_Gedoria
+displaySmartTVInfo()
+WashingMachine_Gedoria
+displayWashingMachineInfo()
+*/
+
 public class Main_Gedoria {
 
     public static void main(String[] args) {
