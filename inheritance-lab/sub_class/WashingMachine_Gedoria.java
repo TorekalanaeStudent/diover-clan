@@ -63,3 +63,4 @@ public class WashingMachine_YourName extends Appliances_Arban {
             System.out.println("Please turn on the washing machine first.");
         }
     }
+}
