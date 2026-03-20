@@ -17,4 +17,4 @@ Rich Matthew Malig
 ## Peer Evaluation
 **03/11/2026** : Comment by: Rajan Kurt O. Gedoria; You did well in creating classes and including parameters and you did good work, no need to improve. \
 **<03/13/2026>** : Comment by: Canillo, Diover Vincent; You did well in coding and you can improve by advance studying in OOP
-
+**<03/15/2026>** : Comment by: Onte, Vince Gian: You did a great job in your book object and you can improve by advance studying in OOP
