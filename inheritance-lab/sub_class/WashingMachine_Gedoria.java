@@ -4,14 +4,14 @@ import parent_class.Appliances_Arban;
 
 // Child Class 2 of Appliances_Arban, created by Rajan Gedoria
 
-public class WashingMachine_YourName extends Appliances_Arban {
+public class WashingMachine_Gedoria extends Appliances_Arban {
 
     // Unique attributes
     private int loadCapacity;
     private String washType; 
 
     // Constructor
-    public WashingMachine_YourName(String type, String brand, int stock, boolean power, int loadCapacity, String washType) {
+    public WashingMachine_Gedoria(String type, String brand, int stock, boolean power, int loadCapacity, String washType) {
         super(); // call parent constructor
 
         // Override parent attributes
