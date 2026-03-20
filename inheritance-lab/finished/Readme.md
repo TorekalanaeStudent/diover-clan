@@ -6,3 +6,4 @@
 4. Jagunap - made sub class and main class of ArtPiece_Cardeno
 5. Cardeño - made sub class and main class of Vehicle_Nono
 5. Nono - made sub class and main class of Book_Jagunap
+6. Onte - made sub class and main class of UserTypes_Caneda
