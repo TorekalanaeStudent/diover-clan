@@ -11,7 +11,7 @@ public class Gadget_Ovejera {
     protected boolean isPoweredOn;
 
     // default constructor
-    public GadgetOvejera() {
+    public Gadget_Ovejera() {
         gadgetName = "null";
         brand = "null";
         type = "null";
@@ -21,7 +21,7 @@ public class Gadget_Ovejera {
     }
 
     // parameterized constructor
-    public GadgetOvejera(String gadgetName, String brand, String type,
+    public Gadget_Ovejera(String gadgetName, String brand, String type,
                          double price, int batteryLevel, boolean isPoweredOn) {
         this.gadgetName = gadgetName;
         this.brand = brand;
