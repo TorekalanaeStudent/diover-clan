@@ -25,6 +25,18 @@
 
 ## ➕ Plus Points
 
+### did 03/20/2026 for plus points:
+commented and approved on arban's (sub_class) pr: 2 points - #540 \
+commented and approved on cardeno's (main_class) pr: 2 points - #541 \
+commented and approved on cardeno's (team_changelog) pr: 2 points - #542 \
+commented and approved on cardeno's (journal) pr: 2 points - #543 \
+commented and approved on cardeno's (peer_feedback) pr: 2 points - #544 \
+commented and approved on trespeces' (sub_class) pr: 2 points - #545 \
+commented and approved on nono's (peer_feedback) pr: 2 points - #546 \
+commented and approved on nono's (team-changelog) pr: 2 points - #547 \
+commented and approved on rajan's (sub_class) pr: 2 points - #548 \
+total points: 18
+
 ### did 03/19/2026 for plus points: 
 commented and approved on obedoza's (main_class) pr: 2 points - #521 \
 commented and approved on cardeno's (parent_class) pr: 2 points - #518 \
