@@ -17,7 +17,7 @@ public class SewageWorker_Trespeces extends Person_DeJuras {
     }
 
     // parameterized constructor
-    public SewageWorker_Trespeces(String AreaAssigned, String SewageNumberID, int YearsOfService) {
+    public SewageWorker_Trespeces(String name, String occupation, int age, String AreaAssigned, String SewageNumberID, int YearsOfService) {
         super(name, occupation, age);
         this.AreaAssigned = AreaAssigned;
         this.SewageNumberID = SewageNumberID;

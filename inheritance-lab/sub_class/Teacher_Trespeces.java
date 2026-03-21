@@ -19,7 +19,7 @@ public class Teacher_Trespeces extends Person_DeJuras {
     }
 
     // parameterized constructor
-    public Teacher_Trespeces(String SchoolName, String Subjects, String TeacherNumberID, int YearsOfExperience) {
+    public Teacher_Trespeces(String name, String occupation, int age, String SchoolName, String Subjects, String TeacherNumberID, int YearsOfExperience) {
         super(name, occupation, age);
         this.SchoolName = SchoolName;
         this.Subjects = Subjects;
