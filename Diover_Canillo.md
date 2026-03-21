@@ -19,5 +19,58 @@
 
 ## 📖 Peer Feedbacks
 
-**<03/10/2026>** : Comment by: <Cañeda, Ramil>: You did everything as best as you could, and went further beyond to guide us, as the leader of our group. Thank you so much for leading our group keep up the good work!. 
-**<03/15/2026>** Comment by: Malig, Rich Matthew; You did well; your code was easy to understand. You were very helpful in this activity, easy to communicate with, and demonstrated great leadership skills.
+**<03/10/2026>** : Comment by: <Cañeda, Ramil>: You did everything as best as you could, and went further beyond to guide us, as the leader of our group. Thank you so much for leading our group keep up the good work!.  \
+**<03/15/2026>** Comment by: Malig, Rich Matthew; You did well; your code was easy to understand. You were very helpful in this activity, easy to communicate with, and demonstrated great leadership skills. \
+**<03/15/2026>** Comment by: Go, Sean Ethan; A stellar code you have made in our inheritance lab activity, it took me quite a while to decipher it xD, and you have not failed to keep tabs of our group; always being there for them in times of need, no matter the inconvenience. You exuded the aura of a leader in every step of the way. \
+**<03/15/2026>** Comment by <Onte, Vince Gian>: You did a great job. Your code was easy to understand, and you were a big help during the activity. You clearly showed dedication to your role in the group.
+
+## ➕ Plus Points
+
+### did 03/21/2026
+commented and approved on rajan's (main_class) pr: 2 points - #553  
+commented and approved on rajan's (team_changelog) pr: 2 points - #554  
+commented and approved on ablis' (sub_class) pr: 2 points - #562  
+commented and approved on seth go's (team_changelog) pr: 2 points - #563  
+commented and approved on malig's (main and sub class) pr: 2 points - #565  
+commented and approved on ablis' (sub_class) pr: 2 points - #566  
+
+**Total: 12 points**
+
+---
+
+### did 03/20/2026
+commented and approved on arban's (sub_class) pr: 2 points - #540  
+commented and approved on cardeno's (main_class) pr: 2 points - #541  
+commented and approved on cardeno's (team_changelog) pr: 2 points - #542  
+commented and approved on cardeno's (journal) pr: 2 points - #543  
+commented and approved on cardeno's (peer_feedback) pr: 2 points - #544  
+commented and approved on trespeces' (sub_class) pr: 2 points - #545  
+commented and approved on nono's (peer_feedback) pr: 2 points - #546  
+commented and approved on nono's (team-changelog) pr: 2 points - #547  
+commented and approved on rajan's (sub_class) pr: 2 points - #548  
+commented, approved, and requested change on ziggy's (sub and parent class) pr: 4 points - #551  
+commented and approved on caneda's (main and sub class) pr: 2 points - #552  
+commented and approved on rajan's (team-changelog) pr: 2 points - #554  
+commented and approved on onte's (main and sub class) pr: 2 points - #556  
+commented and approved on onte's (journal) pr: 2 points - #557  
+commented and approved on onte's (late-peer_feedback) pr: 2 points - #558  
+commented and approved on onte's (late-peer_feedback) pr: 2 points - #559  
+commented and approved on onte's (peer_feedback) pr: 2 points - #561  
+
+**Total: 36 points**
+
+---
+
+### did 03/19/2026
+commented and approved on obedoza's (main_class) pr: 2 points - #521  
+commented and approved on cardeno's (parent_class) pr: 2 points - #518  
+commented and approved on sean go's (peer_feedback) pr: 2 points - #522  
+commented and approved on sean go's (journal_update) pr: 2 points - #523  
+commented and approved on jagunap's (parent_class) pr: 2 points - #525  
+commented and approved on cardeno's (sub_class) pr: 2 points - #526  
+commented and approved on cardeno's (sub_class) pr: 2 points - #527  
+commented, approved, and requested change on jagunap's (parent_class) pr: 4 points - #528  
+commented and approved on nono's (sub_class) pr: 2 points - #531  
+commented and approved on malig's (parent_class) pr: 2 points - #532  
+
+**Total: 22 points**

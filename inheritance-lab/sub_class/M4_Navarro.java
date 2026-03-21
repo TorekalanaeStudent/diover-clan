@@ -1,4 +1,4 @@
-package sub_class;
+    package sub_class;
 
 import parent_class.Gun_Go;
 
