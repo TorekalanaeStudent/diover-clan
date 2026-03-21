@@ -1,10 +1,10 @@
-package main_class;
+package main_class ;
 
 import sub_class.Math_DeJuras;
 import sub_class.Science_DeJuras;
 import parent_class.SubjectsTrespeces;
 
-public class Main_Class {
+public class Main_DeJuras {
 
     public static void main(String [] args){
     
@@ -35,7 +35,7 @@ public class Main_Class {
         Science_DeJuras sci = new Science_DeJuras();
         
         sci.classMessage();
-        sci.getTotalAverage();      // subclass method
+        sci.getAverage();      // subclass method
         sci.scheduleViewer();       // inherited
 
         System.out.println();
@@ -47,7 +47,7 @@ public class Main_Class {
         sci2.classMessage(); 
         sci2.dropOutSub();          // inherited
         sci2.scheduleViewer();      
-        sci2.getTotalAverage();
+        sci2.getAverage();
 
 
         SubjectsTrespeces subj1 = new Math_DeJuras();
