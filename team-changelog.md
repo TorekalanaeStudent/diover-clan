@@ -1,6 +1,7 @@
 ## Date : 03/17/2026 | Activity : Inheritance Lab 
 Navarro, Vince Justine 2025-102952 03/17/2026 Inheritance Lab Completed 4x Multiplier! \
 Canillo, Diover Vincent L. 2025-1023980 03/17/2026 Inheritance Lab Completed! 5x (x2 for demonstrating hierarchical inheritance, x3 for completion before 12pm) \
+Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Go, Sean Ethan G. 2025-1025317 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Nono, Mary Angeline B. 2025-1022691 03/19/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
