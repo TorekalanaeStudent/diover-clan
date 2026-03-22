@@ -1,3 +1,15 @@
+/*
+1. IS-A RELATIONSHIP: RcHelicopter_Ablis, and RcCar_Ablis are child classes of Drone_Onte.
+2. OVERRIDEN: This method was overriden: public void performTask() 
+3. DYNAMIC BINDING: rcCar1.drive(); is an example of dynamic binding because when I tell an instruction to perform their task, 
+                    the helicopter and drone fly, and the car drives. It perform its dedicated method/task.
+4. INHERITED METHODS: performTask()
+                    Drone: (model + " is doing the task.");
+                    RcCar: ("The RC car is driving around the track.");
+                    RcHelicopter: (model + " floats at " + hoverAltitude + " meters with " + rotorCount + " " + rotorType + " rotors.");
+5. NEW BEHAVIOUR FROM SUBCLASS: countHelicopters();
+*/
+
 package main_class;
 
 import sub_class.RcHelicopter_Ablis;
