@@ -13,7 +13,7 @@
             super();
             this.SubName = "Math";
             this.SubDays = "Monday";
-            this.SubTeacher = "Sir Bombardiro Crocodilo";
+            this.SubTeacher = "Sir Romnick Navarro Sean Ethan Obedoza Ablis II";
             this.auras = "9:00 A.M";
             this.room = 301;
             this.isEnrolled = true;
@@ -44,7 +44,7 @@
             return grade;
         }
     // Setter :
-        public void getGrade (double grade){
+        public void setGrade (double grade){
             this.grade = grade;
         }
     }
