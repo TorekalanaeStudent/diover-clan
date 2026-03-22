@@ -3,7 +3,6 @@ package main_class;
 import parent_class.UserTypes_Caneda;
 import sub_class.Student_Obedoza;
 import sub_class.Employee_Obedoza;
-
         /** Q&A
           1. What is the IS-A relationship in your program?
           Answer: Employee and Student is a User Type, this show the IS-A relationship because both is only a 
