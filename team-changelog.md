@@ -6,7 +6,8 @@ Go, Sean Ethan G. 2025-1025317 03/18/2026 Inheritance Lab Completed! (x2 multipl
 Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Nono, Mary Angeline B. 2025-1022691 03/19/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Cardeño, Faye L. 2025-1025317 03/19/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance)
-Gedoria, Rajan Kurt O. 2025-1021948 03/20/2026 Encapsulation Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
+Gedoria, Rajan Kurt O. 2025-1021948 03/20/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
+Onte, Vince Gian D. 2025-1021082 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 
 ## Date : 03/13/2026 | Activity : Encapsulation Lab 
 Ablis, Margreleivne M. 2025-1020011 03/13/2026 Encapsulation Lab Completed! \
