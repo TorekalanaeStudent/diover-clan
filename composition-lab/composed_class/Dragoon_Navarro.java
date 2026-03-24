@@ -1,8 +1,8 @@
 package composed_class;
 
-import component_class.Gun_Magazine_Go
-import component_class.AppraisalSystem_Caneda
-import component_class.Kulangot
+import component_class.Gun_Magazine_Go;
+import component_class.AppraisalSystem_Caneda;
+import component_class.Kulangot;
 
 /**
  * Composed Class
