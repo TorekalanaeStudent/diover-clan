@@ -28,7 +28,7 @@ public boolean isBusy(){
 //Setters with validation
 public setWordsPerMinute(int wpm){
     if (wpm>=0){
-        this.wordsPerMinute = wpm
+        this.wordsPerMinute = wpm;
     } else {
         System.out.println("Invalid Speed");
     }
@@ -47,7 +47,7 @@ public void eat(){
  }
 public void shutUp(){
     isBusy = false;
-    currentState = "Tahimik"
+    currentState = "Tahimik";
     System.out.println("Bibig is now quiet.");
  }
 
