@@ -1,3 +1,5 @@
+package component_class;
+
 public class Kulangot {
 
     private String color;

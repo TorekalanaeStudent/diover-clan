@@ -25,6 +25,7 @@ John Kyle Obedoza
 
 **\<03/17/2026\>** : Comment  by: Ablis, Margreleigne; Nice work! Easy to understand. More activities will improve performance.
 
+**\<03/17/2026\>** : Comment by: Caneda, Ramil jr M; you were wonderful with your parent classes and understood very well how inheritance is formed in parent class, a slight oversight i can see that would be very grate for you in the long run is better commenting on specific functions, but overall you did a really good job!.
 
 
 

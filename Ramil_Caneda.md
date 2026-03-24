@@ -16,7 +16,11 @@ Ramil Caneda
 
 <03/17/2026> : I learned further in encapsulation by performing task that requires encapsulation, even though i dont fully grasp the idea yet in execution but Its idea i am starting to fully grasp, jut not in execution yet.
 
+<03/24/2026> : I learned how parent classes and subclasses work hand in hand when it comes to inheritance, and wish to learn further beyond that to be more efficient 
+
 ## Peer Feedback
 <03/11/2026> : Comment by:Malig; You have done well in our activity; your code is easy to understand.
+
 <03/18/2026> : Comment by: Obedoza, John Kyle B; You did well in creating your parent and child classes today! and you can improve by refining your code and completing proper syntax
+
 <03/20/2026> : Comment by: Onte, Vince Gian ; Your work in inheritance activity was good and you can improve by making your code structure better but overall, it was good and understandable. 
