@@ -15,8 +15,13 @@ public class Handkerchief {
         return color;
     }
 
+    //Validation for at least one
     public void setColor(String color) {
+    if (color == null || color.trim().isEmpty()) {
+        System.out.println("Color cannot be empty.");
+    } else {
         this.color = color;
+    }
     }
 
     public String getSize() {
@@ -52,14 +57,7 @@ System.out.println("Handkerchief is being used!");
 
     }
 
-    //Validation
-    public void setColor(String color) {
-    if (color == null || color.trim().isEmpty()) {
-        System.out.println("Color cannot be empty.");
-    } else {
-        this.color = color;
-    }
-    }
+   
 
         // Override toString()
     @Override
