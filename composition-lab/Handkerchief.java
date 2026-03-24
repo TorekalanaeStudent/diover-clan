@@ -7,7 +7,7 @@ public class Handkerchief {
     public Handkerchief(String color, String size, boolean isUsed) {
         this.color = color;
         this.size = size;
-        this.isUsed = isSticky;
+        this.isUsed = isUsed;
     }
 
      // Getters and Setters
