@@ -26,7 +26,7 @@ public boolean isBusy(){
  }
 
 //Setters with validation
-public setWordsPerMinute(int wpm){
+public void setWordsPerMinute(int wpm){
     if (wpm>=0){
         this.wordsPerMinute = wpm;
     } else {
@@ -41,7 +41,7 @@ public void talk(){
     System.out.println("Bibig is Talking" + wordsPerMinute + "WPM.");
  }
 public void eat(){
-    isBusy = true 
+    isBusy = true;
     currentState = "Eating";
     System.out.println("Bibig is eating. Bawal magsalita.");
  }
