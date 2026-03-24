@@ -31,7 +31,7 @@ public class Handkerchief {
         return isUsed;
     }
 
-    public void isUsed(boolean used) {
+    public void setUsed(boolean used) {
         isUsed = used;
     }
 
@@ -50,6 +50,15 @@ System.out.println("Handkerchief is being used!");
         System.out.println("Size: " +  size);
         System.out.println("Used: " + isUsed);
 
+    }
+
+    //Validation
+    public void setColor(String color) {
+    if (color == null || color.trim().isEmpty()) {
+        System.out.println("Color cannot be empty.");
+    } else {
+        this.color = color;
+    }
     }
 
         // Override toString()
