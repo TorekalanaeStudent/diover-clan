@@ -31,7 +31,7 @@ public class Handkerchief {
         return isUsed;
     }
 
-    public void setUsed(boolean used) {
+    public void isUsed(boolean used) {
         isUsed = used;
     }
 
