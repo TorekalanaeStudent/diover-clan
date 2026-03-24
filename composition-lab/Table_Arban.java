@@ -1,11 +1,11 @@
-public class Table {
+public class Table_Arban {
 
     private String shape;
     private String material;
     private int numberOfLegs;
 
     // Constructor
-    public Table(String shape, String material, int numberOfLegs) {
+    public Table_Arban(String shape, String material, int numberOfLegs) {
         this.shape = shape;
         this.material = material;
         this.numberOfLegs = numberOfLegs;
