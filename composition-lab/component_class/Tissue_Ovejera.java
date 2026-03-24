@@ -8,7 +8,7 @@ public class Tissue_Ovejera {
     private boolean isMoist;
 
     // Constructor
-    public Tissue(String brand, int sheetCount, boolean isMoist) {
+    public Tissue_Ovejera (String brand, int sheetCount, boolean isMoist) {
         this.setBrand(brand);
         this.setSheetCount(sheetCount);
         this.setMoist(isMoist);
