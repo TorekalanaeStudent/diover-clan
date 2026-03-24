@@ -1,7 +1,7 @@
-### Format of code for sub_component_class:
+### Format of code for composed_class:
 
 ```java
-package sub_component_class;
+package composed_class;
 
 import component_class.*;
 
