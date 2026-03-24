@@ -1,10 +1,10 @@
 package component_class;
 
-import component_class.Gun_Magazine_Go
-import component_class.AppraisalSystem_Caneda
-import component_class.Kulangot
-import sub_class.Musket_Navarro
-import composed_class.Dragoon_Navarro
+import component_class.Gun_Magazine_Go;
+import component_class.AppraisalSystem_Caneda;
+import component_class.Kulangot;
+import sub_class.Musket_Navarro;
+import composed_class.Dragoon_Navarro;
 
 /**
  * ============================================================
