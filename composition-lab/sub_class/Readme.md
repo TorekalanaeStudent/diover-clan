@@ -1,5 +1,7 @@
 ### Format of code for subclass:
 
+**this directory will be used if you choose option 1**
+
 ```java
 package sub_class;
 
@@ -18,3 +20,4 @@ public class Nose extends Kulangot {
 
     }
 }
+```
