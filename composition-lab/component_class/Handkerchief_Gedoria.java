@@ -6,7 +6,7 @@ public class Handkerchief_Gedoria {
     private boolean isUsed;
 
 // Constructor
-    public Handkerchief(String color, String size, boolean isUsed) {
+    public Handkerchief_Gedoria(String color, String size, boolean isUsed) {
         this.color = color;
         this.size = size;
         this.isUsed = isUsed;
