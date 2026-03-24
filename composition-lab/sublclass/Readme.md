@@ -7,7 +7,7 @@ import component_class.*;
 
 public class Nose extends Kulangot {
 
-    private String noseShape;
+    private String Kulangot;
 
     // Constructor
      public Nose (Kulangot kulangot){
