@@ -3,7 +3,18 @@
 ```java
 package subclass;
 
-public class Kulangot{
-    // code
+import component_class.*;
+
+public class Nose extends Kulangot {
+s
+    private String noseShape;
+
+    // Constructor
+     public Nose (Kulangot kulangot){
+        Kulangot = kulangot;
+    }
+
+    // more code (behaviors)
+
+    }
 }
-```
