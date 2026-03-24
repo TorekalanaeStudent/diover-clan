@@ -1,7 +1,7 @@
 package component_class;
 
 
-public class AppraisalSystem_Caneda() {
+public class AppraisalSystem_Caneda{
 
 //private attributes:
     private String nameOfItem;
@@ -14,58 +14,59 @@ public class AppraisalSystem_Caneda() {
 //constructors; 
 
 //default
-public class AppraisalSystem_Caneda() {
+public AppraisalSystem_Caneda() {
     nameOfItem = "N/A";
     itemValue = 0;
     userBuyerName = "N/A";
-    userActivity = False;
+    userActivity = false;
 }
 
 //parameterized 
-public class AppraisalSystem_Caneda(String nameOfItem, String itemValue, String setUserBuyerName, boolean userActivity) {
+public AppraisalSystem_Caneda(String nameOfItem, int itemValue, String setUserBuyerName, boolean userActivity) {
     this.nameOfItem = nameOfItem;
     this.itemValue = itemValue;
     this.userBuyerName = userBuyerName;
     this.userActivity = userActivity;
 }
+
 //Setters
 
-public String setNameOfItem (String nameOfItem) {
+public void setNameOfItem (String nameOfItem) {
     this.nameOfItem = nameOfItem;
 }
 
-public int setItemValue (int itemValue) {
+public void setItemValue (int itemValue) {
     if (itemValue <= 0 ) {
-    System.out.println("User has inputed no value or wrong value");
+        System.out.println("User has inputed no value or wrong value");
     }
     else {
-    this.itemValue = itemValue;
-    System.out.println("Item Value Has Been Inputed");
+        this.itemValue = itemValue;
+        System.out.println("Item Value Has Been Inputed");
     }
 }
 
-public String setUserBuyerName(String userBuyerName) {
+public void setUserBuyerName(String userBuyerName) {
     this.userBuyerName = userBuyerName;
     System.out.println("");
 }
 
-public boolean setUserActivity(boolean userActivity) {
+public void setUserActivity(boolean userActivity) {
     this.userActivity = userActivity;
 }
 
 //getters 
 
-public void getNameItem() {
+public String getNameItem() {
     return nameOfItem;
 }
 
-public void getItemValue() {
+public int getItemValue() {
     return itemValue;
 }
-public void getUserBuyerName() {
+public String getUserBuyerName() {
     return userBuyerName;
 }  
-public void getUserActivity() {
+public boolean getUserActivity() {
     return userActivity;
 }
 
@@ -75,7 +76,7 @@ public void getUserActivity() {
 
 public void itemAppraisal() {
 int valueThreshold = 5000;
-    if(itemValu >= valueThreshold) {
+    if(itemValue >= valueThreshold) {
         System.out.println("Item has a value of "+itemValue+(itemValue*0.25)+" after being appraised 25 percent up its market! ");
         hasBeenAppraised = true;
     }
@@ -86,7 +87,7 @@ int valueThreshold = 5000;
 }
 
 public void isitemAppraised (){
-    if(hasBennAppraised) {
+    if(hasBeenAppraised) {
         System.out.println(nameOfItem + "has been appraised already");
     }
     else {
