@@ -1,4 +1,6 @@
-public class Tissue {
+package component_class;
+
+public class Tissue_Ovejera {
 
     // Private attributes
     private String brand;
