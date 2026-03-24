@@ -1,7 +1,7 @@
 ### Format of code for subclass:
 
 ```java
-package subclass;
+package sub_class;
 
 import component_class.*;
 
