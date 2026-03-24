@@ -9,6 +9,7 @@ Cardeño, Faye L. 2025-1025317 03/19/2026 Inheritance Lab Completed! (x2 multipl
 Gedoria, Rajan Kurt O. 2025-1021948 03/20/2026 Encapsulation Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Malig, Rich Matthew A. 2025-1027707 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Cañeda, Ramil jr M. 2025-1020773 03/24/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
+Ovejera, Ziggy T. 2025-1021339 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 
 ## Date : 03/13/2026 | Activity : Encapsulation Lab 
 Ablis, Margreleivne M. 2025-1020011 03/13/2026 Encapsulation Lab Completed! \
