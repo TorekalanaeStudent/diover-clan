@@ -1,3 +1,5 @@
+package component_class;
+
 public class Gun_Magazine_Go {
   
     private String projectile;
