@@ -29,10 +29,13 @@
 
 ## Activities Done
 
-| Activity | Date |
-|-----|-----|
+| Activity                 | Date         |
+|--------------------------|--------------|
 | TermProjectPlanningPart1 | *03/06/2026* |
-| Classes and Objects Lab | *03/11/2026* |
+| Classes and Objects Lab  | *03/11/2026* |
+| Encapsulation Lab        | *03/13/2026* |
+| Inheritance Lab          | *03/17/2026* |
+| Composition Lab          | *03/24/2026* |
 
 *(More activities will be added as the course progresses.)*
 
