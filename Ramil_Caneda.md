@@ -25,3 +25,5 @@ Ramil Caneda
 
 <03/20/2026> : Comment by: Onte, Vince Gian ; Your work in inheritance activity was good and you can improve by making your code structure better but overall, it was good and understandable. 
 <03/23/2026> : Cooment by; Malig, Rich Matthew A; You did a good job using inheritance. The code is clear and organized, and method overriding was done correctly. He can improve by adding more features next time.
+<03/24/2026> : Cooment by; Vince, Justine Navarro; I think you did great at adding the Composition to the class. You easily met all the requirements for this lab activity!.
+
