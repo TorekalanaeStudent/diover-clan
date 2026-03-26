@@ -16,7 +16,7 @@
 **\<03/11/2026\>** : This activity helped me understand the OOP concepts like classes, objects, and constructors, and I aim to be more efficient and faster.
 **\<03/13/2026\>** : Today, I truly leanred on how to do Encapsulation correcly, and next time I will try to learn the topics in advance to be more prepared and faster.
 **\<03/17/2026\>** : I learned how about the Parent and Child Class today, and next time to improve I will be more prepared and be faster.
-
+**\<03/24/2026\>** : I learned how about the Compostion and how it works, and next time to improve I will try to make my code be better and made faster.
 
 
 

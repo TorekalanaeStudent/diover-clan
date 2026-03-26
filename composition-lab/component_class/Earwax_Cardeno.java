@@ -5,12 +5,14 @@ public class Earwax_Cardeno {
     private int amount;      
     private String color;
     private String texture;
+    private boolean isSticky;
 
     // constructor
-    public Earwax_Cardeno(int amount, String color, String texture) {
+    public Earwax_Cardeno(int amount, String color, String texture, boolean sticky) {
         setAmount(amount);    
         this.color = color;
         this.texture = texture;
+        this.isSticky = sticky;
     }
 
     // getters

@@ -70,4 +70,10 @@ public class Leg_Canillo{
     public void cleanLegs(){
         System.out.println("You just cleaned your legs wow");
     }
+
+    public void describe(){
+        System.out.println("Toes: " + toesCount 
+        + "\nLeg Size: " + legSizeCm 
+        + "\nRun Speed: " + runSpeedMPH);
+    }
 }
