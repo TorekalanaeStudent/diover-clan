@@ -70,4 +70,12 @@ public class Clothes_Obedoza {
             System.out.println("Try something else!");
         }
     }
+
+    public void describe(){
+        System.out.println("Clothe Detail:");
+        System.out.println("Type: " + clotheType);
+        System.out.println("Size: " + clotheSize);
+        System.out.println("Color: " + clotheColor);
+        System.out.println("Price: " + clothePrice);
+    }
 }

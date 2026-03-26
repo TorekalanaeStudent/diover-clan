@@ -32,6 +32,9 @@ Peer Review:
 **\<03/17/2026\>** :  Comment by: Navarro, Vince Justine; I think you did really great at using the Inheritnace to class, next time I think to improve, you should truly lock in to fulfill your potential of being a gun maker.
 **\<03/17/2026\>** : Comment by: Canillo, Diover Vincent: You did well in making the Gun_Go class and you can improve by making sure you have multiple constructor, one for default, parameterized, and overloading next time
 
+**\<03/24/2026\>** :  Comment by: Navarro, Vince Justine; I think you did really good at adding the Composition to the class, you clearly met all the requirements for ths activity."
+
+
 
 
 
