@@ -17,3 +17,7 @@
 <03/11/2026> : <03/11/2026> : Comment by: <Jhave Arban>; You did good in our activity and you can improve how to use codespace.
 <03/17/2026> : I learned a lot about Encapsulation Activity and next time I will explore more about github.
 <03/23/2026> : I learned a lot about Inheritance Activity and next time I will explore more about github.
+
+## Peer Feedback
+
+<\03/25/2026> : Comment By : Canillo, Diover Vincent L.; You did well on your component_class "Tissue_Ovejera" and you can improve by adding more behaviors for more flexibility
