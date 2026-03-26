@@ -1,4 +1,5 @@
 ## Date : 03/24/2026 | Activity : Composition Lab
+Canillo, Diover Vincent L. 2025-1023980 03/17/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Navarro, Vince Justine 2025-102952 03/24/202 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 
 ## Date : 03/17/2026 | Activity : Inheritance Lab 
