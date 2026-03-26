@@ -15,7 +15,8 @@
 **03/06/2026** :  I learned the 4 pillars of OOP in our lab and to improve, next time I will try my best to participate in the class \
 **03/11/2026** : I learned how to manage my teammates in github, next time I will try my best to be more cooperative as a leader \
 **03/13/2026** : I learned that encapsulation is important because it hides private information and next time I will learn more about github \
-**03/17/2026** : I learned how to use packages and learned more about inheritance and next time I will be a better leader 
+**03/17/2026** : I learned how to use packages and learned more about inheritance and next time I will be a better leader \
+**03/25/2026** : I learned how Composition works, next time I'll improve by advance learning so I don't struggle
 
 ## 📖 Peer Feedbacks
 
