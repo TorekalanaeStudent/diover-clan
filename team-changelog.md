@@ -17,7 +17,8 @@ Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 mul
 Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Onte, Vince Gian D. 2025-1021082 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Ovejera, Ziggy T. 2025-1021339 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
-Trespeces, Guillermo 2025-1025412 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance)
+Trespeces, Guillermo 2025-1025412 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
+De Juras, Clint Norbert P. 2025-1025222 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 
 ## Date : 03/13/2026 | Activity : Encapsulation Lab 
 Ablis, Margreleivne M. 2025-1020011 03/13/2026 Encapsulation Lab Completed! \
