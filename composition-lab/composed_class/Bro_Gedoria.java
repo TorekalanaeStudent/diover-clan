@@ -9,6 +9,17 @@ import component_class.Kulangot;
  * Using Bibig_Malig, Hands_Navarro, Kulangot
  * Rajan Kurt O. Gedoria
  * Done with the help of AI
+ *HAS-A relationships:
+*Bro_Gedoria has a Bibig_Malig, Hands_Navarro, and Kulangot as its components.
+*Classes reused:
+*The classes Bibig_Malig, Hands_Navarro, and Kulangot are reused through composition.
+*How composition reduces coupling:
+*Composition reduces coupling by allowing Bro_Gedoria to interact with components only through their public interfaces without depending on their internal details.
+*How high cohesion is implemented:
+*High cohesion is implemented by keeping Bro_Gedoria focused on coordinating its components’ behaviors without mixing unrelated responsibilities.
+*How cohesion is maintained:
+*Cohesion is maintained by delegating specific tasks to the component classes, ensuring each class handles its own focused behavior.
+*Inheritance was not used as Bro_Gedoria is not a type of its components
  */
 public class Bro_Gedoria {
 
