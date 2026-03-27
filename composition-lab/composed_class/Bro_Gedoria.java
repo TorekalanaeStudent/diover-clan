@@ -130,7 +130,7 @@ public class Bro_Gedoria {
         kulangot.flick();
     }
 
-    // Combined Action (like a full routine or ultimate skill)
+    // Combined routine
     public void fullRoutine() {
         System.out.println("=== Bro Full Routine ===");
         speak();
