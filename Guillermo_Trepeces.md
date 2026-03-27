@@ -15,7 +15,8 @@ Guillermo Trespeces
 <Guillermo Trespeces> <03/11/2026> : I learned how to manage my time and do what my leader tells me to do on time.
 
 ## 📘 Peer Feedback
-<De Juras, Clint Norbert> <03/11/2026>: Comment by: Clint De Juras; You did a good job on implementing your objects with and without parameter, there is still more to improve but goodjob
+**<03/11/2026>** :Comment by: Clint De Juras; You did a good job on implementing your objects with and without parameter, there is still more to improve but goodjob
 
-<Arban, Jhave P.> <03/15/2026> : Comment by: <Arban, Jhave P.>; You did well in coding of java and constructors and you can improve to how to use github.
+**<03/15/2026>** : Comment by: <Arban, Jhave P.>; You did well in coding of java and constructors and you can improve to how to use github.
 
+**\<03/17/2026\>** : Comment by: De Juras, Clint Norbert P. ;You did a great job understanding parent classes and how inheritance works. One small thing to improve is adding clearer comments to specific functions. Overall, you did really well! 👍
