@@ -12,15 +12,20 @@ public class Pahid_Obedoza {
     private Tissue_Ovejera useTissue;
     private Kulangot pickKulangot;
 
-    private String isPerson;
+    private String wipePerson;
 
     // Constructor injection
-    public Pahid_Obedoza (Finger_Nono useFinger, Tissue_Ovejera useTissue, Kulangot pickKulangot, String isPerson) {
+    public Pahid_Obedoza (Finger_Nono useFinger, Tissue_Ovejera useTissue, Kulangot pickKulangot, String wipePerson) {
         this.useFinger = useFinger;
         this.useTissue = useTissue;
         this.pickKulangot = pickKulangot;
-        this.isPerson = isPerson;
+        this.wipePerson = wipePerson;
     }
+
+    // Setters for low coupling demonstration
+    public void setFinger(Finger_Nono finger) { this.useFinger = finger; }
+    public void setTissue(Tissue_Ovejera tissue) { this.useTissue = tissue; }
+    public void setKulangot(Kulangot kulangot) { this.pickKulangot = kulangot; }
 
     // Behaviors 
     public void hideKulangot() {
@@ -32,7 +37,7 @@ public class Pahid_Obedoza {
         }
     }
 
-    public void displayPerson() {
+    public void displayPerson() { 
         if (pickKulangot != null) {
             System.out.println("Kulangot is sticky: "+ pickKulangot.isSticky());
         }
@@ -43,10 +48,8 @@ public class Pahid_Obedoza {
     }
 
     public void rollKulangot() {
-    if (pickKulangot != null) pickKulangot.roll();
-}
-
-
-
+        if (pickKulangot != null) pickKulangot.roll();
+        else System.out.println("No kulangot to roll!");
+    }
 
 }
