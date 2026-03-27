@@ -7,7 +7,7 @@ public class Wipes_Jagunap {
     private boolean scented;
 
     // --- Constructor ---
-    public Wipes(String brand, int moistureLevel, boolean scented) {
+    public Wipes_Jagunap(String brand, int moistureLevel, boolean scented) {
         setBrand(brand);
         setMoistureLevel(moistureLevel);
         this.scented = scented;
