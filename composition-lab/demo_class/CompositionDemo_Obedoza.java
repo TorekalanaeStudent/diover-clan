@@ -8,7 +8,7 @@ import component_class.Kulangot;
 
 
 
-public class CompositionDemoSurname{
+public class CompositionDemo_Obedoza{
 
     public static void main(String[] args){
         
@@ -35,10 +35,10 @@ public class CompositionDemoSurname{
 
         // Subclass demo
         System.out.println("\n--- Using Subclass: CrookedNose_Obedoza ---");
-        CrookedNose_Obedoza specialFinger = new CrookedNose_Obedoza();
-        pahid.setFinger(specialFinger);
+        CrookedNose_Obedoza crooked = new CrookedNose_Obedoza();
+        pahid.setInjuryType(crooked);
         pahid.hideKulangot();
-        specialFinger.straighten();
+        crooked.isInjured();
 
 
 
