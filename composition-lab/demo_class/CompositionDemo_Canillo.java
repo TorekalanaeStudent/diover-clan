@@ -8,7 +8,44 @@ import sub_class.PaperTowel_Canillo;
 /**
  * Wizard Composition Demo
  * @author: @TorekalanaeStudent (Canillo, Diover Vincent L.)
+ * DEMO ANALYSIS:
+ *
+ * 1. HAS-A relationships:
+ *    - Wizard_Canillo HAS-A Earwax_Cardeno
+ *    - Wizard_Canillo HAS-A Kulangot
+ *    - Wizard_Canillo HAS-A Tissue_Ovejera (or subclass PaperTowel_Canillo)
+ *    This shows composition: the wizard "owns" these components rather than inheriting them.
+ *
+ * 2. Classes reused:
+ *    - Earwax_Cardeno, Kulangot, Tissue_Ovejera
+ *    - PaperTowel_Canillo (extends Tissue_Ovejera)
+ *    These component classes are reused by Wizard_Canillo for various spell and defense mechanics.
+ *
+ * 3. How composition reduces coupling:
+ *    - Wizard_Canillo depends only on abstracted behaviors of its components.
+ *    - Components can be swapped (e.g., PaperTowel_Canillo replaced with Tissue_Ovejera) without changing Wizard_Canillo.
+ *    - Lowers interdependency between classes and allows flexible upgrades or changes to individual components.
+ *
+ * 4. How high cohesion is implemented:
+ *    - Each class has a focused responsibility:
+ *      - Earwax_Cardeno handles earwax logic
+ *      - Kulangot handles kulangot logic
+ *      - Tissue_Ovejera handles tissue defense
+ *      - Wizard_Canillo coordinates and composes these components
+ *    - Methods and fields within a class relate closely to its purpose.
+ *
+ * 5. How cohesion is maintained:
+ *    - Component classes do not depend on Wizard_Canillo or each other.
+ *    - Each class encapsulates its data and behavior.
+ *    - Wizard_Canillo interacts with components through public methods, not internal implementation.
+ *
+ * 6. Why inheritance is NOT appropriate here:
+ *    - Wizard_Canillo is not a type of Earwax, Kulangot, or Tissue; it "has" them.
+ *    - Using inheritance would incorrectly model relationships and create unnecessary coupling.
+ *    - Composition is semantically correct for "HAS-A" relationships and allows dynamic replacement of components.
+ 
  */
+
 public class CompositionDemo_Canillo {
 
     public static void main(String[] args) {
