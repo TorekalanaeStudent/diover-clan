@@ -1,6 +1,6 @@
 package demo_class;
 
-import sub_class.CrookedNose_Obedoza;
+import sub_class.CrookedFinger_Obedoza;
 import composed_class.Pahid_Obedoza;
 import component_class.Finger_Nono;
 import component_class.Tissue_Ovejera;
@@ -34,16 +34,12 @@ public class CompositionDemo_Obedoza{
         pahid.hideKulangot();
 
         // Subclass demo
-        System.out.println("\n--- Using Subclass: CrookedNose_Obedoza ---");
-        CrookedNose_Obedoza crooked = new CrookedNose_Obedoza();
-        pahid.setInjuryType(crooked);
+        System.out.println("\n--- Using Subclass: CrookedFinger_Obedoza ---");
+        CrookedFinger_Obedoza crooked = new CrookedFinger_Obedoza();
+        pahid.setFinger(crooked);
+        crooked.bend();
         pahid.hideKulangot();
-        crooked.isInjured();
-
-
-
     }
-
 }
 
 /**

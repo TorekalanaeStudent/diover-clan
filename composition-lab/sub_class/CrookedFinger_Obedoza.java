@@ -1,22 +1,22 @@
 package sub_class;
 
-import component_class.Ilong_Onte;
+import component_class.Finger_Nono;
 
-public class CrookedNose_Obedoza extends Ilong_Onte {
+public class CrookedFinger_Obedoza extends Finger_Nono {
 
     private String injuryType;
     private boolean isInjured;
 
     // Default Constructor
-     public CrookedNose_Obedoza() {
-        super("Crooked", "Flat", true);
-        this.injuryType = "Punched";
+    public CrookedFinger_Obedoza() {
+        super("Index Finger", 70);
+        this.injuryType = "Sprained";
         this.isInjured = true;
     }
 
     // Parameterized Constructor
-    public CrookedNose_Obedoza(String shape, String size, boolean isClean, String injuryType, boolean isInjured) {
-        super(shape, size, isClean);
+    public CrookedFinger_Obedoza(String name, int length, String injuryType, boolean isInjured) {
+        super(name, length);
         this.injuryType = injuryType;
         this.isInjured = isInjured;
     }
@@ -40,12 +40,12 @@ public class CrookedNose_Obedoza extends Ilong_Onte {
 
     // Overridden Behavior
     @Override
-    public void displayInfo() {
-        System.out.println("=== Nose Status ===");
-        System.out.println("Shape: " + getShape());
-        System.out.println("Size: " + getSize());
-        System.out.println("Injury type: "+ injuryType);
+    public void bend() {
+        super.bend();
+        System.out.println("=== Finger Status ===");
+        System.out.println("Name: " + getName());
+        System.out.println("Length: " + getLength() + " mm");
+        System.out.println("Injury type: " + injuryType);
         System.out.println("Injury status: " + (isInjured ? "Recovering" : "Unrecovered"));
     }
 }
-    
