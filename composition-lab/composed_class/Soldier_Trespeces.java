@@ -21,7 +21,7 @@ public class Soldier_Trespeces {
         isHealthy = true;
         isAlive = true;
         clothes = new Clothes_Obedoza("green camo", "large", "green", 690.69);
-        gunMagazine = new Gun_Magazine_Go("boolet", 30, 30);
+        gunMagazine = new Gun_Magazine_Go("boolet", 30);
         kulangot = new Kulangot("green", "large", true);
     }
 
@@ -92,7 +92,7 @@ public class Soldier_Trespeces {
         } else if (isAlive && !isHealthy) {
             System.out.println(soldierName + " has been injured and his clothes damaged!");
         } else {
-            System.out.println(soldierName + " is wearing " + clothes.getColor() + " " + clothes.getSize() + " " + clothes.getType() + "!");
+            System.out.println(soldierName + " is wearing " + clothes.getClotheColor() + " " + clothes.getClotheSize() + " " + clothes.getClotheType() + "!");
         }
     }
 
