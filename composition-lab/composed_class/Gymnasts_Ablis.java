@@ -1,4 +1,4 @@
-packaged composed_class;
+package composed_class;
 
 import component_class.Clothes_Obedoza;
 import component_class.Leg_Canillo;
@@ -14,7 +14,7 @@ import component_class.Hands_Navarro;
 public class Gymnasts_Ablis {
     // Attributes
     private String gymnastName;
-    private boolean isPerforming;
+    private boolean isPerforming; // true = performance successful, false = performance failed
     private boolean strongGrip; // true = strong, false = weak
     private Clothes_Obedoza clothes;
     private Leg_Canillo leg;
@@ -22,19 +22,19 @@ public class Gymnasts_Ablis {
 
     // default constructor
     public Gymnasts_Ablis() {
-        gymnastName = "Ablis";
-        isPerforming = false;
-        strongGrip = true;
+        gymnastName = "Ablis"; // Me
+        isPerforming = false; // not performing by default
+        strongGrip = true; // I have a strong grip
         clothes = new Clothes_Obedoza("Leotards", "Blue", "Medium"); // clothe type, color, size
         leg = new Leg_Canillo(5, 30.0, 18.0); // toes count, leg size (cm), speed (mph)
         hands = new Hands_Navarro("Dark Brown", "Medium", true); // skin color, hand size, has hands
     }   
 
     // parameterized constructor
-    public Gymnasts_Ablis(String gymnastName, boolean isPerforming, Clothes_Obedoza clothes, Leg_Canillo leg, Hands_Navarro hands) {
+    public Gymnasts_Ablis(String gymnastName, boolean isPerforming, boolean strongGrip, Clothes_Obedoza clothes, Leg_Canillo leg, Hands_Navarro hands) {
         this.gymnastName = gymnastName;
         this.isPerforming = isPerforming;
-        this.gripStrength = gripStrength;
+        this.strongGrip = strongGrip;
         this.clothes = clothes;
         this.leg = leg;
         this.hands = hands;
@@ -94,6 +94,11 @@ public class Gymnasts_Ablis {
     public void performSuccess() {
         this.isPerforming = true;
         System.out.println(gymnastName +" performs successfully in " + clothes.getClotheType() + " " + clothes.getClotheColor() + " " + clothes.getSize() + " clothes! Its grip strength is " + (strongGrip ? "strong" : "weak") + " and leg speed is " + leg.getRunSpeed() + " mph.");
+    }
+
+    public void performFailure() {
+        this.isPerforming = false;
+        System.out.println(gymnastName + " fails the performance in " + clothes.getClotheType() + " " + clothes.getClotheColor() + " " + clothes.getSize() + " clothes. Its grip strength is " + (strongGrip ? "strong" : "weak") + " and leg speed is " + leg.getRunSpeed() + " mph.");
     }
 
     public void performanceReport() {
