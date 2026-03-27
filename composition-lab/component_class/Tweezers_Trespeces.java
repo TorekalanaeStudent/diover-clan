@@ -13,6 +13,13 @@ public class Tweezers_Trespeces {
         length = 67.0f;
         isClean = true;
      }
+    
+    // constructor
+    public Tweezers_Trespeces(String material, float length, boolean isClean) {
+    this.material = material;
+    this.length = length;
+    this.isClean = isClean;
+    }
 
     // getters
     public String getMaterial(){
