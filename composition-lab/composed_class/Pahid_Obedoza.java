@@ -1,4 +1,4 @@
-package composted;
+package composed_class;
 
 import component_class.Finger_Nono;
 import component_class.Tissue_Ovejera;

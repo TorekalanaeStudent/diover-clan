@@ -1,10 +1,11 @@
 package demo_class;
 
 import sub_class.CrookedNose_Obedoza;
+import composed_class.Pahid_Obedoza;
 import component_class.Finger_Nono;
 import component_class.Tissue_Ovejera;
 import component_class.Kulangot;
-import composed_class.Pahid_Obedoza;
+
 
 
 public class CompositionDemoSurname{
