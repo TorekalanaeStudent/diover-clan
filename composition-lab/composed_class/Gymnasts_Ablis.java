@@ -25,7 +25,7 @@ public class Gymnasts_Ablis {
         gymnastName = "Ablis"; // Me
         isPerforming = false; // not performing by default
         strongGrip = true; // I have a strong grip
-        clothes = new Clothes_Obedoza("Leotards", "Blue", "Medium"); // clothe type, color, size
+        clothes = new Clothes_Obedoza("Leotards", "Medium", "Blue", 45.99); // clothe type, size, color, price
         leg = new Leg_Canillo(5, 30.0, 18.0); // toes count, leg size (cm), speed (mph)
         hands = new Hands_Navarro("Dark Brown", "Medium", true); // skin color, hand size, has hands
     }   
@@ -93,17 +93,17 @@ public class Gymnasts_Ablis {
     // Behaviors
     public void performSuccess() {
         this.isPerforming = true;
-        System.out.println(gymnastName +" performs successfully in " + clothes.getClotheType() + " " + clothes.getClotheColor() + " " + clothes.getSize() + " clothes! Its grip strength is " + (strongGrip ? "strong" : "weak") + " and leg speed is " + leg.getRunSpeed() + " mph.");
+        System.out.println(gymnastName +" performs successfully in " + clothes.getClotheType() + " " + clothes.getClotheColor() + " " + clothes.getClotheSize() + " clothes! Its grip strength is " + (strongGrip ? "strong" : "weak") + " and leg speed is " + leg.getRunSpeed() + " mph.");
     }
 
     public void performFailure() {
         this.isPerforming = false;
-        System.out.println(gymnastName + " fails the performance in " + clothes.getClotheType() + " " + clothes.getClotheColor() + " " + clothes.getSize() + " clothes. Its grip strength is " + (strongGrip ? "strong" : "weak") + " and leg speed is " + leg.getRunSpeed() + " mph.");
+        System.out.println(gymnastName + " fails the performance in " + clothes.getClotheType() + " " + clothes.getClotheColor() + " " + clothes.getClotheSize() + " clothes. Its grip strength is " + (strongGrip ? "strong" : "weak") + " and leg speed is " + leg.getRunSpeed() + " mph.");
     }
 
     public void performanceReport() {
         System.out.println("=== Performance Report for " + gymnastName + " ===");
-        System.out.println("Clothe Type: " + clothes.getClotheType() + ", Color: " + clothes.getClotheColor() + ", Size: " + clothes.getSize());
+        System.out.println("Clothe Type: " + clothes.getClotheType() + ", Color: " + clothes.getClotheColor() + ", Size: " + clothes.getClotheSize());
         System.out.println("Leg: Toes Count: " + leg.getToes() + ", Leg Size: " + leg.getLegSize() + " cm, Speed: " + leg.getRunSpeed() + " mph");
         System.out.println("Hands: Color: " + hands.getSkinTone() + ", Size: " + hands.getHandSize() + ", Grip Strength: " + (strongGrip ? "Strong" : "Weak"));
     }
