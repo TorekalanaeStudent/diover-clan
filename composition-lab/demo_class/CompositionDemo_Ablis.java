@@ -65,7 +65,7 @@ public class CompositionDemo_Ablis {
         Gymnasts_Ablis gymnast = new Gymnasts_Ablis("Ablis", false, true, clothes, leg, hands);
 
         // Call the Methods
-        System.out.println("=== The Gymnast prepares for performance ===");
+        System.out.println("=== The Gymnast prepares for a successful performance ===");
         gymnast.performanceReport();
         System.out.println(" ");
 
@@ -88,18 +88,18 @@ public class CompositionDemo_Ablis {
         TapeGrip_Ablis tapeGrip = new TapeGrip_Ablis("Dark Brown", "Medium", true, "Loop");
 
         gymnast.setHands(tapeGrip);
-        gymnast.setGymnastName("Ablis (The Tape Grip Edition)");
+        gymnast.setGymnastName("Ablis with Tape Grip");
 
-        System.out.println("=== Re-prepare for performance with new hands");
+        System.out.println("=== Re-prepare for performance with new hands ===");
         gymnast.performanceReport();
 
         System.out.println("\n=== Perform with tape grip (enhanced grip) ===");
         gymnast.performSuccess();
 
-        System.out.println("\n=== Final status report with swapped component");
+        System.out.println("\n=== Final status report with swapped component ===");
         gymnast.performanceReport();
 
-        System.out.println("- System still works after swap = LOW COUPLING\n");
+        System.out.println("- System still works after swap = LOW COUPLING -\n");
 
         System.out.println("================================================");
         System.out.println("BEHAVIOR CHANGE DEMO: UPDATING LEG STATE");
