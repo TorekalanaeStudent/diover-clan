@@ -1,7 +1,7 @@
 package component_class;
 
 public class Clothes_Obedoza {
-    
+
     // Attributes 
     private String clotheType;
     private String clotheSize;
@@ -9,7 +9,7 @@ public class Clothes_Obedoza {
     private double clothePrice;
 
     // Constructors
-    public Clothes_Obedoza (String clotheType, String clotheSize, String clotheColor, double clothePrice) {
+    public Clothes_Obedoza(String clotheType, String clotheSize, String clotheColor, double clothePrice) {
         this.clotheType = clotheType;
         this.clotheSize = clotheSize;
         this.clotheColor = clotheColor;
@@ -34,14 +34,14 @@ public class Clothes_Obedoza {
     }
 
     // Setters
-    public void setClotheType (String clotheType) {
+    public void setClotheType(String clotheType) {
         if (clotheType == null || clotheType.trim().isEmpty()) {
             System.out.println("Invalid Clothing Type!");
-        return;
+            return;
         }
 
         this.clotheType = clotheType;
-    } 
+    }
 
     public void setClothePrice(double clothePrice) {
         if (clothePrice <= 0) {
@@ -54,7 +54,7 @@ public class Clothes_Obedoza {
     // Methods/Behaviors
     public void buyClothing() {
         if (clothePrice <= 500.0) {
-            System.out.println("Type: "+ clotheType);
+            System.out.println("Type: " + clotheType);
             System.out.println("Size: " + clotheSize);
             System.out.println("Color: " + clotheColor);
             System.out.println("Price: " + clothePrice);
@@ -71,7 +71,7 @@ public class Clothes_Obedoza {
         }
     }
 
-    public void describe(){
+    public void describe() {
         System.out.println("Clothe Detail:");
         System.out.println("Type: " + clotheType);
         System.out.println("Size: " + clotheSize);
