@@ -60,9 +60,9 @@ public class CompositionDemo_Arban {
         System.out.println("Finger_Nono, Handkerchief_Gedoria, Kulangot\n");
 
         // Create components
-        Finger_Nono finger = new Finger_Nono();
-        Handkerchief_Gedoria handkerchief = new Handkerchief_Gedoria();
-        Kulangot kulangot = new Kulangot();
+        Finger_Nono finger = new Finger_Nono("Index Finder", 70);
+        Handkerchief_Gedoria handkerchief = new Handkerchief_Gedoria("White", "Medium", false);
+        Kulangot kulangot = new Kulangot("Green", "Big", true);
 
         // Student composition
         Student_Arban student1 = new Student_Arban("Arban", finger, handkerchief, kulangot);
@@ -93,7 +93,7 @@ public class CompositionDemo_Arban {
         System.out.println(barrier + "\n");
 
         // Replace handkerchief (demonstrating low coupling)
-        Handkerchief_Gedoria newHandkerchief = new Handkerchief_Gedoria();
+        Handkerchief_Gedoria newHandkerchief = new Handkerchief_Gedoria("Blue", "Large", false);
         student1.setHandkerchief(newHandkerchief);
 
         System.out.println(studentName + " now uses a different handkerchief:");
