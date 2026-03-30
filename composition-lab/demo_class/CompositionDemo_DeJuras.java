@@ -8,7 +8,7 @@ import composed_class.Body_DeJuras;
 /**
  * ============================================================
  *  The Composition Class
- *  @author DeJuras
+ *  @author DeJuras.
  * ============================================================
  * === DESIGN ANALYSIS ===
  *
