@@ -1,0 +1,30 @@
+package abstract_classses;
+
+public abstract class GameCharacter_Navarro {
+		
+		// Attributes
+	 	protected String name;
+	    protected int health;
+	 
+	    // Constructor
+	    public GameCharacter_Navarro(String name, int health){
+	        this.name   = name;
+	        this.health = health;
+	    }
+	 
+	    // Abstract method - this will be overridden
+	    public abstract String getStatus();
+	    public abstract String getRole();
+	    
+	    // Concrete method
+	    public void takeDamage(int amount) {
+	        health -= amount;
+	        System.out.println(name + " took " + amount + " damage! HP: " + health + " left!!");
+	    }
+	  
+	    // Getters
+	    public String getName()   { return name; }
+	    public int    getHealth() { return health; }
+	}
+
+	
