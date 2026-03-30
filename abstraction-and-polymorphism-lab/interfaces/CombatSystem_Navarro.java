@@ -1,5 +1,7 @@
 package interfaces;
 
+import abstract_classes.GameCharacter_Navarro;
+
 public interface CombatSystem_Navarro {
 
 	    // Abstract method
