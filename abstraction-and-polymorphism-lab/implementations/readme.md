@@ -1,0 +1,8 @@
+### this folder is used for:
+
+- creating implementations for your teammates abstract classes
+  + YOU NEED TO CREATE AT LEAST 2 IMPLEMENTATIONS OF YOUR TEAMMATES ABSTRACT CLASSES
+- creating implmentations for your teammates interfaces
+  + YOU NEED TO CREATE AT LEAST 2 IMPLEMENTATIONS OF YOUR TEAMMATES INTERFACES
+
+### REMINDER: YOU DO NOT USE YOUR OWN IMPLEMENTATION FOR YOUR DEMO CLASS YOU USE YOUR TEAMMATES IMPLEMENTATIONS.
