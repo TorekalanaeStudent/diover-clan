@@ -1,6 +1,7 @@
 ## Date : 03/24/2026 | Activity : Composition Lab
 Canillo, Diover Vincent L. 2025-1023980 03/17/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Navarro, Vince Justine 2025-102952 03/24/202 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
+Ovejera, Ziggy T. 2025-1021339 03/27/2026 Composition Lab Completed! \
 
 ## Date : 03/17/2026 | Activity : Inheritance Lab 
 Ablis, Margreleigne M. 2025-1020011 03/22/2026 Encapsulation Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
@@ -13,12 +14,13 @@ Malig, Rich Matthew A. 2025-1027707 03/21/2026 Inheritance Lab Completed! (x2 mu
 Malig, Rich Matthew A. 2025-1027707 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Navarro, Vince Justine 2025-102952 03/17/2026 Inheritance Lab Completed 4x Multiplier (x2 for demonstrating hierarchical inheritance, x2 for completion before 12pm)! \
 Nono, Mary Angeline B. 2025-1022691 03/19/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
+Jagunap, Janelle 2025-1025460 03/19/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance \
 Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Onte, Vince Gian D. 2025-1021082 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Ovejera, Ziggy T. 2025-1021339 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Trespeces, Guillermo 2025-1025412 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
-De Juras, Clint Norbert P. 2025-1025222 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
+De Juras, Clint Norbert P. 2025-1025222 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) 
 
 ## Date : 03/13/2026 | Activity : Encapsulation Lab 
 Ablis, Margreleivne M. 2025-1020011 03/13/2026 Encapsulation Lab Completed! \

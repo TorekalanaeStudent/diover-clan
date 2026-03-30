@@ -18,6 +18,12 @@
 ## 📘 Peer Review
 
 <03/11/2026> : Comment by: Ziggy Ovejera; You did well in our activity and you can improve by submitting on time
+
 <03/11/2026> : Comment by: De Juras, Clint Norbert; You did well using classes and objects with different constructors, and you successfully met all the requirements of the activity. 🤑
+
 <03/15/2026> : Comment by: De Juras, Clint Nobert; You did well applying encapsulation in your Class. With more study and practice, you can improve even more. 👍
-<03/17/2026> : Comment by: Ziggy Ovejera; You did well in our encapsulation activity and you can improve by submitting on time
+
+<03/17/2026>: Comment by: Ziggy Ovejera; You did well in our encapsulation activity and you can improve by submitting on time
+
+<03/15/2026> Comment by: De Juras; <03/15/2026> Comment by:Excellent use of composition. The component classes are properly integrated into the composed class, showing a clear has-a relationship. The code is clean, organized, and easy to follow
+

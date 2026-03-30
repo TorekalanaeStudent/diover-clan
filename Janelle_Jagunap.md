@@ -14,7 +14,10 @@
 
 **\<03/06/2026\>** : I learned how to create a project planning with use cases, next time I will try to implement these in real time projects. \
 **\<03/11/2026\>** : I learned how to create objects and classes using codespace, next time I will try to implement more of these in my code. \
-**\<03/06/2026\>** : I learned the how to create a project planning with use cases, next time I will try to implement these in real time projects.
+**\<03/13/2026\>** : I learned how important encapsulation is in programming. It helps protect private data inside a class and keeps the code more organized and secure, 
+next time I will try to learn how to manage my projects better and collaborate using version control. \
+**\<03/19/2026\>** : I learned the how to design a parent class, extend a teammate’s class, implement method overriding, and observe dynamic binding behavior, 
+next time I will try to implement these in real time projects and finish it in a short time. \
 
 ## 📘 Peer Feedback
 **<03/11/2026>** : Comment by: Nono, Mary Angeline B.; You did well in Organizing your methods and constructors and you can improve by testing your methods more. \
