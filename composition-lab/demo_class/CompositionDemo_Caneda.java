@@ -155,11 +155,14 @@ public class CompositionDemo_Caneda {
 
         System.out.println("I switched with my"+ cargoPants2.getClotheMaterial()+" and my new"+newTshirt.getClotheType()+" for the photo");
 
+        
 
     }
 
 
 
+
+    
 
 
 }
