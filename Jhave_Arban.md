@@ -13,6 +13,7 @@
 ## 📘 Journals
 
 **\<03/06/2026\>** : I learned the definition of OOP course subject in our lab and to improve, next time I listen carefully to understand the all of the lessons.
+
 **\<03/11/2026\>** : I learned more about codespace in githubwQ and to improve, next time I do my work on time.
 
 ## 📘 Peer Review

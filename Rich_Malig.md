@@ -13,6 +13,7 @@ Rich Matthew Malig
 **<03/06/2026>** : I learned Object and Class in our lab and to improve, next time I will __. \
 **<03/11/2026>** : I learned how constructors work and next time i will improve how i code. \
 **<03/13/2026>** : I learned Encapsulation because it can hide our information, next time i will improve my code.
+
 **<03/21/2026>** : I learned Inheritance because it allows classes to reuse and extend code from a parent class, next time i will improve how i apply inheritance in my programs.
 
 ## Peer Evaluation
