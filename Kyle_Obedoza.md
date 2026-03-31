@@ -29,5 +29,6 @@ John Kyle Obedoza
 
 **\<03/29/2026\>** : Comment by; Ablis, Margreleigne; Your code looks clean and organized which makes it understandable no matter the length.
 
+**\<03/30/2026\>** : Comment by: Caneda, Ramil jr M; you did well creating your component classed and understood the key concept of "KISS" in OOP Good job!.
 
 
