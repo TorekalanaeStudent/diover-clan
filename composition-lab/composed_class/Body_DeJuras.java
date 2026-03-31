@@ -70,7 +70,6 @@ public class Body_DeJuras{
 
         System.out.println("\n--- Components ---");
         ear.showInfo();
-        finger.showInfo();
-        kul.showInfo();
+        kul.describe();
     }
 }
