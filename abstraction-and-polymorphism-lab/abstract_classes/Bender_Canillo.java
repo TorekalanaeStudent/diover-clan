@@ -1,6 +1,11 @@
 package abstract_classes;
 
-public abstract class Avatar_Canillo{
+/**
+ * @author Canillo, Diover Vincent L.
+ * @TorekalanaeStudent 
+ */
+
+public abstract class Bender_Canillo{
     private String name; // Canillo (default)
     private String elementStyle; // Earth (default) 
     private int health;
