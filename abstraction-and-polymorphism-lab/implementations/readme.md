@@ -32,15 +32,15 @@ public class ImplementationOfYourTeammatesAbstractAndInterface extends AbstractC
 - Method Overriding
 - Method Overloading
 - Dynamic Binding 
-  + Ex. Meme m1 = new SkibidiToilet();
+  + Ex. Meme m1 = new SkibidiToilet(); \
      m1.sing();
 - Polymorphism
   + Ex1. Meme m2 = new ChillGuy();
   + Ex2. Meme m3 = new JohnPork();
 - Abstraction (already showed)
 - 2 implemented classes minimum 
-  + Ex. class Mage extends GameCharacter_Navarro implements CombatSystem_Navarro
-  + Ex. class Warrior extends GameCharacter_Navarro implements CombatSystem_Navarro
+  + Ex1. class Mage extends GameCharacter_Navarro implements CombatSystem_Navarro
+  + Ex2. class Warrior extends GameCharacter_Navarro implements CombatSystem_Navarro
 - Low Coupling / High Cohesion (Composition)
 - Code Comments (REQUIRED)
 
