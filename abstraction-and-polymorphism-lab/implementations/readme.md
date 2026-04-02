@@ -1,8 +1,46 @@
-### this folder is used for:
+### the is the format for implementation:
 
-- creating implementations for your teammates abstract classes
-  + YOU NEED TO CREATE AT LEAST 2 IMPLEMENTATIONS OF YOUR TEAMMATES ABSTRACT CLASSES
-- creating implmentations for your teammates interfaces
-  + YOU NEED TO CREATE AT LEAST 2 IMPLEMENTATIONS OF YOUR TEAMMATES INTERFACES
+```java
+package implementations;
 
-### REMINDER: YOU DO NOT USE YOUR OWN IMPLEMENTATION FOR YOUR DEMO CLASS YOU USE YOUR TEAMMATES IMPLEMENTATIONS.
+import abstract_classes.AbstractClass;
+import interfaces.Interface;
+
+public class ImplementationOfYourTeammatesAbstractAndInterface extends AbstractClass implements Interface{
+  // CODE..
+  /**
+   * Stuff you need to do:
+   * - Method Overriding
+   * - Method Overloading
+   * - Dynamic Binding 
+   *   Ex. Meme m1 = new SkibidiToilet();
+   *       m1.sing();
+   * - Polymorphism
+   *   Ex1. Meme m2 = new ChillGuy();
+   *   Ex2. Meme m3 = new JohnPork();
+   * - Abstraction (already showed)
+   * - 2 implemented classes minimum 
+   *   Ex. class Mage extends GameCharacter_Navarro implements CombatSystem_Navarro
+   *   Ex. class Warrior extends GameCharacter_Navarro implements CombatSystem_Navarro
+   * - Low Coupling / High Cohesion (Composition)
+   * - Code Comments (REQUIRED)
+  */
+}
+```
+
+### Stuff REQUIRED for implementation:
+- Method Overriding
+- Method Overloading
+- Dynamic Binding 
+  + Ex. Meme m1 = new SkibidiToilet();
+     m1.sing();
+- Polymorphism
+  + Ex1. Meme m2 = new ChillGuy();
+  + Ex2. Meme m3 = new JohnPork();
+- Abstraction (already showed)
+- 2 implemented classes minimum 
+  + Ex. class Mage extends GameCharacter_Navarro implements CombatSystem_Navarro
+  + Ex. class Warrior extends GameCharacter_Navarro implements CombatSystem_Navarro
+- Low Coupling / High Cohesion (Composition)
+- Code Comments (REQUIRED)
+
