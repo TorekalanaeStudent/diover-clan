@@ -3,10 +3,42 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type | Title       | Score | Total Points |
-|------------|----------------|-------------|--------|--------------|
-| 03/06/2026 | Quiz/Recitation           | Quiz 1:OOP      | 5      | 5            |
-| —          | —              | —           |       |             |
+| Date       | Activity Type   | Title                                                           | Score  | Total Points |
+|------------|-----------------|-----------------------------------------------------------------|--------|--------------|
+| 03/21/2026 | PR Review       | Rajan (main_class) - #553                                       | 2      |              |
+| 03/21/2026 | PR Review       | Rajan (team_changelog) - #554                                   | 2      |              |
+| 03/21/2026 | PR Review       | Ablis (sub_class) - #562                                        | 2      |              |
+| 03/21/2026 | PR Review       | Seth Go (team_changelog) - #563                                 | 2      |              |
+| 03/21/2026 | PR Review       | Malig (main and sub class) - #565                               | 2      |              |
+| 03/21/2026 | PR Review       | Ablis (sub_class) - #566                                        | 2      | 12           |
+| 03/20/2026 | PR Review       | Arban (sub_class) - #540                                        | 2      |              |
+| 03/20/2026 | PR Review       | Cardeno (main_class) - #541                                     | 2      |              |
+| 03/20/2026 | PR Review       | Cardeno (team_changelog) - #542                                 | 2      |              |
+| 03/20/2026 | PR Review       | Cardeno (journal) - #543                                        | 2      |              |
+| 03/20/2026 | PR Review       | Cardeno (peer_feedback) - #544                                  | 2      |              |
+| 03/20/2026 | PR Review       | Trespeces (sub_class) - #545                                    | 2      |              |
+| 03/20/2026 | PR Review       | Nono (peer_feedback) - #546                                     | 2      |              |
+| 03/20/2026 | PR Review       | Nono (team-changelog) - #547                                    | 2      |              |
+| 03/20/2026 | PR Review       | Rajan (sub_class) - #548                                        | 2      |              |
+| 03/20/2026 | PR Review       | Ziggy (sub and parent class) - #551                             | 4      |              |
+| 03/20/2026 | PR Review       | Caneda (main and sub class) - #552                              | 2      |              |
+| 03/20/2026 | PR Review       | Rajan (team-changelog) - #554                                   | 2      |              |
+| 03/20/2026 | PR Review       | Onte (main and sub class) - #556                                | 2      |              |
+| 03/20/2026 | PR Review       | Onte (journal) - #557                                           | 2      |              |
+| 03/20/2026 | PR Review       | Onte (late-peer_feedback) - #558                                | 2      |              |
+| 03/20/2026 | PR Review       | Onte (late-peer_feedback) - #559                                | 2      |              |
+| 03/20/2026 | PR Review       | Onte (peer_feedback) - #561                                     | 2      | 36           |
+| 03/19/2026 | PR Review       | Obedoza (main_class) - #521                                     | 2      |              |
+| 03/19/2026 | PR Review       | Cardeno (parent_class) - #518                                   | 2      |              |
+| 03/19/2026 | PR Review       | Sean Go (peer_feedback) - #522                                  | 2      |              |
+| 03/19/2026 | PR Review       | Sean Go (journal_update) - #523                                 | 2      |              |
+| 03/19/2026 | PR Review       | Jagunap (parent_class) - #525                                   | 2      |              |
+| 03/19/2026 | PR Review       | Cardeno (sub_class) - #526                                      | 2      |              |
+| 03/19/2026 | PR Review       | Cardeno (sub_class) - #527                                      | 2      |              |
+| 03/19/2026 | PR Review       | Jagunap (parent_class) - #528                                   | 4      |              |
+| 03/19/2026 | PR Review       | Nono (sub_class) - #531                                         | 2      |              |
+| 03/19/2026 | PR Review       | Malig (parent_class) - #532                                     | 2      | 22           |
+| 03/06/2026 | Quiz/Recitation | Quiz 1:OOP                                                      | 5      | 5            |
 
 ---
 
