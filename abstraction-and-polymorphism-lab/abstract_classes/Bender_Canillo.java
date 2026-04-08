@@ -13,6 +13,45 @@ public abstract class Bender_Canillo{
     private boolean healthSet;
     private boolean ageSet;
 
+    // Default Constructors
+    public Bender_Canillo(){
+        setName("Canillo");
+        setElementStyle("Air");
+        setHP(100);
+        setAge(20);
+    }
+
+    // Parameterized Constructor
+    public Bender_Canillo(String name, String element, int health, int age){
+        setName(name);
+        setElementStyle(element);
+        setHP(health);
+        setAge(age);
+    }
+
+    // Abstract method
+    public abstract void heal(int heal);
+    public abstract void meditate();
+
+    // Concrete method
+    public void takeDamage(int dmg){
+        // rule validation (damage cannot be more than the health)
+        if(dmg > this.health){
+            System.out.println("Damage cannot be more than health.");
+            return;
+        }
+        System.out.println(name +" took a hit and was damaged " + dmg + "HP");
+        this.health -= dmg;
+    }
+
+    public void eatFood(String food){
+        // rule validation incase the user does not put any food
+        if(food.isBlank() || food.equals(null)){
+            food = "Cornbeef"; // default food 
+        }
+        System.out.println(getName() + " is eating " + food + '.');
+    }
+
     // Getters
     public String getName(){ return this.name; }
 
@@ -65,17 +104,4 @@ public abstract class Bender_Canillo{
         ageSet = true; 
     }
 
-    // Concrete method
-    public void takeDamage(int dmg){
-        // rule validation (damage cannot be more than the health)
-        if(dmg > this.health){
-            System.out.println("Damage cannot be more than health.");
-            return;
-        }
-        System.out.println(name +" took a hit and was damaged " + dmg + "HP");
-        this.health -= dmg;
-    }    
-
-    // Abstract method
-    public abstract void heal(int heal);
 }
