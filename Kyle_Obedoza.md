@@ -18,6 +18,8 @@ John Kyle Obedoza
 
 **\<03/18/2026\>** : I learned how to effectively create Parent classes and child classes and how they all work together. Next time will be more prepared, learn and code quicker. 
 
+**03/24/2026** : I learned the best structural design for composition, next time I will do my best to learn in advance to create better outputs.
+
 ### Peer Review
 **\<03/11/2026\>** : Comment by: Go, Sean Ethan; You did well on applying classes and objects with different constructors and you met all the requirements for the given activity. \
 
@@ -31,4 +33,5 @@ John Kyle Obedoza
 
 **\<03/30/2026\>** : Comment by: Caneda, Ramil jr M; you did well creating your component classed and understood the key concept of "KISS" in OOP Good job!.
 
+## ➕ Plus Points
 
