@@ -1,4 +1,4 @@
-package component_class;
+package sub_class;
 
 // Subclass of Hands_Navarro
 public class MagicHands_Malig extends Hands_Navarro {
