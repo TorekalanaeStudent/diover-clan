@@ -2,19 +2,22 @@ package abstract_classes;
 
 /**
  * @author Arban, Jhave P.
- * @jhavearban-ctrl
  */
 public abstract class WashingMachine_Arban {
 
     String brand;
-    this.brand = brand;
 
-// abstract method
-abstract void startWash();
-abstract void stopWash();
+    // constructor
+    WashingMachine_Arban(String brand) {
+        this.brand = brand;
+    }
 
-// concrete method
-void showBrand()
-    System.out.println("Washing Machine: " + brand);
+    // abstract methods
+    abstract void startWash();
+    abstract void stopWash();
 
+    // concrete method
+    void showBrand() {
+        System.out.println("Washing Machine: " + brand);
+    }
 }
