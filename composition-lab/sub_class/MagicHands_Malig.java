@@ -1,5 +1,5 @@
-package component_class;
-
+package sub_class;
+import component_class.Hands_Navarro;
 // Subclass of Hands_Navarro
 public class MagicHands_Malig extends Hands_Navarro {
 
