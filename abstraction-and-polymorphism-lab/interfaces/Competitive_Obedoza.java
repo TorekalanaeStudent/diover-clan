@@ -8,7 +8,7 @@ package interfaces;
 public interface Competitive_Obedoza {
     
     // Abstract Method
-    void compete ();
+    void compete (String focused, int adrenalineLevels);
     
     // Default method
     default void celebrateVictory() {
