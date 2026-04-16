@@ -3,24 +3,32 @@ package implementations;
 import abstract_classes.GameCharacter_Navarro;
 import interfaces.CombatSystem_Navarro;
 
+/**
+ * @author Canillo, Diover Vincent
+ * @TorekalanaeStudent
+ */
+
 public class DemiGod_Canillo extends GameCharacter_Navarro implements CombatSystem_Navarro{
     // Attribute(s)
     private double strength;
     private String title;
-    private boolean demiGodSet;
+    private String weapon;
+    private boolean defending;
 
     // Default Constructor
     public DemiGod_Canillo(){
         super("Kratos", 100);
         setStrength(100);
         setTitle("God of War");
+        setWeapon("Blade of Olympus");
     }
 
     // Parameterized Constructor
-    public DemiGod_Canillo(String name, int health, int strength, String title){
+    public DemiGod_Canillo(String name, int health, int strength, String title, String weapon){
         super(name, health);
         setStrength(strength);
         setTitle(title);
+        setWeapon(weapon);
     }
 
     // Overrides
@@ -63,14 +71,38 @@ public class DemiGod_Canillo extends GameCharacter_Navarro implements CombatSyst
     }
 
     // --- INTERFACE ---
-    @Override // for interface stuff
+    private void atk(GameCharacter_Navarro enemy){
+        // Ternary Operator Logic: 
+        // if weapon IS (ignore cases) "fist", then print punch
+        // if weapon is NOT (ignore cases) "fist", then attacked
+        System.out.println((getWeapon().equalsIgnoreCase("fist")
+        ? getName() + " punched " + enemy.getName() + "!" 
+        : getName() + " attacked " + enemy.getName() + " with The " + getWeapon() + "!"));
+        this.defending = false;
+    }
+
+    @Override
     public void attack(GameCharacter_Navarro enemy){
-        System.out.println(getName() + " attacked " + enemy.getName() + "!");
+        atk(enemy);
+    }
+
+    // overloaded attack
+    public void attack(GameCharacter_Navarro enemy, int damage){
+        atk(enemy);
+        System.out.println("dealt " + damage);
+    }
+
+    @Override
+    public void defend(){
+        CombatSystem_Navarro.super.defend();
+        this.defending = true;
     }
 
     // Getters
     public double getStrength(){return this.strength;}
     public String getTitle(){return this.title;}
+    public String getWeapon(){return this.weapon;}
+    public boolean isDefending(){return this.defending;}
 
     // Setters
     // setter that will set the strength
@@ -94,5 +126,16 @@ public class DemiGod_Canillo extends GameCharacter_Navarro implements CombatSyst
             System.out.println("Title set to: " + title);
             this.title = title;
         }
+    }
+
+    public void setWeapon(String weapon){
+        // sets the weapon to "Fist" if none is inputted
+        if(weapon.isBlank() || weapon.equals(null)){
+            System.out.println("Weapon set to: Fist");
+            this.weapon = weapon;
+            return; // stops the program so it doesn't go to the next code block
+        }
+        System.out.println("Weapon set to: " + weapon);
+        this.weapon = weapon;
     }
 }
