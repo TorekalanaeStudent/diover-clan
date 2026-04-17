@@ -65,7 +65,7 @@ public class WaterBending_Navarro extends Bender_Canillo implements BendingSyste
 	        System.out.println(getName()
 	                + " unleashes the Maelstrom!!");
 	    }
-		@Override
+		
 		public void meditate() {
 	    System.out.println(getName() + " meditates inner peace..");
 		}
