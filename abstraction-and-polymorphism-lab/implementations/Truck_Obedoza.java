@@ -37,7 +37,7 @@ public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJur
     }
 
     @Override 
-    public void break() {
+    public void brake() {
         speed = 0;
         System.out.println(name + "Stopped");
     }
