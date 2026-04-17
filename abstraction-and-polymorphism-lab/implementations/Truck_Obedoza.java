@@ -3,7 +3,7 @@ package implementations;
 import abstract_classes.Vehicles_DeJuras;
 import interfaces.VehicleSystem_DeJuras;
 
-public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJuras {
+public class Truck_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJuras {
     
     // Attributes
     private int capacity;
