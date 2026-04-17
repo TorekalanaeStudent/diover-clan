@@ -2,8 +2,8 @@
 
 public abstract class Flashlight_Gedoria {
 
-    String model;
-    int batteryLevel;
+    protected String model;
+    protected int batteryLevel;
 
     // Constructor
     public Flashlight_Gedoria(String model, int batteryLevel) {
