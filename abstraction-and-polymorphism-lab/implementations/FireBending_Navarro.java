@@ -66,7 +66,7 @@ public class FireBending_Navarro extends Bender_Canillo implements BendingSystem
 	                + " unleashes the Blazing sun!!");
 	    }
 
-		@Override
+		
 		public void meditate() {
 	    System.out.println(getName() + " meditates inner fire..");
 		}
