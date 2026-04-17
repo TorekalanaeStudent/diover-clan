@@ -13,9 +13,7 @@ public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJur
 
     // Parameterized Contructor
     public Car_Obedoza(String modelName, String carType, int topSpeed, boolean isRunning) {
-        this.modelName = modelName;
-        this.carType = carType;
-        this.topSpeed = topSpeed;
+        super(modelName, carType, topSpeed);
         this.isRunning = isRunning;
     }
 
@@ -66,7 +64,6 @@ public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJur
 
     @Override
     public void accelerate(int speed) {
-        int speed = 0;
         int topSpeed = 100;
         int acceleration = 10;
 
@@ -88,12 +85,12 @@ public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJur
 
     // Overloaded method
     public void brake() {
-    System.out.println("Emergency brake! Car stopped immediately. 🛑");
+    System.out.println("Emergency brake! Car stopped immediately. ");
     }
 
     public void brake(int pressureAmount) {
         if (pressureAmount >= 100) {
-           System.out.println("Full brake applied! Car is stopping. 🛑");
+           System.out.println("Full brake applied! Car is stopping. ");
         } else if (pressureAmount >= 50) {
             System.out.println("Moderate brake applied.");
         } else {
