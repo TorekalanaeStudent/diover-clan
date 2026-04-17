@@ -20,8 +20,8 @@ public abstract class Vehicles_DeJuras {
     }
 
     // Abstract Methods
-    public abstract String accelerate();
-    public abstract String brake();
+    public abstract void accelerate();
+    public abstract void brake();
 
     // Concrete Method
     public void running(int speed) {
