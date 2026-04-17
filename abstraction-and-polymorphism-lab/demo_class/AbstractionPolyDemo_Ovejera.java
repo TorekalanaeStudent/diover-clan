@@ -1,109 +1,158 @@
 package demo_class;
 
-import implementations.Smartphone_Ovejera;
-import implementations.DeviceSystem_Ovejera;
-import abstract_classes.Gadget_Ovejera;
-import interfaces.SmartphoneSystem;
-
 /**
  * =============================================================================
  * @author Ovejera, Ziggy
- * 
+ *
  * =====Code-Based Analysis=====
- * 1. What abstract class did you use?
- * - Gadget_Ovejera is used as the base class for all devices.
- * 
- * 2. What interface did you use?
- * - SmartphoneSystem is used to define system-related behaviors.
- * 
- * 3. What methods did you override?
- * - powerOn(), powerOff(), syncData()
- * 
- * 4. What methods did you overload?
- * - powerOn() with different parameters
- * 
- * 5. Where does dynamic binding occur?
- * - In loops using Gadget_Ovejera[] and SmartphoneSystem[]
- *   where methods are called through parent/interface references.
- * 
- * 6. Which part shows polymorphism?
- * - Arrays store different objects under one reference type
- *   and produce different outputs.
- * 
- * 7. How does your design achieve low coupling?
- * - The demo uses abstract class and interface references
- *   instead of concrete classes directly.
- * 
- * 8. How does your design achieve high cohesion?
- * - Each class has a single responsibility:
- *   - Gadget_Ovejera → base structure
- *   - SmartphoneSystem → system behavior
- *   - Implementations → device logic
- *   - Demo → runs the program
+ * 1. Abstract Class:
+ * - Gadget_Ovejera is the base class.
+ *
+ * 2. Interface:
+ * - SmartphoneSystem defines system behaviors.
+ *
+ * 3. Overridden Methods:
+ * - powerOn(), syncData()
+ *
+ * 4. Overloaded Methods:
+ * - powerOn(String), powerOn(int)
+ *
+ * 5. Dynamic Binding:
+ * - Occurs in Gadget_Ovejera[] and SmartphoneSystem[] loops.
+ *
+ * 6. Polymorphism:
+ * - Different objects stored in same reference type.
+ *
+ * 7. Low Coupling:
+ * - Uses abstract class and interface references.
+ *
+ * 8. High Cohesion:
+ * - Each class has one responsibility.
  * =============================================================================
  */
 
 public class AbstractionPolyDemo_Ovejera {
 
+    // ================= ABSTRACT CLASS =================
+    static abstract class Gadget_Ovejera {
+        private String name;
+        private int battery;
+
+        public Gadget_Ovejera(String name, int battery) {
+            this.name = name;
+            this.battery = battery;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public int getBattery() {
+            return battery;
+        }
+
+        public abstract void powerOn();
+    }
+
+    // ================= INTERFACE =================
+    interface SmartphoneSystem {
+        void syncData(String device);
+
+        default void autoBackup() {
+            System.out.println("Data automatically backed up.");
+        }
+    }
+
+    // ================= IMPLEMENTATION 1 =================
+    static class Smartphone_Ovejera extends Gadget_Ovejera implements SmartphoneSystem {
+
+        public Smartphone_Ovejera(String name, int battery) {
+            super(name, battery);
+        }
+
+        @Override
+        public void powerOn() {
+            System.out.println(getName() + " is powering ON.");
+        }
+
+        @Override
+        public void syncData(String device) {
+            System.out.println(getName() + " syncing with " + device);
+        }
+
+        // OVERLOADED
+        public void powerOn(String mode) {
+            System.out.println(getName() + " powering ON in " + mode);
+        }
+    }
+
+    // ================= IMPLEMENTATION 2 =================
+    static class DeviceSystem_Ovejera extends Gadget_Ovejera implements SmartphoneSystem {
+
+        public DeviceSystem_Ovejera(String name, int battery) {
+            super(name, battery);
+        }
+
+        @Override
+        public void powerOn() {
+            System.out.println(getName() + " system booting...");
+        }
+
+        @Override
+        public void syncData(String device) {
+            System.out.println(getName() + " syncing system with " + device);
+        }
+
+        // OVERLOADED
+        public void powerOn(int level) {
+            System.out.println(getName() + " boot level: " + level);
+        }
+    }
+
+    // ================= MAIN =================
     public static void main(String[] args) {
 
-        // Default constructors
-        Smartphone_Ovejera phoneDef = new Smartphone_Ovejera();
-        DeviceSystem_Ovejera systemDef = new DeviceSystem_Ovejera();
+        Smartphone_Ovejera phone = new Smartphone_Ovejera("iPhone", 80);
+        DeviceSystem_Ovejera system = new DeviceSystem_Ovejera("Android System", 90);
 
-        // Parameterized constructors
-        Smartphone_Ovejera phoneParam =
-                new Smartphone_Ovejera("iPhone", 80);
-
-        DeviceSystem_Ovejera systemParam =
-                new DeviceSystem_Ovejera("Android System", 90);
-
-
-        // ================= METHOD OVERLOADING =================
+        // METHOD OVERLOADING
         System.out.println("METHOD OVERLOADING:");
-        phoneParam.powerOn("Gaming Mode");
-        systemParam.powerOn(5);
+        phone.powerOn("Gaming Mode");
+        system.powerOn(5);
         System.out.println();
 
-
-        // ================= METHOD OVERRIDING =================
+        // METHOD OVERRIDING
         System.out.println("METHOD OVERRIDING:");
-        phoneDef.powerOn();
-        systemDef.powerOn();
+        phone.powerOn();
+        system.powerOn();
         System.out.println();
 
-
-        // ================= INTERFACE METHODS =================
+        // INTERFACE METHODS
         System.out.println("INTERFACE METHODS:");
-        phoneParam.syncData("Laptop");
-        systemParam.syncData("Cloud");
+        phone.syncData("Laptop");
+        system.syncData("Cloud");
         System.out.println();
 
-
-        // ================= DEFAULT INTERFACE METHOD =================
+        // DEFAULT METHOD
         System.out.println("DEFAULT INTERFACE METHOD:");
-        phoneDef.autoBackup();
+        phone.autoBackup();
         System.out.println();
 
-
-        // ================= DYNAMIC BINDING (ABSTRACT CLASS) =================
+        // DYNAMIC BINDING (ABSTRACT CLASS)
         System.out.println("DYNAMIC BINDING (Gadget_Ovejera):");
 
         Gadget_Ovejera[] gadgets = {
-            new Smartphone_Ovejera("Samsung", 75),
-            new DeviceSystem_Ovejera("System A", 65),
-            new Smartphone_Ovejera("Huawei", 60),
-            new DeviceSystem_Ovejera("System B", 50)
+            new Smartphone_Ovejera("Samsung", 70),
+            new DeviceSystem_Ovejera("System A", 60)
         };
 
         for (Gadget_Ovejera g : gadgets) {
-            g.powerOn(); // dynamic binding
+            g.powerOn();
         }
 
         System.out.println();
 
-
-        // ================= DYNAMIC BINDING (INTERFACE) =================
+        // DYNAMIC BINDING (INTERFACE)
         System.out.println("DYNAMIC BINDING (SmartphoneSystem):");
 
         SmartphoneSystem[] systems = {
@@ -112,16 +161,7 @@ public class AbstractionPolyDemo_Ovejera {
         };
 
         for (SmartphoneSystem s : systems) {
-            s.syncData("Main Server"); // dynamic binding
+            s.syncData("Server");
         }
-
-        System.out.println();
-    }
-
-    // ================= OVERLOADED METHOD =================
-    public static void deviceInteraction(Gadget_Ovejera g1, Gadget_Ovejera g2) {
-        System.out.println(g1.getName() + " interacts with " + g2.getName());
-
-        ((SmartphoneSystem) g1).syncData(g2.getName());
     }
 }
