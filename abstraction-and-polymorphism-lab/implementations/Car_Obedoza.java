@@ -83,6 +83,26 @@ public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJur
         }
     }
 
+    @Override
+    public void accelerate(int speed) {
+        int topSpeed = 100;
+        int acceleration = 10;
+
+        while (speed < topSpeed) {
+            speed += acceleration;
+
+            if (speed < 40) {
+                System.out.println("🐢 Slow speed: " + speed + "km/h");
+            } else if (speed < 70) {
+                System.out.println("🚶 Medium speed: " + speed + "km/h");
+            } else if (speed < 100) {
+                System.out.println("💨 Fast speed: " + speed + "km/h");
+            } else {
+                speed = topSpeed;
+                System.out.println("🏎️  TOP SPEED REACHED: " + speed + "km/h!");
+            }
+        }
+
     // Overloaded method
     public void brake() {
     System.out.println("Emergency brake! Car stopped immediately. ");
