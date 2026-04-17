@@ -46,7 +46,7 @@ public abstract class Bender_Canillo{
 
     public void eatFood(String food){
         // rule validation incase the user does not put any food
-        if(food.isBlank() || food.equals(null)){
+        if(food.isBlank() || food == null){
             food = "Cornbeef"; // default food 
         }
         System.out.println(getName() + " is eating " + food + '.');
@@ -64,7 +64,7 @@ public abstract class Bender_Canillo{
     // Setters
     public void setName(String name){
         // rule validation (cannot be empty)
-        if(name.isBlank() || name.equals(null)){ // if name is null or blanked
+        if(name.isBlank() || name == null){ // if name is null or blanked
             System.out.println("Please input a name! Default name is: \"Canillo\".");
             this.name = "Canillo";
             return; // stops
@@ -74,7 +74,7 @@ public abstract class Bender_Canillo{
 
     public void setElementStyle(String element){
         // rule validation (cannot be empty)
-        if(element.isBlank() || element.equals(null)){
+        if(element.isBlank() || element == null){
             System.out.println("Input an element! Default element is: \"Earth\"");
             this.elementStyle = "Earth"; // default value
             return; // stops
@@ -97,7 +97,7 @@ public abstract class Bender_Canillo{
         // rule validation (age cannot surpass 150 since it is the hardlocked age for them)
         if(age > 150 || age < 0){
             System.out.println("Input a valid age (0-150)!");
-            this.health = (ageSet) ? this.age : 33; // default age = 33 
+            this.age = (ageSet) ? this.age : 33; // default age = 33 
             return;
         }
         this.age = age;
