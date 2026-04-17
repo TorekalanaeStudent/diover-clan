@@ -1,6 +1,6 @@
 package implementations;
 
-import Abstract_Class.Vehicles_DeJuras;
+import abstract_Class.Vehicles_DeJuras;
 import interfaces.VehicleSystem_DeJuras;
 
 public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJuras{
