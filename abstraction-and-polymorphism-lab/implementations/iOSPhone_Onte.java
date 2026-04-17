@@ -8,7 +8,7 @@ import interfaces.SmartphoneSystem_Ovejera;
  * iPhone Implementation
  */
 
-public class iPhone_Onte extends Gadget_Ovejera implements SmartphoneSystem_Ovejera {
+public class iOSPhone_Onte extends Gadget_Ovejera implements SmartphoneSystem_Ovejera {
 
     // Attributes
     private FaceID faceID; // Composition object
@@ -18,7 +18,7 @@ public class iPhone_Onte extends Gadget_Ovejera implements SmartphoneSystem_Ovej
     private boolean isLocked; // Lock status
 
     // Default Constructor
-    public iPhone_Onte() {
+    public iOSPhone_Onte() {
         super("iPhone 15 Pro", "Apple", 100, 80000);
 
         this.faceID = new FaceID();
@@ -29,7 +29,7 @@ public class iPhone_Onte extends Gadget_Ovejera implements SmartphoneSystem_Ovej
     }
 
     // Parameterized Constructor
-    public iPhone_Onte(String name, String brand, int battery, int price,
+    public iOSPhone_Onte(String name, String brand, int battery, int price,
                         int storage, int ram, String iosVersion) {
 
         super(name, brand, battery, price);
