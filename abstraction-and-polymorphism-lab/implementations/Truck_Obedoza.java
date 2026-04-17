@@ -9,12 +9,12 @@ public class Truck_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJ
     private int capacity;
 
     // Constructors
-    public Car_Obedoza() {
+    public Truck_Obedoza() {
          super("Dump Truck", "Mercedes", 6);
         this.capacity = 10000;
     }
 
-    public Car_Obedoza(String name, String brand, int speed, int capacity) {
+    public Truck_Obedoza(String name, String brand, int speed, int capacity) {
         super(name, brand, speed);
         this.capacity = capacity;
     }
