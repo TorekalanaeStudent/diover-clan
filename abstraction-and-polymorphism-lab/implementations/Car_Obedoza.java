@@ -102,6 +102,7 @@ public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJur
                 System.out.println("🏎️  TOP SPEED REACHED: " + speed + "km/h!");
             }
         }
+    }
 
     // Overloaded method
     public void brake() {
