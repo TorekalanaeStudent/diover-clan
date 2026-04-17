@@ -63,7 +63,7 @@ public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJur
     
 
     @Override
-    public void accelerate(int speed) {
+    public void accelerate() {
         int topSpeed = 100;
         int acceleration = 10;
 
