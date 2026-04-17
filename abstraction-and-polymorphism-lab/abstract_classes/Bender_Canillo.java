@@ -97,7 +97,7 @@ public abstract class Bender_Canillo{
         // rule validation (age cannot surpass 150 since it is the hardlocked age for them)
         if(age > 150 || age < 0){
             System.out.println("Input a valid age (0-150)!");
-            this.health = (ageSet) ? this.age : 33; // default age = 33 
+            this.age = (ageSet) ? this.age : 33; // default age = 33 
             return;
         }
         this.age = age;
