@@ -7,7 +7,7 @@ import interfaces.BendingSystem_Canillo;
 
 /**
  * =============================================================================
- * @author Navarro, Vince Justines
+ * @author Navarro, Vince Justine
  * @StillLizard0106
  * 
  *=====Code-Based Analysis=====
