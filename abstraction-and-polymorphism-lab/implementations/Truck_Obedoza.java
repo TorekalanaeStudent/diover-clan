@@ -30,7 +30,7 @@ public class Truck_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJ
         System.out.println(name + " (Truck) accelerating. Speed: " + speed);
     }
 
-    @Override
+    // Overloaded accelerate method
     public void accelerate(int targetSpeed) {
         speed = targetSpeed;
         System.out.println(name + " (Truck) reached " + speed + " km/h");
