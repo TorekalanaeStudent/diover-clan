@@ -1,6 +1,6 @@
 package implementations;
 
-import abstract_Class.Vehicles_DeJuras;
+import abstract_classes.Vehicles_DeJuras;
 import interfaces.VehicleSystem_DeJuras;
 
 public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJuras{
@@ -65,7 +65,7 @@ public class Car_Obedoza extends Vehicles_DeJuras implements VehicleSystem_DeJur
     
 
     @Override
-    public void accelerate() {
+    public void accelerate(int speed) {
         int speed = 0;
         int topSpeed = 100;
         int acceleration = 10;
