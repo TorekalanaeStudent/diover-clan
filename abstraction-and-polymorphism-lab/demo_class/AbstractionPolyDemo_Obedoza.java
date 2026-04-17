@@ -31,7 +31,7 @@ import interfaces.VehicleSystem_DeJuras;
 // - Each class has a single responsibility (Car, Truck, Vehicle system).
 //  */
 
-public class DemoClassName {
+public class AbstractionPolyDemo_Obedoza {
     public static void main(String[] args){
 
         // Create Car Object
