@@ -7,16 +7,16 @@ import component_class.Earwax_Cardeno;
  * 
  * @author Jagunap
  */
-public class ClearwaxCleaner_Jagunap extends Earwax_Cardeno {
+public class EarwaxCleaner_Jagunap extends Earwax_Cardeno {
 
     private String cleanerType;
 
-    public ClearwaxCleaner_Jagunap() {
+    public EarwaxCleaner_Jagunap() {
         super(40, "Yellow", "Sticky", true);
         setCleanerType();
     }
 
-    public ClearwaxCleaner_Jagunap(int amount, String color, String texture,
+    public EarwaxCleaner_Jagunap(int amount, String color, String texture,
                                     boolean sticky, String cleanerType) {
         super(amount, color, texture, sticky);
         setCleanerType(cleanerType);
