@@ -1,28 +1,32 @@
-package Calculator_Class;
+package TeamJina;
 
 /**
- * Calculator System Class
- * Ovejera, Ziggy
+ * Calculator Class
+ * Group Members:
+ * Ovejera, Ziggy - @ziggyovejera
+ * Ablis, Margreleigne - @matidagreat
+ * 
+ * @author: Ovejera, Ziggy
  */
 
-class InvalidInputException_Ovejera extends Exception {
-    public InvalidInputException_Ovejera(String message) {
+class InvalidInputException_TeamJina extends Exception {
+    public InvalidInputException_TeamJina(String message) {
         super(message);
     }
 }
 
-class NegativeNumberException_Ovejera extends RuntimeException {
-    public NegativeNumberException_Ovejera(String message) {
+class NegativeNumberException_TeamJina extends RuntimeException {
+    public NegativeNumberException_TeamJina(String message) {
         super(message);
     }
 }
 
-public class Calculator_Ovejera {
+public class CalculatorClass_TeamJina {
 
     private final String name;
     private int operationCount;
 
-    public Calculator_Ovejera() {
+    public CalculatorClass_TeamJina() {
         this.name = "Calculator";
         this.operationCount = 0;
     }
@@ -58,23 +62,23 @@ public class Calculator_Ovejera {
     }
 
     // ================= EXCEPTION HANDLING =================
-    public int divide(int a, int b) throws InvalidInputException_Ovejera {
+    public int divide(int a, int b) throws InvalidInputException_TeamJina {
         if (b == 0)
-            throw new InvalidInputException_Ovejera("Integer division by zero");
+            throw new InvalidInputException_TeamJina("Integer division by zero");
 
         if (a < 0 || b < 0)
-            throw new NegativeNumberException_Ovejera("Negative numbers not allowed");
+            throw new NegativeNumberException_TeamJina("Negative numbers not allowed");
 
         operationCount++;
         return a / b;
     }
 
-    public double divide(double a, double b) throws InvalidInputException_Ovejera {
+    public double divide(double a, double b) throws InvalidInputException_TeamJina {
         if (b == 0)
-            throw new InvalidInputException_Ovejera("Double division by zero");
+            throw new InvalidInputException_TeamJina("Double division by zero");
 
         if (a < 0 || b < 0)
-            throw new NegativeNumberException_Ovejera("Negative numbers not allowed");
+            throw new NegativeNumberException_TeamJina("Negative numbers not allowed");
 
         operationCount++;
         return a / b;
@@ -91,8 +95,8 @@ public class Calculator_Ovejera {
     /*
      * ================= CODE ANALYSIS =================
      * Exceptions Created:
-     * - InvalidInputException_Ovejera (Checked)
-     * - NegativeNumberException_Ovejera (Unchecked)
+     * - InvalidInputException_TeamJina (Checked)
+     * - NegativeNumberException_TeamJina (Unchecked)
      *
      * Where thrown:
      * - Inside divide() methods
