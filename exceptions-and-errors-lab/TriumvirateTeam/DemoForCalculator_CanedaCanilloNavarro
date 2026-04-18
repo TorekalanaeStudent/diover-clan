@@ -27,7 +27,7 @@ SimpleCalculator_Navarro calc = new SimpleCalculator_Navarro();
     calc.multiply(-135.12, -124.11);
 
     //Division for Integer
-    calc.divide(100, 5);
+    calc.divide(0, 5);
     
     //Division for Double
     calc.divide(10.50, 500.100);
