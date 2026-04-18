@@ -9,10 +9,10 @@ import interfaces.Laundry_Arban;
  * @author DeJuras
  *
  *  Q1: What abstract class did you create?
- *  WashingMachine_Arban.java
+ *  Vehicles_DeJuras.java
  *
  *  Q2: What interface did you create?
- *  Laundry_Arban.java
+ *  VehicleSystem_DeJuras.java
  *
  *  Q3: What methods did you override?
  *  startWash(), stopWash()
