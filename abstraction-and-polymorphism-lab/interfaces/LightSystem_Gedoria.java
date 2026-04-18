@@ -1,5 +1,7 @@
 // Interface by: Rajan Kurt O. Gedoria
 
+package interfaces;
+
 public interface LightSystem_Gedoria {
 
     // abstract methods

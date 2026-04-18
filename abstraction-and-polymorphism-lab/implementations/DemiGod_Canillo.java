@@ -2,6 +2,7 @@ package implementations;
 
 import abstract_classes.GameCharacter_Navarro;
 import interfaces.CombatSystem_Navarro;
+import components.Ability_Canillo;
 
 /**
  * @author Canillo, Diover Vincent
@@ -14,6 +15,7 @@ public class DemiGod_Canillo extends GameCharacter_Navarro implements CombatSyst
     private String title;
     private String weapon;
     private boolean defending;
+    private Ability_Canillo ability; // use of composition (shows low coupling and high cohesion)
 
     // Default Constructor
     public DemiGod_Canillo(){
@@ -21,14 +23,16 @@ public class DemiGod_Canillo extends GameCharacter_Navarro implements CombatSyst
         setStrength(100);
         setTitle("God of War");
         setWeapon("Blade of Olympus");
+        this.ability = new Ability_Canillo("Spartan Rage", 100);
     }
 
     // Parameterized Constructor
-    public DemiGod_Canillo(String name, int health, int strength, String title, String weapon){
+    public DemiGod_Canillo(String name, int health, int strength, String title, String weapon, Ability_Canillo ability){
         super(name, health);
         setStrength(strength);
         setTitle(title);
         setWeapon(weapon);
+        this.ability = ability;
     }
 
     // Overrides
@@ -78,6 +82,7 @@ public class DemiGod_Canillo extends GameCharacter_Navarro implements CombatSyst
         System.out.println((getWeapon().equalsIgnoreCase("fist")
         ? getName() + " punched " + enemy.getName() + "!" 
         : getName() + " attacked " + enemy.getName() + " with The " + getWeapon() + "!"));
+        ability.use(this);
         this.defending = false;
     }
 

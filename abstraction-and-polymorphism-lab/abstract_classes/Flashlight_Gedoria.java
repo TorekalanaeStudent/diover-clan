@@ -1,5 +1,7 @@
 // Abstract Class by: Rajan Kurt O. Gedoria
 
+package abstract_classes;
+
 public abstract class Flashlight_Gedoria {
 
     protected String model;

@@ -20,6 +20,8 @@ John Kyle Obedoza
 
 **03/24/2026** : I learned the best structural design for composition, next time I will do my best to learn in advance to create better outputs.
 
+**04/18/2026** : I learned the uses and importance of abstraction and polymorphism for better management of my code and next time I will do better in building my code quicker with full understanding.
+
 ### Peer Review
 **\<03/11/2026\>** : Comment by: Go, Sean Ethan; You did well on applying classes and objects with different constructors and you met all the requirements for the given activity. \
 
