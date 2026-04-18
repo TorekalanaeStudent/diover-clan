@@ -3,6 +3,7 @@
 ---
 
 ## Date : 04/18/2026 | Activity : Abstraction and Polymorphism Lab
+Ablis, Margreleigne M. 2025-1020011 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Navarro, Vince Justine 2025-1029521 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Canillo, Diover Vincent L. 2025-1023980 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Cañeda, Ramil Jr M.  2025-1023980 03/18/2026 Abstraction and Polymorphism Lab Completed! \
