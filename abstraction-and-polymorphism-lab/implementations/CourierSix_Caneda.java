@@ -133,7 +133,7 @@ public int getHealthPoints() {
 }
 //Getter #5 Gets player damage
 public int getPlayerDamage() {
-    return playerDamage() 
+    return playerDamage(); 
 }
  
 //Setters
