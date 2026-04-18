@@ -1,4 +1,4 @@
-package model;
+package app_model;
 
 /**
  * @author Obedoza, John Kyle B.
