@@ -89,7 +89,6 @@ public void attack(GameCharacter_Navarro hostiles) {
 }
 
 //Overloaded Attack (actual attack)
-@Override
 public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
     setPlayerDamage(playerDamage);
     System.out.println(getName() + " Shoots The Enemy " + hostiles.getName());
