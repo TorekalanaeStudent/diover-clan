@@ -2,7 +2,7 @@ package demo_class;
 
 import abstract_classes.Superhero_Ablis;
 import interfaces.SuperheroSystem_Ablis;
-import implementation.FlyingHero_Gedoria;
+import implementations.FlyingHero_Gedoria;
 
 public class AbstractionPolyDemo_Gedoria {
 
