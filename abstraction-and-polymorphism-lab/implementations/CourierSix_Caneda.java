@@ -96,10 +96,10 @@ public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
 }
 
 @Override
-public void defend(double playerDamage) {
-    int defendedPlayerAttack = (playerDamage*0.80);
+public void defend(int playerDamage) {
+    int defendedPlayerAttack = (int)(playerDamage*0.80);
     setIsGettingAttacked(true);
-    setHealthPoints(getHealthPoints() - defendedPlayerAttack);
+    setHealthPoints(getHealthPoints() - (int)defendedPlayerAttack);
     if(getHealthPoints() <= 0) {
         System.out.println(getName() + "Is Dead ");
     }
