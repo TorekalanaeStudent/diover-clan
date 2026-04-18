@@ -17,7 +17,7 @@ public class BlackMesaScientist_Caneda extends GameCharacter_Navarro implements 
  private int shield;
  private int maxHealth;
  private int healthPoints;
-
+ private int playerDamage;
 
 //Constructors
 
