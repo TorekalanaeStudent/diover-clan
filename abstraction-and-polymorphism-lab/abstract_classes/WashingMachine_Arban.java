@@ -5,7 +5,7 @@ package abstract_classes;
  */
 public abstract class WashingMachine_Arban {
 
-    String brand;
+    private String brand;
 
     // constructor
     WashingMachine_Arban(String brand) {
