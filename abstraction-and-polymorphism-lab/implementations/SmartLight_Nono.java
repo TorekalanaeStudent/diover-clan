@@ -1,4 +1,4 @@
-package implementation_class;
+package implementations;
 
 import abstract_classes.Device_Jagunap;
 import interfaces.EnergyEfficient_Jagunap;
