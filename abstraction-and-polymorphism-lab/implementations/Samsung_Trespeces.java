@@ -17,7 +17,7 @@ public class Samsung_Trespeces extends Gadget_Ovejera implements SmartphoneSyste
 
     @Override
     public void powerOn() {
-        System.out.println(getName() + " is powering on... Welcome to One UI!");
+        System.out.println(getName() + " is powering on... Welcome to One UI 8.5!");
     }
 
     @Override
@@ -28,12 +28,12 @@ public class Samsung_Trespeces extends Gadget_Ovejera implements SmartphoneSyste
 
     @Override
     public void makeCall() {
-        System.out.println(getName() + " is making a call...");
+        System.out.println(getName() + " is calling...");
     }
 
     @Override
     public void makeCall(String contact) {
-        System.out.println(getName() + " is calling " + contact + " via Samsung Dialer...");
+        System.out.println(getName() + " is calling " + contact + " via Samsung...");
     }
 
     @Override
@@ -43,6 +43,6 @@ public class Samsung_Trespeces extends Gadget_Ovejera implements SmartphoneSyste
 
     @Override
     public void connectToInternet() {
-        System.out.println(getName() + " connected to the internet via Samsung Network.");
+        System.out.println(getName() + " connected to the internet via mobile data or WiFi.");
     }
 }

@@ -17,7 +17,7 @@ public class Apple_Trespeces extends Gadget_Ovejera implements SmartphoneSystem_
 
     @Override
     public void powerOn() {
-        System.out.println(getName() + " is powering on... Hello from iOS!");
+        System.out.println(getName() + " is powering on... Hello from iOS 26!");
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Apple_Trespeces extends Gadget_Ovejera implements SmartphoneSystem_
 
     @Override
     public void makeCall() {
-        System.out.println(getName() + " is making a call...");
+        System.out.println(getName() + " is calling...");
     }
 
     @Override
@@ -43,6 +43,6 @@ public class Apple_Trespeces extends Gadget_Ovejera implements SmartphoneSystem_
 
     @Override
     public void connectToInternet() {
-        System.out.println(getName() + " connected to the internet via Apple Network.");
+        System.out.println(getName() + " connected to the internet via mobile data or WiFi.");
     }
 }
