@@ -1,0 +1,42 @@
+import calculator_class.SimpleCalculator_Navarro;
+
+public class DemoForCalculator_CanedaCanilloNavarro {
+    
+ public static void main(String[] args) {
+
+//Instances 
+SimpleCalculator_Navarro calc = new SimpleCalculator_Navarro();
+
+    System.out.println("=========== CALC ===========");
+    //Demonstrating calulator
+
+    //Addition for Interger
+    calc.add(1, 66);
+
+    //Addition for double
+    calc.add(16.98, 125.12);
+
+    //Substraction for Integer
+    calc.subtract(100, 33);
+
+    //Subtraction for Double
+    calc.subtract(104.29, 200.13);
+
+    //Mulitplication for Intger;
+    calc.multiply(3, 13);
+
+    //Multiplication for Double;
+    calc.multiply(-135.12, -124.11);
+
+    //Division for Integer
+    calc.divide(0, 5);
+    
+    //Division for Double
+    calc.divide(10.50, 500.100);
+
+    System.out.println("Brought to you by "+calc.getName());
+    System.out.println("Total operations "+calc.getOperationCount());
+
+    System.out.println("=========== FIN ===========");
+     }
+}
