@@ -5,7 +5,7 @@ public class BasicCalculator extends AbstractCalculator {
 
     // Method overloading 
     public int add(int a, int b) {
-        reutrn a + b;
+        return a + b;
     }
 
     @Override
@@ -26,7 +26,7 @@ public class BasicCalculator extends AbstractCalculator {
     @Override
     public double division(double a, double b) throws ArithmeticException {
         if (b == 0 ) {
-            throw new ArithmeticException("Cannot be divided by zero!")
+            throw new ArithmeticException("Cannot be divided by zero!");
         }
         return a/b;
     }
