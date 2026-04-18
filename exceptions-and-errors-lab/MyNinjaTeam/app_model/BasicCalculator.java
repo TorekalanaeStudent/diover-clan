@@ -33,16 +33,15 @@ public class BasicCalculator extends AbstractCalculator {
     }
 
     @Override
-    public double division(double a, double b) throws DivisionByZeroException {
+    public double division(double a, double b) throws InvalidInputException, NegativeNumberException, ArithmeticException {
         if (b == 0) {
             throw new DivisionByZeroException("Cannot divide by zero!");
         }
-
         return a/b;
     }
 
     // Custom Validation method 
-    public void validate(double value) {
+    public void validate(double value) throws InvalidInputException, NegativeNumberException {
         if (value == 0) {
             throw new InvalidInputException("Zero is not allowed!");
         }
