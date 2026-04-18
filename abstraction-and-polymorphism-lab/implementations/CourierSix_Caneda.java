@@ -97,7 +97,7 @@ public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
 }
 
 @Override
-public abstract void defend() {
+public void defend() {
     int defendedPlayerAttack = (int)(getPlayerDamage()*0.80);
     setIsGettingAttacked(true);
     setHealthPoints(getHealthPoints() - (int)defendedPlayerAttack);
