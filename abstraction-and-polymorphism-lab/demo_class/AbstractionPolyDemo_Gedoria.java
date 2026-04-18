@@ -2,7 +2,7 @@ package demo_class;
 
 import abstract_classes.Superhero_Ablis;
 import interfaces.SuperheroSystem_Ablis;
-import implementation.FlyingHero_Ablis;
+import implementation.FlyingHero_Gedoria;
 
 public class AbstractionPolyDemo_Gedoria {
 
@@ -49,7 +49,7 @@ public class AbstractionPolyDemo_Gedoria {
         System.out.println();
 
         // Overloading
-        FlyingHero_Ablis hero3 = new FlyingHero_Ablis();
+        FlyingHero_Gedoria hero3 = new FlyingHero_Gedoria();
         hero3.performAttack();            // method 1
         hero3.performAttack("Enemy");     // overloaded version
 
