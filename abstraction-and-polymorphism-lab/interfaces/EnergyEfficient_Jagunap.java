@@ -3,7 +3,7 @@ package interfaces;
 /**
  * Energy behavior contract for devices.
  */
-public interface EnergyEfficient {
+public interface EnergyEfficient_Jagunap {
 
     // =========================
     // Abstract Method
