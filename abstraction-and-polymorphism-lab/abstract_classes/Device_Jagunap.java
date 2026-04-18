@@ -5,9 +5,9 @@ package abstract_classes;
  */
 public abstract class Device_Jagunap {
 
-    protected String deviceName;
-    protected int batteryLevel;
-    protected boolean poweredOn;
+    private String deviceName;
+    private int batteryLevel;
+    private boolean poweredOn;
 
     // =========================
     // Constructor
