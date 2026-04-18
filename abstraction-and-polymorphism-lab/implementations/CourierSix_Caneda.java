@@ -17,7 +17,7 @@ public class CourierSix_Caneda extends GameCharacter_Navarro implements CombatSy
  private int karmaLevel;
  private int maxHealth;
  private int healthPoints; //Localized from health to healtpoints for much more familiar atttribut.
- 
+ private int playerDamage;
 
 //Constructors
 
@@ -92,12 +92,12 @@ public void attack(GameCharacter_Navarro hostiles) {
 @Override
 public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
     System.out.println(getName() + " Shoots The Enemy " + hostiles.getName());
-    hostiles.defend(playerDamage);
+    hostiles.defend();
 }
 
 @Override
-public void defend(int playerDamage) {
-    int defendedPlayerAttack = (int)(playerDamage*0.80);
+public void defend() {
+    int defendedPlayerAttack = (int)(getPlayerDamage()*0.80);
     setIsGettingAttacked(true);
     setHealthPoints(getHealthPoints() - (int)defendedPlayerAttack);
     if(getHealthPoints() <= 0) {
@@ -131,6 +131,11 @@ public int getMaximumHealth() {
 public int getHealthPoints() {
     return healthPoints;
 }
+//Getter #5 Gets player damage
+public int getPlayerDamage() {
+    return playerDamage() 
+}
+ 
 //Setters
 
 //Setter #1 Sets faction Alignment if there is no faction then it would directly be "no faction"
@@ -177,4 +182,8 @@ public void setHealthPoints(int healthPoints) {
 public void setIsGettingAttacked(boolean isGettingAttacked) {
     this.isGettingAttacked = isGettingAttacked;
 } 
+//Setter #6
+public void setPlayerDamage(int playerDamage) {
+    this.playerDamage = playerDamage;
+}
 }
