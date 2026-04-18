@@ -33,7 +33,7 @@ public class BasicCalculator extends AbstractCalculator {
     }
 
     @Override
-    public double division(double a, double b) throws InvalidInputException, ArithmeticException {
+    public double division(double a, double b) throws DivisionByZeroException, ArithmeticException {
         if (b == 0) {
             throw new DivisionByZeroException("Cannot divide by zero!");
         }
