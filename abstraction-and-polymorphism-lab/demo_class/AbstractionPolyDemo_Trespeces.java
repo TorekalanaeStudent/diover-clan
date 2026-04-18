@@ -46,7 +46,7 @@ import implementations.Apple_Trespeces;
 
 public class AbstractionPolyDemo_Trespeces {
     public static void main(String[] args) {
-        System.out.println("=== Creating Phase ===");
+        System.out.println("=== Start ===");
 
         // implementations
         Samsung_Trespeces samsung = new Samsung_Trespeces("Galaxy S25 Ultra", "Samsung", 67, 110990);
@@ -85,7 +85,7 @@ public class AbstractionPolyDemo_Trespeces {
         apple.connectToInternet();
 
         System.out.println("\n=== Notifications ===");
-        
+
         // default interface methods
         samsung.checkNotifications();
         apple.checkNotifications();
