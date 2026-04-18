@@ -3,7 +3,7 @@
 ---
 
 ## Date : 04/18/2026 | Activity : Abstraction and Polymorphism Lab
-Navarro, Vince Justine 2025-102952 04/18/2026 Abstraction and Polymorphism Lab Completed! \
+Navarro, Vince Justine 2025-1029521 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Canillo, Diover Vincent L. 2025-1023980 04/18/2026 Abstraction and Polymorphism Lab Completed!
 
 ---
@@ -14,7 +14,7 @@ Canillo, Diover Vincent L. 2025-1023980 04/18/2026 Abstraction and Polymorphism 
 Ablis, Margreleigne M. 2025-1020011 03/29/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Arban, Jhave P. 2025-1028156 03/28/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Canillo, Diover Vincent L. 2025-1023980 03/17/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
-Navarro, Vince Justine 2025-102952 03/24/202 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
+Navarro, Vince Justine 2025-1029521 03/24/202 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Ovejera, Ziggy T. 2025-1021339 03/27/2026 Composition Lab Completed! \
 Cañeda, Ramil jr M. 2025-1020773 03/30/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Nono, Mary Angeline B.. 2025-1022691 03/29/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
@@ -34,8 +34,7 @@ Cardeño, Faye L. 2025-1025317 03/19/2026 Inheritance Lab Completed! (x2 multipl
 Gedoria, Rajan Kurt O. 2025-1021948 03/20/2026 Encapsulation Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Go, Sean Ethan G. 2025-1025317 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Malig, Rich Matthew A. 2025-1027707 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
-Malig, Rich Matthew A. 2025-1027707 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
-Navarro, Vince Justine 2025-102952 03/17/2026 Inheritance Lab Completed 4x Multiplier (x2 for demonstrating hierarchical inheritance, x2 for completion before 12pm)! \
+Navarro, Vince Justine 2025-1029521 03/17/2026 Inheritance Lab Completed 4x Multiplier (x2 for demonstrating hierarchical inheritance, x2 for completion before 12pm)! \
 Nono, Mary Angeline B. 2025-1022691 03/19/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Jagunap, Janelle 2025-1025460 03/19/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance \
 Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
