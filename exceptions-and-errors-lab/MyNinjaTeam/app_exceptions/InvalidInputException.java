@@ -5,8 +5,8 @@ package app_exceptions;
  * @willj067
  */
 
-// unchecked exception - extends RuntimeException
-public class InvalidInputException extends RuntimeException {
+// unchecked exception - extends Exception
+public class InvalidInputException extends Exception {
 
     public InvalidInputException() {
         super("Invalid input provided.");
