@@ -3,7 +3,7 @@ package demo_class;
 import component_class.Kulangot;
 import component_class.Finger_Nono;
 import component_class.Earwax_Cardeno;
-import sub_class.ClearwaxCleaner_Jagunap;
+import sub_class.EarwaxCleaner_Jagunap;
 import composed_class.Support_Jagunap;
 
 /**
@@ -15,7 +15,7 @@ import composed_class.Support_Jagunap;
  * - Support_Jagunap HAS-A Earwax_Cardeno
  *
  * 2. Which classes were reused?
- * - Kulangot, Finger_Nono, Earwax_Cardeno, and ClearwaxCleaner_Jagunap
+ * - Kulangot, Finger_Nono, Earwax_Cardeno, and EarwaxCleaner_Jagunap
  *   were reused as components inside Support_Jagunap.
  *
  * 3. How does composition reduce coupling?
@@ -50,8 +50,8 @@ public class CompositionDemo_Jagunap {
         Kulangot kulangot = new Kulangot("Brown", "Small", true);
 
         // using subclass of Earwax_Cardeno
-        ClearwaxCleaner_Jagunap earwax =
-                new ClearwaxCleaner_Jagunap(60, "Yellow", "Sticky", true, "Vacuum");
+        EarwaxCleaner_Jagunap earwax =
+                new EarwaxCleaner_Jagunap(60, "Yellow", "Sticky", true, "Vacuum");
 
         // =========================
         // CREATE COMPOSED OBJECT
