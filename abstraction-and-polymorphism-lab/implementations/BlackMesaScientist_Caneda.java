@@ -102,7 +102,7 @@ public void defend() {
         }
     }
     else {
-            System.out.println("Shield was damage by "+playerDamage+" only "+getShield()+" is remaining");
+            System.out.println("Shield was damage by "+ defendedPlayerAttack+" only "+getShield()+" is remaining");
         setIsGettingAttacked(false);
     }  
 }
