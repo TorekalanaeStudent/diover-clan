@@ -5,7 +5,7 @@ import interfaces.Laundry_Arban;
 
 public class AutomaticWasher_DeJuras extends WashingMachine_Arban implements Laundry_Arban {
 
-    // Attributes 
+    // Attribute(s)
     private String washProgram;
     private double capacity;
     private boolean status;
