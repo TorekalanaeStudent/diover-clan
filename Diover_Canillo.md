@@ -55,8 +55,9 @@
 **<03/10/2026>** : Comment by: <Cañeda, Ramil>: You did everything as best as you could, and went further beyond to guide us, as the leader of our group. Thank you so much for leading our group keep up the good work!.  \
 **<03/15/2026>** Comment by: Malig, Rich Matthew; You did well; your code was easy to understand. You were very helpful in this activity, easy to communicate with, and demonstrated great leadership skills. \
 **<03/15/2026>** Comment by: Go, Sean Ethan; A stellar code you have made in our inheritance lab activity, it took me quite a while to decipher it xD, and you have not failed to keep tabs of our group; always being there for them in times of need, no matter the inconvenience. You exuded the aura of a leader in every step of the way. \
-**<03/15/2026>** Comment by <Onte, Vince Gian>: You did a great job. Your code was easy to understand, and you were a big help during the activity. You clearly showed dedication to your role in the group.
-**<03/29/2026>** Comment by: Ablis, Margreleigne; Code's clean and it has comments for explanation which makes it understandable.
+**<03/15/2026>** Comment by <Onte, Vince Gian>: You did a great job. Your code was easy to understand, and you were a big help during the activity. You clearly showed dedication to your role in the group. \
+**<03/29/2026>** Comment by: Ablis, Margreleigne; Code's clean and it has comments for explanation which makes it understandable. \
+**<04/17/2026>** Comment by: Navarro, Vince Justine: You did an amazing job at creating the abstraction-and-polymorphism activity, You helped us to be better in every step of the way!
 
 ## ➕ Plus Points
 
