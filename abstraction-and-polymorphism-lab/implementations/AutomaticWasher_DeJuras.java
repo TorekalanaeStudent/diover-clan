@@ -41,7 +41,7 @@ public class AutomaticWasher_DeJuras extends WashingMachine_Arban implements Lau
         if (!status) {
             System.out.println("The Machine is Already OFF");
         } else {
-            System.out.println(brand + " has Stopped Cleaning");
+            System.out.println(getBrand() + " has Stopped Cleaning");
         }
     }
 
