@@ -87,7 +87,7 @@ public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
 }
 //Defend it basically chekcs if shield is depleted then it takes away healthpoints, if not it takes aways shield
 @Override
-public void defend() {
+public abstract void defend() {
     int defendedPlayerAttack = (getShield() - getPlayerDamage());
     setShield(defendedPlayerAttack);
     setIsGettingAttacked(true);
