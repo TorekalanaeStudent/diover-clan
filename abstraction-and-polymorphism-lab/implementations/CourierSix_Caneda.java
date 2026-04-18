@@ -93,7 +93,7 @@ public void attack(GameCharacter_Navarro hostiles) {
 public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
     setPlayerDamage(playerDamage);
     System.out.println(getName() + " Shoots The Enemy " + hostiles.getName());
-    ((CombatSystem_Navarro)hostiles)
+    ((CombatSystem_Navarro)hostiles).defend();
 }
 
 @Override
