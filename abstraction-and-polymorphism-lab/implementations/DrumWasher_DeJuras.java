@@ -11,7 +11,7 @@ public class DrumWasher_DeJuras extends WashingMachine_Arban implements Laundry_
 
     // Default Constructor
     public DrumWasher_DeJuras(){
-        super("WhirlPool");
+        super("Whirlpool");
         setWashMode("Heavy Duty");
         setLoadCap(7.0);
         setIsRunning(false);
@@ -27,10 +27,10 @@ public class DrumWasher_DeJuras extends WashingMachine_Arban implements Laundry_
 
     public void display(){
         System.out.println("------------------------");
-        System.out.println(brand);
-        System.out.println("Wash Mode : " + washMode);
-        System.out.println("Capacity : " + loadCap);
-        System.out.println("Active : " + isRunning);
+        System.out.println("Brand: " + getBrand());
+        System.out.println("Wash Mode: " + washMode);
+        System.out.println("Capacity: " + loadCap + " kg");
+        System.out.println("Running: " + isRunning);
         System.out.println("------------------------");
     }
 
@@ -38,18 +38,19 @@ public class DrumWasher_DeJuras extends WashingMachine_Arban implements Laundry_
     @Override
     public void startWash(){
         if(!isRunning){
-            System.out.println("Your Drum Washer is inactive.");
+            System.out.println("Washer is OFF.");
         } else {
-            System.out.println("Drum Washer is washing " + loadCap + "kg at mode: " + washMode);
+            System.out.println("Washing " + loadCap + "kg using " + washMode + " mode.");
         }
     }
 
     @Override
     public void stopWash(){
         if(!isRunning){
-            System.out.println("Your Drum Washer is inactive.");
+            System.out.println("Washer is already OFF.");
         } else {
-            System.out.println("Successfully cleaned " + loadCap + "kg of clothes.");
+            System.out.println("Wash complete: " + loadCap + "kg cleaned.");
+            isRunning = false;
         }
     }
 
@@ -58,50 +59,41 @@ public class DrumWasher_DeJuras extends WashingMachine_Arban implements Laundry_
         System.out.println("Wash Time: " + time + " minutes");
     }
 
-    public void stopWash(double time, boolean stopTime){
-        System.out.println("The washing machine will stop in " + time + " minutes");
+    public void stopWash(double time, boolean autoStop){
+        System.out.println("Machine will stop in " + time + " minutes");
     }
 
     // Getters
     public String getWashMode(){
-        return this.washMode;
+        return washMode;
     }
 
     public double getCapacity(){
-        return this.loadCap;
+        return loadCap;
     }
 
     public boolean getIsRunning(){
-        return this.isRunning;
+        return isRunning;
     }
 
     // Setters
     public void setWashMode(String washMode){
         if(washMode == null || washMode.isBlank()){
-            System.out.println("Wash Mode set to: Normal");
             this.washMode = "Normal";
         } else {
             this.washMode = washMode;
-            System.out.println("Wash Mode set to: " + washMode);
         }
     }
 
     public void setLoadCap(double loadCap){
         if(loadCap <= 0){
-            System.out.println("Invalid capacity, defaulting to 7.0kg");
             this.loadCap = 7.0;
         } else {
             this.loadCap = loadCap;
-            System.out.println("Load capacity set to: " + loadCap + "kg");
         }
     }
 
     public void setIsRunning(boolean isRunning){
-        this.isRunning = isRunning; 
-        if(isRunning){
-            System.out.println("Drum Washer is On");
-        } else {
-            System.out.println("Drum Washer is Off");
-        }
+        this.isRunning = isRunning;
     }
 }
