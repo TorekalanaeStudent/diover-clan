@@ -29,7 +29,7 @@ public class AbstractionPolyDemo_Gedoria {
 
         // Where does dynamic binding occur in your code?
         // Here, abstract reference pointing to concrete object
-        Superhero_Ablis hero1 = new FlyingHero_Ablis("SkyFlash", 21, 900, "light-speed flight");
+        Superhero_Ablis hero1 = new FlyingHero_Gedoria("SkyFlash", 21, 900, "light-speed flight");
 
         hero1.introduce();
         hero1.usePower();   // dynamic binding
@@ -38,7 +38,7 @@ public class AbstractionPolyDemo_Gedoria {
         System.out.println();
 
         // Interface reference 
-        SuperheroSystem_Ablis hero2 = new FlyingHero_Ablis("StormWing", 25, 850, "storm control");
+        SuperheroSystem_Ablis hero2 = new FlyingHero_Gedoria("StormWing", 25, 850, "storm control");
 
         // Which part shows polymorphism?
         // Same methods, different behavior depending on object
