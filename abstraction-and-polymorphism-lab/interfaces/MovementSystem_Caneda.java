@@ -19,5 +19,8 @@ public interface MovementSystem_Caneda {
     
     //Default method #1 will stop chracter movement
 
-    default void stopMovement();
+    default void stopMovement(){
+        
+    }
+        
 }
