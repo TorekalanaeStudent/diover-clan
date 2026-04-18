@@ -10,7 +10,7 @@ public class BasicCalculator extends AbstractCalculator {
 
     @Override
     public double addition(double a, double b) {
-        return a + b
+        return a + b;
     }
 
     @Override
