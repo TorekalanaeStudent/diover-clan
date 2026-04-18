@@ -11,7 +11,8 @@ Cañeda, Ramil jr M. 2025-1020773 03/30/2026 Composition Lab Completed 4x Multip
 Nono, Mary Angeline B.. 2025-1022691 03/29/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Obedoza, John Kyle B., 2025-1022691 03/29/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Cardeño, Faye L. 2025-1025317 04/01/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) 
-Trespeces, Guillermo 2025-1025412 04/02/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) 
+Trespeces, Guillermo 2025-1025412 04/02/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
+Jagunap, Janelle 2025-1025460 04/18/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 
 ## Date : 03/17/2026 | Activity : Inheritance Lab 
 Ablis, Margreleigne M. 2025-1020011 03/22/2026 Encapsulation Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
