@@ -18,6 +18,7 @@
 next time I will try to learn how to manage my projects better and collaborate using version control. \
 **\<03/19/2026\>** : I learned the how to design a parent class, extend a teammate’s class, implement method overriding, and observe dynamic binding behavior, 
 next time I will try to implement these in real time projects and finish it in a short time. \
+**\<04/18/2026\>** : I learned the how to use composition (HAS-A relationship) in designing Java classes, next time I will try to apply it more consistently to create better‑structured and more flexible programs.\
 
 ## 📘 Peer Feedback
 **<03/11/2026>** : Comment by: Nono, Mary Angeline B.; You did well in Organizing your methods and constructors and you can improve by testing your methods more. \
