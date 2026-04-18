@@ -2,6 +2,7 @@ package implementations;
 
 import abstract_classes.GameCharacter_Navarro;
 import interfaces.CombatSystem_Navarro;
+import components.Ability_Canillo;
 
 /**
  * @author Canillo, Diover Vincent
@@ -14,6 +15,7 @@ public class GreekGod_Canillo extends GameCharacter_Navarro implements CombatSys
     private String sacredWeapon; // like the trident and stuff 
     private boolean immortal; // full god so most likely immortal (can be killed with divine weapons)
     private boolean defending;
+    private Ability_Canillo ability; // showing again the composition;
 
     // Default Constructor
     public GreekGod_Canillo(){
@@ -21,22 +23,16 @@ public class GreekGod_Canillo extends GameCharacter_Navarro implements CombatSys
         innateDomain = "Sky";
         sacredWeapon = "Thunderbolt";
         immortal = true;
-    }
-
-    // Overloaded Constructor
-    public GreekGod_Canillo(String name, int health, String innateDomain, String sacredWeapon){
-        super(name, health);
-        setDomain(innateDomain);
-        setSacredWeapon(sacredWeapon);
-        setImmortal(true);
+        this.ability = new Ability_Canillo("Divine Thunder", 120);
     }
 
     // Parameterized Constructor
-    public GreekGod_Canillo(String name, int health, String innateDomain, String sacredWeapon, boolean immortal){
+    public GreekGod_Canillo(String name, int health, String innateDomain, String sacredWeapon, boolean immortal, Ability_Canillo ability){
         super(name, health);
         setDomain(innateDomain);
         setSacredWeapon(sacredWeapon);
         setImmortal(immortal);
+        this.ability = ability;
     }
 
     // OVERRIDES
@@ -69,6 +65,7 @@ public class GreekGod_Canillo extends GameCharacter_Navarro implements CombatSys
         System.out.println((getWeapon().equalsIgnoreCase("fist")
         ? getName() + " punched " + enemy.getName() + "!" 
         : getName() + " attacked " + enemy.getName() + " with The " + getWeapon() + "!"));
+        ability.use(this);
         this.defending = false;
     }
 
