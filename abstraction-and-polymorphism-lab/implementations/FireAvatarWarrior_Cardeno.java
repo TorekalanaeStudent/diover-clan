@@ -3,60 +3,56 @@ package implementations;
 import abstract_classes.AvatarCore_Nono;
 import interfaces.FireAvatarSystem_Nono;
 
-/**
- * @author @flcardeno (Cardeño, Faye L.) 
-*/
-
 public class FireAvatarWarrior_Cardeno extends AvatarCore_Nono implements FireAvatarSystem_Nono {
 
     // additional attribute (composition)
-    private String weapon;
+    private String tribalWeapon;
 
-    // default constructor
+    // default constructor 
     public FireAvatarWarrior_Cardeno() {
-        super("Neytiri", "Fire", 100, 0);
-        this.weapon = "Basic Sword";
+        super("Na'vi Warrior", "Fire-Earth Balance", 110, 10);
+        this.tribalWeapon = "Bow of Pandora";
     }
 
     // parameterized constructor
-    public FireAvatarWarrior_Cardeno(String avatarName, String affinity, int stamina, int experience, String weapon) {
+    public FireAvatarWarrior_Cardeno(String avatarName, String affinity, int stamina, int experience, String tribalWeapon) {
         super(avatarName, affinity, stamina, experience);
-        this.weapon = weapon;
+        this.tribalWeapon = tribalWeapon;
     }
 
-    // getter and setter
-    public String getWeapon() {
-        return weapon;
+    // getter & setter
+    public String getTribalWeapon() {
+        return tribalWeapon;
     }
-    public void setWeapon(String weapon) {
-        this.weapon = weapon;
+    public void setTribalWeapon(String tribalWeapon) {
+        this.tribalWeapon = tribalWeapon;
     }
 
     // overloading methods
-    public void useSkill(int cost) {   
-        System.out.println(avatarName + " uses fire slash!");
+    public void useSkill(int cost) {  
+        System.out.println(avatarName + " channels Pandora energy for a strike!");
     }
-    public void useSkill(int cost, String target) {   
-        System.out.println(avatarName + " attacks " + target + " with fire slash!");
+    public void useSkill(int cost, String target) {  
+        System.out.println(avatarName + " strikes " + target + " using Pandora's flame energy!");
     }
-    public void performAttack() {   
-        System.out.println(avatarName + " attacks using " + weapon);
+    public void performAttack() {  
+        System.out.println(avatarName + " attacks using " + tribalWeapon + " from Pandora forest!");
     }
-    public void performAttack(String target) {   
-        System.out.println(avatarName + " attacks " + target + " using " + weapon);
+    public void performAttack(String target) {  
+        System.out.println(avatarName + " attacks " + target + " with a sacred Na'vi strike!");
     }
 
     // overriding methods
     @Override
     public void performDefense() {   
-        System.out.println(avatarName + " creates fire shield!");
+        System.out.println(avatarName + " connects with Eywa for protection!");
     }
     @Override
-    public void performSpecialAttack() {  
-        System.out.println(avatarName + " unleashes FIRE STORM!");
+    public void performSpecialAttack() {   
+        System.out.println(avatarName + " unleashes a Pandora Spirit Flame!");
     }
     @Override
-    public String getAvatarType() {  
-        return "Fire Avatar Warrior";
+    public String getAvatarType() {   
+        return "Na'vi Fire Warrior";
     }
 }
