@@ -13,7 +13,7 @@ public class PlainCalculator {
 
     public PlainCalculator (String name) {
         this.name = name;
-        this lastResult = 0;
+        this.lastResult = 0;
     }
     
     //Method Overloading 
@@ -35,7 +35,7 @@ public class PlainCalculator {
     }
     public int divide (int a, int b) {
         if (b == 0) {
-            throw new ArithmeticException("Cannot divide by zero.")
+            throw new ArithmeticException("Cannot divide by zero.");
         }
         lastResult = a / b;
         return lastResult;
