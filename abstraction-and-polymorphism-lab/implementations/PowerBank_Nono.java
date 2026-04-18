@@ -1,94 +1,101 @@
-package implementations;
-
+package implementation_class;
+ 
 import abstract_classes.Device_Jagunap;
 import interfaces.EnergyEfficient_Jagunap;
-
+ 
 /**
- * @author Nono,Mary Angeline B.
- */
+* @author Nono, Mary Angeline B.
 
-public class PowerBank_Nono extends Device_Jagunap implements EnergyEfficient_Jagunap {
-
-    private int chargeOutput; // in watts
-
+*/
+ 
+public class Powerbank_Nono extends Device_Jagunap implements EnergyEfficient_Jagunap {
+ 
     // =========================
-    // Default Constructor
+    // Attributes
     // =========================
-    public PowerBank_Nono() {
-        super("Generic Powerbank", 100);
+    private int chargeOutput;   // in watts
+    private boolean charging;
+ 
+    // =========================
+    // DEFAULT CONSTRUCTOR
+    // =========================
+    public Powerbank_Nono() {
+        super("Generic Powerbank", 50);
         setChargeOutput(10);
+        this.charging = false;
     }
-
+ 
     // =========================
-    // Parameterized Constructor
+    // PARAMETERIZED CONSTRUCTOR
     // =========================
-    public PowerBank_Nono(String deviceName, int batteryLevel, int chargeOutput) {
+    public Powerbank_Nono(String deviceName, int batteryLevel, int chargeOutput) {
         super(deviceName, batteryLevel);
         setChargeOutput(chargeOutput);
+        this.charging = false;
     }
-
+ 
     // =========================
-    // Setter
-    // =========================
-    public void setChargeOutput(int chargeOutput) {
-        if (chargeOutput <= 0) {
-            System.out.println("Invalid charge output. Defaulting to 10W.");
-            this.chargeOutput = 10;
-        } else {
-            this.chargeOutput = chargeOutput;
-        }
-    }
-
-    // =========================
-    // Abstract Method
+    // OVERRIDES
+    // --- ABSTRACT CLASS ---
     // =========================
     @Override
     public void performTask() {
         if (!isPoweredOn()) {
-            System.out.println(getDeviceName() + " is OFF. Turn it on before charging.");
+            System.out.println(getDeviceName() + " is OFF. Please power it on first.");
             return;
         }
-
+ 
         if (getBatteryLevel() <= 0) {
-            System.out.println(getDeviceName() + " has no battery left to charge devices.");
+            System.out.println(getDeviceName() + " has no remaining battery.");
             return;
         }
-
+ 
+        charging = true;
         System.out.println(getDeviceName()
                 + " is charging a device at " + chargeOutput + "W.");
     }
-
+ 
+    @Override
+    public String getDeviceType() {
+        if (chargeOutput >= 20)
+            return "Fast-Charging Powerbank";
+        else if (chargeOutput >= 10)
+            return "Standard Powerbank";
+        else
+            return "Low-Power Powerbank";
+    }
+ 
     // =========================
-    // Interface Method
+    // --- INTERFACE ---
     // =========================
     @Override
     public int energyUsagePerTask() {
         return chargeOutput <= 10 ? 5 : 12;
     }
-
-
-    @Override
-    public String getDeviceType() {
-        return "PowerBank";
+ 
+    // =========================
+    // GETTERS
+    // =========================
+    public int getChargeOutput() {
+        return chargeOutput;
     }
-
-    
-    public void describe() {
-        System.out.println("Device Info");
-        System.out.println("Name      : " + getDeviceName());
-        System.out.println("Type      : " + getDeviceType());
-        System.out.println("Battery   : " + getBatteryLevel());
-        System.out.println("Output    : " + chargeOutput + "W");
-        System.out.println("Powered   : " + isPoweredOn());
+ 
+    public boolean isCharging() {
+        return charging;
     }
-
-    public void describe(String title) {
-        System.out.println("=== " + title + " ===");
-        describe();
-    }
-
-    public void describe(String title, String note) {
-        describe(title);
-        System.out.println("Note: \"" + note + "\"");
+ 
+    // =========================
+    // SETTERS
+    // =========================
+    public void setChargeOutput(int chargeOutput) {
+        if (chargeOutput <= 0 || chargeOutput > 30) {
+            System.out.println("Invalid charge output. Setting to default 10W.");
+            this.chargeOutput = 10;
+        } else {
+            System.out.println("Charge output set to: " + chargeOutput + "W");
+            this.chargeOutput = chargeOutput;
+        }
     }
 }
+ 
+ 
