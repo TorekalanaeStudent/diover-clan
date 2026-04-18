@@ -1,5 +1,5 @@
 package model;
 
-public class BasicCalculator extents AbstractCalculator {
+public class BasicCalculator extends AbstractCalculator {
 
 }
