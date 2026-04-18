@@ -5,14 +5,14 @@ package app_exceptions;
  * @willj067
  */
 
-// checked exception - must be declared or handled
-public class DivisionByZeroException extends Exception {
+// unchecked exception - extends RuntimeException
+public class InvalidInputException extends RuntimeException {
 
-    public DivisionByZeroException() {
-        super("Cannot divide by zero.");
+    public InvalidInputException() {
+        super("Invalid input provided.");
     }
 
-    public DivisionByZeroException(String message) {
+    public InvalidInputException(String message) {
         super(message);
     }
 }
