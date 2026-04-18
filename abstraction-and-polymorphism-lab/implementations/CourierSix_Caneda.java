@@ -57,6 +57,7 @@ public String getRole() {
     else if(karmaLevel >= -1000 && karmaLevel <= -749) {
         return "Very Evil";
     }
+    return "Uknown";
 }
 
 //Basically checks the healthpoints and this method gives out current status of player depending on healthpoints
