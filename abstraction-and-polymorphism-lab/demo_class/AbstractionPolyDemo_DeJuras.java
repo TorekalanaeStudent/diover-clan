@@ -7,7 +7,7 @@ import interfaces.Laundry_Arban;
 
 /**
  * @author DeJuras
- *
+ * 
  *  Q1: What abstract class did you create?
  *  Vehicles_DeJuras.java
  *
@@ -43,7 +43,7 @@ import interfaces.Laundry_Arban;
 public class AbstractionPolyDemo_DeJuras {
     public static void main(String[] args) {
 
-        // Default Constructors
+        // Default Constructor(s)
         AutomaticWasher_DeJuras autoWasher = new AutomaticWasher_DeJuras();
         DrumWasher_DeJuras drumWasher = new DrumWasher_DeJuras();
 
