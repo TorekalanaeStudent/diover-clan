@@ -16,7 +16,7 @@ public class BlackMesaScientist_Caneda extends GameCharacter_Navarro implements 
  private String BlackMesaRole;
  private int shield;
  private int maxHealth;
- 
+ private int healthPoints
 
 
 //Constructors
@@ -90,7 +90,7 @@ public void defend(int playerDamage) {
     int defendedPlayerAttack = (getShield()- playerDamage);
     setShield(defendedPlayerAttack);
     setIsGettingAttacked(true);
-    if(getShieldIsDepleted){
+    if(getShieldIsDepleted()){
         setHealthPoints(getHealthPoints() - playerDamage); 
         if(getHealthPoints() <= 0){
             System.out.println(getName() + "Is Dead ");
