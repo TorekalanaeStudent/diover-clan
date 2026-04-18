@@ -86,8 +86,8 @@ public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
 }
 //Defend it basically chekcs if shield is depleted then it takes away healthpoints, if not it takes aways shield
 @Override
-public void defend(int playerDamage) {
-    int defendedPlayerAttack = (getShield()- playerDamage);
+public void defend() {
+    int defendedPlayerAttack = (getShield() - getPlayerDamage());
     setShield(defendedPlayerAttack);
     setIsGettingAttacked(true);
     if(getShieldIsDepleted()){
@@ -132,7 +132,10 @@ public int getMaxHealth() {
 public int getHealthPoints() {
     return healthPoints; 
 }
-
+//Getter #6
+public int getPlayerDamage() {
+    return playerDamage;
+}
 //Setters
 
 //Setter #1
@@ -192,4 +195,9 @@ public void setHealthPoints(int healthPoints) {
 public void setIsGettingAttacked(boolean isGettingAttacked) {
     this.isGettingAttacked = isGettingAttacked;
 } 
+//Setter #7
+public void setPlayerDamage(int playerDamage) {
+    this.playerDamage = playerDamage;
+}
+
 }
