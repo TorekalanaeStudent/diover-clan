@@ -43,7 +43,7 @@ public String getRole() {
     return getBlackMesaRole();
 }
 
-//getStatus basically first checks if shield is depleted, if it is then checks 
+//getStatus basically first checks if shield is depleted, if it is, then checks checks the actual healtPoints
 @Override
 public String getStatus() {
  int getHealthPoints = getHealth();
@@ -83,7 +83,7 @@ public void attack(GameCharacter_Navarro hostiles) {
 public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
     setPlayerDamage(playerDamage);
     System.out.println(getName() + " Shoots The Enemy " + hostiles.getName());
-    hostiles.defend();
+    ((CombatSystem_Navarro)hostiles).defend();
 }
 //Defend it basically chekcs if shield is depleted then it takes away healthpoints, if not it takes aways shield
 @Override
@@ -110,41 +110,41 @@ public void defend() {
 
 //Getters
 
-//Getter #1
+//Getter #1 gets shiledisDepleted
 public boolean getShieldIsDepleted(){
     return shieldIsDepleted;
 }
 
-//Getter #2
+//Getter #2 gets blackMesaRole
 public String getBlackMesaRole(){
     return BlackMesaRole;
 }
 
-//Getter #3
+//Getter #3 gets shield
 public int getShield() {
     return shield;
 }
 
-//Getter #4
+//Getter #4 gets maxHealth
 public int getMaxHealth() {
     return maxHealth; 
 }
-//Getter #5
+//Getter #5 gets healthOoints
 public int getHealthPoints() {
     return healthPoints; 
 }
-//Getter #6
+//Getter #6  gets playerDamage
 public int getPlayerDamage() {
     return playerDamage;
 }
 //Setters
 
-//Setter #1
+//Setter #1 Sets shieldIsDepleted
 public void setShieldIsDepleted(boolean shieldIsDepleted) {
     this.shieldIsDepleted = shieldIsDepleted;
 }
 
-//Setter #2
+//Setter #2 Sets blackMesaRole
 public void setBlackMesaRole(String BlackMesaRole) {
     if(getBlackMesaRole().isBlank() || getBlackMesaRole().equals(" ")){
         this.BlackMesaRole = "Scientist";
@@ -155,7 +155,7 @@ public void setBlackMesaRole(String BlackMesaRole) {
     
 }
 
-//Setters #3
+//Setters #3 Sets shield
 public void setShield(int shield) {
  if(isGettingAttacked){
     this.shield = shield;
@@ -169,7 +169,7 @@ public void setShield(int shield) {
     }
  }
 }
-//Setter #4
+//Setter #4 Sets maxHealth
 public void setMaxHealth(int maxHealth) {
     if(maxHealth <= 0) {
         this.maxHealth = 100;
@@ -178,7 +178,7 @@ public void setMaxHealth(int maxHealth) {
     this.maxHealth = maxHealth;
     }
 }
-//Setter #5
+//Setter #5 Sets HealthPoints
 public void setHealthPoints(int healthPoints) {
  if(isGettingAttacked) {
     this.healthPoints = healthPoints;
@@ -192,11 +192,11 @@ public void setHealthPoints(int healthPoints) {
     }
  }
 }
-//Setter #6 
+//Setter #6 Sets isGettingAttacked
 public void setIsGettingAttacked(boolean isGettingAttacked) {
     this.isGettingAttacked = isGettingAttacked;
 } 
-//Setter #7
+//Setter #7 Sets playerDamage
 public void setPlayerDamage(int playerDamage) {
     this.playerDamage = playerDamage;
 }
