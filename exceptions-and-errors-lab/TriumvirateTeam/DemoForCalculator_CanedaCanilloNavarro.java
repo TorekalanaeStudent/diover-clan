@@ -1,6 +1,8 @@
 import calculator_class.SimpleCalculator_Navarro;
 
 public class DemoForCalculator_CanedaCanilloNavarro {
+    
+ public static void main(String[] args) {
 
 //Instances 
 SimpleCalculator_Navarro calc = new SimpleCalculator_Navarro();
@@ -36,4 +38,5 @@ SimpleCalculator_Navarro calc = new SimpleCalculator_Navarro();
     System.out.println("Total operations "+calc.getOperationCount());
 
     System.out.println("=========== FIN ===========");
+     }
 }
