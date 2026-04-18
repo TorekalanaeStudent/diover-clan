@@ -20,4 +20,14 @@ public abstract class WashingMachine_Arban {
     public void showBrand() {
         System.out.println("Washing Machine: " + brand);
     }
+
+    // getter
+    public String getBrand(){
+        return this.brand;
+    }
+
+    // setter
+    public void setBrand(String brand){
+        this.brand = brand;
+    }
 }
