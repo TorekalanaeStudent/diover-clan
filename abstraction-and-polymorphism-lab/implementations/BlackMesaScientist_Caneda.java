@@ -92,7 +92,7 @@ public void defend() {
     setShield(defendedPlayerAttack);
     setIsGettingAttacked(true);
     if(getShieldIsDepleted()){
-        setHealthPoints(getHealthPoints() - playerDamage); 
+        setHealthPoints(getHealthPoints() - getPlayerDamage()); 
         if(getHealthPoints() <= 0){
             System.out.println(getName() + "Is Dead ");
         }
