@@ -178,7 +178,8 @@ commented and approved navarro's (format_fix_caneda) pr: 2 points - #844 \
 commented, change requested and finally approved go's (journal) pr: 4 points - #845 \
 commented and approved navarro's (journal) pr: 2 points - #846 \
 commented and approved exodia's (changelog) pr: 2 points - #847 \
-commented and approved go's (changelog) pr: 2 points - #849
+commented and approved go's (changelog) pr: 2 points - #849 \
+commented and approved navarro's (journal_update) pr: 2 points - #850
 
 ---
 
