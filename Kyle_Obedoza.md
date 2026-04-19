@@ -35,5 +35,7 @@ John Kyle Obedoza
 
 **\<03/30/2026\>** : Comment by: Caneda, Ramil jr M; you did well creating your component classed and understood the key concept of "KISS" in OOP Good job!.
 
+**<04/19/2026>** : Comment by: Go, Sean Ethan G. ; You have demostratrated commendable programming work in integrating exceptions and errors in a calculator setting, you can improve by completing more projects that incorporate such topic in question.
+
 ## ➕ Plus Points
 
