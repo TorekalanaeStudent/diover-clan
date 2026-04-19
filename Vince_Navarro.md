@@ -17,6 +17,7 @@
 | 04/18/2026 | PR Review       | Jagunap (team_changelog) - #761                                 | 2       |               |
 | 04/18/2026 | PR Review       | Ramil (absopoly activity) - #759                                | 2       |               |
 | 04/18/2026 | PR Review       | Jagunap (composed_class) - #757                                 | 2       | 24            |
+| 04/17/2026 | PR Review       | Canillo (absopoly activity) - #741                              | 2       |               |
 | 04/17/2026 | PR Review       | Canillo (fix) - #738                                            | 2       |               |
 | 04/17/2026 | PR Review       | Gedoria (abstract_class and interface_class) - #734             | 2       |               |  
 | 04/17/2026 | PR Review       | Ablis (abstract_class and interface_class) - #733               | 2       | 8             |
