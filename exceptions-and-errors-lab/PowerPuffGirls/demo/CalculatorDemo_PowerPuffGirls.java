@@ -1,8 +1,8 @@
 package demo;
 
 import calculator_class.Calculator;
-import exceptions.InvalidInputException;
-import exceptions.NegativeNumberException;
+import exceptions.InvalidInputExceptions;
+import exceptions.NegativeNumberExceptions;
  
 /*
 =====================================================
@@ -100,12 +100,12 @@ public class CalculatorDemo_PowerPuffGirls {
             System.out.println("Division: " + calculator.divide(10, 0));
  
         }
-        catch (InvalidInputException e) {
+        catch (InvalidInputExceptions e) {
             // Handles CHECKED exception
             System.err.println("ERROR (Invalid Input): " + e.getMessage());
  
         }
-        catch (NegativeNumberException e) {
+        catch (NegativeNumberExceptions e) {
             // Handles UNCHECKED exception
             System.err.println("ERROR (Negative Number): " + e.getMessage());
  
@@ -131,7 +131,7 @@ public class CalculatorDemo_PowerPuffGirls {
             System.out.println("Triggering Negative Number Exception:");
             System.out.println(calculator.multiply(-5, 2));
         }
-        catch (NegativeNumberException e) {
+        catch (NegativeNumberExceptions e) {
             System.err.println("ERROR (Negative Number): " + e.getMessage());
         }
  
