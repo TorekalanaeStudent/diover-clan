@@ -50,7 +50,7 @@ public class PlainCalculator {
 
     public boolean validateInput(int value) throws NegativeNumException {
         if (value < 0) {
-            throw new NegativeNumberException("Negative numbers are not allowed.");
+            throw new NegativeNumException("Negative numbers are not allowed.");
         }
         return true;
     }
