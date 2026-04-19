@@ -26,4 +26,5 @@ next time I will try to implement these in real time projects and finish it in a
 **\<03/15/2026\>** : Comment by: Mary Angeline Nono; You did well in implementing strong encapsulation and validation in your class and you can improve by adding more comments to explain your methods clearly.\
 **\<03/20/2026\>**  : Comment by: Mary Angeline Nono; You did well in implementing inheritance correctly and you can improve by adding more unique methods in your subclass. \
 **\<04/18/2026\>** : Comment by: Nono, Mary Angeline B.; You did well in organizing your classes and properly implementing interfaces, and you can improve by enhancing your method logic and adding more validation to handle edge cases. \
+**\<04/19/2026\>** : Comment by: Cardeño, Faye; You did well in working on the calculator system, and we all did a good job as a team, and there’s not much to improve since we completed everything well.
 
