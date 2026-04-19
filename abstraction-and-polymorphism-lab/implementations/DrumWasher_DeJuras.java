@@ -5,6 +5,7 @@ import interfaces.Laundry_Arban;
 
 public class DrumWasher_DeJuras extends WashingMachine_Arban implements Laundry_Arban {
 
+    // attributes
     private String washMode;
     private double loadCap;
     private boolean isRunning;
