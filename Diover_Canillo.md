@@ -60,7 +60,8 @@
 **<03/15/2026>** Comment by: Go, Sean Ethan; A stellar code you have made in our inheritance lab activity, it took me quite a while to decipher it xD, and you have not failed to keep tabs of our group; always being there for them in times of need, no matter the inconvenience. You exuded the aura of a leader in every step of the way. \
 **<03/15/2026>** Comment by <Onte, Vince Gian>: You did a great job. Your code was easy to understand, and you were a big help during the activity. You clearly showed dedication to your role in the group. \
 **<03/29/2026>** Comment by: Ablis, Margreleigne; Code's clean and it has comments for explanation which makes it understandable. \
-**<04/18/2026>** Comment by: Navarro, Vince Justine: You did an amazing job at creating the abstraction-and-polymorphism activity, You helped us to be better in every step of the way!
+**<04/18/2026>** Comment by: Navarro, Vince Justine: You did an amazing job at creating the abstraction-and-polymorphism activity, You helped us to be better in every step of the way! \
+**<04/19/2026>** Comment by: Navarro, Vince Justine: You did a superb job at creating the checked and unchecked exceptions class, Thanks and we are very lucky to have you as our leader!
 
 ## ➕ Plus Points
 
