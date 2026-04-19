@@ -19,6 +19,7 @@ I like sleeping
 **\<03/11/2026\>** : I learned about classes, objects, constructors, and variables in OOP, and next time I will improve how I use and apply them when coding.
 **\<03/19/2026\>** : I learned how to organize my code in packages and manage parent and child classes, and next time I will practice dynamic binding more to avoid errors in the main method.
 **\<<04/02/2026\>** : I learned composition by understanding how one class can contain and use other classes to form a HAS-A relationship, and next time I will apply this by designing cleaner and more organized code using composition instead of relying too much on inheritance.
+**\<<04/19/2026\>** : I learned how to apply abstraction and polymorphism in Java by using abstract classes and interfaces, and next time I will improve my code organization and make my implementations more efficient and easier to understand.
 
 ## 📘 Peer Feedback
 **\<03/11/2026\>** : Comment by: Jagunap Janelle; You did well on implementing your objects with and without parameter, i think there is nothing more to improve in this tasks because you met the requirements well!
