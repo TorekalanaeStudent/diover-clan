@@ -18,7 +18,7 @@ Mary Angeline Nono
 **\<03/19/2026\>** : I learned how inheritance, method overriding, and dynamic binding work in Java and next time I will improve my class design and coding consistency.
 **\<03/29/2026\>** : I learned how to use composition to connect multiple classes together, and next time I will improve my class structure to make it more reusable and clean.
 **\<04/18/2026\>** : I learned how abstraction and polymorphism work together in Java using abstract classes and interfaces, and next time I will apply method overloading and dynamic binding more effectively in my implementations.
-
+**\<04/19/2026\>** : I learned proper exception handling and OOP integration, and next time I will enhance my coding efficiency and error management.
 
 ## Peer Feedback
 **\<03/06/2026\>** : Comment by: <Cardeño, Faye>; You did well in participating and  finishing the task, and you can improve by practicing more coding exercises.
