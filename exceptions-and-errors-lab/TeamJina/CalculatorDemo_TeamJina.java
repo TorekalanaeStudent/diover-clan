@@ -3,8 +3,9 @@
  * Group Members:
  * Ovejera, Ziggy - @ziggyovejera
  * Ablis, Margreleigen - @matidagreat
+ * Gedoria, Rajan - @rajangedoria-ctrl
  * 
- * @author: Ablis, Margreleigne
+ * @author: Ablis, Margreleigne, Gedoria
  */
 
 package TeamJina;
@@ -44,6 +45,8 @@ public class CalculatorDemo_TeamJina {
             System.out.println("Valid Division: 12.6 / 3.0 = " + calc.divide(12.6, 3.0));
         } catch (InvalidInputException_TeamJina e) {
             System.out.println("ERROR: " + e.getMessage());
+        } finally {
+            System.out.println("Valid division attempted done.");
         } 
         System.out.println(); // for spacing
 
@@ -59,6 +62,8 @@ public class CalculatorDemo_TeamJina {
         } catch (InvalidInputException_TeamJina e) {
             System.out.println("ERROR: " + e.getMessage());
             System.out.println("Oh no!We can't divide by zero!\n");
+        } finally {
+            System.out.println("Division by zero handled.");
         }
 
         // Error 2: Negative numbers
@@ -72,6 +77,8 @@ public class CalculatorDemo_TeamJina {
             System.out.println("Oops! Negative numbers not allowed!\n");
         } catch (InvalidInputException_TeamJina e) {
             System.out.println("ERROR: " + e.getMessage());
+        } finally {
+            System.out.println("Negative numbers handled.");
         } 
 
         // summary of calculator demo
