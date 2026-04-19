@@ -3,8 +3,8 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type | Title       | Score | Total Points |
-|------------|----------------|-------------|--------|--------------|
+| Date       | Activity Type   | Title                                                           | Score   | Total Points  |
+|------------|-----------------|-----------------------------------------------------------------|---------|---------------|
 | 04/19/2026 | PR Review       | Navarro (peer_feedback) - #844                                  | 2       | 47            |
 | 04/19/2026 | PR Review       | Nono (peer_feedback) - #835                                     | 2       | 45            |
 | 04/19/2026 | PR Review       | Gedoria (team_changelog) - #816                                 | 2       | 43            |
