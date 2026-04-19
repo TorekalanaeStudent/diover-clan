@@ -12,16 +12,16 @@
 | 04/19/2026 | PR Review       | Trespeces (exceptions_lab) - #819                               | 2       | 31            |
 | 04/19/2026 | PR Review       | Canillo (exceptions_lab) - #816                                 | 2       | 29            |
 | 04/19/2026 | PR Review       | Canillo (exceptions_lab) - #814                                 | 2       | 27            |
-| 04/15/2026 | PR Review       | Canillo (abspoly_lab) - #718                                    | 2       | 25            |
-| 03/29/2026 | PR Review       | Onte (composition_lab) - #647                                   | 2       | 23            |
-| 03/29/2026 | PR Review       | Gedoria (composition_lab) - #644                                | 2       | 21            | 
-| 03/29/2026 | PR Review       | Jagunap (composition_lab) - #640                                | 2       | 19            |
-| 03/29/2026 | PR Review       | Ablis (composition_lab) - #638                                  | 2       | 17            |
-| 03/29/2026 | PR Review       | Malig (composition_lab) - #637                                  | 2       | 15            |
-| 03/29/2026 | PR Review       | Trespeces (composition_lab) - #636                              | 2       | 13            |
-| 03/29/2026 | PR Review       | De Juras (composition_lab) - #633                               | 2       | 11            |
-| 03/29/2026 | PR Review       | Ovejera (composition_lab) - #632                                | 2       | 9             |
-| 03/19/2026 | PR Review       | Obedoza (composition_lab) - #601                                | 2       | 7             |
+| 04/09/2026 | PR Review       | Canillo (abspoly_lab) - #718                                    | 2       | 25            |
+| 03/28/2026 | PR Review       | Onte (composition_lab) - #647                                   | 2       | 23            |
+| 03/27/2026 | PR Review       | Gedoria (composition_lab) - #644                                | 2       | 21            | 
+| 03/27/2026 | PR Review       | Jagunap (composition_lab) - #640                                | 2       | 19            |
+| 03/27/2026 | PR Review       | Ablis (composition_lab) - #638                                  | 2       | 17            |
+| 03/27/2026 | PR Review       | Malig (composition_lab) - #637                                  | 2       | 15            |
+| 03/27/2026 | PR Review       | Trespeces (composition_lab) - #636                              | 2       | 13            |
+| 03/27/2026 | PR Review       | De Juras (composition_lab) - #633                               | 2       | 11            |
+| 03/27/2026 | PR Review       | Ovejera (composition_lab) - #632                                | 2       | 9             |
+| 03/24/2026 | PR Review       | Obedoza (composition_lab) - #601                                | 2       | 7             |
 | 03/06/2026 | Quiz/Recitation | Quiz 1:OOP                                                      | 2       | 5             |
 
 ---
