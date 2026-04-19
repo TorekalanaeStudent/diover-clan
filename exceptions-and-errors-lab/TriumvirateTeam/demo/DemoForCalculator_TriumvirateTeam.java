@@ -1,4 +1,29 @@
 package demo;
+/**
+ * ANALYSIS
+ * Q1: What exceptions did you create?
+ * -We Created NegativeNumberException.java And ZeroDivisionException.java
+ * 
+ * Q2: Which are checked vs unchecked?
+ * -ZeroDivisionException is Checked Exception, And NegativeNumberException is Unchecked Exception
+ * 
+ * Q3: Where are exceptions thrown?
+ * -ZeroDivisionException is thrown in divide(), if user has divide by 0
+ * -NegativeNumberException is thrown in Cases where negative numbers are invalid
+ * 
+ * Q4: Where are they handled?
+ * -Exceptions are caught and handled within the demo or main class, using try catch blocks
+ * 
+ * Q5: Where does propagation occur?
+ * -Propagation occurs when a method was thrown exceptions, but not being dealt within there.
+ * 
+ * Q6: How did you apply OOP concepts?
+ * -We applied OOP concepts with their design principle being to promote single responsibilities in 
+ *  methods, and or other classes, in encapsulation being getters and setters, in polymorphism being
+ *  using the same function with a different angle. while not everything was used, majority of the  
+ *  practices of OOP was used.
+ */
+
 
 import calculator_class.SimpleCalculator;
 import exceptions.*; // did not import them 1 by 1 since its js 2 and we need both
