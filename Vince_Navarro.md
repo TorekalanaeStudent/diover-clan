@@ -54,6 +54,8 @@
 ---
 ## 📖  Peer Review:
 
+* **<04/19/2026>** : Comment by: Canillo, Diover Vincent L.; Peer feedback for exceptions, nice code, really needs more of the commenting part, kind of hard to analyze through instantly when its just bold like that, other than that its neat!
+* **<04/18/2026>** : Comment by: Canillo, Diover Vincent L.; Clean code, really neat you can improve by adding more comments :D
 * **<03/29/2026>** : Comment by: Ablis, Margreleigne; Clean code, and understandable. Indentions and structures are nice.
 * **<03/17/2026>** : Comment by: Caneda, Ramil jr M; your component classed was clean and thoroughly thought out, it worked fantistic on the demoy and did it's job effectively Good Job!.
 * **<03/15/2026>** : Comment by: Caneda, Ramil jr M; You were fanstic when applying the concepts of encapsulation in the class, the code itself was clean and easy to work even.
