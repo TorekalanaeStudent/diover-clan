@@ -42,7 +42,8 @@
 | 04/19/2026 | PR Review       | Go (journal) - #845                                             | 4     |              |
 | 04/19/2026 | PR Review       | Navarro (journal) - #846                                        | 2     |              |
 | 04/19/2026 | PR Review       | Exodia (changelog) - #847                                       | 2     |              |
-| 04/19/2026 | PR Review       | Go (changelog) - #849                                           | 2     | **76**       |
+| 04/19/2026 | PR Review       | Go (changelog) - #849                                           | 2     |              |
+| 04/19/2026 | PR Review       | Navarro's (journal_update) - #850                               | 2     | **78**       |
 |            |                 |                                                                 |       |              |
 | 04/18/2026 | PR Review       | Ovejera (demo_abstraction) - #745                               | 2     |              |
 | 04/18/2026 | PR Review       | Obedoza (demo_abstraction) - #746                               | 2     |              |
