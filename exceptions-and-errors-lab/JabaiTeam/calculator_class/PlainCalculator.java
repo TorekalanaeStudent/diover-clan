@@ -7,7 +7,7 @@ package calculator_class;
  */
 
 import exceptions.DivideByZeroException;
-import exceptions.NegativeNumberException;
+import exceptions.NegativeNumException;
 
 public class PlainCalculator {
 
@@ -48,7 +48,7 @@ public class PlainCalculator {
         return lastResult;
     }
 
-    public boolean validateInput(int value) throws NegativeNumberException {
+    public boolean validateInput(int value) throws NegativeNumException {
         if (value < 0) {
             throw new NegativeNumberException("Negative numbers are not allowed.");
         }

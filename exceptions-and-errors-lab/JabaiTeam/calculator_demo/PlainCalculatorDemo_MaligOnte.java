@@ -7,15 +7,15 @@ package calculator_demo;
  * 
  * ANALYSIS
  * Q1: What exceptions did you create?
- * - We created two custom exceptions: DivideByZeroException and NegativeNumberException.
+ * - We created two custom exceptions: DivideByZeroException and NegativeNumException.
  * 
  * Q2: Which are checked vs unchecked?
  * - DivideByZeroException is a checked exception because it extends Exception.
- * - NegativeNumberException is also a checked exception because it extends Exception.
+ * - NegativeNumException is also a checked exception because it extends Exception.
  * 
  * Q3: Where are exceptions thrown?
  * - DivideByZeroException is thrown in the divide() method when the divisor is zero.
- * - NegativeNumberException is thrown in the validateInput() method when a negative number is provided.
+ * - NegativeNumException is thrown in the validateInput() method when a negative number is provided.
  * 
  * Q4: Where are they handled?
  * - The exceptions are handled in the demo class using try-catch blocks.
@@ -33,7 +33,7 @@ package calculator_demo;
 
 import calculator_class.PlainCalculator;
 import exceptions.DivideByZeroException;
-import exceptions.NegativeNumberException;
+import exceptions.NegativeNumException;
 
 
 public class PlainCalculatorDemo_MaligOnte {
@@ -63,7 +63,7 @@ public class PlainCalculatorDemo_MaligOnte {
 
             calc.validateInput(-5);
 
-        } catch (NegativeNumberException e) {
+        } catch (NegativeNumException e) {
             System.out.println("Validation Error: " + e.getMessage());
         }
 
