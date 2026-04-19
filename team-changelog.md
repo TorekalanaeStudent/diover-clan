@@ -5,6 +5,7 @@ Navarro, Vince Justine 2025-1029521 04/19/2026 Exceptions and Errors Lab Complet
 Nono,Mary Angeline B. 2025-1022691 04/19/2026 Exceptions and Errors Lab Completed! \
 Cardeño, Faye L. 2025-1025317 04/19/2026 Exceptions and Errors Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/19/2026 Exceptions and Errors Lab Completed! \
+Go, Sean Ethan G. 2025-1024028 04/19/2026 Exceptions and Errors Lab Completed! \
 Malig, Rich Matthew A. 2025-1027707 04/19/2026 Exceptions and Errors Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 04/19/2026 Exceptions and Errors Lab Completed! 
 
@@ -18,7 +19,8 @@ Cañeda, Ramil Jr M.  2025-1023980 03/18/2026 Abstraction and Polymorphism Lab C
 Gedoria, Rajan Kurt O. 2025-1021948 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Nono,Mary Angeline B. 2025-1022691 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Cardeño, Faye L. 2025-1025317 04/19/2026 Abstraction and Polymorphism Lab Completed! \
-Jgaunap, Janelle 2025-1025460 04/19/2026 Abstraction and Polymorphism Lab Completed!
+Jagunap, Janelle 2025-1025460 04/19/2026 Abstraction and Polymorphism Lab Completed! \
+Go, Sean Ethan G. 2025-1024028 04/18/2026 Abstraction and Polymorphism Lab Completed!
 
 ---
 
@@ -34,6 +36,7 @@ Obedoza, John Kyle B., 2025-1022691 03/29/2026 Composition Lab Completed 4x Mult
 Cardeño, Faye L. 2025-1025317 04/01/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Jagunap, Janelle 2025-1025460 04/18/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Gedoria, Rajan Kurt O. 2025-1021948 03/29/2026 Composition Lab Completed \
+Go, Sean Ethan G. 2025-1024028 03/28/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Trespeces, Guillermo 2025-1025412 04/02/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior)
 
 ---
@@ -74,7 +77,8 @@ Cañeda, Ramil Jr, M. 2025-1022691 03/17/2026 Encapsulation Lab Completed! \
 Obedoza, John Kyle B. 2025-1029134 03/15/2026 Encapsulation Lab Completed! \
 De Juras, Clint Norbert P. 2025-1025222 03/16/2026 Encapsulation Lab Completed! \
 Ovejera, Ziggy T. 2025-1021339 3/17/2026 Encapsulation Lab Completed! \
-Gedoria, Rajan Kurt O. 2025-1021948 03/17/2026 Encapsulation Lab Completed!
+Go, Sean Ethan G. 2025-1024028 3/15/2026 Encapsulation Lab Completed! \
+Gedoria, Rajan Kurt O. 2025-1021948 03/17/2026 Encapsulation Lab Completed! \
 
 ---
 
