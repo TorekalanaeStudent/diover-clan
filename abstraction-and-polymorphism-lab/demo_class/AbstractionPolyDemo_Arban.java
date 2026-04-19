@@ -36,7 +36,7 @@ import interfaces.Competitive_Obedoza;
  *  - Each class focuses only on its sport-specific behavior.
  */
 
-public class AbstractionPolyDemo_Obedoza {
+public class AbstractionPolyDemo_Arban {
     public static void main(String[] args) {
 
         // Default Constructors
