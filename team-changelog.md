@@ -4,8 +4,8 @@ Canillo, Diover Vincent L. 2025-1023980 04/19/2026 Exceptions and Errors Lab Com
 Navarro, Vince Justine 2025-1029521 04/19/2026 Exceptions and Errors Lab Completed! \
 Nono,Mary Angeline B. 2025-1022691 04/19/2026 Exceptions and Errors Lab Completed! \
 Cardeño, Faye L. 2025-1025317 04/19/2026 Exceptions and Errors Lab Completed! \
-Jagunap, Janelle 2025-1025460 04/19/2026 Exceptions and Errors Lab Completed!
-
+Jagunap, Janelle 2025-1025460 04/19/2026 Exceptions and Errors Lab Completed! \
+Gedoria, Rajan Kurt O. 2025-1021948 04/19/2026 Exceptions and Errors Lab Completed! 
 ---
 
 ## Date : 04/18/2026 | Activity : Abstraction and Polymorphism Lab
