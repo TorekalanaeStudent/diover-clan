@@ -22,7 +22,12 @@
 
 **<03/15/2026>** : I learned how to perform inheritance with sub classes towards their respective parent classes, and execute the objects in a main class and next time I'll advance study and be quick about it.
 
-Peer Review:
+**<03/18/2026>** : I learned how to implement abstraction alongside polymorphsim in an OOP context, to improve, I have to ignite my curiosity, more reviews, practices, quicker command of the keyboard and an overall stronger work ethic. 
+
+**<03/18/2026>** : I learned all things about errors and exceptions and how they are implemented optimally, to improve, I should be more deliberate with the exceptions and more vigilant with the error identifications.
+
+## 📘 Peer Reviews
+
 **\<03/11/2026\>** : Comment by: Navarro, Vince Justine; You did well on applying your classes and objects with different constructors and you met all the requirements for this activity!"
 
 **\<03/13/2026\>** : Comment by: Navarro, Vince Justine; You did really good on applying the Encapsulation to the Class and I think you can improve more if you lock in and study more.
