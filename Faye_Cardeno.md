@@ -15,17 +15,19 @@ I like sleeping
 
 ## 📘 Journals
 
-**\<03/06/2026\>** : I learned how to work with my group to create a project proposal in our lab, and to improve, next time I will contribute more ideas during the planning.
-**\<03/11/2026\>** : I learned about classes, objects, constructors, and variables in OOP, and next time I will improve how I use and apply them when coding.
-**\<03/19/2026\>** : I learned how to organize my code in packages and manage parent and child classes, and next time I will practice dynamic binding more to avoid errors in the main method.
-**\<<04/02/2026\>** : I learned composition by understanding how one class can contain and use other classes to form a HAS-A relationship, and next time I will apply this by designing cleaner and more organized code using composition instead of relying too much on inheritance.
-**\<<04/19/2026\>** : I learned how to apply abstraction and polymorphism in Java by using abstract classes and interfaces, and next time I will improve my code organization and make my implementations more efficient and easier to understand.
+**\<03/06/2026\>** : I learned how to work with my group to create a project proposal in our lab, and to improve, next time I will contribute more ideas during the planning. \
+**\<03/11/2026\>** : I learned about classes, objects, constructors, and variables in OOP, and next time I will improve how I use and apply them when coding. \
+**\<03/19/2026\>** : I learned how to organize my code in packages and manage parent and child classes, and next time I will practice dynamic binding more to avoid errors in the main method. \
+**\<<04/02/2026\>** : I learned composition by understanding how one class can contain and use other classes to form a HAS-A relationship, and next time I will apply this by designing cleaner and more organized code using composition instead of relying too much on inheritance. \
+**\<<04/19/2026\>** : I learned how to apply abstraction and polymorphism in Java by using abstract classes and interfaces, and next time I will improve my code organization and make my implementations more efficient and easier to understand. \
+**\<<04/19/2026\>** : I learned how our group successfully implemented a calculator with proper exception handling and next time I will aim to make my code more efficient and readable. 
 
 ## 📘 Peer Feedback
-**\<03/11/2026\>** : Comment by: Jagunap Janelle; You did well on implementing your objects with and without parameter, i think there is nothing more to improve in this tasks because you met the requirements well!
-**\<03/15/2026\>** : Comment by: Nono, Mary Angeline; You did well in organizing your code and creating useful behaviors for your class and you can improve by testing more invalid inputs to strengthen your validation logic.
-**\<03/25/2026\>** : Comment by: Canillo, Diover Vincent L.; You did well on constructing your component_class although you could add a little more behaviors and constructor so the user who uses that can have more options making it really flexible.
-**\<04/18/2026\>** : Comment by: Jagunap, Janelle; You did well in clearly implementing composition and organizing the component classes in Cardeño’s code, and you can improve by adding more comments to explain the flow of interactions between the composed class and its components.
-**\<03/27/2026\>** : Comment by: Jagunap Janelle; You did well in designing your parent class by implementing method overriding, and you can improve by testing the validations of your code more.
-**\<04/02/2026\>** : Comment by: Nono, Mary Angeline; You did well in applying object-oriented principles effectively and you can improve by organizing your code for easier understanding.
+**\<03/11/2026\>** : Comment by: Jagunap Janelle; You did well on implementing your objects with and without parameter, i think there is nothing more to improve in this tasks because you met the requirements well! \
+**\<03/15/2026\>** : Comment by: Nono, Mary Angeline; You did well in organizing your code and creating useful behaviors for your class and you can improve by testing more invalid inputs to strengthen your validation logic. \
+**\<03/25/2026\>** : Comment by: Canillo, Diover Vincent L.; You did well on constructing your component_class although you could add a little more behaviors and constructor so the user who uses that can have more options making it really flexible. \
+**\<04/18/2026\>** : Comment by: Jagunap, Janelle; You did well in clearly implementing composition and organizing the component classes in Cardeño’s code, and you can improve by adding more comments to explain the flow of interactions between the composed class and its components.\
+**\<03/27/2026\>** : Comment by: Jagunap Janelle; You did well in designing your parent class by implementing method overriding, and you can improve by testing the validations of your code more. \
+**\<04/02/2026\>** : Comment by: Nono, Mary Angeline; You did well in applying object-oriented principles effectively and you can improve by organizing your code for easier understanding. \
 **\<04/19/2026\>** : Comment by: Jagunap, Janelle; You did well in applying abstraction by using classes and methods to hide implementation details and focus on functionality, and you can improve by further refining your abstractions to reduce code duplication and improve modular design.
+**\<04/19/2026\>** : Comment by: Nono, Mary Angeline B.; You did well in completing the tasks and Nothing to improve. 

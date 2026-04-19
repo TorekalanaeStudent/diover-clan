@@ -5,7 +5,19 @@
 
 | Date       | Activity Type   | Title                                                           | Score   | Total Points  |
 |------------|-----------------|-----------------------------------------------------------------|---------|---------------|
-| 04/17/2026 | PR Review       | Trespeces (absopoly activity) - #741                            | 2       |               |
+| 04/18/2026 | PR Review       | Gedoria (team_changelog) - #786                                 | 2       |               |
+| 04/18/2026 | PR Review       | Onte (calculator_class) - #785                                  | 2       |               |
+| 04/18/2026 | PR Review       | Ramil (team_changelog) - #781                                   | 2       |               |
+| 04/18/2026 | PR Review       | Cardeño (absopoly activity) - #780                              | 2       |               |
+| 04/18/2026 | PR Review       | Seth (demo_class) - #778                                        | 2       |               |
+| 04/18/2026 | PR Review       | Ramil (demo_class) - #777                                       | 2       |               |
+| 04/18/2026 | PR Review       | Trespeces (demo_class) - #767                                   | 2       |               |  
+| 04/18/2026 | PR Review       | Jagunap (peer_feedback) - #764                                  | 2       |               |
+| 04/18/2026 | PR Review       | Jagunap (peer_feedback) - #763                                  | 2       |               |
+| 04/18/2026 | PR Review       | Jagunap (team_changelog) - #761                                 | 2       |               |
+| 04/18/2026 | PR Review       | Ramil (absopoly activity) - #759                                | 2       |               |
+| 04/18/2026 | PR Review       | Jagunap (composed_class) - #757                                 | 2       | 24            |
+| 04/17/2026 | PR Review       | Canillo (absopoly activity) - #741                              | 2       |               |
 | 04/17/2026 | PR Review       | Canillo (fix) - #738                                            | 2       |               |
 | 04/17/2026 | PR Review       | Gedoria (abstract_class and interface_class) - #734             | 2       |               |  
 | 04/17/2026 | PR Review       | Ablis (abstract_class and interface_class) - #733               | 2       | 8             |
@@ -43,7 +55,7 @@
 ---
 
 ## 📘 Journals:
-
+* **<04/19/2026>** : I learned how about the Exceptions and Error and how it works, and next time to improve I will make sure to do the activity earlier.
 * **<04/18/2026>** : I learned how about the Abstraction and Polymorphism, and next time to improve I will try to be more good and understand the interface and abstract class better.
 * **<03/24/2026>** : I learned how about the Compostion and how it works, and next time to improve I will try to make my code be better and made faster.
 * **<03/17/2026>** : I learned how about the Parent and Child Class today, and next time to improve I will be more prepared and be faster.
@@ -66,9 +78,26 @@
 ---
 
 ## ➕ Plus Points
+### Did 04/18/2026
+* Approved and Commented on Gedoria's (team_changelog) pr: 2 points - #786
+* Approved and Commented on Onte's (calculator_class) pr: 2 points - #785
+* Approved and Commented on Ramil's (team_changelog) pr: 2 points - #781
+* Approved and Commented on Cardeño's (absopoly activity) pr: 2 points - #780
+* Approved and Commented on Seth's (demo_class) pr: 2 points - #778
+* Approved and Commented on Ramil's (demo_class) pr: 2 points - #777
+* Approved and Commented on Trespeces's (demo_class) pr: 2 points - #767
+* Approved and Commented on Jagunap's (peer_feedback) pr: 2 points - #764
+* Approved and Commented on Jagunap's (peer_feedback) pr: 2 points - #763
+* Approved and Commented on Jagunap's (team_changelog) pr: 2 points - #761
+* Approved and Commented on Ramil's (absopoly activity) pr: 2 points - #759
+* Approved and Commented on Jagunap's (composed_class) pr: 2 points - #757
+
+* **Total: 24 points**
+
+---
 
 ### Did 04/17/2026
-* Approved and Commented on Trespeces's (absopoly activity) pr: 2 points - #741
+* Approved and Commented on Canillo's (absopoly activity) pr: 2 points - #741
 * Approved and Commented on Canillo's (fix) pr: 2 points - #738
 * Approved and Commented on Gedoria's (abstract_class and interface_class) pr: 2 points - #734
 * Approved and Commented on Ablis's (abstract_class and interface_class) pr: 2 points - #733
