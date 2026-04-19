@@ -1,15 +1,20 @@
-package Calculator_Class;
+package calculator_class;
 /**
  * Calculator System Class
  * Navarro, Vince Justine
- * @author StillLizard0106
+ * Canillo, Diover Vincent
+ * Caneda, Ramil
+ * @author @StillLizard0106, @TorekalanaeStudent, @Rcaneda
  */
-public class SimpleCalculator_Navarro {
+
+import exceptions.*; // no need to do it 1 by 1 since it's all i need in exceptions
+
+public class SimpleCalculator {
 
     private final String name;
     private int operationCount;
 
-    public SimpleCalculator_Navarro() {
+    public SimpleCalculator() {
         this.name = "Simple Calculator";
         this.operationCount = 0;
     }
@@ -34,6 +39,9 @@ public class SimpleCalculator_Navarro {
         return a - b;
     }
     public int multiply(int a, int b) {
+        if(a < 0 || b < 0){
+            throw new NegativeNumberException("Negative number is NOT allowed.");
+        }
         operationCount++;
         return a * b;
     }
@@ -43,16 +51,16 @@ public class SimpleCalculator_Navarro {
         return a * b;
     }
 
-    public int divide(int a, int b) {
+    public int divide(int a, int b) throws ZeroDivisionException{
         if (b == 0)
-            throw new ArithmeticException("Integer division by zero");
+            throw new ZeroDivisionException("Cannot divide number by zero");
         operationCount++;
         return a / b;
     }
 
-    public double divide(double a, double b) {
+    public double divide(double a, double b) throws ZeroDivisionException{
         if (b == 0)
-            throw new ArithmeticException("Double division by zero");
+            throw new ZeroDivisionException("Cannot divide double by zero.");
         operationCount++;
         return a / b;
     }

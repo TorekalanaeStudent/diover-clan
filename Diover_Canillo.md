@@ -48,7 +48,10 @@
 **03/11/2026** : I learned how to manage my teammates in github, next time I will try my best to be more cooperative as a leader \
 **03/13/2026** : I learned that encapsulation is important because it hides private information and next time I will learn more about github \
 **03/17/2026** : I learned how to use packages and learned more about inheritance and next time I will be a better leader \
-**03/25/2026** : I learned how Composition works, next time I'll improve by advance learning so I don't struggle
+**03/25/2026** : I learned how Composition works, next time I'll improve by advance learning so I don't struggle \
+**04/18/2026** : I learned how Abstract, Interfaces, and Polymorphism works, next time I need to stop procrastinating because wow this was 3 weeks ago or something 😭\
+**04/19/2026** : I learned how Exception works also learned how to manage more groupmates, I also need to stop procrastinating for this lol, also need more practice here since im bad
+
 
 ## 📖 Peer Feedbacks
 

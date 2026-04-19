@@ -19,6 +19,8 @@ Ramil Caneda
 <03/24/2026> : I learned how parent classes and subclasses work hand in hand when it comes to inheritance, and wish to learn further beyond that to be more efficient 
 
 ## Peer Feedback
+* **<04/19/2026>** : Comment by: Canillo, Diover Vincent L.; Peer feedback for exceptions. Good code, you could improve by fixing your linings because what the freak gng i had to fix it one by one 😭.
+
 <03/11/2026> : Comment by:Malig; You have done well in our activity; your code is easy to understand.
 
 <03/18/2026> : Comment by: Obedoza, John Kyle B; You did well in creating your parent and child classes today! and you can improve by refining your code and completing proper syntax
