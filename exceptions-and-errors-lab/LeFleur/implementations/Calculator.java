@@ -1,21 +1,21 @@
 package implementations;
 
 import abstract_classes.AbstractCalculator;
-import exceptions.DivisionByZeroException;
-import exceptions.InvalidInputException;
-import interfaces.CalculatorOperations;
+import exceptions_lefleur.DivisionByZeroException;
+import exceptions_lefleur.InvalidInputException;
+import interfaces.CalculatorSystem;
 
-/**Group Members:
+/**
+ * Group Members:
  * Arban, Jhave P.
  * De Juras, Clint Norbert P.
  * @author @jhavearban-ctrl @cdejuras
  *
  * Encapsulation: all fields are private, accessed via getters
- * Abstraction: extends AbstractCalculator, implements CalculatorOperations
+ * Abstraction: extends AbstractCalculator, implements CalculatorSystem
  * Inheritance: inherits from AbstractCalculator
  * Polymorphism: methods overloaded for int and double
  */
-
 public class Calculator extends AbstractCalculator implements CalculatorSystem {
 
     private double lastResult;

@@ -3,15 +3,14 @@ package calculator_class;
 import implementations.Calculator;
 import abstract_classes.AbstractCalculator;
 import interfaces.CalculatorSystem;
-import exceptions.InvalidInputException;
-import exceptions.DivisionByZeroException;
+import exceptions_lefleur.InvalidInputException;
+import exceptions_lefleur.DivisionByZeroException;
 
 /**
  * Group Members:
  * Arban, Jhave P.
  * De Juras, Clint Norbert P.
  * @author @jhavearban-ctrl @cdejuras
- *
  *
  *  Q1: What exceptions did you create?
  *  InvalidInputException (checked), DivisionByZeroException (unchecked)
@@ -72,7 +71,7 @@ public class CalculatorDemo_LeFleur {
 
         // Polymorphism via Interface
         System.out.println("==== POLYMORPHISM VIA INTERFACE ====");
-        CalculatorOperations calcOps = calc;
+        CalculatorSystem calcOps = calc;
         calcOps.add(100, 200);
         calcOps.subtract(100, 50);
 
@@ -119,7 +118,5 @@ public class CalculatorDemo_LeFleur {
         } finally {
             System.out.println("Propagation block executed.");
         }
-
-        System.out.println();
     }
 }
