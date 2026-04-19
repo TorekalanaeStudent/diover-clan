@@ -30,7 +30,18 @@
 | 04/19/2026 | PR Review       | Jagunap (peer_feedback) - #833                                  | 2     |              |
 | 04/19/2026 | PR Review       | Nono (journal) - #834                                           | 2     |              |
 | 04/19/2026 | PR Review       | Nono (peer_feedback) - #835                                     | 2     |              |
-| 04/19/2026 | PR Review       | Nono (peer_feedback) - #836                                     | 2     | **52**       |
+| 04/19/2026 | PR Review       | Nono (peer_feedback) - #836                                     | 2     |              |
+| 04/19/2026 | PR Review       | Cardeno (journal) - #837                                        | 2     |              |
+| 04/19/2026 | PR Review       | Cardeno (peer_feedback) - #838                                  | 2     |              |
+| 04/19/2026 | PR Review       | Cardeno (peer_feedback) - #839                                  | 2     |              |
+| 04/19/2026 | PR Review       | Navarro (changelog_fix) - #840                                  | 2     |              |
+| 04/19/2026 | PR Review       | Arban (demo_class) - #841                                       | 2     |              |
+| 04/19/2026 | PR Review       | Navarro (peer_feedback) - #842                                  | 2     |              |
+| 04/19/2026 | PR Review       | Gedoria (changelog) - #843                                      | 2     |              |
+| 04/19/2026 | PR Review       | Navarro (format_fix_caneda) - #844                              | 2     |              |
+| 04/19/2026 | PR Review       | Go (journal) - #845                                             | 4     |              |
+| 04/19/2026 | PR Review       | Navarro (journal) - #846                                        | 2     |              |
+| 04/19/2026 | PR Review       | Exodia (changelog) - #847                                       | 2     | **74**       |
 |            |                 |                                                                 |       |              |
 | 04/18/2026 | PR Review       | Ovejera (demo_abstraction) - #745                               | 2     |              |
 | 04/18/2026 | PR Review       | Obedoza (demo_abstraction) - #746                               | 2     |              |
@@ -152,7 +163,18 @@ commented and approved jagunap's (journal) pr: 2 points - #832 \
 commented and approved jagunap's (peer_feedback) pr: 2 points - #833 \
 commented and approved nono's (journal) pr: 2 points - #834 \
 commented and approved nono's (peer_feedback) pr: 2 points - #835 \
-commented and approved nono's (peer_feedback) pr: 2 points - #836
+commented and approved nono's (peer_feedback) pr: 2 points - #836 \
+commented and approved cardeno's (journal) pr: 2 points - #837 \
+commented and approved cardeno's (peer_feedback) pr: 2 points - #838 \
+commented and approved cardeno's (peer_feedback) pr: 2 points - #839 \
+commented and approved navarro's (changelog_fix) pr: 2 points - #840 \
+commented and approved arban's (demo_class) pr: 2 points - #841 \
+commented and approved navarro's (peer_feedback) pr: 2 points - #842 \
+commented and approved gedoria's (changelog) pr: 2 points - #843 \
+commented and approved navarro's (format_fix_caneda) pr: 2 points - #844 \
+commented, change requested and finally approved go's (journal) pr: 4 points - #845 \
+commented and approved navarro's (journal) pr: 2 points - #846 \
+commented and approved exodia's (changelog) pr: 2 points - #847
 
 ---
 
