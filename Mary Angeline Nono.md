@@ -26,3 +26,4 @@ Mary Angeline Nono
 **\<03/15/2026\>** : Comment by: Cardeño, Faye; You did well in understanding how encapsulation works and applying it in the lab, and you can improve by practicing more coding examples on your own.
 **\<03/19/2026\>** : Comment by: Cardeño, Faye; You did well in using inheritance correctly and you can improve by testing your code carefully before running it.
 **\<04/18/2026\>** : Comment by: Jagunap, Janelle; You did well in demonstrating proper use of inheritance and consistent class structure in Nono’s code, and you can improve by refining method naming and adding more validation to make the code more robust.
+**\<04/19/2026\>** : Comment by: Cardeno, Faye; You did well in applying and demonstrating abstraction and polymorphism, and you can improve by organizing your method calls better.
