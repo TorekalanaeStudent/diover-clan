@@ -5,6 +5,7 @@ package TeamJina;
  * Group Members:
  * Ovejera, Ziggy - @ziggyovejera
  * Ablis, Margreleigne - @matidagreat
+ * Gedoria, Rajan - @rajangedoria-ctrl
  * 
  * @author: Ovejera, Ziggy
  */
@@ -100,9 +101,11 @@ public class CalculatorClass_TeamJina {
      *
      * Where thrown:
      * - Inside divide() methods
+     * 
+     * Handled in CalculatorDemo_TeamJina using try-catch blocks
      *
      * Propagation:
-     * - divide() uses "throws", passes error to caller
+     * - Occurs in divide() uses "throws", passes error to caller
      *
      * OOP Concepts:
      * - Encapsulation: private fields
