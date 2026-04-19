@@ -26,3 +26,5 @@ Guillermo Trespeces
 **<03/15/2026>** : Comment by: <Arban, Jhave P.>; You did well in coding of java and constructors and you can improve to how to use github.
 
 **<03/17/2026>** : Comment by: De Juras, Clint Norbert P. ;You did a great job understanding parent classes and how inheritance works. One small thing to improve is adding clearer comments to specific functions. Overall, you did really well! 👍
+
+**<04/19/2026>** : Comment by: Go, Sean Ethan G. ; You have demostratrated commendable programming work in integrating exceptions and errors in a calculator setting, you can improve by completing more projects that incorporate such topic in question.
