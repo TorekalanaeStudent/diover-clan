@@ -12,8 +12,19 @@
 
 ## 📘 Journals
 
-**\<03/06/2026\>** : I learned the definition of OOP course subject in our lab and to improve, next time I listen carefully to understand the all of the lessons.
-**\<03/11/2026\>** : I learned more about codespace in githubwQ and to improve, next time I do my work on time.
+<03/06/2026>: I learned the definition of OOP course subject in our lab and to improve, next time I listen carefully to understand the all of the lessons.
+
+<03/11/2026>: I learned more about codespace in githubwQ and to improve, next time I do my work on time.
+
+<03/13/2026>: I believed that encapsulation protects data by keeping certain details private. Next time, I'll hone my GitHub talents.
+
+<03/17/2026>: I worked with packages and got a better understanding of inheritance. I'll try to be a more effective leader next time.
+
+<03/25/2026>: I learned how composition works in OOP. To improve, I'll study ahead so I don't have to fight as much.
+
+<04/18/2026>, I explored abstraction, interfaces, and polymorphism. Next time, I need to better manage my time instead of putting things off.
+
+<04/19/2026>: I learned about exception handling and took on more team coordinating responsibilities. I still need to practice this and improve my time management skills.
 
 ## 📘 Peer Review
 
@@ -27,3 +38,8 @@
 
 <03/15/2026> Comment by: De Juras; <03/15/2026> Comment by:Excellent use of composition. The component classes are properly integrated into the composed class, showing a clear has-a relationship. The code is clean, organized, and easy to follow
 
+04/18/2026 : Comment by De Juras, Clint Norbert P.; The classes were well-organized and the interfaces were applied correctly. To improve, work on strengthening method logic and include validations for edge cases.
+
+04/19/2026 : Comment by De Juras, Clint Norbert P.; The tasks were completed properly, with no major improvements needed.
+
+04/19/2026 : Comment by De Juras, Clint Norbert P.; The work on the calculator system was solid, and the team collaborated effectively. Everything was handled well, so there’s little to refine.
