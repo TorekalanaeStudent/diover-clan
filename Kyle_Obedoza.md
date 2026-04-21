@@ -10,6 +10,8 @@ John Kyle Obedoza
 ---
 
 ### 📘 Journals 
+* **<04/19/2026>** : I learned about the different types of errors and exceptions, and next time to improve I will make sure to use it properly in my code
+* **<04/18/2026>** : I learned about the importance of abstraction and polymorphism, and next time to improve I will doii my best to show mastery in appying these principles
 **\<03/06/2026\>** : I learned the 4 Cores Principles of OOP in our lab and to improve, next time I will continue perform better during class and solidify mt fundamentals in order to carry out my asks better. \
 
 **\<03/11/2026\>** : I learned how to structure clesses and objects better in order to create a good workflow for each part of a class and objects. Next time, I will do better in writing more understandable code, and better the completeness of my work \
