@@ -8,7 +8,7 @@ Jagunap, Janelle 2025-1025460 04/19/2026 Exceptions and Errors Lab Completed! \
 Go, Sean Ethan G. 2025-1024028 04/19/2026 Exceptions and Errors Lab Completed! \
 Malig, Rich Matthew A. 2025-1027707 04/19/2026 Exceptions and Errors Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 04/19/2026 Exceptions and Errors Lab Completed! 
-
+Ovejera, Ziggy T. 2025-2021339 04/19/2026 Exceptions and Errors Lab Completed! \
 ---
 
 ## Date : 04/18/2026 | Activity : Abstraction and Polymorphism Lab
@@ -21,7 +21,7 @@ Nono,Mary Angeline B. 2025-1022691 04/18/2026 Abstraction and Polymorphism Lab C
 Cardeño, Faye L. 2025-1025317 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Go, Sean Ethan G. 2025-1024028 04/18/2026 Abstraction and Polymorphism Lab Completed!
-
+Ovejera, Ziggy T. 2025-2021339 04/19/2026 Abstraction and Polymorphism Lab Completed!\
 ---
 
 ## Date : 03/24/2026 | Activity : Composition Lab
