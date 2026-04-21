@@ -37,5 +37,9 @@ John Kyle Obedoza
 
 **<04/19/2026>** : Comment by: Go, Sean Ethan G. ; You have demostratrated commendable programming work in integrating exceptions and errors in a calculator setting, you can improve by completing more projects that incorporate such topic in question.
 
+**<04/19/2026>** : Comment by: Go, Sean Ethan G. ; You have demostratrated commendable programming work in integrating exceptions and errors in a calculator setting, you can improve by completing more projects that incorporate such topic in question.
+
+**<04/18/2026>** : Comment by: Trespeces, Guillermo; I think you did really good and was super cooperative with being dependent and independent at the same with fulfilling our last activity. Thanks for sticking around, great partner! 🤠
+
 ## ➕ Plus Points
 
