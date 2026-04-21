@@ -13,6 +13,43 @@ I like sleeping
 
 ---
 
+## ➕ Plus Points
+
+| Date       | Activity Type | Title       | Score | Total Points |
+|------------|----------------|-------------|--------|--------------|
+| 04/19/2026 | PR Review (approved and commented) | Nono (added peer feedback on Janelle_Jagunap.md) - #836 |  2  |  55     |
+| 04/19/2026 | PR Review (approved and commented) | Nono (added peer feedback on Faye_Cardeno.md) - #835 |  2  |  53     |
+| 04/19/2026 | PR Review (approved and commented) | Jagunap (approved Cardeno, Jagunap, and Nono's calculator class, exceptions class, and demo class (exceptions and errors)) - #825 |  2  |  51     |
+| 04/18/2026 | PR Review (approved and commented) | Nono (approved SmartLight and SmartFan (abstraction and polymorphism)) - #792 |  2  |  49     |
+| 04/18/2026 | PR Review (approved and commented) | Jagunap (approved Device_Jagunap (abstraction and polymorphism)) - #779 |  2  |  47     |
+| 04/18/2026 | PR Review (approved and commented) | Nono (approved AvatarCore_Nono (abstraction and polymorphism)) - #751 |  2  |  45   |
+| 04/17/2026 | PR Review (approved and commented) | Ovejera (approved Smartphone_Ovejera (abstraction and polymorphism)) - #732 |  2  |  43     |
+| 04/17/2026 | PR Review (approved and commented) | Onte (approved his abstract and interface class (abstraction and polymorphism)) - #731 |  2  |   41    |
+| 04/07/2026 | PR Review (approved and commented) | Navarro (approved his changes (abstraction and polymorphism)) - #712 |  2  |  39     |
+| 03/27/2026 | PR Review (approved and commented) | Nono (approved her composed class (composition)) - #645 |  2  |  37     |
+| 03/24/2026 | PR Review (approved and commented) | Nono (approved Finger component w/ encap (composition)) - #598 |  2  |  35     |
+| 03/20/2026 | PR Review (approved and commented) | Nono (updated Mary Angeline Nono.md) -#539 |  2  | 33      |
+| 03/19/2026 | PR Review (approved and commented) | Jagunap (approved Main_Nono (inheritance)) - #536 |  2  |  31     |
+| 03/20/2026 | PR Review (approved and commented) | Jagunap (approved her Main class (inheritance)) - #533 |  2  |  29     |
+| 03/19/2026 | PR Review (approved) | Nono (approved Vehicle class (inheritance)) - #520 |  1  |  27     |
+| 03/15/2026 | PR Review (approved and commented) | Nono (updated Mary Angeline Nono.md) - #408 |  2  | 26      |
+| 03/15/2026 | PR Review (approved and commented) | Nono (updated team-changelog) - #405 |  2  | 24     |
+| 03/15/2026 | PR Review (approved and commented) | Jagunap (updated team-changelog) - #401 |  2  | 22      |
+| 03/13/2026 | PR Review (approved and commented) | Nono (approved SellerEncap class (encapsulation)) - #376 |  2  |  20     |
+| 03/11/2026 | PR Review (approved and commented) | Jagunap (updated Janelle_Jagunap.md) - #291 | 2   | 18      |
+| 03/11/2026 | PR Review (approved and commented) | Nono (updated team-changelog) - #287 | 2   | 16      |
+| 03/12/2026 | PR Review (approved and commented) | Nono (updated Mary Angeline Nono.md) - #283 | 2    | 14     |
+| 03/11/2026 | PR Review (approved and commented) | Nono (updated Mary Angeline Nono.md) - #239 | 2   | 12      |
+| 03/11/2026 | PR Review (approved and commented) | Nono (updated team-changelog) - #237 | 2   |  10     |
+| 03/10/2026 | PR Review (approved and commented) | Nono (approved Seller class (classes and objects)) - #176 |  2  | 8       |
+| 03/10/2026 | PR Review (approved and commented) | Jagunap (approved Order class (classes and objects)) - #148 |  2  | 6       |
+| 03/03/2026 | PR Review (approved) | Jagunap (approved Jagunap.md) - #42 |  1  | 4       |
+| 03/03/2026 | PR Review (approved)| Trespeces (update Readme.md) - #7 |  1  | 3       |
+| 03/03/2026 | PR Review (approved) | Nono (update Readme.md) - #4 |  1  | 2       |
+| 03/03/2026 | PR Review (approved) | Onte (update Readme.md) - #3 |  1  | 1       |
+
+---
+
 ## 📘 Journals
 
 **\<03/06/2026\>** : I learned how to work with my group to create a project proposal in our lab, and to improve, next time I will contribute more ideas during the planning. \
