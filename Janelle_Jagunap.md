@@ -5,7 +5,7 @@
 
 | Date       | Activity Type   | Title                                                           | Score | Total Points |
 |------------|-----------------|-----------------------------------------------------------------|-------|--------------|
-| 04/19/2026 | PR Review       | Canillo (updated scores) - #848                                 | 2     |  35          |
+| 04/19/2026 | PR Review       | Canillo (updated scores) - #848                                 | 2     |  55          |
 | 04/19/2026 | PR Review       | Malig (changelog) - #847                                        | 2     |              |
 | 04/19/2026 | PR Review       | Go (journal) - #845                                             | 2     |              |
 | 04/19/2026 | PR Review       | Canillo (added attributes) - #802                               | 2     |              |
