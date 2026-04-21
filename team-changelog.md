@@ -8,6 +8,7 @@ Jagunap, Janelle 2025-1025460 04/19/2026 Exceptions and Errors Lab Completed! \
 Go, Sean Ethan G. 2025-1024028 04/19/2026 Exceptions and Errors Lab Completed! \
 Malig, Rich Matthew A. 2025-1027707 04/19/2026 Exceptions and Errors Lab Completed! \
 Trespeces, Guillermo 2025-1025412 04/18/2026 Exceptions and Errors Lab Completed! \
+Ovejera, Ziggy T. 2025-2021339 04/19/2026 Exceptions and Errors Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 04/19/2026 Exceptions and Errors Lab Completed! \
 Onte, Vince Gian D. 2025-1021082 04/19/2026 Exceptions and Errors Lab Completed! \
 De Juras, Clint Norbert P. 2025-1025222 04/19/2026 Exceptions and Errors Lab Completed! 
@@ -23,9 +24,10 @@ Nono,Mary Angeline B. 2025-1022691 04/18/2026 Abstraction and Polymorphism Lab C
 Cardeño, Faye L. 2025-1025317 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Trespeces, Guillermo 2025-1025412 04/18/2026 Abstraction and Polymorphism Lab Completed! \
+Ovejera, Ziggy T. 2025-2021339 04/19/2026 Abstraction and Polymorphism Lab Completed!\
 Go, Sean Ethan G. 2025-1024028 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Onte, Vince Gian D. 2025-1021082 04/18/2026 Abstraction and Polymorphism Lab Completed! \
-De Juras, Clint Norbert P. 2025-1025222 04/18/2026 Abstraction and Polymorphism Lab Completed! \
+De Juras, Clint Norbert P. 2025-1025222 04/18/2026 Abstraction and Polymorphism Lab Completed! 
 
 ---
 
