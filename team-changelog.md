@@ -1,4 +1,5 @@
 ## Date : 04/19/2026 | Activity : Exceptions and Errors Lab
+Arban, Jhave P. 2025-1028156 04/19/2026 Exceptions and Errors Lab Completed! \
 Cañeda, Ramil Jr M. 2025-1023980 04/19/2026 Exceptions and Errors Lab Completed! \
 Canillo, Diover Vincent L. 2025-1023980 04/19/2026 Exceptions and Errors Lab Completed! \
 Navarro, Vince Justine 2025-1029521 04/19/2026 Exceptions and Errors Lab Completed! \
@@ -12,10 +13,12 @@ Ovejera, Ziggy T. 2025-2021339 04/19/2026 Exceptions and Errors Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 04/19/2026 Exceptions and Errors Lab Completed! \
 Onte, Vince Gian D. 2025-1021082 04/19/2026 Exceptions and Errors Lab Completed! \
 De Juras, Clint Norbert P. 2025-1025222 04/19/2026 Exceptions and Errors Lab Completed! 
+
 ---
 
 ## Date : 04/18/2026 | Activity : Abstraction and Polymorphism Lab
 Ablis, Margreleigne M. 2025-1020011 04/18/2026 Abstraction and Polymorphism Lab Completed! \
+Arban, Jhave P. 2025-1028156 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Navarro, Vince Justine 2025-1029521 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Canillo, Diover Vincent L. 2025-1023980 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Cañeda, Ramil Jr M.  2025-1023980 03/18/2026 Abstraction and Polymorphism Lab Completed! \
@@ -23,6 +26,7 @@ Gedoria, Rajan Kurt O. 2025-1021948 04/18/2026 Abstraction and Polymorphism Lab 
 Nono,Mary Angeline B. 2025-1022691 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Cardeño, Faye L. 2025-1025317 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/19/2026 Abstraction and Polymorphism Lab Completed! \
+Arban, Jhave P. 2025-1028156 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Trespeces, Guillermo 2025-1025412 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Ovejera, Ziggy T. 2025-2021339 04/19/2026 Abstraction and Polymorphism Lab Completed!\
 Go, Sean Ethan G. 2025-1024028 04/18/2026 Abstraction and Polymorphism Lab Completed! \
@@ -93,6 +97,7 @@ Gedoria, Rajan Kurt O. 2025-1021948 03/17/2026 Encapsulation Lab Completed! \
 
 ## Date : 03/11/2026 | Activity : Classes and Objects Lab
 Ablis, Margreleigne M. 2025-1020011 03/11/2026 Classes and Objects Lab Completed! \
+Arban, Jhave P. 2025-1028156 03/11/2026 Classes and Objects Lab Completed! \
 Obedoza, John Kyle B. 2025-1029134 03/11/2026 Classes and Objects Lab Completed! \
 Navarro, Vince Justine 2025-1029521 03/11/2026 Classes and Objects Lab Completed! \
 Cardeño, Faye 2025-1025317 03/11/2026 Classes and Objects Lab Completed! \
