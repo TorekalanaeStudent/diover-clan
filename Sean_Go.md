@@ -55,6 +55,8 @@
 
 **\<03/24/2026\>** :  Comment by: Navarro, Vince Justine; I think you did really good at adding the Composition to the class, you clearly met all the requirements for ths activity."
 
+**\<04/18/2026\>** :  Comment by: Trespeces, Guillermo; I think you did really good and was super cooperative with being dependent and independent at the same with fulfilling our last activity. Great partner! 🤠
+
 
 
 
