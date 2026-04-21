@@ -5,6 +5,28 @@
 
 | Date       | Activity Type    | Title (Name + Type + PR#)                                            | Score | Total Points |
 |------------|------------------|----------------------------------------------------------------------|-------|--------------|
+| 2026-04-21 | PR Review        | Jagunap (Approved, Commented: Score Update) - #875                   | 2     | 405          |
+| 2026-04-21 | PR Review        | Obedoza (Approved, Commented: Score Update) - #873                   | 2     | 403          |
+| 2026-04-21 | PR Review        | Obedoza (Approved, Commented: Changelog Update) - #872               | 2     | 397          |
+| 2026-04-21 | PR Review        | Obedoza (Approved, Commented: Changelog Update) - #871               | 2     | 395          |
+| 2026-04-21 | PR Review        | Obedoza (Approved, Commented: Journal) - #870                        | 2     | 393          |
+| 2026-04-21 | PR Review        | Arban (Approved, Commented: Journal) - #869                          | 2     | 391          |
+| 2026-04-21 | PR Review        | Trespeces (Approved, Commented: Journal) - #868                      | 2     | 389          |
+| 2026-04-21 | PR Review        | Ovejera (Approved, Commented: Peer Feedback) - #867                  | 2     | 387          |
+| 2026-04-21 | PR Review        | Arban (Approved, Commented: Peer Feedback) - #866                    | 2     | 385          |
+| 2026-04-21 | PR Review        | Ovejera (Approved, Commented: Peer Feedback) - #865                  | 2     | 383          |
+| 2026-04-21 | PR Review        | Ovejera (Approved, Commented: Journal) - #864                        | 2     | 381          |
+| 2026-04-21 | PR Review        | Ovejera (Approved, Commented: Team Changelog) - #863                 | 2     | 379          |
+| 2026-04-21 | PR Review        | Arban (Approved, Commented: Team Changelog) - #862                   | 2     | 377          |
+| 2026-04-21 | PR Review        | Cardeno (Approved, Commented: Score Update) - #861                   | 2     | 375          |
+| 2026-04-21 | PR Review        | Trespeces (Approved, Commented: Peer Feedback) - #859                | 2     | 373          |
+| 2026-04-21 | PR Review        | Onte (Approved, Commented: Peer Feedback) - #858                     | 2     | 371          |
+| 2026-04-21 | PR Review        | Onte (Approved, Commented: Changelog Update) - #857                  | 2     | 369          |
+| 2026-04-21 | PR Review        | De Juras (Approved, Commented: Changelog Update) - #856              | 2     | 367          |
+| 2026-04-21 | PR Review        | De Juras (Approved, Commented: Peer Feedback) - #855                 | 2     | 365          |
+| 2026-04-21 | PR Review        | De Juras (Approved, Commented: Journal) - #854                       | 2     | 363          |
+| 2026-04-21 | PR Review        | Caneda (Approved, Commented: Score Update) - #853                    | 2     | 361          |
+| 2026-04-21 | PR Review        | Sean Go (Approved, Commented: Score Update) - #852                   | 2     | 359          |
 | 2026-04-19 | PR Review        | Sean Go (Approved, Commented: Score Update) - #850                   | 2     | 357          |
 | 2026-04-19 | PR Review        | Sean Go (Approved, Commented: Changelog Update) - #849               | 2     | 355          |
 | 2026-04-19 | PR Review        | Sean Go (Approved, Commented: PR Review Entries) - #845              | 2     | 353          |
