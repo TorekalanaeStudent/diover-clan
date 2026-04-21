@@ -3,117 +3,182 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type   | Title                                                           | Score | Total Points |
-|------------|-----------------|-----------------------------------------------------------------|-------|--------------|
-| 04/19/2026 | PR Review       | Nono (journal) - #803                                           | 2     |              |
-| 04/19/2026 | PR Review       | Nono (changelog) - #804                                         | 2     |              |
-| 04/19/2026 | PR Review       | Ablis (peer_feedback) - #805                                    | 2     |              |
-| 04/19/2026 | PR Review       | Nono (peer_feedback) - #806                                     | 2     |              |
-| 04/19/2026 | PR Review       | Ablis (peer_feedback) - #807                                    | 2     |              |
-| 04/19/2026 | PR Review       | Cardeno (demo_abstract) - #808                                  | 2     |              |
-| 04/19/2026 | PR Review       | Cardeno (journal) - #812                                        | 2     |              |
-| 04/19/2026 | PR Review       | Cardeno (peer_feedback) - #813                                  | 2     |              |
-| 04/19/2026 | PR Review       | Onte (journal) - #815                                           | 2     |              |
-| 04/19/2026 | PR Review       | Go (journal) - #817                                             | 2     |              |
-| 04/19/2026 | PR Review       | Caneda (analysis_demo) - #818                                   | 2     |              |
-| 04/19/2026 | PR Review       | Trespeces (demo_exception) - #819                               | 2     |              |
-| 04/19/2026 | PR Review       | Go (peer_interview) - #820                                      | 2     |              |
-| 04/19/2026 | PR Review       | Jagunap (folder_add) - #821                                     | 2     |              |
-| 04/19/2026 | PR Review       | Arban (exception_everything) - #822                             | 2     |              |
-| 04/19/2026 | PR Review       | Arban (implementation_abstraction) - #823                       | 2     |              |
-| 04/19/2026 | PR Review       | Jagunap (calculator_exception) - #825                           | 2     |              |
-| 04/19/2026 | PR Review       | Jagunap (changelog_abstraction) - #826                          | 2     |              |
-| 04/19/2026 | PR Review       | Jagunap (changelog_exceptions) - #828                           | 2     |              |
-| 04/19/2026 | PR Review       | Onte (calculator_exception) - #830                              | 2     |              |
-| 04/19/2026 | PR Review       | Rajan (calculator_exception) - #832                             | 2     |              |
-| 04/19/2026 | PR Review       | Jagunap (journal) - #832                                        | 2     |              |
-| 04/19/2026 | PR Review       | Jagunap (peer_feedback) - #833                                  | 2     |              |
-| 04/19/2026 | PR Review       | Nono (journal) - #834                                           | 2     |              |
-| 04/19/2026 | PR Review       | Nono (peer_feedback) - #835                                     | 2     |              |
-| 04/19/2026 | PR Review       | Nono (peer_feedback) - #836                                     | 2     |              |
-| 04/19/2026 | PR Review       | Cardeno (journal) - #837                                        | 2     |              |
-| 04/19/2026 | PR Review       | Cardeno (peer_feedback) - #838                                  | 2     |              |
-| 04/19/2026 | PR Review       | Cardeno (peer_feedback) - #839                                  | 2     |              |
-| 04/19/2026 | PR Review       | Navarro (changelog_fix) - #840                                  | 2     |              |
-| 04/19/2026 | PR Review       | Arban (demo_class) - #841                                       | 2     |              |
-| 04/19/2026 | PR Review       | Navarro (peer_feedback) - #842                                  | 2     |              |
-| 04/19/2026 | PR Review       | Gedoria (changelog) - #843                                      | 2     |              |
-| 04/19/2026 | PR Review       | Navarro (format_fix_caneda) - #844                              | 2     |              |
-| 04/19/2026 | PR Review       | Go (journal) - #845                                             | 4     |              |
-| 04/19/2026 | PR Review       | Navarro (journal) - #846                                        | 2     |              |
-| 04/19/2026 | PR Review       | Exodia (changelog) - #847                                       | 2     |              |
-| 04/19/2026 | PR Review       | Go (changelog) - #849                                           | 2     |              |
-| 04/19/2026 | PR Review       | Navarro's (journal_update) - #850                               | 2     | **78**       |
-|            |                 |                                                                 |       |              |
-| 04/18/2026 | PR Review       | Ovejera (demo_abstraction) - #745                               | 2     |              |
-| 04/18/2026 | PR Review       | Obedoza (demo_abstraction) - #746                               | 2     |              |
-| 04/18/2026 | PR Review       | Trespeces (implementation) - #747                               | 2     |              |
-| 04/18/2026 | PR Review       | De Juras (implementations) - #748                               | 2     |              |
-| 04/18/2026 | PR Review       | Onte (implementation) - #749                                    | 2     |              |
-| 04/18/2026 | PR Review       | Ablis (implementation) - #750                                   | 2     |              |
-| 04/18/2026 | PR Review       | Gedoria (implementation_and_demo) - #753                        | 2     |              |
-| 04/18/2026 | PR Review       | Obedoza (journal_update) - #754                                 | 2     |              |
-| 04/18/2026 | PR Review       | Go (interface_and_abstract) - #755                              | 2     |              |
-| 04/18/2026 | PR Review       | Janelle (composition_composed_class) - #757                     | 2     |              |
-| 04/18/2026 | PR Review       | Caneda (demo_folder_for_exception) - #758                       | 2     |              |
-| 04/18/2026 | PR Review       | Caneda (abstraction_everything) - #759                          | 2     |              |
-| 04/18/2026 | PR Review       | Janelle (changelog_update) - #761                               | 2     |              |
-| 04/18/2026 | PR Review       | Janelle (journal) - #762                                        | 2     |              |
-| 04/18/2026 | PR Review       | Janelle (peer_feedback) - #763                                  | 2     |              |
-| 04/18/2026 | PR Review       | Janelle (peer_feedback) - #764                                  | 2     |              |
-| 04/18/2026 | PR Review       | Trespeces (demo_class_abstraction) - #767                       | 2     |              |
-| 04/18/2026 | PR Review       | Janelle (demo_class_abstraction) - #769                         | 2     |              |
-| 04/18/2026 | PR Review       | Navarro (fixes) - #770                                          | 2     |              |
-| 04/18/2026 | PR Review       | Navarro (peer_review) - #771                                    | 2     |              |
-| 04/18/2026 | PR Review       | Exodia (exception) - #774                                       | 2     |              |
-| 04/18/2026 | PR Review       | Caneda (exception_demo) - #777                                  | 4     |              |
-| 04/18/2026 | PR Review       | Go (abstract_everything) - #778                                 | 2     |              |
-| 04/18/2026 | PR Review       | Cardeno (implementations) - #780                                | 2     |              |
-| 04/18/2026 | PR Review       | Caneda (changelog) - #781                                       | 2     |              |
-| 04/18/2026 | PR Review       | Navarro (journal_update) - #783                                 | 2     |              |
-| 04/18/2026 | PR Review       | Onte (calculator_class) - #785                                  | 2     |              |
-| 04/18/2026 | PR Review       | Gedoria (changelog) - #786                                      | 2     |              |
-| 04/18/2026 | PR Review       | Arban (first_implementation) - #787                             | 2     |              |
-| 04/18/2026 | PR Review       | Obedoza (exception_calculator) - #788                           | 4     |              |
-| 04/18/2026 | PR Review       | TeamJina (calculator) - #791                                    | 2     |              |
-| 04/18/2026 | PR Review       | Ablis (changelog) - #793                                        | 2     |              |
-| 04/18/2026 | PR Review       | De Juras (demo_class_abstraction) - #799                        | 2     |              |
-| 04/18/2026 | PR Review       | Nono (demo_class_abstraction) - #801                            | 2     | **72**       |
-|            |                 |                                                                 |       |              |
-| 04/16/2026 | PR Review       | Onte (interface_and_abstract) - #731                            | 2     |              |
-| 04/16/2026 | PR Review       | Ovejera (interface_and_abstract) - #732                         | 2     |              |
-| 04/16/2026 | PR Review       | Ablis (interface_and_abstract) - #733                           | 2     |              |
-| 04/16/2026 | PR Review       | Rajan (interface_and_abstract) - #734                           | 2     | **8**        |
-|            |                 |                                                                 |       |              |
-| 04/15/2026 | PR Review       | Navarro (demo_class) - #719                                     | 2     |              |
-| 04/15/2026 | PR Review       | Trespeces (journal) - #721                                      | 2     |              |
-| 04/15/2026 | PR Review       | Malig (sub_class) - #723                                        | 2     |              |
-| 04/15/2026 | PR Review       | Arban (interface_and_abstract) - #726                           | 2     |              |
-| 04/15/2026 | PR Review       | De Juras (interface_and_abstract) - #727                        | 2     |              |
-| 04/15/2026 | PR Review       | Onte (demo_class_comp) - #728                                   | 2     |              |
-| 04/15/2026 | PR Review       | Trespeces (interface_and_abstract) - #729                       | 2     |              |
-| 04/15/2026 | PR Review       | Obedoza (abstract) - #730                                       | 2     | **16**       |
-|            |                 |                                                                 |       |              |
-| 04/02/2026 | PR Review       | Nono (journal-fix) - #692                                       | 2     |              |
-| 04/02/2026 | PR Review       | Cardeno (demo_class) - #693                                     | 2     | **4**        |
-|            |                 |                                                                 |       |              |
-| 03/31/2026 | PR Review       | Navarro (abstract and interface) - #664                         | 2     |              |
-| 03/31/2026 | PR Review       | Ramil (peer_feedback) - #666                                    | 2     |              |
-| 03/31/2026 | PR Review       | Nono (team_changelog) - #684                                    | 2     |              |
-| 03/31/2026 | PR Review       | Nono (journal) - #685                                           | 2     | **8**        |
-|            |                 |                                                                 |       |              |
-| 03/30/2026 | PR Review       | De Juras (team-changelog) - #627                                | 2     |              |
-| 03/30/2026 | PR Review       | Ablis (peer_feedback) - #650                                    | 2     |              |
-| 03/30/2026 | PR Review       | Ablis (peer_feedback) - #651                                    | 2     |              |
-| 03/30/2026 | PR Review       | Ablis (peer_feedback) - #652                                    | 2     |              |
-| 03/30/2026 | PR Review       | Caneda (sub_class) - #653                                       | 2     |              |
-| 03/30/2026 | PR Review       | Caneda (composed_class) - #654                                  | 2     |              |
-| 03/30/2026 | PR Review       | Caneda (comp_demo) - #655                                       | 2     |              |
-| 03/30/2026 | PR Review       | Ablis (journal) - #656                                          | 2     |              |
-| 03/30/2026 | PR Review       | Ablis (team_changelog) - #657                                   | 2     |              |
-| 03/30/2026 | PR Review       | Nono (sub_class) - #658                                         | 2     | **20**       |
-|            |                 |                                                                 |       |              |
-| 03/06/2026 | Quiz/Recitation | Quiz 1: OOP                                                     | 5     | **5**        |
+| Date       | Activity Type    | Title (Name + Type + PR#)                                            | Score | Total Points |
+|------------|------------------|----------------------------------------------------------------------|-------|--------------|
+| 2026-04-19 | PR Review        | Sean Go (Approved, Commented: Score Update) - #850                   | 2     | 357          |
+| 2026-04-19 | PR Review        | Sean Go (Approved, Commented: Changelog Update) - #849               | 2     | 355          |
+| 2026-04-19 | PR Review        | Sean Go (Approved, Commented: PR Review Entries) - #845              | 2     | 353          |
+| 2026-04-19 | PR Review        | Jagunap (Approved, Commented: Changelog Update) - #847               | 2     | 351          |
+| 2026-04-19 | PR Review        | Ablis (Approved, Commented: Score & Journal) - #846                  | 2     | 349          |
+| 2026-04-19 | PR Review        | Ovejera (Approved, Commented: Peer Review/Format) - #844             | 2     | 347          |
+| 2026-04-19 | PR Review        | Cardeno (Approved, Commented: Changelog) - #843                      | 2     | 345          |
+| 2026-04-19 | PR Review        | Ovejera (Approved, Commented: Peer Review) - #842                    | 2     | 343          |
+| 2026-04-19 | PR Review        | De Juras (Approved, Commented: Demo Class) - #841                    | 2     | 341          |
+| 2026-04-19 | PR Review        | Ovejera (Approved, Commented: Format Fix) - #840                     | 2     | 339          |
+| 2026-04-19 | PR Review        | Cardeno (Approved, Commented: Peer Comment) - #839                   | 2     | 337          |
+| 2026-04-19 | PR Review        | Jagunap (Approved, Commented: Peer Comment) - #838                   | 2     | 335          |
+| 2026-04-19 | PR Review        | Go (Approved, Commented: Learning Entry) - #837                      | 2     | 333          |
+| 2026-04-19 | PR Review        | Onte (Approved, Commented: Peer Comment) - #836                      | 2     | 331          |
+| 2026-04-19 | PR Review        | Malig (Approved, Commented: Peer Comment) - #835                     | 2     | 329          |
+| 2026-04-19 | PR Review        | Go (Approved, Commented: Learning Entry) - #834                      | 2     | 327          |
+| 2026-04-19 | PR Review        | Cardeno (Approved, Commented: Journal Update) - #833                 | 2     | 325          |
+| 2026-04-19 | PR Review        | Malig (Approved, Commented: Code Review) - #831                      | 2     | 323          |
+| 2026-04-19 | PR Review        | Jagunap (Approved, Commented: Journal Update) - #832                 | 2     | 321          |
+| 2026-04-19 | PR Review        | Ablis (Approved, Commented: Calculator Fix) - #830                   | 2     | 319          |
+| 2026-04-19 | PR Review        | Go (Approved, Commented: Changelog Update) - #828                    | 2     | 317          |
+| 2026-04-19 | PR Review        | Jagunap (Approved, Commented: Changelog Update) - #826               | 2     | 315          |
+| 2026-04-19 | PR Review        | De Juras (Approved, Commented: Implementation) - #823                | 2     | 313          |
+| 2026-04-19 | PR Review        | Malig (Approved, Commented: Le Fleur Calc) - #822                    | 2     | 311          |
+| 2026-04-19 | PR Review        | Ablis (Approved, Commented: Exceptions Calc) - #821                  | 2     | 309          |
+| 2026-04-19 | PR Review        | Cardeno (Approved, Commented: Peer Comments) - #820                  | 2     | 307          |
+| 2026-04-19 | PR Review        | Malig (Approved, Commented: Demo Calculator) - #819                  | 2     | 305          |
+| 2026-04-19 | PR Review        | Go (Approved, Commented: Journal Update) - #817                      | 2     | 303          |
+| 2026-04-19 | PR Review        | Nono (Approved, Commented: Calculator/Exceptions) - #825             | 2     | 301          |
+| 2026-04-19 | PR Review        | Malig (Approved, Commented: Calculator Demo Update) - #818           | 2     | 299          |
+| 2026-04-19 | PR Review        | Onte (Approved, Commented: Journal Update) - #815                    | 2     | 297          |
+| 2026-04-19 | PR Review        | Go (Approved, Commented: Learning Entry) - #812                      | 2     | 295          |
+| 2026-04-19 | PR Review        | Go (Approved, Commented: Peer Comment) - #813                        | 2     | 293          |
+| 2026-04-19 | PR Review        | Malig (Approved, Commented: Journal Update) - #800                   | 2     | 291          |
+| 2026-04-19 | PR Review        | Cardeno (Approved, Commented: Changelog Update) - #809               | 2     | 289          |
+| 2026-04-19 | PR Review        | Cardeno (Approved, Commented: AbsPoly Demo) - #808                   | 2     | 287          |
+| 2026-04-19 | PR Review        | Malig (Approved, Commented: Peer Feedback) - #807                    | 2     | 285          |
+| 2026-04-19 | PR Review        | Go (Approved, Commented: Peer Feedback) - #806                       | 2     | 283          |
+| 2026-04-19 | PR Review        | Ovejera (Approved, Commented: Peer Feedback) - #805                  | 2     | 281          |
+| 2026-04-19 | PR Review        | Ablis (Approved, Commented: Changelog Update) - #804                 | 2     | 279          |
+| 2026-04-19 | PR Review        | Nono (Approved, Commented: Journal/Feedback) - #803                  | 2     | 277          |
+| 2026-04-18 | PR Review        | De Juras (Approved, Commented: Demo) - #799                          | 2     | 275          |
+| 2026-04-18 | PR Review        | Malig (Approved, Commented: Changelog Update) - #793                 | 2     | 273          |
+| 2026-04-18 | PR Review        | Onte (Approved, Commented: Exceptions Calc) - #791                   | 2     | 271          |
+| 2026-04-18 | PR Review        | Ovejera (Approved, Commented: Demo Class) - #801                     | 2     | 269          |
+| 2026-04-18 | PR Review        | Jagunap (Approved, Commented: AbsPoly 1) - #748                      | 2     | 267          |
+| 2026-04-18 | PR Review        | Go (Approved, Commented: Exceptions Calc) - #788                     | 2     | 265          |
+| 2026-04-18 | PR Review        | Nono (Approved, Commented: Exceptions Demo) - #777                   | 2     | 263          |
+| 2026-04-18 | PR Review        | De Juras (Approved, Commented: Implementation) - #787                | 2     | 261          |
+| 2026-04-18 | PR Review        | Ovejera (Approved, Commented: Changelog Entries) - #786              | 2     | 259          |
+| 2026-04-18 | PR Review        | Ablis (Approved, Commented: Calculator Class) - #785                 | 2     | 257          |
+| 2026-04-18 | PR Review        | Ovejera (Approved, Commented: Scores Update) - #783                  | 2     | 255          |
+| 2026-04-18 | PR Review        | Jagunap (Approved, Commented: Changelog Update) - #781               | 2     | 253          |
+| 2026-04-18 | PR Review        | Nono (Approved, Commented: FireAvatar Classes) - #780                | 2     | 251          |
+| 2026-04-18 | PR Review        | Go (Approved, Commented: Private Access Props) - #779                | 2     | 249          |
+| 2026-04-18 | PR Review        | Go (Approved, Commented: Implementations & Demo) - #778              | 2     | 247          |
+| 2026-04-18 | PR Review        | Malig (Approved, Commented: Add) - #774                              | 2     | 245          |
+| 2026-04-18 | PR Review        | Ovejera (Approved, Commented: Peer Review) - #771                    | 2     | 243          |
+| 2026-04-18 | PR Review        | Jagunap (Approved, Commented: AbsPoly Demo) - #769                   | 2     | 241          |
+| 2026-04-18 | PR Review        | Malig (Approved, Commented: Demo/Implementation Fix) - #767          | 2     | 239          |
+| 2026-04-18 | PR Review        | Nono (Approved, Commented: Abspoly Everything) - #759                | 2     | 237          |
+| 2026-04-18 | PR Review        | Ovejera (Approved, Commented: Format/Duplicate Fix) - #770           | 2     | 235          |
+| 2026-04-18 | PR Review        | Ablis (Approved, Commented: Create Demo) - #758                      | 2     | 233          |
+| 2026-04-18 | PR Review        | Go (Approved, Commented: Composition Entry) - #762                   | 2     | 231          |
+| 2026-04-18 | PR Review        | Go (Approved, Commented: Peer Feedback) - #763                       | 2     | 229          |
+| 2026-04-18 | PR Review        | Go (Approved, Commented: Peer Comment) - #764                        | 2     | 227          |
+| 2026-04-18 | PR Review        | Go (Approved, Commented: Abstract Device/Interface) - #765           | 2     | 225          |
+| 2026-04-18 | PR Review        | Jagunap (Approved, Commented: Changelog Update) - #761               | 2     | 223          |
+| 2026-04-18 | PR Review        | Ablis (Changes Requested, Approved, Commented: Create Demo) - #758   | 4     | 221          |
+| 2026-04-18 | PR Review        | Malig (Approved, Commented: Composed Class) - #757                   | 2     | 217          |
+| 2026-04-18 | PR Review        | Onte (Approved, Commented: Gun Abstract/Interface) - #755            | 2     | 215          |
+| 2026-04-18 | PR Review        | Go (Approved, Commented: Learning Log Update) - #754                 | 2     | 213          |
+| 2026-04-18 | PR Review        | Malig (Approved, Commented: Superhero Demo) - #753                   | 2     | 211          |
+| 2026-04-18 | PR Review        | Jagunap (Approved, Commented: AbsPoly Demo) - #750                   | 2     | 209          |
+| 2026-04-18 | PR Review        | Ovejera (Approved, Commented: Implementations) - #749                | 2     | 207          |
+| 2026-04-18 | PR Review        | Ovejera (Approved, Commented: Implementations 2) - #747              | 2     | 205          |
+| 2026-04-18 | PR Review        | Obedoza (Approved, Commented: AbsPoly Demo) - #746                   | 2     | 203          |
+| 2026-04-18 | PR Review        | Ablis (Approved, Commented: MyNinaTeam) - #756                       | 2     | 201          |
+| 2026-04-18 | PR Review        | Cardeno (Approved, Commented: Delivery Abstract) - #752              | 2     | 199          |
+| 2026-04-18 | PR Review        | Nono (Approved, Commented: AvatarCore Abstract) - #751               | 2     | 197          |
+| 2026-04-17 | PR Review        | Ovejera (Approved, Commented: Smartwatch) - #745                     | 2     | 195          |
+| 2026-04-17 | PR Review        | Ovejera (Approved, Commented: Calculator Class) - #742               | 2     | 193          |
+| 2026-04-17 | PR Review        | Ovejera (Approved, Commented: Test) - #739                           | 2     | 191          |
+| 2026-04-17 | PR Review        | Go (Approved, Commented: Abstract/Interface) - #734                  | 2     | 189          |
+| 2026-04-17 | PR Review        | Malig (Approved, Commented: Checking) - #736                         | 2     | 187          |
+| 2026-04-17 | PR Review        | Ablis (Approved, Commented: Fix) - #737                              | 2     | 185          |
+| 2026-04-17 | PR Review        | Jagunap (Approved, Commented: Superhero AbsPoly) - #733              | 2     | 183          |
+| 2026-04-17 | PR Review        | Ovejera (Approved, Commented: Smartphone) - #732                     | 2     | 181          |
+| 2026-04-17 | PR Review        | Nono (Approved, Commented: Abstract/Interface) - #731                | 2     | 179          |
+| 2026-04-15 | PR Review        | Obedoza (Approved, Commented: Athlete Class) - #730                  | 2     | 177          |
+| 2026-04-15 | PR Review        | Malig (Approved, Commented: Abstract/Interface) - #729               | 2     | 175          |
+| 2026-04-15 | PR Review        | Onte (Approved, Commented: Composition/Subclass) - #728              | 2     | 173          |
+| 2026-04-15 | PR Review        | Malig (Approved, Commented: Abspoly) - #727                          | 2     | 171          |
+| 2026-04-15 | PR Review        | Malig (Approved, Commented: Approve this) - #726                     | 2     | 169          |
+| 2026-04-11 | PR Review        | Malig (Approved, Commented: MagicHands Update) - #723                | 2     | 167          |
+| 2026-03-31 | PR Review        | (Approved, Commented: Sweat) - #633                                  | 2     | 165          |
+| 2026-03-30 | PR Review        | Jagunap (Approved, Commented: Changelog Update) - #627               | 2     | 163          |
+| 2026-03-29 | PR Review        | (Approved, Commented: Sweat) - #633                                  | 2     | 161          |
+| 2026-03-29 | PR Review        | (Approved, Commented: Sweat) - #633                                  | 2     | 159          |
+| 2026-03-29 | PR Review        | Ovejera (Approved, Commented: Person Class) - #632                   | 2     | 157          |
+| 2026-03-27 | PR Review        | Ovejera (Approved, Commented: Readme) - #629                         | 2     | 155          |
+| 2026-03-25 | PR Review        | Ovejera (Approved, Commented: Peer Review) - #621                    | 2     | 153          |
+| 2026-03-25 | PR Review        | Ovejera (Approved, Commented: Peer Review) - #620                    | 2     | 151          |
+| 2026-03-25 | PR Review        | Ovejera (Approved, Commented: Peer Review) - #620                    | 2     | 149          |
+| 2026-03-25 | PR Review        | Ovejera (Approved, Commented: MD Update) - #619                      | 2     | 147          |
+| 2026-03-25 | PR Review        | Ovejera (Approved, Commented: Changelog Update) - #618               | 2     | 145          |
+| 2026-03-25 | PR Review        | Ovejera (Approved, Commented: All Classes) - #617                    | 2     | 143          |
+| 2026-03-24 | PR Review        | Ablis (Approved, Commented: Changelog Entry) - #575                  | 2     | 141          |
+| 2026-03-24 | PR Review        | Malig (Approved, Commented: Approve this) - #593                     | 2     | 139          |
+| 2026-03-24 | PR Review        | Ovejera (Approved, Commented: Tissue.java) - #590                    | 2     | 137          |
+| 2026-03-24 | PR Review        | Cardeno (Approved, Commented: Changelog Encap/Inherit) - #583        | 2     | 135          |
+| 2026-03-24 | PR Review        | Go (Approved, Commented: Learning Entries) - #582                    | 2     | 133          |
+| 2026-03-24 | PR Review        | Ovejera (Commented: Changelog Entry) - #581                          | 1     | 131          |
+| 2026-03-24 | PR Review        | Go (Approved, Commented: Correct Lab Entries) - #579                 | 2     | 130          |
+| 2026-03-24 | PR Review        | Obedoza (Approved, Commented: Subclass Package) - #612               | 2     | 128          |
+| 2026-03-24 | PR Review        | Obedoza (Approved, Commented: MD Update) - #610                      | 2     | 126          |
+| 2026-03-24 | PR Review        | Obedoza (Approved, Commented: Improvement) - #609                    | 2     | 124          |
+| 2026-03-24 | PR Review        | Caneda (Approved, Commented: MD Update) - #608                       | 2     | 122          |
+| 2026-03-24 | PR Review        | Caneda (Approved, Commented: Changelog Update) - #607                | 2     | 120          |
+| 2026-03-24 | PR Review        | Ovejera (Approved, Commented: Main_Ovejera.java) - #604              | 2     | 118          |
+| 2026-03-23 | PR Review        | Ablis (Approved, Commented: Changelog Entry) - #575                  | 2     | 116          |
+| 2026-03-23 | PR Review        | Caneda (Approved, Commented: MD Update) - #578                       | 2     | 114          |
+| 2026-03-23 | PR Review        | Caneda (Approved, Commented: Changelog Update) - #576                | 2     | 112          |
+| 2026-03-23 | PR Review        | Malig (Approved, Commented: MD Update) - #577                        | 2     | 110          |
+| 2026-03-22 | PR Review        | Ovejera (Approved, Commented: Approve work) - #574                   | 2     | 108          |
+| 2026-03-22 | PR Review        | Ablis (Approved, Commented: Peer Eval) - #572                        | 2     | 106          |
+| 2026-03-22 | PR Review        | Ablis (Approved, Commented: MD Update) - #571                        | 2     | 104          |
+| 2026-03-22 | PR Review        | De Juras (Approved, Commented: Main_DeJuras) - #567                  | 2     | 102          |
+| 2026-03-22 | PR Review        | Ablis (Approved, Commented: Main_Ablis) - #570                       | 2     | 100          |
+| 2026-03-22 | PR Review        | De Juras (Commented: Main_DeJuras) - #567                            | 1     | 98           |
+| 2026-03-22 | PR Review        | De Juras (Changes Requested,Approved,Commented: Main_DeJuras) - #567 | 4     | 97           |
+| 2026-03-21 | PR Review        | Trespeces (Approved, Commented: Main/Super Params) - #568            | 2     | 93           |
+| 2026-03-21 | PR Review        | Ablis (Approved, Commented: RcCar) - #566                            | 2     | 91           |
+| 2026-03-21 | PR Review        | Malig (Approved, Commented: Inheritance) - #565                      | 2     | 89           |
+| 2026-03-21 | PR Review        | Go (Approved, Commented: Changelog Update) - #563                    | 2     | 87           |
+| 2026-03-21 | PR Review        | Ablis (Approved, Commented: RcHelicopter) - #562                     | 2     | 85           |
+| 2026-03-21 | PR Review        | Caneda (Approved, Commented: Changelog Update) - #554                | 2     | 83           |
+| 2026-03-21 | PR Review        | Caneda (Approved, Commented: Main Class) - #553                      | 2     | 81           |
+| 2026-03-20 | PR Review        | Ramil (Approved, Commented: Peer Feedback) - #561                    | 2     | 79           |
+| 2026-03-20 | PR Review        | (Approved, Commented: Finished Lab) - #560                           | 2     | 77           |
+| 2026-03-20 | PR Review        | Onte (Approved, Commented: Peer Eval) - #559                         | 2     | 75           |
+| 2026-03-20 | PR Review        | Onte (Approved, Commented: Positive Feedback) - #558                 | 2     | 73           |
+| 2026-03-20 | PR Review        | Onte (Approved, Commented: Learning Entry) - #557                    | 2     | 71           |
+| 2026-03-20 | PR Review        | Onte (Approved, Commented: Parent/Sub/Main) - #556                   | 2     | 69           |
+| 2026-03-20 | PR Review        | Ovejera (Approved, Commented: Main/Subclasses) - #552                | 2     | 67           |
+| 2026-03-20 | PR Review        | Ovejera (Approved, Commented: Gadget) - #551                         | 2     | 65           |
+| 2026-03-20 | PR Review        | Ovejera (Changes Requested, Approved, Commented: Gadget) - #551      | 4     | 63           |
+| 2026-03-20 | PR Review        | Nono (Approved, Commented: Readme Contribution) - #550               | 2     | 59           |
+| 2026-03-20 | PR Review        | (Approved, Commented: Readme Update) - #549                          | 2     | 57           |
+| 2026-03-20 | PR Review        | (Approved, Commented: Adding 2 Subclasses) - #548                    | 2     | 55           |
+| 2026-03-20 | PR Review        | (Approved, Commented: Changelog Update) - #547                       | 2     | 53           |
+| 2026-03-20 | PR Review        | (Approved, Commented: Peer Feedback) - #546                          | 2     | 51           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Child Classes) - #545                          | 2     | 49           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Peer Feedback) - #544                          | 2     | 47           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Journal Entry) - #543                          | 2     | 45           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Changelog Update) - #542                       | 2     | 43           |
+| 2026-03-19 | PR Review        | Cardeno (Approved, Commented: Main Class) - #541                     | 2     | 41           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Approve my work) - #540                        | 2     | 39           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Journal Entry) - #539                          | 2     | 37           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Math Child) - #537                             | 2     | 35           |
+| 2026-03-19 | PR Review        | Nono (Approved, Commented: Main Class) - #536                        | 2     | 33           |
+| 2026-03-19 | PR Review        | Jagunap (Approved, Commented: Readme Contribution) - #534            | 2     | 31           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Main Class) - #533                             | 2     | 29           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Tank Class) - #532                             | 2     | 27           |
+| 2026-03-19 | PR Review        | (Approved, Commented: EBook Class) - #531                            | 2     | 25           |
+| 2026-03-19 | PR Review        | Cardeno (Approved, Commented: Subclass Painting) - #530              | 2     | 23           |
+| 2026-03-19 | PR Review        | Jagunap (Approved, Commented: Inheritance) - #528                    | 2     | 21           |
+| 2026-03-19 | PR Review        | Jagunap (Changes Requested, Approved, Commented: Inheritance) - #528 | 4     | 19           |
+| 2026-03-19 | PR Review        | Cardeno (Approved, Commented: Scooter Subclass) - #527               | 2     | 15           |
+| 2026-03-19 | PR Review        | Cardeno (Approved, Commented: ElectricBike Subclass) - #526          | 2     | 13           |
+| 2026-03-19 | PR Review        | (Approved, Commented: Book Parent Class) - #525                      | 2     | 11           |
+| 2026-03-19 | PR Review        | Sean Go (Approved, Commented: MD Update) - #523                      | 2     | 9            |
+| 2026-03-19 | PR Review        | Sean Go (Approved, Commented: MD Update) - #522                      | 2     | 7            |
+| 2026-03-06 | Quiz/Recitation  | Quiz 1: OOP                                                          | 5     | 5            |
 
 ---
 
@@ -138,7 +203,7 @@
 **<04/18/2026>** Comment by: Navarro, Vince Justine: You did an amazing job at creating the abstraction-and-polymorphism activity, You helped us to be better in every step of the way! \
 **<04/19/2026>** Comment by: Navarro, Vince Justine: You did a superb job at creating the checked and unchecked exceptions class, Thanks and we are very lucky to have you as our leader!
 
-## ➕ Plus Points
+## ➕ Plus Points (not updated, kept this just cuz i didnt know where to put the plus points were back then)
 
 ### did 04/19/2026
 commented and approved nono's (journal) pr: 2 points - #803 \
