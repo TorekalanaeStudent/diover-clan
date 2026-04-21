@@ -1,4 +1,5 @@
 ## Date : 04/19/2026 | Activity : Exceptions and Errors Lab
+Obedoza, John Kyle B. 2025-1022691 04/19/2026 Exceptions and Errors Lab Completed! \
 Arban, Jhave P. 2025-1028156 04/19/2026 Exceptions and Errors Lab Completed! \
 Cañeda, Ramil Jr M. 2025-1023980 04/19/2026 Exceptions and Errors Lab Completed! \
 Canillo, Diover Vincent L. 2025-1023980 04/19/2026 Exceptions and Errors Lab Completed! \
@@ -17,6 +18,7 @@ De Juras, Clint Norbert P. 2025-1025222 04/19/2026 Exceptions and Errors Lab Com
 ---
 
 ## Date : 04/18/2026 | Activity : Abstraction and Polymorphism Lab
+Obedoza, John Kyle B. 2025-1022691 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Ablis, Margreleigne M. 2025-1020011 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Arban, Jhave P. 2025-1028156 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Navarro, Vince Justine 2025-1029521 04/18/2026 Abstraction and Polymorphism Lab Completed! \
