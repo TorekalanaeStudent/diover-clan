@@ -3,11 +3,34 @@
 
 ## 📊 Scores
 
-| Date       | Activity Type | Title       | Score | Total Points |
-|------------|----------------|-------------|--------|--------------|
-| 03/06/2026 | Quiz/Recitation           | Quiz 1:OOP      | 5      | 5            |
-| —          | —              | —           | —      | —            |
-
+| Date       | Activity Type   | Title                                                           | Score | Total Points |
+|------------|-----------------|-----------------------------------------------------------------|-------|--------------|
+| 04/19/2026 | PR Review       | Canillo (updated scores) - #848                                 | 2     |  35          |
+| 04/19/2026 | PR Review       | Malig (changelog) - #847                                        | 2     |              |
+| 04/19/2026 | PR Review       | Go (journal) - #845                                             | 2     |              |
+| 04/19/2026 | PR Review       | Canillo (added attributes) - #802                               | 2     |              |
+| 04/18/2026 | PR Review       | Nono (added demo class) - #801                                  | 2     |              |
+| 04/18/2026 | PR Review       | De Juras (added demo class) - #799                              | 2     |              |
+| 04/18/2026 | PR Review       | Canillo (added getter and setter) - #798                        | 2     |              |
+| 04/18/2026 | PR Review       | Canillo (readme) - #797                                         | 2     |              |
+| 04/18/2026 | PR Review       | Canillo (chaged brand field) - #795                             | 2     |              |
+| 04/18/2026 | PR Review       | Canillo (abspoly) - #792                                        | 2     |              |
+| 04/18/2026 | PR Review       | Nono (implementations) - #784                                   | 2     |              |
+| 04/19/2026 | PR Review       | De Juras (abspoly) - #748                                       | 2     |              |
+| 04/08/2026 | PR Review       | Canillo (implementation) - #716                                 | 2     |              |
+| 04/02/2026 | PR Review       | Cardeno (added subclass) - #693                                 | 2     |              |
+| 04/02/2026 | PR Review       | Nono (fixed code issue) - #692                                  | 2     |              |
+| 04/02/2026 | PR Review       | Nono (composition) - #685                                       | 2     |              |
+| 04/02/2026 | PR Review       | Nono (changelog) - #684                                         | 2     |              |
+| 03/19/2026 | PR Review       | Nono (created e-book) - #531                                    | 2     |              |
+| 03/15/2026 | PR Review       | Nono (added an object) - #402                                   | 2     |              |
+| 03/15/2026 | PR Review       | Canillo (deleted code) - #399                                   | 2     |              |
+| 03/11/2026 | PR Review       | Canillo (changelog) - #313                                      | 2     |              |
+| 03/12/2026 | PR Review       | Nono (journal) - #283                                           | 2     |              |
+| 03/12/2026 | PR Review       | Cardeno (journal) - #282                                        | 2     |              |
+| 03/11/2026 | PR Review       | Gedoria (changelog) - #257                                      | 2     |              |
+| 03/11/2026 | PR Review       | Cardeno (journal) - #246                                        | 2     |              |
+| 03/06/2026 | Quiz            | Quiz 1:OOP                                                      | 5     | 5            |
 ---
 
 ## 📘 Journals
