@@ -1,12 +1,16 @@
 John Kyle Obedoza
 
-
 📊 Scores
-| Date       | Activity Type | Title       | Score | Total Points |
-|------------|----------------|-------------|--------|--------------|
-| 03/05/2026 | Quiz/Recitation| Recit 7:00  | 5      | 5            |
-| —          | —              | —           | —      | —            |
-
+| Date       | Activity Type | Title                                                                 | Score | Total Points |
+|------------|----------------|------------------------------------------------------------------------|--------|--------------|
+| 03/05/2026 | Quiz/Recitation| Recit 7:00                                                             | 5      | 5            |
+| 04/21/2026 | PR Review      | Approved and Commented on Jhave Arban's (absopoly activity) pr - #869  | 2      |              |
+| 04/21/2026 | PR Review      | Approved and Commented on Guillermo Trepeces's (md) pr - #868          | 2      |              |
+| 04/21/2026 | PR Review      | Approved and Commented on Clint DeJuras's (Peer Review) pr - #866      | 2      |              |
+| 04/21/2026 | PR Review      | Approved and Commented on Ziggy Ovejera's (Peer Review) pr - #864      | 2      |              |
+| 04/21/2026 | PR Review      | Approved and Commented on Torekalanae Student's (points for personal md) pr - #860 | 2 |              |
+| 04/21/2026 | PR Review      | Approved and Commented on Sean Go's (Peer Review) pr - #872            | 2      |              |
+| 04/21/2026 | PR Review      | Approved and Commented on Ziggy Ovejera's (Completed labs) pr - #863   | 2      |              |
 ---
 
 ### 📘 Journals 
@@ -44,4 +48,11 @@ John Kyle Obedoza
 **<04/18/2026>** : Comment by: Trespeces, Guillermo; I think you did really good and was super cooperative with being dependent and independent at the same with fulfilling our last activity. Thanks for sticking around, great partner! 🤠
 
 ## ➕ Plus Points
-
+### Did 04/21/2026
+* Approved and Commented on Jhave Arban's (absopoly activity) pr: 2 points - #869
+* Approved and Commented on Guillermo Trepeces's (md) pr: 2 points - #868
+* Approved and Commented on Clint DeJuras's (Peer Review) pr: 2 points - #866
+* Approved and Commented on Ziggy Ovejera's (Peer Review) pr: 2 points - #864
+* Approved and Commented on Torekalanae Student's (points for personal md) pr: 2 points - #860
+* Approved and Commented on Sean Go's (Peer Review) pr: 2 points - #872
+* Approved and Commented on Ziggy Ovejera's (Completed labs) pr: 2 points - #863
