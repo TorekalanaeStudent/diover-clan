@@ -7,8 +7,10 @@ Cardeño, Faye L. 2025-1025317 04/19/2026 Exceptions and Errors Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/19/2026 Exceptions and Errors Lab Completed! \
 Go, Sean Ethan G. 2025-1024028 04/19/2026 Exceptions and Errors Lab Completed! \
 Malig, Rich Matthew A. 2025-1027707 04/19/2026 Exceptions and Errors Lab Completed! \
-Gedoria, Rajan Kurt O. 2025-1021948 04/19/2026 Exceptions and Errors Lab Completed! 
 Ovejera, Ziggy T. 2025-2021339 04/19/2026 Exceptions and Errors Lab Completed! \
+Gedoria, Rajan Kurt O. 2025-1021948 04/19/2026 Exceptions and Errors Lab Completed! \
+Onte, Vince Gian D. 2025-1021082 04/19/2026 Exceptions and Errors Lab Completed! \
+De Juras, Clint Norbert P. 2025-1025222 04/19/2026 Exceptions and Errors Lab Completed! 
 ---
 
 ## Date : 04/18/2026 | Activity : Abstraction and Polymorphism Lab
@@ -20,8 +22,11 @@ Gedoria, Rajan Kurt O. 2025-1021948 04/18/2026 Abstraction and Polymorphism Lab 
 Nono,Mary Angeline B. 2025-1022691 04/18/2026 Abstraction and Polymorphism Lab Completed! \
 Cardeño, Faye L. 2025-1025317 04/19/2026 Abstraction and Polymorphism Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/19/2026 Abstraction and Polymorphism Lab Completed! \
-Go, Sean Ethan G. 2025-1024028 04/18/2026 Abstraction and Polymorphism Lab Completed!
 Ovejera, Ziggy T. 2025-2021339 04/19/2026 Abstraction and Polymorphism Lab Completed!\
+Go, Sean Ethan G. 2025-1024028 04/18/2026 Abstraction and Polymorphism Lab Completed! \
+Onte, Vince Gian D. 2025-1021082 04/18/2026 Abstraction and Polymorphism Lab Completed! \
+De Juras, Clint Norbert P. 2025-1025222 04/18/2026 Abstraction and Polymorphism Lab Completed! 
+
 ---
 
 ## Date : 03/24/2026 | Activity : Composition Lab
@@ -37,7 +42,9 @@ Cardeño, Faye L. 2025-1025317 04/01/2026 Composition Lab Completed 4x Multiplie
 Jagunap, Janelle 2025-1025460 04/18/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 Gedoria, Rajan Kurt O. 2025-1021948 03/29/2026 Composition Lab Completed \
 Go, Sean Ethan G. 2025-1024028 03/28/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
-Trespeces, Guillermo 2025-1025412 04/02/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior)
+Trespeces, Guillermo 2025-1025412 04/02/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
+Onte, Vince Gian D. 2025-1021082 04/02/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
+De Juras, Clint Norbert P. 2025-1025222 03/21/2026 Composition Lab Completed 4x Multiplier! (x2 for demonstrating hierarchical inheritance, x2 for changing the behavior) \
 
 ---
 
@@ -57,7 +64,7 @@ Obedoza, John Kyle B. 2025-1029134 03/18/2026 Inheritance Lab Completed! (x2 mul
 Onte, Vince Gian D. 2025-1021082 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Ovejera, Ziggy T. 2025-1021339 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
 Trespeces, Guillermo 2025-1025412 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) \
-De Juras, Clint Norbert P. 2025-1025222 03/21/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) 
+De Juras, Clint Norbert P. 2025-1025222 03/23/2026 Inheritance Lab Completed! (x2 multiplier for demonstrating hierarchical inheritance) 
 
 ---
 
