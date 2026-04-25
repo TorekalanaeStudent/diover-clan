@@ -38,7 +38,6 @@
 | Composition Lab                  | *03/24/2026* |
 | Abstraction and Polymorphism Lab | *04/06/2026* |
 | Exceptions and Errors Lab        | *04/15/2026* |
-| Packages and Organization Lab    | *04/24/2026* |
 
 *(More activities will be added as the course progresses.)*
 
