@@ -157,10 +157,15 @@ Example:
 ```gradle
 plugins {
     id 'java'
+    id 'application'
 }
 
 group = 'com.calculator'
 version = '1.0'
+
+application {
+    mainClass = 'com.calculator.<surname>.main.CalculatorDemo_<surname>'
+}
 ```
 
 Run:
