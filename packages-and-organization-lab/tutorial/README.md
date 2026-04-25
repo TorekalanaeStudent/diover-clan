@@ -1,9 +1,8 @@
-### make a branch:
-packages-build-surname
-
----
-
-### switch to jvm 17:
+## make a branch:
+```
+packages-build-<surname>
+```
+switch to jvm 17:
 COMMAND FOR UPDATE TO JVM 17:
 ```
 sdk install java 17.0.9-amzn
@@ -13,9 +12,7 @@ COMMAND TO DEFAULT JVM 17:
 sdk default java 17.0.9-amzn
 ```
 
----
-
-### structure:
+## STRUCTURE
 ```
 packages-and-organization-lab
  └── /surname
@@ -32,5 +29,20 @@ packages-and-organization-lab
                                               ├── util      OPTIONAL (helper_methods)
                                               └── main      REQUIRED (demo class)
 ```
+## How to run it:
 
+### Step 1: Go to your surname
+```
+cd packages-and-organization-lab/surname
+```
+
+### Step 2: Compile everything
+```
+javac src/java/com/calculator/surname/*/*.java
+```
+
+### Step 3: Run Main Method
+```
+java com.calculator.surname.main.CalculatorDemo_Surname
+```
 
