@@ -26,9 +26,9 @@ sdk default java 17.0.9-amzn
 
 ## How to run it:
 
-### Step 1: Go to your surname/src/java
+### Step 1: Go to your directory
 ```
-cd packages-and-organization-lab/surname/src/java
+cd packages-and-organization-lab/surname
 ```
 
 ### Step 2: Build gradle
