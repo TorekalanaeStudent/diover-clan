@@ -25,15 +25,19 @@
 ---
 
 ## how to run
-
-1. compile it first (if you do any changes)
-   + go to your directory ex. packages-and-organization-lab \
+### Step 1. Install Maven
++ go to your directory \
      ``` cd packages-and-organization-lab/surname ```
+```
+mvn clean install
+```
+
+### Step 2. compile it first (if you do any changes)
 ```
 mvn compile exec:java
 ```
 
-2. run it
+### Step 3. run it
 ```
 mvn exec:java
 ```
