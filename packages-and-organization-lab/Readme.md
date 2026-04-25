@@ -164,7 +164,7 @@ group = 'com.calculator'
 version = '1.0'
 
 application {
-    mainClass = 'com.calculator.<surname>.main.CalculatorDemo_<surname>'
+    mainClass = 'com.calculator.<surname>.main.CalculatorDemo_<Surname>'
 }
 ```
 
