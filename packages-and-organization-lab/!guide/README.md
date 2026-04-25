@@ -21,30 +21,3 @@ packages-and-organization-lab
                                               └── main      REQUIRED (demo class)
 ```
 
-## switch to jvm 17:
-COMMAND FOR UPDATE TO JVM 17:
-```
-sdk install java 17.0.9-amzn
-```
-COMMAND TO DEFAULT JVM 17: 
-```
-sdk default java 17.0.9-amzn
-```
-
-## How to run it:
-
-### Step 1: Go to your surname/src/java
-```
-cd packages-and-organization-lab/surname/src/java
-```
-
-### Step 2: Compile everything
-```
-javac src/java/com/calculator/surname/*/*.java
-```
-
-### Step 3: Run Main Method
-```
-java com.calculator.surname.main.CalculatorDemo_Surname
-```
-
