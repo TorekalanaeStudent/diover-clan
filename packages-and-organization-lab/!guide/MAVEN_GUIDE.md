@@ -1,9 +1,10 @@
+# NOTE: CHANGE ``` <surname> ``` TO YOUR ACTUAL SURNAME
 ## pom.xml
 ```xml
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.calculator</groupId>
-    <artifactId>caneda-calculator</artifactId>
+    <artifactId><surname>-calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <build>
@@ -13,7 +14,7 @@
                     <artifactId>exec-maven-plugin</artifactId>
                     <version>3.6.3</version>
                     <configuration>
-                        <mainClass>com.calculator.caneda.main.CalculatorDemo_Caneda</mainClass>
+                        <mainClass>com.calculator.<surname>.main.CalculatorDemo_<Surname></mainClass>
                     </configuration>
             </plugin>
         </plugins>
@@ -26,6 +27,8 @@
 ## how to run
 
 1. compile it first (if you do any changes)
+   + go to your directory ex. packages-and-organization-lab \
+     ``` cd packages-and-organization-lab/surname ```
 ```
 mvn compile exec:java
 ```
