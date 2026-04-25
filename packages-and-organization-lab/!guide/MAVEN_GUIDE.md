@@ -1,4 +1,4 @@
-# NOTE: CHANGE ``` <surname> ``` TO YOUR ACTUAL SURNAME
+# NOTE: CHANGE ``` <surname> ``` TO YOUR ACTUAL SURNAME <br> ``` <surname> -> canillo ``` ``` <Surname> -> Canillo ```
 ## pom.xml
 ```xml
 <project>
