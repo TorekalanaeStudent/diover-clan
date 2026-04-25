@@ -2,7 +2,7 @@
 ```
 packages-build-<surname>
 ```
-switch to jvm 17:
+## switch to jvm 17: 
 COMMAND FOR UPDATE TO JVM 17:
 ```
 sdk install java 17.0.9-amzn
