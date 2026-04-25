@@ -1,14 +1,6 @@
 ## make a branch:
+```
 packages-build-<surname>
-
-##switch to jvm 17:
-COMMAND FOR UPDATE TO JVM 17:
-```
-sdk install java 17.0.9-amzn
-```
-COMMAND TO DEFAULT JVM 17: 
-```
-sdk default java 17.0.9-amzn
 ```
 
 ## structure
@@ -27,6 +19,16 @@ packages-and-organization-lab
                                               ├── exception REQUIRED (customized exceptions)
                                               ├── util      OPTIONAL (helper_methods)
                                               └── main      REQUIRED (demo class)
+```
+
+##switch to jvm 17:
+COMMAND FOR UPDATE TO JVM 17:
+```
+sdk install java 17.0.9-amzn
+```
+COMMAND TO DEFAULT JVM 17: 
+```
+sdk default java 17.0.9-amzn
 ```
 
 ## How to run it:
