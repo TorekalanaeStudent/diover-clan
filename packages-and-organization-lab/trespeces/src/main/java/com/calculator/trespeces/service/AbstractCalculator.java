@@ -1,8 +1,8 @@
 package com.calculator.trespeces.service;
 
 /**
- * @author Obedoza, John Kyle B.
- * @KyleObedoza
+ * @author Trespeces, Guillermo II O.
+ * @willj067
  */
 
 import com.calculator.trespeces.exception.DivisionByZeroException;
