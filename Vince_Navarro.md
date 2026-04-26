@@ -56,6 +56,7 @@
 ---
 
 ## 📘 Journals:
+* **<04/26/2026>** : I learned how about Gradle and it's uses, and next time to improve I will make sure to do the activity earlier.
 * **<04/19/2026>** : I learned how about the Exceptions and Error and how it works, and next time to improve I will make sure to do the activity earlier.
 * **<04/18/2026>** : I learned how about the Abstraction and Polymorphism, and next time to improve I will try to be more good and understand the interface and abstract class better.
 * **<03/24/2026>** : I learned how about the Compostion and how it works, and next time to improve I will try to make my code be better and made faster.
