@@ -4,6 +4,26 @@ import com.calculator.ovejera.service.CalculatorClass_TeamJina;
 import com.calculator.ovejera.exception.InvalidInputException_TeamJina;
 import com.calculator.ovejera.exception.NegativeNumberException_TeamJina;
 
+paraphrase this in two different
+
+/**
+ * Q1: How did you organize your packages?
+ * A1: I organized my packages into service, exception, and main to follow a structured and modular design.
+ *
+ * Q2: Why did you separate your classes this way?
+ * A2: I separated them to ensure each class has a clear responsibility and to improve maintainability.
+ *
+ * Q3: How do packages improve encapsulation?
+ * A3: Packages group related classes and limit access using modifiers, preventing unnecessary exposure of logic.
+ *
+ * Q4: Where are your exceptions located?
+ * A4: The exceptions are located in com.calculator.ovejera.exception.
+ *
+ * Q5: Why did you choose Maven or Gradle?
+ * A5: I chose Gradle because it is faster, flexible, and uses a simpler DSL compared to XML.
+ */
+
+
 public class CalculatorDemo_TeamJina {
 
     public static void main(String[] args) {
