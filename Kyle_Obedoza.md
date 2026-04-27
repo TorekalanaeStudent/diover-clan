@@ -11,9 +11,14 @@ John Kyle Obedoza
 | 04/21/2026 | PR Review      | Approved and Commented on Torekalanae Student's (points for personal md) pr - #860 | 2 |              |
 | 04/21/2026 | PR Review      | Approved and Commented on Sean Go's (Peer Review) pr - #872            | 2      |              |
 | 04/21/2026 | PR Review      | Approved and Commented on Ziggy Ovejera's (Completed labs) pr - #863   | 2      |              |
+| 04/27/2026 | PR Review      | Approved and Commented on Ziggy Ovejera's (Completed labs) pr - #908   | 2      |              |
+| 04/27/2026 | PR Review      | Approved and Commented on faye Cardeno's (Completed labs) pr - #907    | 2      |              |
+| 04/27/2026 | PR Review      | Approved and Commented on Vincent Onte's (Completed labs) pr - #905    | 2      |              |
+| 04/27/2026 | PR Review      | Approved and Commented on Vincent Onte's (Completed labs) pr - #905    | 2      |              |
 ---
 
 ### 📘 Journals 
+* **<04/27/2026>** : I learned about how to create packages and the best way to organize files, and next time to improve I will make sure to do my task early and with the best quality as possible
 * **<04/19/2026>** : I learned about the different types of errors and exceptions, and next time to improve I will make sure to use it properly in my code
 * **<04/18/2026>** : I learned about the importance of abstraction and polymorphism, and next time to improve I will doii my best to show mastery in appying these principles
 **\<03/06/2026\>** : I learned the 4 Cores Principles of OOP in our lab and to improve, next time I will continue perform better during class and solidify mt fundamentals in order to carry out my asks better. \
