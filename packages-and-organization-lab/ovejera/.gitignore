@@ -1,7 +1,0 @@
-# Gradle files
-.gradle/
-build/
-
-# OS / IDE
-*.log
-*.class
