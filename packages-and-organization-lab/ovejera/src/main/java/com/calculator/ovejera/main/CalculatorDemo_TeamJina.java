@@ -4,8 +4,6 @@ import com.calculator.ovejera.service.CalculatorClass_TeamJina;
 import com.calculator.ovejera.exception.InvalidInputException_TeamJina;
 import com.calculator.ovejera.exception.NegativeNumberException_TeamJina;
 
-paraphrase this in two different
-
 /**
  * Q1: How did you organize your packages?
  * A1: I organized my packages into service, exception, and main to follow a structured and modular design.
