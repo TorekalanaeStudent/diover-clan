@@ -5,9 +5,10 @@ Cardeño, Faye L. 2025-1025317 04/27/2026 Packages and Organization Lab Complete
 Nono,Mary Angeline B. 2025-1022691 04/27/2026 Packages and Organization Lab Completed! \
 Trespeces, Guillermo 2025-1025412 04/26/2026 Packages and Organization Lab Completed! \
 Navarro, Vince Justine 2025-1029521 04/26/2026 Packages and Organization Lab Completed! \
-04/25/2026 Packages and Organization Lab Completed! \
+Onte, Vince Gian D. 04/25/2026 Packages and Organization Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/27/2026 Packages and Organization Lab Completed! \
-Gedoria, Rajan Kurt O. 2025-1021948 04/27/2026 Packages and Organization Lab Completed!
+Gedoria, Rajan Kurt O. 2025-1021948 04/27/2026 Packages and Organization Lab Completed! \
+Malig, Rich Matthew A. 2025-1027707 04/27/2026 Packages and Organization Completed
 
 ---
 
