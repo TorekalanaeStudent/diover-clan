@@ -7,7 +7,38 @@ import com.calculator.arban.exception.*;
 /**
  * Arban, Jhave P.
  * @author @jhavearban-ctrl
+  * 1. HOW DID YOU ORGANIZE YOUR PACKAGES?
+ *    I organized the project into four packages based on responsibility:
+ *    - com.calculator.arban.main      → entry point / demo runner
+ *    - com.calculator.arban.service   → business logic (interface, abstract class, implementation)
+ *    - com.calculator.arban.exception → custom exception classes
+ *    Each package has a single, clear purpose.
+ *
+ * 2. WHY DID YOU SEPARATE YOUR CLASSES THIS WAY?
+ *    Separating classes by role makes the code easier to read, maintain,
+ *    and extend. For example, exception handling is isolated in its own
+ *    package so it can be reused without pulling in unrelated logic.
+ *
+ * 3. HOW DO PACKAGES IMPROVE ENCAPSULATION?
+ *    Packages act as namespaces that group related classes together and
+ *    control visibility. Classes can use package-private access to hide
+ *    implementation details from other packages, enforcing boundaries
+ *    between layers of the application.
+ *
+ * 4. WHERE ARE YOUR EXCEPTIONS LOCATED?
+ *    All custom exceptions are located in:
+ *    com.calculator.arban.exception
+ *    - InvalidInputException.java  → checked exception (extends Exception)
+ *    - DivisionByZeroException.java → checked exception (extends InvalidInputException)
+ *
+ * 5. WHY DID YOU CHOOSE GRADLE?
+ *    Gradle was chosen because it is faster than Maven due to incremental
+ *    builds and build caching. It also uses a Groovy/Kotlin DSL which is
+ *    more concise than Maven's verbose XML configuration. Gradle is also
+ *    the standard build tool used in this course workspace.
+ * ============================================================
  */
+
 public class CalculatorDemo_Arban{
     public static void main(String[] args) {
 
