@@ -12,6 +12,7 @@ Onte, Vince Gian D. 04/25/2026 Packages and Organization Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/27/2026 Packages and Organization Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 04/27/2026 Packages and Organization Lab Completed! \
 Malig, Rich Matthew A. 2025-1027707 04/27/2026 Packages and Organization Completed
+Ovejera, Ziggy 2025-1021339 04/27/2026 Packages and Organization Lab Completed! \
 
 ---
 
