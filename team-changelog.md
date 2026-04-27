@@ -1,6 +1,8 @@
 ## Date : 04/24/2026 | Activity : Packages and Organization Lab
 Canillo, Diover Vincent L. 2025-1023980 04/25/2026 Packages and Organization Lab Completed! \
-Navarro, Vince Justine 2025-1029521 04/26/2026 Packages and Organization Lab Completed!
+Navarro, Vince Justine 2025-1029521 04/26/2026 Packages and Organization Lab Completed! \
+04/25/2026 Packages and Organization Lab Completed! \
+Jagunap, Janelle 2025-1025460 04/27/2026 Packages and Organization Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 04/27/2026 Packages and Organization Lab Completed!
 
 ---
