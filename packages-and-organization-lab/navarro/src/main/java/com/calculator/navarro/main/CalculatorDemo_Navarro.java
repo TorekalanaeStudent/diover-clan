@@ -27,7 +27,7 @@ public class CalculatorDemo_Navarro {
 
         SimpleCalculator calc = new SimpleCalculator();
 
-        System.out.println("=========== Navarrro Calcualtor ===========");
+        System.out.println("=========== Navarrro Calculator ===========");
 
         try {
             // normal operation stuff
