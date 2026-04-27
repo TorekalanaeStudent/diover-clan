@@ -1,0 +1,19 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.calculator</groupId>
+    <artifactId>gedoria-calculator</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>3.6.3</version>
+                    <configuration>
+                        <mainClass> com.calculator.gedoria.main.CalculatorDemo_Gedoria</mainClass>
+                    </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

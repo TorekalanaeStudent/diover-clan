@@ -1,4 +1,4 @@
-# Janelle Jagunap
+ Janelle Jagunap
 ---
 
 ## 📊 Scores
@@ -43,6 +43,7 @@ next time I will try to learn how to manage my projects better and collaborate u
 next time I will try to implement these in real time projects and finish it in a short time. \
 **\<04/18/2026\>** : I learned the how to use composition (HAS-A relationship) in designing Java classes, next time I will try to apply it more consistently to create better‑structured and more flexible programs.\
 **\<04/19/2026\>** : I learned how to apply abstraction and polymorphism in Java by using interfaces and abstract classes to design flexible and reusable programs, next time I will improve my understanding of how different classes interact through polymorphism and write cleaner, more organized object-oriented code. \
+**\<04/27/2026\>** : I learned how to properly organize a Java project using packages, apply a structured project layout, and use a build tool like Gradle in a shared repository. Next time, I will focus on improving my project documentation and practicing better version control when collaborating.\
 
 ## 📘 Peer Feedback
 **<03/11/2026>** : Comment by: Nono, Mary Angeline B.; You did well in Organizing your methods and constructors and you can improve by testing your methods more. \
