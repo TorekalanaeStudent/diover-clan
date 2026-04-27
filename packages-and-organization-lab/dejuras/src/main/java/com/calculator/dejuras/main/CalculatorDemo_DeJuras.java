@@ -7,6 +7,21 @@ import com.calculator.dejuras.exception.*;
 /**
  * De Juras, Clint Norbert P.
  * @author @cdejuras
+ * // Code-Based Analysis
+ * Q1: How did you organize your packages?
+ * A1: I structured my project into multiple folders to replicate how real-world applications are organized.
+ * 
+ * Q2: Why did you separate your classes this way?
+ * A2: I wanted to better understand how real-world applications are designed and organized for clarity and maintainability.
+ * 
+ * Q3: How do packages enhance encapsulation?
+ * A3: Packages enhance encapsulation by assigning each package a specific responsibility, preventing one package from handling everything.
+ * 
+ * Q4: Where are your exceptions located?
+ * A4: My exception classes are stored in the com.calculator.dejuras.exceptions package.
+ * 
+ * Q5: Why did you choose Maven or Gradle?
+ * A5: I selected Gradle because it’s faster and I prefer its DSL-based configuration over XML.
  */
 public class CalculatorDemo_DeJuras {
     public static void main(String[] args) {
