@@ -33,6 +33,8 @@
 **04/18/2026** : Learned that Abstraction and Polymorphism can work together and complement each other.
  
 **04/18/2026** : Learned that Exceptions are used to handle errors so a program doesn't just crash.
+
+**04/26/2026** : Learned that Gradle is a build tool that automates compiling, testing, and packaging Java projects so you don't have to do it manually.
  
 ---
  

@@ -97,6 +97,8 @@ Ramil Caneda
 
 <04/21/2026> : I learned how to test how exceptions and errors work, and how it helps, not only coders to prevent system crashes, but also human interfaces making it much more easier for them to see their input errors, and as coders to teach us to anticipate any reasonable problems for coding.
 
+<04/27/2026> : I learned a decent chunk of how gradle works but not enough yet, i learned alot of how important packaging is again and how important name of files and folders are critical to runnninng the program
+
 ## Peer Feedback
 * **<04/19/2026>** : Comment by; Vince, Justine Navarro; For me, I think you did a good job at creating the demo_class for the exceptions and error lab, I think you can improve it by using scanner as a more acccurate depiction of a calculator.
 * **<04/19/2026>** : Comment by: Canillo, Diover Vincent L.; Peer feedback for exceptions. Good code, you could improve by fixing your linings because what the freak gng i had to fix it one by one 😭.

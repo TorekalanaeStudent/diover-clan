@@ -1,0 +1,7 @@
+package com.calculator.go.exception;
+
+public class NegativeNumberException extends Exception {
+    public NegativeNumberException(String message) {
+        super(message);
+    }
+}

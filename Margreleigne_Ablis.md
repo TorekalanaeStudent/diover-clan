@@ -1,4 +1,6 @@
 # Margreleigne Ablis
+2025-1020011
+BSCS251A
 ---
 
 ## 📊 Scores
@@ -9,6 +11,8 @@
 | —          | —              | —           | —      | —            |
 
 ---
+
+## ➕ Plus Points
 
 ## 📘 Journals
 
@@ -25,8 +29,11 @@
 **\<04/16/2026\>**: I learned how abstract classes work and what does polymorphism do. I wish to learn them much deeper.
 <br>
 **\<04/18/2026\>**: Me and my Group mate created a functional calculator with exceptions and errors using try-catch blocks and throws.
+<br>
+**\<04/26/2026\>**: I learned about the difference between Maven and Gradle. I hope to understand them better.
 
-## Peer Feedback
+
+## 👥 Peer Feedback
 **\<03/06/2026\>** : Comment by: <Onte, Vince>; You were able to participate and finish your task on time, you can improve by practicing and complete code exercises. 
 <br>
 <\04/18/2026> : Comment by : Ovejera, Ziggy T.; Thank you for your participation and you can improve more by participating in activities.
