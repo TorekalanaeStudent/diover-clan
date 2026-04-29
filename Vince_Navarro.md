@@ -56,6 +56,7 @@
 ---
 
 ## 📘 Journals:
+* **<04/29/2026>** : I learned how to Create a Database, and next time to improve I need to not rely on Ai and be able to code it myself.
 * **<04/29/2026>** : I learned how about SpringBoot and how it's used for, and next time to improve I will make sure to do the activity more earlier.
 * **<04/26/2026>** : I learned how about Gradle and it's uses, and next time to improve I will make sure to do the activity earlier.
 * **<04/19/2026>** : I learned how about the Exceptions and Error and how it works, and next time to improve I will make sure to do the activity earlier.
