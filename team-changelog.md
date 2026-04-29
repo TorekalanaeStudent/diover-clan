@@ -1,5 +1,5 @@
 ## Date : 04/28/2026 | Activity : OOP-Database Lab 
-Navarro, Vince Justine 2025-1029521 04/29/2026 OOP-Database Lab Completed!
+Navarro, Vince Justine 2025-1029521 04/29/2026 OOP-Database Lab Completed (Bonus Points for doing Validation and Exception handling!)
 
 ---
 
