@@ -37,18 +37,18 @@ You will:
 ---
 
 # 🧱 Required Project Structure
-
+```
 com.yourname.app
  ├── controller
  ├── service
  ├── repository
  ├── entity
  └── exception
-
+```
 ---
 
 # 🧾 Step 1: Create 2 Entities with at least 5 fields
-
+```java
 @Entity
 public class User {
 
@@ -62,8 +62,8 @@ public class User {
     private boolean isRegular;
     private String role;
 }
-
-
+```
+```java
 @Entity
 public class Product {
 
@@ -75,22 +75,23 @@ public class Product {
     private String description;
     private Double price;
 }
-
+```
 ---
 
 # 🧩 Step 2: Create Repositories for both entities 
 
 example: 
+```java
 public interface UserRepository extends JpaRepository<User, Long> {}
-
+```
 ---
 
 # ⚙️ Step 3: Connect to H2 Database
-
+```properties
 spring.datasource.url=jdbc:h2:mem:testdb  
 spring.h2.console.enabled=true  
 spring.jpa.hibernate.ddl-auto=update  
-
+```
 ---
 
 # 🔄 Step 4: Implement CRUD Endpoints
@@ -118,9 +119,9 @@ Verify all CRUD operations are working properly
 ---
 
 # 🔍 Step 6: Verify Using H2 Console
-
+```
 http://localhost:8080/h2-console
-
+```
 ---
 
 # 🐘 Step 7: Migrate to PostgreSQL
@@ -128,11 +129,11 @@ http://localhost:8080/h2-console
 Just comment out the h2 configuration, DO NOT DELETE.
 
 Add dependency and update properties:
-
+```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/yourdb  
 spring.datasource.username=postgres  
 spring.datasource.password=yourpassword  
-
+```
 ---
 
 # 🧠  Step 8: Concept Requirements
