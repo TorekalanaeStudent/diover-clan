@@ -1,16 +1,13 @@
 package com.canillo.springboot;
 
-import com.canillo.springboot.controller.MeController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureWebMvc;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
-
 /**
  * @Author TorekalanaeStudent
  *
@@ -31,13 +28,11 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standal
  */
 
 @SpringBootTest
-@AutoConfigureWebMvc
+@AutoConfigureMockMvc
 public class MeControllerTest {
 
     @Autowired
-    private MeController controller;
-
-    private MockMvc mockMvc = standaloneSetup(controller).build();
+    private MockMvc mockMvc;
 
     @Test
     public void testGetMe() throws Exception {
