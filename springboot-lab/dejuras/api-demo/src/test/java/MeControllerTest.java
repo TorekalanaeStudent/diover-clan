@@ -1,5 +1,6 @@
 package com.dejuras.springboot;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,13 +11,17 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.*;
 
 @SpringBootTest
-
 public class MeControllerTest {
 
     @Autowired
     private com.dejuras.springboot.controller.MeController meController;
 
-    private MockMvc mockMvc = standaloneSetup(meController).build();
+    private MockMvc mockMvc;
+
+    @BeforeEach
+    public void setup() {
+        mockMvc = standaloneSetup(meController).build();
+    }
 
     @Test
     public void testGetMe() throws Exception {
