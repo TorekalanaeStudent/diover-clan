@@ -20,6 +20,7 @@
 <03/27/2026> : I learned a lot about Composition Activity and next time I will explore more about github.
 <04/18/2026>: I gained a clearer understanding of how abstraction and polymorphism work together in Java through abstract classes and interfaces, and next time I’ll make better use of method overloading and dynamic binding in my implementations.
 <04/19/2026>: I learned proper exception handling and how to integrate it with OOP, and next time I’ll focus on improving my coding efficiency and handling errors more effectively.
+<04/27/2026> : I learned how to structure a Java project by organizing classes into packages—such as service, exception, and main—to keep everything clean and manageable. Next time, I’ll ensure my package names and folder structure are fully aligned to prevent compilation errors.
 
 ## Peer Feedback
 
