@@ -1,4 +1,4 @@
-# Diover Canillo - test
+# Diover Canillo - BLEST
 ---
 
 ## 📊 Scores
