@@ -1,4 +1,4 @@
-package com.gedoria.demo;
+package com.gedoria.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
