@@ -26,6 +26,10 @@ dependencies {
 	testAnnotationProcessor 'org.projectlombok:lombok'
 }
 
+springBoot {
+	mainClass = 'com.cardeno.springboot.SpringbootApplication'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
