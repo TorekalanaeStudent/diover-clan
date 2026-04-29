@@ -1,4 +1,4 @@
-package com.canillo.demo;
+package com.canillo.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
