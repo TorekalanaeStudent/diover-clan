@@ -6,6 +6,7 @@ Navarro, Vince Justine 2025-1029521 04/29/2026 OOP-Database Lab Completed (Bonus
 ## Date : 04/28/2026 | Activity : SpringBoot Lab
 Navarro, Vince Justine 2025-1029521 04/29/2026 SpringBoot Lab Completed!
 Nono, Mary Angeline B. 2025-1022691 04/30/2026 SpringBoot Lab Completed!
+Onte, Vince Gian D. 2025-1021082 04/30/2026 SpringBoot Lab Completed!
 ---
 
 ## Date : 04/24/2026 | Activity : Packages and Organization Lab
