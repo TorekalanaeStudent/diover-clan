@@ -1,4 +1,4 @@
-package com.nono.demo;
+package com.nono.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

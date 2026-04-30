@@ -1,4 +1,4 @@
-package com.nono.demo;
+package com.nono.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
