@@ -23,4 +23,3 @@ public class MeController {
         return response;
     }
 }
-
