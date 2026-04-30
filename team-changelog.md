@@ -1,11 +1,13 @@
 ## Date : 04/28/2026 | Activity : OOP-Database Lab 
 Navarro, Vince Justine 2025-1029521 04/29/2026 OOP-Database Lab Completed (Bonus Points for doing Validation and Exception handling!)
+Gedoria, Rajan Kurt O. 2025-1021948 04/30/2026 Springboot Lab Completed! (Bonus Points for doing Validation and Exception handling!)
 
 ---
 
 ## Date : 04/28/2026 | Activity : SpringBoot Lab
 Navarro, Vince Justine 2025-1029521 04/29/2026 SpringBoot Lab Completed!
 Nono, Mary Angeline B. 2025-1022691 04/30/2026 SpringBoot Lab Completed!
+Gedoria, Rajan Kurt O. 2025-1021948 04/30/2026 Springboot Lab Completed!
 ---
 
 ## Date : 04/24/2026 | Activity : Packages and Organization Lab
