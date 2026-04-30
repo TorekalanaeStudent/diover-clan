@@ -1,4 +1,4 @@
-package com.onte.demo;
+package com.onte.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
