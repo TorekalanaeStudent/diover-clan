@@ -1,4 +1,4 @@
-package com.obedoza.app.obedoza.repository;
+gpackage com.obedoza.app.obedoza.repository;
 
 import com.obedoza.app.obedoza.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
