@@ -1,4 +1,4 @@
-package com.jagunap.demo;
+package com.jagunap.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
