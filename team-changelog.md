@@ -1,6 +1,6 @@
 ## Date : 04/28/2026 | Activity : OOP-Database Lab 
 Navarro, Vince Justine 2025-1029521 04/29/2026 OOP-Database Lab Completed (Bonus Points for doing Validation and Exception handling!)
-
+Nono, Mary Angeline B. 2025-1022691 <04/30/2026> OOP-Database Lab Completed! (Bonus Points for doing Validation,cException handling,and Relationship!)
 ---
 
 ## Date : 04/28/2026 | Activity : SpringBoot Lab
