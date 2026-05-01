@@ -3,10 +3,12 @@ package com.jagunap.springboot;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
 import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureWebMvc;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
 
@@ -28,19 +30,17 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standal
  * Answer:Spring Boot automatically converts Java objects to JSON using Jackson, which is included in spring-boot-starter-web.
  */
 @SpringBootTest
-@AutoConfigureWebMvc
+@AutoConfigureMockMvc
 public class MeController {
 
-        @Autowired
-        private MeController controller;
+    @Autowired
+    private MockMvc mockMvc;
 
-        private MockMvc mockMvc = standaloneSetup(controller).build();
-
-        @Test
-        public void testGetMe() throws Exception {
-            mockMvc.perform(MockMvcRequestBuilders.get("/me"))
-                    .andExpect(status().isOk())
-                    .andExpect(content().contentType("application/json"))
-                    .andExpect(jsonPath("$.name").exists());
+    @Test
+    public void testGetMe() throws Exception {
+        mockMvc.perform(get("/me"))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType("application/json"))
+                .andExpect(jsonPath("$.name").exists());
     }
 }
