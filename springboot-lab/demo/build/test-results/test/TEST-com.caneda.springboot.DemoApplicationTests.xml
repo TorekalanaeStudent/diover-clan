@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-30T23:50:20.911Z" hostname="LAPTOP-6D9V11MV" time="11.497">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.caneda.springboot.DemoApplicationTests" time="3.549"/>
+  <system-out><![CDATA[07:50:21.583 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.caneda.springboot.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:50:22.169 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.DemoApplicationTests
+07:50:22.681 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.caneda.springboot.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:50:22.694 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-01T07:50:24.070+08:00  INFO 9168 --- [demo] [    Test worker] c.c.springboot.DemoApplicationTests      : Starting DemoApplicationTests using Java 26.0.1 with PID 9168 (started by hmk2l in C:\Users\hmk2l\Downloads\diover-clan\diover-clan\springboot-lab\caneda\demo)
+2026-05-01T07:50:24.074+08:00  INFO 9168 --- [demo] [    Test worker] c.c.springboot.DemoApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-05-01T07:50:28.693+08:00  INFO 9168 --- [demo] [    Test worker] c.c.springboot.DemoApplicationTests      : Started DemoApplicationTests in 5.723 seconds (process running for 18.525)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\hmk2l\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.8\f09415827a71be7ed621c7bd02550678f28bc81c\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
