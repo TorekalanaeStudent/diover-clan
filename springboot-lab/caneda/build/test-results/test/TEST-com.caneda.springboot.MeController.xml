@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.MeController" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-01T01:48:34.236Z" hostname="LAPTOP-6D9V11MV" time="7.599">
+  <properties/>
+  <testcase name="testGetMe()" classname="com.caneda.springboot.MeController" time="2.013"/>
+  <system-out><![CDATA[09:48:34.831 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.caneda.springboot.MeController]: MeController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:48:35.377 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.MeController
+09:48:35.672 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.caneda.springboot.MeController]: MeController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:48:35.679 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.MeController
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-01T09:48:36.731+08:00  INFO 7436 --- [    Test worker] com.caneda.springboot.MeController       : Starting MeController using Java 26.0.1 with PID 7436 (started by hmk2l in C:\Users\hmk2l\Downloads\diover-clan\diover-clan\springboot-lab\caneda\demo)
+2026-05-01T09:48:36.735+08:00 DEBUG 7436 --- [    Test worker] com.caneda.springboot.MeController       : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-01T09:48:36.738+08:00  INFO 7436 --- [    Test worker] com.caneda.springboot.MeController       : No active profile set, falling back to 1 default profile: "default"
+2026-05-01T09:48:39.691+08:00  INFO 7436 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-01T09:48:39.692+08:00  INFO 7436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-01T09:48:39.700+08:00  INFO 7436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2026-05-01T09:48:39.784+08:00  INFO 7436 --- [    Test worker] com.caneda.springboot.MeController       : Started MeController in 3.918 seconds (process running for 8.03)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\hmk2l\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.8\f09415827a71be7ed621c7bd02550678f28bc81c\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
