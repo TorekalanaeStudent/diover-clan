@@ -72,6 +72,7 @@ Mary Angeline Nono
 **\<04/19/2026\>** : I learned proper exception handling and OOP integration, and next time I will enhance my coding efficiency and error management.
 **\<04/27/2026\>**  : I learned the importance of proper project structure and package organization, and next time I will plan my code before implementing it to avoid errors.
 **\<04/30/2026\>**  : I learned how to build a REST API using Spring Boot with Gradle and next time I will improve by adding more endpoints and better error handling.
+**\<04/30/2026\>**  : I learned how to fix SQL syntax errors, map Java objects to database tables correctly, and troubleshoot server connection problems. Next time I will double-check my spelling, data types, and configuration settings to make everything work smoothly from the start.
 
 ## Peer Feedback
 **\<03/06/2026\>** : Comment by: <Cardeño, Faye>; You did well in participating and  finishing the task, and you can improve by practicing more coding exercises.
