@@ -1,11 +1,11 @@
 package com.gedoria.app.service;
 
 import com.gedoria.app.entity.Item;
+import com.gedoria.app.exception.ResourceNotFoundException;
 import com.gedoria.app.repository.ItemRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 @Service
 public class ItemService {
@@ -26,7 +26,7 @@ public class ItemService {
 
     public Item getItemById(Long id) {
         return itemRepository.findById(id)
-                .orElseThrow(() -> new NoSuchElementException("Item not found with id: " + id));
+                .orElseThrow(() -> new ResourceNotFoundException("Item not found with id: " + id));
     }
 
     public Item updateItem(Long id, Item itemDetails) {

@@ -37,6 +37,8 @@
 **04/26/2026** : Learned that Gradle is a build tool that automates compiling, testing, and packaging Java projects so you don't have to do it manually.
 
 **04/30/2026** : Learned how to make a Spring Boot app and expose it as an API, and next time I will try adding more endpoints.
+
+**04/30/2026** : Learned how to make a CRUD API with Spring Boot using JPA and database, and next time I will try improving it more.
  
 ---
  
