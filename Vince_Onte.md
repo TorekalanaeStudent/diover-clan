@@ -40,17 +40,18 @@
 
 **\<03/06/2026\>** : I learned the 4 pillars of OOP in our lab and to improve, next time I will advance study, participate more, and be active in the class. \
 **\<03/11/2026\>** : I learned how to define a class, make an object with its attribute, and constructors, next time I will try to expand my knowledge on the topic \
-**<03/13/2026>** : I learned Encapsulation and I learned that it is good for the code because it hides our important datas, next time i will improve my code.
-**<03/20/2026>** : I learned how packages works and inheritance of parent class and subclasses and next time I will be able to apply these knowledges in my projects.
-**<03/25/2026>** : I learned how compositions applies in our work, next time I'll try to study more about it and apply it to my next projects.
-**<04/17/2026>** : I learned how Abstraction and Polymorphism applies, next time I would study first before to be able to catch up on classes.
-**<04/19/2026>** : I learned Exceptions and Errors and how it works in our program, next time I would apply these knowledge when I do my codes.
+**<03/13/2026>** : I learned Encapsulation and I learned that it is good for the code because it hides our important datas, next time i will improve my code. \
+**<03/20/2026>** : I learned how packages works and inheritance of parent class and subclasses and next time I will be able to apply these knowledges in my projects. \
+**<03/25/2026>** : I learned how compositions applies in our work, next time I'll try to study more about it and apply it to my next projects. \
+**<04/17/2026>** : I learned how Abstraction and Polymorphism applies, next time I would study first before to be able to catch up on classes. \
+**<04/19/2026>** : I learned Exceptions and Errors and how it works in our program, next time I would apply these knowledge when I do my codes. \ 
+**<04/19/2026>** : I learned Springboot REST APIs and how to make one, next time I would be able to use this knowledge to do more projects. 
 
 ## Peer Evaluation
 **<03/11/2026>**.: Comment by Canillo, Diover Vincent : Onte has done his object and class keyboard with no issue at all, keep it up! \
 **<03/13/2026>** : Comment by: Canillo, Diover Vincent; You did well in coding and you can improve by advance studying in OOP \
-**<03/15/2026>** : Comment by Malig, Rich Matthew: You did well in coding; your code was easy to understand, and you were very helpful.
-**<03/21/2026>** : Comment by: Ablis, Margreleigne : I like your code! Keep up the good work!
-**\<04/02/2026\>** : Comment by: Nono, Mary Angeline; You did well in applying object-oriented principles effectively and you can improve by organizing your code for easier understanding.
-**\<04/19/2026\>** : Comment by: Go, Sean Ethan; You demonstrated proper abstraction and polymorphism, your code was easy to work with in creating the objects, you can improve by learning even more concepts of programming.
+**<03/15/2026>** : Comment by Malig, Rich Matthew: You did well in coding; your code was easy to understand, and you were very helpful. \
+**<03/21/2026>** : Comment by: Ablis, Margreleigne : I like your code! Keep up the good work! \
+**\<04/02/2026\>** : Comment by: Nono, Mary Angeline; You did well in applying object-oriented principles effectively and you can improve by organizing your code for easier understanding. \
+**\<04/19/2026\>** : Comment by: Go, Sean Ethan; You demonstrated proper abstraction and polymorphism, your code was easy to work with in creating the objects, you can improve by learning even more concepts of programming. \
 <\04/18/2026> : Comment by : Ovejera, Ziggy T.; Thank you for your participation and you can improve more by participating in activities.
