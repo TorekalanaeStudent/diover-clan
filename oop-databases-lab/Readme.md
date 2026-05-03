@@ -96,20 +96,22 @@ spring.jpa.hibernate.ddl-auto=update
 
 # 🔄 Step 4: Implement CRUD Endpoints
 
+```
 GET /api/users  
 GET /api/users/{id}
 POST /api/users
 PUT /api/users/{id}
 - Update any or all user details
 DELETE /api/users/{id}
-
+```
+```
 GET /api/products  
 GET /api/products/{id}
 POST /api/products
 PUT /api/products/{id}
 - Update any or all product details
 DELETE /api/product/{id}
-
+```
 ---
 
 # 🧪 Step 5: Test Using Postman or CURL
