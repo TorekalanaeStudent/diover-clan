@@ -1,0 +1,34 @@
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+###
+
+### GET ALL USERS
+GET http://localhost:8080/api/users
+
+###
+
+### GET USER BY ID
+GET http://localhost:8080/api/users/1
+
+###
+
+### UPDATE USER (PUT)
+PUT http://localhost:8080/api/users/1
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "email": "jane@example.com"
+}
+
+###
+
+### DELETE USER
+DELETE http://localhost:8080/api/users/2
