@@ -1,0 +1,41 @@
+name: Close outsider PRs
+
+on:
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Close PR from non-collaborators
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const association = context.payload.pull_request.author_association;
+
+            const allowed = [
+              "OWNER",
+              "MEMBER",
+              "COLLABORATOR"
+            ];
+
+            if (!allowed.includes(association)) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: "Pull requests from non-collaborators are not allowed."
+              });
+
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                state: "closed"
+              });
+            }
