@@ -215,8 +215,10 @@
 **03/25/2026** : I learned how Composition works, next time I'll improve by advance learning so I don't struggle \
 **04/18/2026** : I learned how Abstract, Interfaces, and Polymorphism works, next time I need to stop procrastinating because wow this was 3 weeks ago or something 😭\
 **04/19/2026** : I learned how Exception works also learned how to manage more groupmates, I also need to stop procrastinating for this lol, also need more practice here since im bad \
-<04/26/2026> : I learned both gradle and maven. I also learned why I prefer gradle more, although I still slack a lot of things. So next time I'll self study!
-
+**<04/26/2026>** : I learned both gradle and maven. I also learned why I prefer gradle more, although I still slack a lot of things. So next time I'll self study! \
+**<04/29/2026>** : I learned about Rest APIS and stuff like when its being used for, next time ill improve by slowing down and understanding stuff \
+**<04/30/2026>** : I learned about how to connect databases in the backend, this was very useful, next time i will learn more about postgres \
+**<05/07/2026>** : I learned about vite, npms, and react and how it all interconnnects to the backend, I will try and learning more about this frontend stuff since i still dont know stuff abt it and mostly vibe coded the front end.
 
 ## 📖 Peer Feedbacks
 
