@@ -1,0 +1,118 @@
+public class E_Product {
+	
+		/*
+		* This class represents a product with a name, price, category, and stock.
+		* Created by Vince Justine Navarro
+		*/
+	
+		    // Attributes
+		    private String name;
+		    private double price;
+		    private String category;
+		    private int stock;
+		    // The Static attribute
+		    private static int totalProducts = 0;
+	
+		    // This is the Default constructor
+		    E_Product() {
+		        this.name = "Samsung A16";
+		        this.price = 15000.0;
+		        this.category = "Phones";
+		        this.stock = 15;
+		        this.totalProducts++;
+		    }
+	
+		    // Parameterized constructor
+		    E_Product(String name, double price, String category, int stock) {
+		        this.name = name;
+		        this.price = price;
+		        this.category = category;
+		        this.stock = stock;
+		        totalProducts++;
+		    }
+	
+		    // Overloaded constructor
+		    E_Product(String name, double price) {
+		        this.name = name;
+		        this.price = price;
+		        this.category = "General";
+		        this.stock = 0; //  Object Invariant
+		        totalProducts++;
+		    }
+		    
+		    public String getName() { return this.name; }
+	
+		    public double getPrice() { return this.price; }
+	
+		    public String getCategory() { return this.category; }
+	
+		    public int getStock() { return this.stock; }
+	
+		    // The Behavior without parameters
+		    void displayDetails() {
+		        System.out.println("Product: " + name);
+		        System.out.println("Price: P" + price);
+		        System.out.println("Category: " + category);
+		        System.out.println("Stock: " + stock);
+		    }
+	
+		    // The Behaviors 
+		    void applyDiscount(double percent) {
+		    	if (percent > 0 && percent < 100) {
+		    	price = price - (price * percent / 100);	
+		    	 System.out.println(name + " is now on sale at P" + price + " after " + percent + "% discount.");
+		         } else {
+		             System.out.println("Invalid discount: must only be between 0 and 100.");
+		         }
+		     }
+		    
+		    void restock(int quantity) {
+		        if (quantity > 0) {
+		            stock += quantity;
+		            System.out.println("Restocked " + quantity + " unit(s) of " + name + ". New stock: " + stock);
+		        } else {
+		            System.out.println(" The Restock must be positive.");
+		        }
+		    }
+		    
+	
+		    // The Setters Validations
+		    public void setName(String name) {
+		        if (name != null && !name.isEmpty()) {	      
+		        } else {
+		            System.out.println("The Product name cannot be empty.");
+		        }
+		    }
+	
+		    // Validation 2
+		    public void setPrice(double price) {
+		        if (price >= 0) {
+		            this.price = price;
+		        } else {
+		            System.out.println("The Price cannot be negative.");
+		        }
+		    }
+	
+		    // Validation 3
+		    public void setCategory(String category) {
+		        if (category != null && !category.isEmpty()) {
+		        } else {
+		            System.out.println("The Category cannot be empty.");
+		        }
+		    }
+	
+		    // Validation 4:
+		    public void setStock(int stock) {
+		        if (stock >= 0) {
+		            this.stock = stock;
+		        } else {
+		            System.out.println("The Stock cannot be negative.");
+		        	}
+		    	}
+		 
+	
+		    // Static method
+		    static void displayTotalProducts() {
+		        System.out.println("Total Products Created: " + totalProducts);
+		    }
+		}

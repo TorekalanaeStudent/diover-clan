@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-01T01:48:41.850Z" hostname="LAPTOP-6D9V11MV" time="0.808">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.caneda.springboot.DemoApplicationTests" time="0.018"/>
+  <system-out><![CDATA[2026-05-01T09:48:41.854+08:00  INFO 7436 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.caneda.springboot.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-01T09:48:41.860+08:00  INFO 7436 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.DemoApplicationTests
+2026-05-01T09:48:41.866+08:00  INFO 7436 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.caneda.springboot.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-01T09:48:41.876+08:00  INFO 7436 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-01T09:48:41.984+08:00  INFO 7436 --- [    Test worker] c.c.springboot.DemoApplicationTests      : Starting DemoApplicationTests using Java 26.0.1 with PID 7436 (started by hmk2l in C:\Users\hmk2l\Downloads\diover-clan\diover-clan\springboot-lab\caneda\demo)
+2026-05-01T09:48:41.985+08:00 DEBUG 7436 --- [    Test worker] c.c.springboot.DemoApplicationTests      : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-01T09:48:41.985+08:00  INFO 7436 --- [    Test worker] c.c.springboot.DemoApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-05-01T09:48:42.632+08:00  INFO 7436 --- [    Test worker] c.c.springboot.DemoApplicationTests      : Started DemoApplicationTests in 0.739 seconds (process running for 10.879)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

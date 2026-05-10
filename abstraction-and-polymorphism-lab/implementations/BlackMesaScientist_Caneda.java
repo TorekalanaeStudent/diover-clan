@@ -1,0 +1,203 @@
+package implementations;
+
+/**
+ * @author Caneda, Ramil Jr M.
+ * @Rcaneda
+ */
+
+import abstract_classes.GameCharacter_Navarro;
+import interfaces.CombatSystem_Navarro;
+
+public class BlackMesaScientist_Caneda extends GameCharacter_Navarro implements CombatSystem_Navarro {
+
+//Attributes 
+ private boolean shieldIsDepleted;
+ private boolean isGettingAttacked;
+ private String BlackMesaRole;
+ private int shield;
+ private int maxHealth;
+ private int healthPoints;
+ private int playerDamage;
+
+//Constructors
+
+//Default 
+public BlackMesaScientist_Caneda() {
+super("Gordon Freeman", 100);
+setShield(100);
+setMaxHealth(100);
+}
+
+//Parametarized
+public BlackMesaScientist_Caneda(String name, int health, int shield, int maxHealth) {
+super(name, health);
+setShield(shield);
+setMaxHealth(maxHealth);
+}
+
+//Overrides
+
+//getRole basically Gets 
+@Override
+public String getRole() {
+    return getBlackMesaRole();
+}
+
+//getStatus basically first checks if shield is depleted, if it is, then checks checks the actual healtPoints
+@Override
+public String getStatus() {
+ int getHealthPoints = getHealth();
+if(shieldIsDepleted) {
+        if (getHealthPoints >= (1*getMaxHealth())){
+        return "Body In Perfect Condition";
+    }
+    else if(getHealthPoints >= (0.75*getMaxHealth())) {
+        return "Body Condition intact";
+    }
+    else if(getHealthPoints >= (0.50*getMaxHealth())) {
+        return "Minor Injuries";
+    }
+    else if (getHealthPoints >= (0.25*getMaxHealth())) {
+        return "Critical Injuries";
+    }
+    else if (getHealthPoints >= (0.05*getMaxHealth())) {
+        return "Death Imminent";
+    }
+    else {
+        return "Dead";
+    }
+    }
+else {
+    return "Shield still active no damage";
+    }
+ 
+}
+//Interface attacks the hostiles
+@Override 
+public void attack(GameCharacter_Navarro hostiles) {
+    System.out.println(getName() + " Gets in position to attack" + hostiles.getName());
+}
+
+//Overloaded Attack (actual attack)
+public void attack(GameCharacter_Navarro hostiles, int playerDamage) {
+    setPlayerDamage(playerDamage);
+    System.out.println(getName() + " Shoots The Enemy " + hostiles.getName());
+    ((CombatSystem_Navarro)hostiles).defend();
+}
+//Defend it basically chekcs if shield is depleted then it takes away healthpoints, if not it takes aways shield
+@Override
+public void defend() {
+    int defendedPlayerAttack = (getShield() - getPlayerDamage());
+    setShield(defendedPlayerAttack);
+    setIsGettingAttacked(true);
+    if(getShieldIsDepleted()){
+        setHealthPoints(getHealthPoints() - getPlayerDamage()); 
+        if(getHealthPoints() <= 0){
+            System.out.println(getName() + "Is Dead ");
+        }
+        else {
+            System.out.println(getName() + "Was Damaged by "+ defendedPlayerAttack +" only "+getHealthPoints()+"HP is remaining");
+        setIsGettingAttacked(false);
+        }
+    }
+    else {
+            System.out.println("Shield was damage by "+ defendedPlayerAttack+" only "+getShield()+" is remaining");
+        setIsGettingAttacked(false);
+    }  
+}
+
+
+//Getters
+
+//Getter #1 gets shiledisDepleted
+public boolean getShieldIsDepleted(){
+    return shieldIsDepleted;
+}
+
+//Getter #2 gets blackMesaRole
+public String getBlackMesaRole(){
+    return BlackMesaRole;
+}
+
+//Getter #3 gets shield
+public int getShield() {
+    return shield;
+}
+
+//Getter #4 gets maxHealth
+public int getMaxHealth() {
+    return maxHealth; 
+}
+//Getter #5 gets healthOoints
+public int getHealthPoints() {
+    return healthPoints; 
+}
+//Getter #6  gets playerDamage
+public int getPlayerDamage() {
+    return playerDamage;
+}
+//Setters
+
+//Setter #1 Sets shieldIsDepleted
+public void setShieldIsDepleted(boolean shieldIsDepleted) {
+    this.shieldIsDepleted = shieldIsDepleted;
+}
+
+//Setter #2 Sets blackMesaRole
+public void setBlackMesaRole(String BlackMesaRole) {
+    if(getBlackMesaRole().isBlank() || getBlackMesaRole().equals(" ")){
+        this.BlackMesaRole = "Scientist";
+    }
+    else {
+    this.BlackMesaRole = BlackMesaRole;
+    }
+    
+}
+
+//Setters #3 Sets shield
+public void setShield(int shield) {
+ if(isGettingAttacked){
+    this.shield = shield;
+ }
+ else {
+       if(shield <= 0){
+        this.shield = 100;
+    }
+    else{
+    this.shield = shield;
+    }
+ }
+}
+//Setter #4 Sets maxHealth
+public void setMaxHealth(int maxHealth) {
+    if(maxHealth <= 0) {
+        this.maxHealth = 100;
+    }
+    else {
+    this.maxHealth = maxHealth;
+    }
+}
+//Setter #5 Sets HealthPoints
+public void setHealthPoints(int healthPoints) {
+ if(isGettingAttacked) {
+    this.healthPoints = healthPoints;
+ }
+ else {
+    if(healthPoints <= 0) {
+        this.healthPoints = 100;
+    }
+    else {
+        this.healthPoints = healthPoints;
+    }
+ }
+}
+//Setter #6 Sets isGettingAttacked
+public void setIsGettingAttacked(boolean isGettingAttacked) {
+    this.isGettingAttacked = isGettingAttacked;
+} 
+//Setter #7 Sets playerDamage
+public void setPlayerDamage(int playerDamage) {
+    this.playerDamage = playerDamage;
+}
+
+}
