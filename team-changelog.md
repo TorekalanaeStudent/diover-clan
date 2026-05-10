@@ -1,5 +1,6 @@
 ## Date : 05/05/2026 | Activity : OOP Fullstack Lab
-Canillo, Diover Vincent L. 2025-1023980 04/29/2026 OOP Fullstack Lab Completed  \
+Canillo, Diover Vincent L. 2025-1023980 05/07/2026 OOP Fullstack Lab Completed  \
+avarro, Vince Justine 2025-1029521 05/08/2026 OP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling!) \
 
 ## Date : 04/28/2026 | Activity : OOP Database Lab 
 Navarro, Vince Justine 2025-1029521 04/29/2026 OOP-Database Lab Completed (Bonus Points for doing Validation and Exception handling!) \
