@@ -1,5 +1,12 @@
+## Date : 05/08/2026 | Activity : Grasp-UT Lab
+Canillo, Diover Vincent L. 2025-1023980 04/29/2026 GRASP-UT Completed (Bonus point: DTO Pattern, Jacoco, Custom Exception Handling, Exception Handling) \
+
+---
+
 ## Date : 05/05/2026 | Activity : OOP Fullstack Lab
 Canillo, Diover Vincent L. 2025-1023980 04/29/2026 OOP Fullstack Lab Completed  \
+
+---
 
 ## Date : 04/28/2026 | Activity : OOP Database Lab 
 Navarro, Vince Justine 2025-1029521 04/29/2026 OOP-Database Lab Completed (Bonus Points for doing Validation and Exception handling!) \
