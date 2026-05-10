@@ -31,7 +31,7 @@ Create a system that manages one of the following:
 ---
 
 📁 Required Structure
-
+```
 <YourSurname>/
  ├── src/main/java/com/app/
  │    ├── controller/
@@ -44,7 +44,7 @@ Create a system that manages one of the following:
       ├── service/
       ├── controller/
       └── util/
-
+```
 ---
 
 ⚙️ Required Technologies
@@ -78,13 +78,13 @@ Your system MUST demonstrate ALL:
 ---
 
 1. Entity (Information Expert)
-
+```
 class Order {
     List<OrderItem> items;
 
     double calculateTotal() { ... }
 }
-
+```
 ✔ Logic must be inside the class that owns the data
 
 ---
@@ -96,19 +96,19 @@ class Order {
 ---
 
 3. Controller (Spring)
-
+```
 @RestController
 class OrderController { }
-
+```
 ✔ Handles incoming HTTP requests only
 
 ---
 
 4. Service (Pure Fabrication)
-
+```
 @Service
 class OrderService { }
-
+```
 ✔ Contains business logic
 ✔ Should NOT contain persistence logic
 
@@ -125,11 +125,11 @@ interface OrderRepository extends JpaRepository<Order, Long> {}
 6. Polymorphism
 
 - Use interfaces:
-
+```
 interface Payment {
     void process();
 }
-
+```
 ✔ Multiple implementations required
 
 ---
@@ -159,7 +159,7 @@ interface Payment {
 🔹 You MUST Write Tests For:
 
 1. Service Layer (REQUIRED)
-
+```
 @ExtendWith(MockitoExtension.class)
 class OrderServiceTest {
 
@@ -176,7 +176,7 @@ class OrderServiceTest {
         // Assert
     }
 }
-
+```
 ✔ Use Mockito to mock dependencies
 ✔ No real database calls
 
@@ -247,9 +247,9 @@ Optional but will get you high points:
 🔄 Git Workflow
 
 1. Create branch:
-
+```
 grasp-ut-<surname>
-
+```
 2. Commit regularly
 
 3. Push and create PR
