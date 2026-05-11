@@ -56,6 +56,7 @@
 ---
 
 ## 📘 Journals:
+* **<05/11/2026>** : Was really confused on how create the Database with Jacoco, I have no to choice but to rely on AI again but after doing it kinda starting to make sense now. To Improve I should not fully rely on AI and instead study more and lock in more.
 * **<05/8/2026>** : While creating this project, I learned how to fully create a Database. To improve I should practice more by creating more databases to fully grasp it.
 * **<04/29/2026>** : I learned how to Create a Database, and next time to improve I need to not rely on Ai and be able to code it myself.
 * **<04/29/2026>** : I learned how about SpringBoot and how it's used for, and next time to improve I will make sure to do the activity more earlier.
