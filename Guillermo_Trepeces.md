@@ -39,6 +39,8 @@
 **04/30/2026** : Learned how to make a Spring Boot app and expose it as an API, and next time I will try adding more endpoints.
 
 **04/30/2026** : Learned how to make a CRUD API with Spring Boot using JPA and database, and next time I will try improving it more.
+
+**05/12/2026** : Learned how to build a full-stack web application connecting React frontend to Spring Boot backend with PostgreSQL
  
 ---
  
