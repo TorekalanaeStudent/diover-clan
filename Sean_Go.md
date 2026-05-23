@@ -42,6 +42,14 @@
 
 **<03/18/2026>** : I learned all things about errors and exceptions and how they are implemented optimally, to improve, I should be more deliberate with the exceptions and more vigilant with the error identifications.
 
+**<04/26/2026>** : I have learnt all about proper packaging and naming conventions as well as proper driectory structures that prevent incohesion, next time I'll learn in advance so that it is second nature.
+
+**<4/30/2026>** :  I have learnt SpringBoot functions and how it streamlines a part of the creation of a backend system; and such is allowed through the importing of many dependencies that carry out the functions as needed by the program in question. I will learn in advance so that it is second nature and thoroughly so that I am prepared.
+
+**<04/30/2026>** : I have leaned how a mock database is simulated and I am now slightly versed in all things database. I will learn, review, and retain topics pertaining to this to prepare myself in the future
+
+**<05/13/2026>** Albeit with the guidance of AI, I have versed myself in the workings of a fullstack applcation; being the culmination of all the topics in one, with an additional few, I have learned many concepts and will continue to do so. To improve, I will review and study more about this so that it is completely second nature and in turn have the compltete gamesense to work around a database.
+
 ## 📘 Peer Reviews
 
 **\<03/11/2026\>** : Comment by: Navarro, Vince Justine; You did well on applying your classes and objects with different constructors and you met all the requirements for this activity!"
