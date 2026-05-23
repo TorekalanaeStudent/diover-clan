@@ -219,8 +219,8 @@
 **<04/29/2026>** : I learned about Rest APIS and stuff like when its being used for, next time ill improve by slowing down and understanding stuff \
 **<04/30/2026>** : I learned about how to connect databases in the backend, this was very useful, next time i will learn more about postgres \
 **<05/07/2026>** : I learned about vite, npms, and react and how it all interconnnects to the backend, I will try and learning more about this frontend stuff since i still dont know stuff abt it and mostly vibe coded the front end.
-**<05/10/2026>** : I learned about JUnit Testing and Jacoco Testing, man holy this was a thing im confused with I need more studying..
-
+**<05/10/2026>** : I learned about JUnit Testing and Jacoco Testing, man holy this was a thing im confused with I need more studying.. \
+**<05/23/2026>** : I learned about Solid principles and how to apply them to my project, next time I'll be more prepared 
 ## 📖 Peer Feedbacks
 
 **<03/10/2026>** : Comment by: <Cañeda, Ramil>: You did everything as best as you could, and went further beyond to guide us, as the leader of our group. Thank you so much for leading our group keep up the good work!.  \
