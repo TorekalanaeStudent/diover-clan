@@ -5,6 +5,7 @@
 
 | Date       | Activity Type   | Title                                                           | Score   | Total Points  |
 |------------|-----------------|-----------------------------------------------------------------|---------|---------------|
+| 05/22/2026 | Quiz            | Quiz: SOLID, GRASP Principles and Design Patterns               |24       |               |
 | 04/19/2026 | PR Review       | Total Extra Points:                                             | 81      |               |
 | 04/18/2026 | PR Review       | Gedoria (team_changelog) - #786                                 | 2       |               |
 | 04/18/2026 | PR Review       | Onte (calculator_class) - #785                                  | 2       |               |
@@ -56,7 +57,8 @@
 ---
 
 ## 📘 Journals:
-* **<05/11/2026>** : Was really confused on how create the Database with Jacoco, I have no to choice but to rely on AI again but after doing it kinda starting to make sense now. To Improve I should not fully rely on AI and instead study more and lock in more.
+* **<05/24/2026>** :I learned how to apply SOLID Principles and do TDD. To Improve I should apply my new knowledge to my new projects to understand it better.
+* **<05/11/2026>** :I Was really confused on how create the Database with Jacoco, I have no choice but to rely on AI again but after doing it kinda starting to make sense now. To Improve I should not fully rely on AI and instead study more and lock in more.
 * **<05/8/2026>** : While creating this project, I learned how to fully create a Database. To improve I should practice more by creating more databases to fully grasp it.
 * **<04/29/2026>** : I learned how to Create a Database, and next time to improve I need to not rely on Ai and be able to code it myself.
 * **<04/29/2026>** : I learned how about SpringBoot and how it's used for, and next time to improve I will make sure to do the activity more earlier.
