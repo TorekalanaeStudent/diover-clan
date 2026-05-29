@@ -16,6 +16,7 @@ Canillo, Diover Vincent L. 2025-1023980 05/07/2026 OOP Fullstack Lab Completed  
 Navarro, Vince Justine 2025-1029521 05/08/2026 OP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling!)
 Go, Sean Ethan G. 2025-104028 05/13/2026 OOP Fullstack Lab Completed (Bonus Points for UI Styling, Error Handling, Validation)
 Trespeces, Guillermo 2025-1025412 05/12/2026 OOP Fullstack Lab Completed 
+Cardeño, Faye L. 2025-1025317 05/30/2026 OOP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling)
 
 ---
 
