@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.trespeces.demo.app.service.MissileServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-05-30T04:59:06.270Z" hostname="M" time="1.194">
+  <properties/>
+  <testcase name="shouldThrowExceptionWhenPriceIsInvalid()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="1.099"/>
+  <testcase name="shouldLaunchMissileViaAir()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="0.046"/>
+  <testcase name="shouldLaunchMissileViaSea()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="0.004"/>
+  <testcase name="shouldCreateMissileSuccessfully()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="0.005"/>
+  <testcase name="shouldCalculateMissileTotalCorrectly()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="0.003"/>
+  <testcase name="shouldThrowExceptionWhenMissileAlreadyLaunched()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="0.004"/>
+  <testcase name="shouldThrowExceptionWhenQuantityIsInvalid()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="0.003"/>
+  <testcase name="shouldDestroyMissileSuccessfully()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="0.005"/>
+  <testcase name="shouldThrowExceptionWhenNameIsEmpty()" classname="com.trespeces.demo.app.service.MissileServiceTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\Willj\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.8\f09415827a71be7ed621c7bd02550678f28bc81c\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
