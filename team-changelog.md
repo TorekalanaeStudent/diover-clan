@@ -1,13 +1,14 @@
 ## Date : 05/12/2026 | Activity : Solid-TDD Lab
 Canillo, Diover Vincent L. 2025-1023980 05/23/2026 Solid-TDD Completed (Bonus points: DTO pattern, custom exception handling, mockito + proper unit testing, edge case testing) \
-Navarro, Vince Justine 2025-1029521 05/24/2026 Solid-TDD Completed (Bonus points: Parameterized tests, 
-DTO pattern, Custom exception handling, Better package organization!)
+Navarro, Vince Justine 2025-1029521 05/24/2026 Solid-TDD Completed (Bonus points: Parameterized tests, DTO pattern, Custom exception handling, Better package organization!)
+Trespeces, Guillermo 2025-1025412 05/30/2026 Solid-TDD Completed
 
 ---
 
 ## Date : 05/08/2026 | Activity : Grasp-UT Lab
 Canillo, Diover Vincent L. 2025-1023980 05/10/2026 GRASP-UT Completed (Bonus point: DTO Pattern, Jacoco, Custom Exception Handling, Exception Handling) \
 Navarro, Vince Justine 2025-1029521 05/11/2026 GRASP-UT Completed (Bonus Points for doing DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations!)
+Trespeces, Guillermo 2025-1025412 05/30/2026 GRASP-UT Completed 
 
 ---
 
