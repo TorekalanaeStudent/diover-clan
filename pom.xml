@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>com.ovejera.app</groupId>
-    <artifactId>grasp</artifactId>
+    <artifactId>grasp-ut-ovejera</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
