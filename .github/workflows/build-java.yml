@@ -1,0 +1,33 @@
+name: Build Java Files
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Build Java Files
+        run: |
+          find springboot-lab -name "build.gradle" | while read f; do
+            cd $(dirname $f)
+            gradle build
+            cd $GITHUB_WORKSPACE
+          done
+
+          find springboot-lab -name "pom.xml" | while read f; do
+            cd $(dirname $f)
+            mvn package -q
+            cd $GITHUB_WORKSPACE
+          done
