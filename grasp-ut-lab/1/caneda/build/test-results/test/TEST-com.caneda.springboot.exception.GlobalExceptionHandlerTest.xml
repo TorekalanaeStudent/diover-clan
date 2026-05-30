@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.exception.GlobalExceptionHandlerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-30T14:55:04.870Z" hostname="LAPTOP-6D9V11MV" time="0.041">
+  <properties/>
+  <testcase name="shouldHandleIllegalArgumentException()" classname="com.caneda.springboot.exception.GlobalExceptionHandlerTest" time="0.009"/>
+  <testcase name="shouldHandleInsufficientBalanceException()" classname="com.caneda.springboot.exception.GlobalExceptionHandlerTest" time="0.012"/>
+  <testcase name="shouldHandleUserNotFoundException()" classname="com.caneda.springboot.exception.GlobalExceptionHandlerTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

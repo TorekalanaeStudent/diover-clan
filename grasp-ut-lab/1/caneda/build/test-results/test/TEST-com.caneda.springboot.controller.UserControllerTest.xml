@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.controller.UserControllerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-05-30T14:54:49.730Z" hostname="LAPTOP-6D9V11MV" time="14.804">
+  <properties/>
+  <testcase name="shouldGetUserById()" classname="com.caneda.springboot.controller.UserControllerTest" time="1.052"/>
+  <testcase name="shouldReturn404WhenWalletUserNotFound()" classname="com.caneda.springboot.controller.UserControllerTest" time="0.12"/>
+  <testcase name="shouldReturn404WhenUserNotFound()" classname="com.caneda.springboot.controller.UserControllerTest" time="0.03"/>
+  <testcase name="shouldUpdateUser()" classname="com.caneda.springboot.controller.UserControllerTest" time="1.264"/>
+  <testcase name="shouldAddWallet()" classname="com.caneda.springboot.controller.UserControllerTest" time="0.048"/>
+  <testcase name="shouldCreateUser()" classname="com.caneda.springboot.controller.UserControllerTest" time="0.073"/>
+  <testcase name="shouldDeleteUser()" classname="com.caneda.springboot.controller.UserControllerTest" time="0.055"/>
+  <testcase name="shouldReturn404WhenUpdateUserNotFound()" classname="com.caneda.springboot.controller.UserControllerTest" time="0.057"/>
+  <testcase name="shouldDeductWallet()" classname="com.caneda.springboot.controller.UserControllerTest" time="0.034"/>
+  <system-out><![CDATA[2026-05-30T22:54:49.734+08:00  INFO 29564 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.caneda.springboot.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-30T22:54:49.752+08:00  INFO 29564 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.controller.UserControllerTest
+2026-05-30T22:54:49.758+08:00  INFO 29564 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.caneda.springboot.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-30T22:54:49.762+08:00  INFO 29564 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.controller.UserControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-30T22:54:50.203+08:00  INFO 29564 --- [    Test worker] c.c.s.controller.UserControllerTest      : Starting UserControllerTest using Java 21.0.11 with PID 29564 (started by hmk2l in C:\Users\hmk2l\IdeaProjects\diover-clan\grasp-ut-lab\1\caneda)
+2026-05-30T22:54:50.216+08:00 DEBUG 29564 --- [    Test worker] c.c.s.controller.UserControllerTest      : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-30T22:54:50.218+08:00  INFO 29564 --- [    Test worker] c.c.s.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2026-05-30T22:54:50.883+08:00  INFO 29564 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-30T22:54:50.987+08:00  INFO 29564 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2026-05-30T22:54:55.089+08:00  INFO 29564 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-30T22:54:55.110+08:00  INFO 29564 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:107d8eed-8133-4d4b-817d-de65d4214918 user=SA
+2026-05-30T22:54:55.218+08:00  INFO 29564 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-30T22:54:55.310+08:00  INFO 29564 --- [    Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-30T22:54:56.126+08:00  INFO 29564 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-30T22:54:56.139+08:00  INFO 29564 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:107d8eed-8133-4d4b-817d-de65d4214918]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 107D8EED-8133-4D4B-817D-DE65D4214918/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-30T22:54:57.140+08:00  INFO 29564 --- [    Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-30T22:54:57.259+08:00  INFO 29564 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-30T22:54:58.229+08:00  WARN 29564 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-30T22:55:01.667+08:00  INFO 29564 --- [    Test worker] c.c.s.controller.UserControllerTest      : Started UserControllerTest in 11.891 seconds (process running for 86.612)
+2026-05-30T22:55:01.751+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:01.753+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:01.761+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2026-05-30T22:55:02.771+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:02.774+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:02.779+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-05-30T22:55:02.927+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:02.934+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:02.939+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-05-30T22:55:02.972+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:02.973+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:02.977+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-05-30T22:55:04.251+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:04.253+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:04.257+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2026-05-30T22:55:04.305+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:04.307+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:04.312+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-05-30T22:55:04.400+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:04.402+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:04.407+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-05-30T22:55:04.442+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:04.457+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:04.463+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2026-05-30T22:55:04.504+08:00  INFO 29564 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-30T22:55:04.506+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-30T22:55:04.509+08:00  INFO 29564 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
