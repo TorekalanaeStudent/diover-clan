@@ -7,16 +7,24 @@ Trespeces, Guillermo 2025-1025412 05/30/2026 Solid-TDD Completed
 
 ## Date : 05/08/2026 | Activity : Grasp-UT Lab
 Canillo, Diover Vincent L. 2025-1023980 05/10/2026 GRASP-UT Completed (Bonus point: DTO Pattern, Jacoco, Custom Exception Handling, Exception Handling) \
-Navarro, Vince Justine 2025-1029521 05/11/2026 GRASP-UT Completed (Bonus Points for doing DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations!)
+Navarro, Vince Justine 2025-1029521 05/11/2026 GRASP-UT Completed (Bonus Points for doing DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations!) \
 Trespeces, Guillermo 2025-1025412 05/30/2026 GRASP-UT Completed 
+Nono, Mary Angeline B. 2025-1025691 05/30/2026 GRASP-UT Completed (Bonus Points for doing DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations!) \
+Cardeño, Faye L. 2025-1025317 05/30/2026 GRASP-UT Completed (Bonus Points: DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations)
 
 ---
 
 ## Date : 05/05/2026 | Activity : OOP Fullstack Lab
 Canillo, Diover Vincent L. 2025-1023980 05/07/2026 OOP Fullstack Lab Completed  \
-Navarro, Vince Justine 2025-1029521 05/08/2026 OP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling!)
-Go, Sean Ethan G. 2025-104028 05/13/2026 OOP Fullstack Lab Completed (Bonus Points for UI Styling, Error Handling, Validation)
-Trespeces, Guillermo 2025-1025412 05/12/2026 OOP Fullstack Lab Completed 
+Ovejera, Ziggy 2025-1021339 05/11/2026 OOP Fullstack Lab Completed \
+Navarro, Vince Justine 2025-1029521 05/08/2026 OP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling!) \
+Cardeño, Faye L. 2025-1025317 05/30/2026 OOP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling) \
+Go, Sean Ethan G. 2025-104028 05/13/2026 OOP Fullstack Lab Completed (Bonus Points for UI Styling, Error Handling, Validation) \
+Trespeces, Guillermo 2025-1025412 05/12/2026 OOP Fullstack Lab Completed \
+Ablis, Margreleigne M. 2025-1020011 05/11/2026 OOP Fullstack Lab Completed \
+Navarro, Vince Justine 2025-1029521 05/08/2026 OP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling!) \
+Obedoza, John Kyle B. 2025-1029134 05/13/2026 OOP Fullstack Lab Completed \
+Gedoria, Rajan Kurt O. 2025-1021948 05/20/2026 OOP Fullstack Lab Completed  
 
 ---
 
@@ -27,7 +35,10 @@ Canillo, Diover Vincent L. 2025-1023980 04/29/2026 OOP-Database Lab Completed (B
 Trespeces, Guillermo 2025-1025412 04/30/2026 OOP-Database Lab Completed (Bonus Points for doing Validation and Exception handling!) \
 Gedoria, Rajan Kurt O. 2025-1021948 04/30/2026 Springboot Lab Completed! (Bonus Points for doing Validation and Exception handling!) \
 Nono, Mary Angeline B. 2025-1022691 <04/30/2026> OOP-Database Lab Completed! (Bonus Points for doing Validation,cException handling,and Relationship!)
-Go, Sean Ethan G. 2025-1024028 04/30/2026 OOP-Database Lab Completed! (Bonus Points for doing Validation and Exception handling!)
+Go, Sean Ethan G. 2025-1024028 04/30/2026 OOP-Database Lab Completed! (Bonus Points for doing Validation and Exception handling!) \
+Ovejera, Ziggy 2025-1021339 05/01/2026  OOP-Database Lab Completed! (Bonus Points for doing Validation and Exception handling!) \
+Ablis, Margreleigne M. 2025-1020011 04/30/2026 OOP-Database Lab Completed! (Bonus Points for doing Validation and Exception handling!) \
+Obedoza, John Kyle B. 2025-1029134 <04/30/2026> OOP-Database Lab Completed! (Bonus Points for doing Validation,cException handling,and Relationship!) \
 
 ---
 
@@ -41,6 +52,9 @@ Canillo, Diover Vincent L. 2025-1023980  SpringBoot Lab Completed! \
 Trespeces, Guillermo 2025-1025412 04/30/2026 SpringBoot Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 04/30/2026 Springboot Lab Completed! \
 Jagunap, Janelle 2025-1025460 05/01/2026 SpringBoot Lab Completed! \
+Ovejera, Ziggy 2025-1021339 05/01/2026 SpringBoot Lab Completed! \
+Ablis, Margreleigne M. 2025-1020011 04/30/2026 Springboot Lab Completed! \
+Obedoza, John Kyle B. 2025-1029134 05/01/2026 SpringBoot Lab Completed!
 
 ---
 
@@ -58,7 +72,8 @@ Onte, Vince Gian D. 04/25/2026 Packages and Organization Lab Completed! \
 Jagunap, Janelle 2025-1025460 04/27/2026 Packages and Organization Lab Completed! \
 Gedoria, Rajan Kurt O. 2025-1021948 04/27/2026 Packages and Organization Lab Completed! \
 Malig, Rich Matthew A. 2025-1027707 04/27/2026 Packages and Organization Completed \
-Ovejera, Ziggy 2025-1021339 04/27/2026 Packages and Organization Lab Completed! 
+Ovejera, Ziggy 2025-1021339 04/27/2026 Packages and Organization Lab Completed! \
+Obedoza, John Kyle B. 2025-1029134 04/27/2026 Packages and Organization Lab Completed! \
 Go, Sean Ethan 2025-1024028 04/26/2026 Packages and Organization Lab Completed! 
 
 ---

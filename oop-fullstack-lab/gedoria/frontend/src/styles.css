@@ -1,0 +1,229 @@
+:root {
+  color: #18212f;
+  background: #f6f7fb;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  align-items: center;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 0.45rem;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0 0.9rem;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.workspace {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+.page-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.eyebrow {
+  color: #2f6f73;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+h2 {
+  font-size: 1.05rem;
+}
+
+.content-grid {
+  align-items: start;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(280px, 380px) 1fr;
+}
+
+.form-panel,
+.list-panel {
+  background: #ffffff;
+  border: 1px solid #dde3ea;
+  border-radius: 8px;
+  box-shadow: 0 18px 45px rgba(34, 47, 62, 0.08);
+  padding: 1rem;
+}
+
+.panel-title {
+  align-items: center;
+  display: flex;
+  gap: 0.6rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.product-form {
+  display: grid;
+  gap: 0.9rem;
+}
+
+label {
+  color: #4d5968;
+  display: grid;
+  font-size: 0.88rem;
+  font-weight: 700;
+  gap: 0.4rem;
+}
+
+input,
+textarea {
+  border: 1px solid #cbd5df;
+  border-radius: 8px;
+  color: #18212f;
+  outline: none;
+  padding: 0.7rem 0.75rem;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2f6f73;
+  box-shadow: 0 0 0 3px rgba(47, 111, 115, 0.16);
+}
+
+.field-row {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-actions,
+.row-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.primary {
+  background: #2f6f73;
+  color: #ffffff;
+}
+
+.secondary {
+  background: #eef2f6;
+  color: #263241;
+}
+
+.icon-button {
+  background: #eef2f6;
+  color: #263241;
+  min-height: 2.25rem;
+  padding: 0;
+  width: 2.25rem;
+}
+
+.danger {
+  background: #fff0eb;
+  color: #b33b24;
+}
+
+.counter {
+  background: #f2c078;
+  border-radius: 999px;
+  color: #332414;
+  font-size: 0.82rem;
+  font-weight: 800;
+  min-width: 2rem;
+  padding: 0.25rem 0.55rem;
+  text-align: center;
+}
+
+.alert {
+  background: #fff0eb;
+  border: 1px solid #f1b8a9;
+  border-radius: 8px;
+  color: #8f2f1d;
+  margin-bottom: 1rem;
+  padding: 0.85rem 1rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 680px;
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom: 1px solid #edf0f3;
+  padding: 0.85rem 0.7rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  color: #657386;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+td {
+  color: #263241;
+}
+
+.empty-state {
+  color: #657386;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+@media (max-width: 820px) {
+  .app-shell {
+    padding: 1rem;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .field-row {
+    grid-template-columns: 1fr;
+  }
+}

@@ -41,6 +41,10 @@
 **04/30/2026** : Learned how to make a CRUD API with Spring Boot using JPA and database, and next time I will try improving it more.
 
 **05/12/2026** : Learned how to build a full-stack web application connecting React frontend to Spring Boot backend with PostgreSQL
+
+**05/30/2026** : Learned how to apply GRASP principles in a Spring Boot project and how to write unit tests using Mockito, and next time I will try improving test coverage more.
+
+**05/30/2026** : Learned how to refactor code using SOLID principles by separating responsibilities into dedicated classes, and next time I will try applying more OOP best practices.
  
 ---
  
