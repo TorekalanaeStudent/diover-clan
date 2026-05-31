@@ -45,7 +45,8 @@
 **<03/25/2026>** : I learned how compositions applies in our work, next time I'll try to study more about it and apply it to my next projects. \
 **<04/17/2026>** : I learned how Abstraction and Polymorphism applies, next time I would study first before to be able to catch up on classes. \
 **<04/19/2026>** : I learned Exceptions and Errors and how it works in our program, next time I would apply these knowledge when I do my codes. \ 
-**<04/19/2026>** : I learned Springboot REST APIs and how to make one, next time I would be able to use this knowledge to do more projects. 
+**<04/19/2026>** : I learned Springboot REST APIs and how to make one, next time I would be able to use this knowledge to do more projects. \
+**<05/31/2026>** : I learned Fullstack and how to make one, next time I would be apply to apply this knowledge.
 
 ## Peer Evaluation
 **<03/11/2026>**.: Comment by Canillo, Diover Vincent : Onte has done his object and class keyboard with no issue at all, keep it up! \
