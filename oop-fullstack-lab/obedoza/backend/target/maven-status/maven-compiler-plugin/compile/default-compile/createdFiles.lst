@@ -1,0 +1,5 @@
+com/obedoza/demo/controller/StudentController.class
+com/obedoza/demo/repository/StudentRepository.class
+com/obedoza/demo/DemoApplication.class
+com/obedoza/demo/model/Student.class
+com/obedoza/demo/service/StudentService.class

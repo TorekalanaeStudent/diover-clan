@@ -1,0 +1,182 @@
+:root {
+  --bg: #E9F5DB;
+  --card: #CFE1B9;
+  --accent: #97A97C;
+  --accent-dark: #87986A;
+  --text: #4f5d3f;
+  --highlight: #B5C99A;
+}
+
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* APP WRAPPER */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  background: var(--card);
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid var(--accent-dark);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.header p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* NAV */
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+/* BUTTONS */
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button.logout {
+  background: #b85c5c;
+}
+
+button.logout:hover {
+  background: #a04444;
+}
+
+/* CONTENT AREA */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+/* CARD SYSTEM (LOGIN / SIGNUP / PROFILE) */
+
+* {
+  box-sizing: border-box;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-container input {
+  margin: 0;
+}
+
+.login-container {
+  text-align: left;
+}
+
+.login-container button {
+  margin-top: 8px;
+}
+
+.login-container,
+.employee-card {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* HEADINGS INSIDE CARDS */
+.login-container h2,
+.employee-card h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 11px 12px;
+  border-radius: 8px;
+  border: 1px solid #d3d9c8;
+  outline: none;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(151, 169, 124, 0.2);
+}
+
+/* LABELS */
+label {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* EMPLOYEE CARD (LIST MODE) */
+.employee-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* SMALL TEXT INSIDE CARD */
+.employee-card p {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .content {
+    padding: 15px;
+  }
+
+  .login-container,
+  .employee-card {
+    max-width: 100%;
+  }
+}
