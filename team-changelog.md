@@ -13,6 +13,7 @@ Navarro, Vince Justine 2025-1029521 05/11/2026 GRASP-UT Completed (Bonus Points 
 
 ## Date : 05/05/2026 | Activity : OOP Fullstack Lab
 Canillo, Diover Vincent L. 2025-1023980 05/07/2026 OOP Fullstack Lab Completed  \
+Gedoria, Rajan Kurt O. 2025-1021948 05/20/2026 OOP Fullstack Lab Completed  \
 Navarro, Vince Justine 2025-1029521 05/08/2026 OP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling!)
 Go, Sean Ethan G. 2025-104028 05/13/2026 OOP Fullstack Lab Completed (Bonus Points for UI Styling, Error Handling, Validation)
 Trespeces, Guillermo 2025-1025412 05/12/2026 OOP Fullstack Lab Completed 
