@@ -60,7 +60,8 @@ I like sleeping
 **\<04/19/2026\>** : I learned how our group successfully implemented a calculator with proper exception handling and next time I will aim to make my code more efficient and readable. \
 **\<04/27/2026\>** : I learned how to organize a Java project using packages, separating classes into service, exception, and main layers to make the structure cleaner and easier to manage, and next time I will make sure my package names and folder structure are fully consistent to avoid compilation errors. \
 **\<04/30/2026\>** : I learned how to troubleshoot a failing Spring Boot project by resolving Java version conflicts, fixing package mismatches, and handling Gradle sync errors. Next time I will transition from static data to dynamic persistence by integrating a database to support full CRUD operations.
-**\<04/30/2026\>** : I learned how to migrate from a temporary H2 in-memory database to a permanent PostgreSQL database and next time I will double-check that my PostgreSQL server is running locally to prevent connection refused errors during testing.
+**\<04/30/2026\>** : I learned how to migrate from a temporary H2 in-memory database to a permanent PostgreSQL database and next time I will double-check that my PostgreSQL server is running locally to prevent connection refused errors during testing. \
+**\<05/30/2026\>** : I learned how to create a full-stack application and successfully connect the frontend to the backend, which gave me a much better grasp of how web apps actually function. Next time, I want to make more app that is faster and more polished for the end user.
 
 ## 📘 Peer Feedback
 **\<03/11/2026\>** : Comment by: Jagunap Janelle; You did well on implementing your objects with and without parameter, i think there is nothing more to improve in this tasks because you met the requirements well! \
