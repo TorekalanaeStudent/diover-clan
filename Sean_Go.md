@@ -5,6 +5,29 @@
 
 | Date       | Activity Type   | Title                                                           | Score   | Total Points  |
 |------------|-----------------|-----------------------------------------------------------------|---------|---------------|
+| 05/29/2026 | PR Review       | Obedoza (solid_tdd_lab) - #1027                                 | 2       | 107            |
+| 05/26/2026 | PR Review       | Obedoza (grasp_ut_lab) - #1026                                  | 2       | 105            |
+| 05/19/2026 | Quiz/Recitation | Quiz 2:OOP                                                      | 24      | 103            |
+| 05/12/2026 | PR Review       | Trespeces (fullstack_lab) - #1014                               | 2       | 79            |
+| 05/11/2026 | PR Review       | Navarro (grasp_ut_lab) - #1011                                  | 2       | 77            |
+| 05/01/2026 | PR Review       | Trespeces (databases_labg) - #976                               | 2       | 75            |
+| 04/30/2026 | PR Review       | Cardeno (peer_feedback) - #975                                  | 2       | 73            |
+| 04/30/2026 | PR Review       | Onte (peer_feedback) - #974                                     | 2       | 71            |
+| 04/30/2026 | PR Review       | Onte (team_changelog) - #973                                    | 2       | 69            |
+| 04/30/2026 | PR Review       | Cardeno (team_changelog) - #972                                 | 2       | 67            |
+| 04/30/2026 | PR Review       | De Juras (databases_lab) - #970                                 | 2       | 65            |
+| 04/30/2026 | PR Review       | Cardeno (databases_lab) - #969                                  | 2       | 63            |
+| 04/30/2026 | PR Review       | Onte (springboot_lab) - #968                                    | 2       | 61            |
+| 04/30/2026 | PR Review       | Canillo (team_changelog) - #967                                 | 2       | 59            |
+| 04/30/2026 | PR Review       | Caneda (databases_lab) - #964                                   | 2       | 57            |
+| 04/30/2026 | PR Review       | Obedoza (databases_lab) - #956                                  | 2       | 55            |
+| 04/29/2026 | PR Review       | Ovejera (team_changelog) - #935                                 | 2       | 53            |
+| 04/27/2026 | PR Review       | De Juras (packages_and_organization_lab) - #902                 | 2       | 51            |
+| 04/27/2026 | PR Review       | Navarro (peer_feedback) - #900                                  | 2       | 49            |
+| 04/27/2026 | PR Review       | Navarro (team_changelog) - #899                                 | 2       | 47            |
+| 04/27/2026 | PR Review       | Navarro (packages_and_organization_lab) - #898                  | 2       | 45            |
+| 04/27/2026 | PR Review       | Trespeces (packages_and_organization_lab) - #897                | 2       | 43            |
+| 04/25/2026 | PR Review       | Canillo (packages_and_organization_lab) - #885                  | 2       | 41            |
 | 04/19/2026 | PR Review       | Navarro (peer_feedback) - #844                                  | 2       | 39            |
 | 04/19/2026 | PR Review       | Gedoria (team_changelog) - #843                                 | 2       | 37            |
 | 04/19/2026 | PR Review       | Navarro (team_changelog) - #840                                 | 2       | 35            |
@@ -22,7 +45,7 @@
 | 03/27/2026 | PR Review       | De Juras (composition_lab) - #633                               | 2       | 11            |
 | 03/27/2026 | PR Review       | Ovejera (composition_lab) - #632                                | 2       | 9             |
 | 03/24/2026 | PR Review       | Obedoza (composition_lab) - #601                                | 2       | 7             |
-| 03/06/2026 | Quiz/Recitation | Quiz 1:OOP                                                      | 2       | 5             |
+| 03/06/2026 | Quiz/Recitation | Quiz 1:OOP                                                      | 5       | 5             |
 
 ---
 
@@ -49,6 +72,12 @@
 **<04/30/2026>** : I have leaned how a mock database is simulated and I am now slightly versed in all things database. I will learn, review, and retain topics pertaining to this to prepare myself in the future
 
 **<05/13/2026>** Albeit with the guidance of AI, I have versed myself in the workings of a fullstack applcation; being the culmination of all the topics in one, with an additional few, I have learned many concepts and will continue to do so. To improve, I will review and study more about this so that it is completely second nature and in turn have the compltete gamesense to work around a database.
+
+**<05/29/2026>** I learned how data flows through backend architecture and applied GRASP principles such as low coupling, high cohesion, and controller responsibility. To improve, I will further study backend systems and strengthen my database understanding.
+
+**<05/30/2026>** I continued improving my understanding of fullstack application development and backend structure. I reinforced GRASP principles such as low coupling, high cohesion, and proper layering of controllers and services. To improve, I will practice building projects more independently and focus on developing stronger system design intuition and problem-solving skills.
+
+**<05/31/2026>** With the assistance of AI, I have versed myself in the workings of a fullstack applcation while also being efficient with the production of the application itself; in turenn decreasing the amount of time in front of a computer. It being the culmination of even more topics than the last, I have learned many concepts and have improved my gamesense around effectively using AI in work and will continue to do so. To improve, I will review and study more about this so that it is completely second nature.
 
 ## 📘 Peer Reviews
 
