@@ -22,7 +22,7 @@
 13. Obedoza, John Kyle B.  
 14. Onte, Vince Gian  
 15. Ovejera, Ziggy T.  
-16. Romnick, Realon  
+16. Romnick, Realon  (fired)
 17. Trespeces, Guillermo II O.
 
 ---
@@ -38,6 +38,7 @@
 | Composition Lab                  | *03/24/2026* |
 | Abstraction and Polymorphism Lab | *04/06/2026* |
 | Exceptions and Errors Lab        | *04/15/2026* |
+| More...                          | ...          |
 
 *(More activities will be added as the course progresses.)*
 

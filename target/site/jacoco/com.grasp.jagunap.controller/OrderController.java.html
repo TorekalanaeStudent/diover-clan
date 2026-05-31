@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OrderController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jagunap</a> &gt; <a href="index.source.html" class="el_package">com.grasp.jagunap.controller</a> &gt; <span class="el_source">OrderController.java</span></div><h1>OrderController.java</h1><pre class="source lang-java linenums">package com.grasp.jagunap.controller;
+
+import com.grasp.jagunap.dto.OrderDTO;
+import com.grasp.jagunap.service.OrderService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Map;
+
+// GRASP: Controller — handles HTTP requests only, delegates to OrderService
+//        Contains ZERO business logic
+@RestController
+@RequestMapping(&quot;/api/orders&quot;)
+public class OrderController {
+
+    // GRASP: Low Coupling — depends on OrderService, not implementations
+    private final OrderService orderService;
+
+<span class="fc" id="L21">    public OrderController(OrderService orderService) {</span>
+<span class="fc" id="L22">        this.orderService = orderService;</span>
+<span class="fc" id="L23">    }</span>
+
+    @PostMapping
+    public ResponseEntity&lt;OrderDTO&gt; createOrder(@RequestBody OrderDTO dto) {
+<span class="fc" id="L27">        return ResponseEntity.status(HttpStatus.CREATED)</span>
+<span class="fc" id="L28">                .body(orderService.createOrder(dto));</span>
+    }
+
+    @GetMapping(&quot;/{id}&quot;)
+    public ResponseEntity&lt;OrderDTO&gt; getOrder(@PathVariable Long id) {
+<span class="fc" id="L33">        return ResponseEntity.ok(orderService.getOrderById(id));</span>
+    }
+
+    @GetMapping
+    public ResponseEntity&lt;List&lt;OrderDTO&gt;&gt; getAllOrders() {
+<span class="fc" id="L38">        return ResponseEntity.ok(orderService.getAllOrders());</span>
+    }
+
+    @PostMapping(&quot;/{id}/notify&quot;)
+    public ResponseEntity&lt;Map&lt;String, String&gt;&gt; sendNotification(
+            @PathVariable Long id,
+            @RequestParam String type) {
+<span class="fc" id="L45">        orderService.sendNotification(id, type);</span>
+<span class="fc" id="L46">        return ResponseEntity.ok(Map.of(&quot;message&quot;, &quot;Notification sent successfully&quot;));</span>
+    }
+
+    @DeleteMapping(&quot;/{id}&quot;)
+    public ResponseEntity&lt;Void&gt; deleteOrder(@PathVariable Long id) {
+<span class="fc" id="L51">        orderService.deleteOrder(id);</span>
+<span class="fc" id="L52">        return ResponseEntity.noContent().build();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
