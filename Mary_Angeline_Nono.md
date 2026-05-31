@@ -73,6 +73,7 @@ Mary Angeline Nono
 **\<04/27/2026\>**  : I learned the importance of proper project structure and package organization, and next time I will plan my code before implementing it to avoid errors.
 **\<04/30/2026\>**  : I learned how to build a REST API using Spring Boot with Gradle and next time I will improve by adding more endpoints and better error handling.
 **\<04/30/2026\>**  : I learned how to fix SQL syntax errors, map Java objects to database tables correctly, and troubleshoot server connection problems. Next time I will double-check my spelling, data types, and configuration settings to make everything work smoothly from the start.
+**\<05/30/2026\>**  : I learned how GRASP principles assign responsibilities across classes and how to write unit tests using Mockito to mock dependencies without hitting a real database. I improved my ability to set up and debug a Spring Boot project in IntelliJ, fix Java version mismatches.
 
 ## Peer Feedback
 **\<03/06/2026\>** : Comment by: <Cardeño, Faye>; You did well in participating and  finishing the task, and you can improve by practicing more coding exercises.
