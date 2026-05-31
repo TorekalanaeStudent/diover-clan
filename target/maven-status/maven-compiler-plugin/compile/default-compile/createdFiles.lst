@@ -11,3 +11,17 @@ com\grasp\jagunap\controller\OrderController.class
 com\grasp\jagunap\JagunapApplication.class
 com\grasp\jagunap\service\OrderService.class
 com\grasp\jagunap\util\NotificationStrategy.class
+com\ovejera\app\grasp\dto\OrderResponseDTO.class
+com\ovejera\app\grasp\exception\OrderNotFoundException.class
+com\ovejera\app\grasp\service\CreditCardPayment.class
+com\ovejera\app\grasp\entity\OrderItem.class
+com\ovejera\app\grasp\service\OrderService.class
+com\ovejera\app\grasp\controller\OrderController.class
+com\ovejera\app\grasp\dto\OrderRequestDTO.class
+com\ovejera\app\grasp\GraspApplication.class
+com\ovejera\app\grasp\service\PaymentStrategy.class
+com\ovejera\app\grasp\util\OrderValidator.class
+com\ovejera\app\grasp\service\CashPayment.class
+com\ovejera\app\grasp\entity\Product.class
+com\ovejera\app\grasp\entity\Order.class
+com\ovejera\app\grasp\repository\OrderRepository.class

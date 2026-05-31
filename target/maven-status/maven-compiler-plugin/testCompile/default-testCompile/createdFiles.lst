@@ -1,5 +1,5 @@
-com\grasp\jagunap\JagunapApplicationTests.class
-com\grasp\jagunap\service\OrderServiceTest.class
-com\grasp\jagunap\util\NotificationStrategyTest.class
-com\grasp\jagunap\controller\OrderControllerTest.class
-com\grasp\jagunap\entity\OrderTest.class
+com\ovejera\app\grasp\service\OrderServiceTest.class
+com\ovejera\app\grasp\controller\OrderControllerTest.class
+com\ovejera\app\grasp\controller\OrderController.class
+com\ovejera\app\grasp\GraspApplicationTests.class
+com\ovejera\app\grasp\util\OrderValidatorTest.class
