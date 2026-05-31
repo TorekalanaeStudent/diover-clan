@@ -7,6 +7,7 @@ DTO pattern, Custom exception handling, Better package organization!)
 
 ## Date : 05/08/2026 | Activity : Grasp-UT Lab
 Canillo, Diover Vincent L. 2025-1023980 05/10/2026 GRASP-UT Completed (Bonus point: DTO Pattern, Jacoco, Custom Exception Handling, Exception Handling) \
+Nono, Mary Angeline B. 2025-1025691 05/30/2026 GRASP-UT Completed (Bonus Points for doing DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations!) \
 Navarro, Vince Justine 2025-1029521 05/11/2026 GRASP-UT Completed (Bonus Points for doing DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations!) \
 Cardeño, Faye L. 2025-1025317 05/30/2026 GRASP-UT Completed (Bonus Points: DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations)
 
