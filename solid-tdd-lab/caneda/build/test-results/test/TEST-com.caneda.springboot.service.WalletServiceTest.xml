@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.service.WalletServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-03T15:20:27.805Z" hostname="LAPTOP-6D9V11MV" time="0.2">
+  <properties/>
+  <testcase name="shouldThrowWhenUserNotFoundForWallet()" classname="com.caneda.springboot.service.WalletServiceTest" time="0.075"/>
+  <testcase name="shouldThrowWhenInsufficientBalance()" classname="com.caneda.springboot.service.WalletServiceTest" time="0.02"/>
+  <testcase name="shouldDeductFromWallet()" classname="com.caneda.springboot.service.WalletServiceTest" time="0.031"/>
+  <testcase name="shouldAddToWallet()" classname="com.caneda.springboot.service.WalletServiceTest" time="0.052"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

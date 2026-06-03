@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>UserController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">demo</a> &gt; <a href="index.source.html" class="el_package">com.caneda.springboot.controller</a> &gt; <span class="el_source">UserController.java</span></div><h1>UserController.java</h1><pre class="source lang-java linenums">package com.caneda.springboot.controller;
+
+import com.caneda.springboot.dto.UserRequestDTO;
+import com.caneda.springboot.dto.UserResponseDTO;
+import com.caneda.springboot.service.AddWalletOperation;
+import com.caneda.springboot.service.DeductWalletOperation;
+import com.caneda.springboot.service.interfaces.IUserService;
+import com.caneda.springboot.service.interfaces.IWalletService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+// SOLID: SRP - only handles HTTP request/response mapping
+// SOLID: DIP - depends on IUserService and IWalletService abstractions
+// GRASP: Controller - handles HTTP requests only
+// GRASP: Low Coupling - depends on interfaces not concrete classes
+@RestController
+<span class="fc" id="L18">public class UserController {</span>
+
+    // SOLID: DIP - depends on interface not concrete UserService
+    // DIP: Depends on abstraction instead of implementation
+    @Autowired
+    private IUserService userService;
+
+    // SOLID: DIP - depends on interface not concrete WalletService
+    @Autowired
+    private IWalletService walletService;
+
+    // GRASP: Controller - delegates to service, no logic here
+    @GetMapping(&quot;/user/{id}&quot;)
+    public ResponseEntity&lt;UserResponseDTO&gt; getUserById(@PathVariable long id) {
+<span class="fc" id="L32">        UserResponseDTO user = userService.getUserById(id);</span>
+<span class="fc bfc" id="L33" title="All 2 branches covered.">        return user != null ? ResponseEntity.ok(user) : ResponseEntity.notFound().build();</span>
+    }
+
+    // GRASP: Creator - controller initiates user creation via service
+    @PostMapping(&quot;/New/User&quot;)
+    public ResponseEntity&lt;UserResponseDTO&gt; createUser(@RequestBody UserRequestDTO dto) {
+<span class="fc" id="L39">        return ResponseEntity.ok(userService.createUser(dto));</span>
+    }
+
+    @PutMapping(&quot;/Modify/User/{id}&quot;)
+    public ResponseEntity&lt;UserResponseDTO&gt; setUser(
+            @PathVariable long id,
+            @RequestBody UserRequestDTO dto) {
+<span class="fc" id="L46">        UserResponseDTO updated = userService.setUser(id, dto);</span>
+<span class="fc bfc" id="L47" title="All 2 branches covered.">        return updated != null ? ResponseEntity.ok(updated) : ResponseEntity.notFound().build();</span>
+    }
+
+    @DeleteMapping(&quot;/{id}&quot;)
+    public ResponseEntity&lt;Void&gt; deleteUser(@PathVariable long id) {
+<span class="fc" id="L52">        userService.deleteUser(id);</span>
+<span class="fc" id="L53">        return ResponseEntity.noContent().build();</span>
+    }
+
+    // SOLID: OCP - new wallet operations added without modifying controller
+    // SOLID: LSP - AddWalletOperation substitutes WalletOperation correctly
+    // GRASP: Polymorphism - controller decides which operation to pass
+    @PutMapping(&quot;/user/{id}/wallet/add&quot;)
+    public ResponseEntity&lt;UserResponseDTO&gt; addWallet(
+            @PathVariable long id,
+            @RequestParam float amount) {
+<span class="fc" id="L63">        UserResponseDTO updated = walletService.processWallet(</span>
+                id, amount, new AddWalletOperation(amount)
+        );
+<span class="fc bfc" id="L66" title="All 2 branches covered.">        return updated != null ? ResponseEntity.ok(updated) : ResponseEntity.notFound().build();</span>
+    }
+
+    // SOLID: LSP - DeductWalletOperation substitutes WalletOperation correctly
+    @PutMapping(&quot;/user/{id}/wallet/deduct&quot;)
+    public ResponseEntity&lt;UserResponseDTO&gt; deductWallet(
+            @PathVariable long id,
+            @RequestParam float amount) {
+<span class="fc" id="L74">        UserResponseDTO updated = walletService.processWallet(</span>
+                id, amount, new DeductWalletOperation(amount)
+        );
+<span class="pc bpc" id="L77" title="1 of 2 branches missed.">        return updated != null ? ResponseEntity.ok(updated) : ResponseEntity.notFound().build();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>

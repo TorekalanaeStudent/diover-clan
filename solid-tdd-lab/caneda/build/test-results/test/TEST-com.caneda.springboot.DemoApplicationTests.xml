@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-03T15:19:24.738Z" hostname="LAPTOP-6D9V11MV" time="45.898">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.caneda.springboot.DemoApplicationTests" time="1.923"/>
+  <system-out><![CDATA[23:19:27.430 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.caneda.springboot.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:19:28.359 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.DemoApplicationTests
+23:19:29.532 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.caneda.springboot.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:19:29.537 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-06-03T23:19:32.774+08:00  INFO 31640 --- [    Test worker] c.c.springboot.DemoApplicationTests      : Starting DemoApplicationTests using Java 21.0.11 with PID 31640 (started by hmk2l in C:\Users\hmk2l\IdeaProjects\diover-clan\solid-tdd-lab\caneda)
+2026-06-03T23:19:32.842+08:00 DEBUG 31640 --- [    Test worker] c.c.springboot.DemoApplicationTests      : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-06-03T23:19:32.851+08:00  INFO 31640 --- [    Test worker] c.c.springboot.DemoApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-06-03T23:19:38.112+08:00  INFO 31640 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-03T23:19:38.596+08:00  INFO 31640 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 395 ms. Found 1 JPA repository interface.
+2026-06-03T23:19:41.790+08:00  INFO 31640 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-03T23:19:44.938+08:00  INFO 31640 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:49e055bf-f70c-4474-a601-ac1472be8c95 user=SA
+2026-06-03T23:19:44.951+08:00  INFO 31640 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-03T23:19:45.351+08:00  INFO 31640 --- [    Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-03T23:19:45.950+08:00  INFO 31640 --- [    Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-03T23:19:50.942+08:00  INFO 31640 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-03T23:19:52.176+08:00  INFO 31640 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:49e055bf-f70c-4474-a601-ac1472be8c95]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 49E055BF-F70C-4474-A601-AC1472BE8C95/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-03T23:20:01.055+08:00  INFO 31640 --- [    Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-03T23:20:01.520+08:00  INFO 31640 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-03T23:20:02.244+08:00  INFO 31640 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-03T23:20:04.518+08:00  WARN 31640 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-03T23:20:08.624+08:00  INFO 31640 --- [    Test worker] c.c.springboot.DemoApplicationTests      : Started DemoApplicationTests in 38.362 seconds (process running for 55.487)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\hmk2l\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.8\f09415827a71be7ed621c7bd02550678f28bc81c\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

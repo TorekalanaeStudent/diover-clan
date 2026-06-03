@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>WalletService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">demo</a> &gt; <a href="index.source.html" class="el_package">com.caneda.springboot.service</a> &gt; <span class="el_source">WalletService.java</span></div><h1>WalletService.java</h1><pre class="source lang-java linenums">package com.caneda.springboot.service;
+
+import com.caneda.springboot.dto.UserResponseDTO;
+import com.caneda.springboot.entity.User;
+import com.caneda.springboot.exception.UserNotFoundException;
+import com.caneda.springboot.repository.UserRepository;
+import com.caneda.springboot.util.UserMapper;
+import com.caneda.springboot.service.interfaces.IWalletService;
+import com.caneda.springboot.service.interfaces.WalletOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+// SOLID: SRP - only handles wallet operations
+// SOLID: DIP - implements IWalletService abstraction
+// SOLID: OCP - new wallet operations added without modifying this class
+// GRASP: Pure Fabrication - exists purely for wallet business logic
+// GRASP: High Cohesion - only wallet related operations
+@Service
+<span class="fc" id="L19">public class WalletService implements IWalletService {</span>
+
+    // SOLID: DIP - depends on repository interface not implementation
+    // GRASP: Indirection - repository acts as layer between service and DB
+    @Autowired
+    private UserRepository userRepository;
+
+    // SOLID: SRP - validation delegated to UserValidationService
+    @Autowired
+    private UserValidationService validator;
+
+    // SOLID: OCP - new operations added without modifying this method
+    // SOLID: LSP - any WalletOperation implementation can substitute another
+    // GRASP: Polymorphism - accepts any WalletOperation implementation
+    // OOP: Composition Over Inheritance - uses WalletOperation via HAS-A not IS-A
+    @Override
+    public UserResponseDTO processWallet(long id, float amount, WalletOperation operation) {
+        // DRY: reusing validation
+<span class="fc" id="L37">        validator.validateId(id);</span>
+<span class="fc" id="L38">        validator.validateAmount(amount);</span>
+
+<span class="fc" id="L40">        User user = userRepository.findById(id)</span>
+<span class="fc" id="L41">                .orElseThrow(() -&gt; new UserNotFoundException(id));</span>
+
+        // GRASP: Information Expert - user applies its own wallet update
+<span class="fc" id="L44">        float newAmount = operation.execute(user.getUserWalletAmount());</span>
+<span class="fc" id="L45">        user.applyWalletAmount(newAmount);</span>
+
+<span class="fc" id="L47">        return UserMapper.toResponseDTO(userRepository.save(user));</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>

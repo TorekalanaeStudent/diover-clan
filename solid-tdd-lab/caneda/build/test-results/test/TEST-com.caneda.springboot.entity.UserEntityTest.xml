@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.entity.UserEntityTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-03T15:20:23.180Z" hostname="LAPTOP-6D9V11MV" time="0.357">
+  <properties/>
+  <testcase name="shouldReturnFalseWhenInsufficientBalance()" classname="com.caneda.springboot.entity.UserEntityTest" time="0.217"/>
+  <testcase name="shouldReturnTrueWhenSufficientBalance()" classname="com.caneda.springboot.entity.UserEntityTest" time="0.089"/>
+  <testcase name="shouldReturnTrueWhenUserIsValid()" classname="com.caneda.springboot.entity.UserEntityTest" time="0.004"/>
+  <testcase name="shouldApplyWalletAmount()" classname="com.caneda.springboot.entity.UserEntityTest" time="0.015"/>
+  <testcase name="shouldReturnFalseWhenUserIsInvalid()" classname="com.caneda.springboot.entity.UserEntityTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

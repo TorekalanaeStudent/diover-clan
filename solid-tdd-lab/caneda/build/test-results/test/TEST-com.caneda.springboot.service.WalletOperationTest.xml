@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.service.WalletOperationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-06-03T15:20:27.706Z" hostname="LAPTOP-6D9V11MV" time="0.094">
+  <properties/>
+  <testcase name="shouldHandleZeroAddAmount()" classname="com.caneda.springboot.service.WalletOperationTest" time="0.002"/>
+  <testcase name="shouldAddAmountCorrectly()" classname="com.caneda.springboot.service.WalletOperationTest" time="0.002"/>
+  <testcase name="shouldPreserveImmutableDTOState()" classname="com.caneda.springboot.service.WalletOperationTest" time="0.002"/>
+  <testcase name="shouldDeductAmountCorrectly()" classname="com.caneda.springboot.service.WalletOperationTest" time="0.046"/>
+  <testcase name="shouldThrowOnInsufficientBalance()" classname="com.caneda.springboot.service.WalletOperationTest" time="0.009"/>
+  <testcase name="shouldWorkThroughInterface()" classname="com.caneda.springboot.service.WalletOperationTest" time="0.002"/>
+  <testcase name="shouldCreateConsistentImmutableDTOState()" classname="com.caneda.springboot.service.WalletOperationTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

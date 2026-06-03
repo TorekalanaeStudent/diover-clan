@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>UserValidationService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">demo</a> &gt; <a href="index.source.html" class="el_package">com.caneda.springboot.service</a> &gt; <span class="el_source">UserValidationService.java</span></div><h1>UserValidationService.java</h1><pre class="source lang-java linenums">package com.caneda.springboot.service;
+
+import com.caneda.springboot.dto.UserRequestDTO;
+import org.springframework.stereotype.Service;
+
+// SOLID: SRP - only handles validation logic, nothing else
+// DRY: centralized validation — no duplicate checks across services
+// KISS: simple, focused, single-purpose methods
+@Service
+<span class="fc" id="L10">public class UserValidationService {</span>
+
+    // DRY: reusable ID validation used by both UserService and WalletService
+    public void validateId(long id) {
+<span class="fc bfc" id="L14" title="All 2 branches covered.">       if (id &lt;= 0) {</span>
+<span class="fc" id="L15">            throw new IllegalArgumentException(&quot;ID must be positive&quot;);</span>
+        }
+<span class="fc" id="L17">          }</span>
+
+    // DRY: reusable request body validation
+    public void validateUserRequest(UserRequestDTO dto) {
+        // Edge case: null DTO
+<span class="fc bfc" id="L22" title="All 2 branches covered.">        if (dto == null) {</span>
+<span class="fc" id="L23">            throw new IllegalArgumentException(&quot;User data cannot be null&quot;);</span>
+        }
+        // Edge case: empty username
+<span class="pc bpc" id="L26" title="1 of 4 branches missed.">        if (dto.getUserName() == null || dto.getUserName().isBlank()) {</span>
+<span class="fc" id="L27">            throw new IllegalArgumentException(&quot;Username cannot be empty&quot;);</span>
+        }
+        // Edge case: empty email
+<span class="pc bpc" id="L30" title="1 of 4 branches missed.">        if (dto.getUserEmail() == null || dto.getUserEmail().isBlank()) {</span>
+<span class="fc" id="L31">            throw new IllegalArgumentException(&quot;Email cannot be empty&quot;);</span>
+        }
+        // Edge case: invalid age
+<span class="fc bfc" id="L34" title="All 2 branches covered.">        if (dto.getUserAge() &lt;= 0) {</span>
+<span class="fc" id="L35">            throw new IllegalArgumentException(&quot;Age must be positive&quot;);</span>
+        }
+<span class="fc" id="L37">    }</span>
+
+    // DRY: reusable amount validation used by WalletService
+    public void validateAmount(float amount) {
+<span class="fc bfc" id="L41" title="All 2 branches covered.">        if (amount &lt;= 0) {</span>
+<span class="fc" id="L42">            throw new IllegalArgumentException(&quot;Amount must be positive&quot;);</span>
+        }
+<span class="fc" id="L44">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>

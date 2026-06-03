@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.service.UserValidationServiceTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-06-03T15:20:26.585Z" hostname="LAPTOP-6D9V11MV" time="1.119">
+  <properties/>
+  <testcase name="[1] id = 0" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.148"/>
+  <testcase name="[2] id = -1" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.004"/>
+  <testcase name="[3] id = -5" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.005"/>
+  <testcase name="[4] id = -100" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.008"/>
+  <testcase name="shouldThrowWhenEmailIsEmpty()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.005"/>
+  <testcase name="[1] amount = 0.0" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.041"/>
+  <testcase name="[2] amount = -1.0" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.014"/>
+  <testcase name="[3] amount = -100.0" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.003"/>
+  <testcase name="shouldThrowWhenAgeIsZero()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.003"/>
+  <testcase name="shouldThrowWhenDtoIsNull()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.004"/>
+  <testcase name="shouldPassWhenIdIsValid()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.014"/>
+  <testcase name="shouldThrowWhenUserNameIsBlank()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.025"/>
+  <testcase name="shouldThrowWhenUserNameIsEmpty()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.009"/>
+  <testcase name="shouldPassWhenRequestIsValid()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.008"/>
+  <testcase name="shouldThrowWhenAgeIsNegative()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.003"/>
+  <testcase name="shouldPassWhenAmountIsValid()" classname="com.caneda.springboot.service.UserValidationServiceTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
