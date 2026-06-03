@@ -3,7 +3,7 @@ Canillo, Diover Vincent L. 2025-1023980 05/23/2026 Solid-TDD Completed (Bonus po
 Navarro, Vince Justine 2025-1029521 05/24/2026 Solid-TDD Completed (Bonus points: Parameterized tests, DTO pattern, Custom exception handling, Better package organization!)
 Trespeces, Guillermo 2025-1025412 05/30/2026 Solid-TDD Completed
 Cardeño, Faye L. 2025-1025317 05/31/2026 Solid-TDD Completed (Bonus points: DTO pattern, Custom exception handling, Better package organization)
-
+Cañeda, Ramil Jr M. 2025-1020773 06/1/2026 Solid-TDD Completed (Bonus points: DTO pattern, Custom exception handling)
 ---
 
 ## Date : 05/08/2026 | Activity : Grasp-UT Lab
@@ -13,7 +13,7 @@ Navarro, Vince Justine 2025-1029521 05/11/2026 GRASP-UT Completed (Bonus Points 
 Trespeces, Guillermo 2025-1025412 05/30/2026 GRASP-UT Completed \
 Nono, Mary Angeline B. 2025-1025691 05/30/2026 GRASP-UT Completed (Bonus Points for doing DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations!) \
 Cardeño, Faye L. 2025-1025317 05/30/2026 GRASP-UT Completed (Bonus Points: DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations)
-
+Cañeda, Ramil Jr M. 2025-1020773 06/1/2026 GRASP-UT Completed (Bonus Points: DTO Pattern, Jacoco, Custom Exception Handling and Multiple polymorphic implementations)
 ---
 
 ## Date : 05/05/2026 | Activity : OOP Fullstack Lab
@@ -26,8 +26,8 @@ Trespeces, Guillermo 2025-1025412 05/12/2026 OOP Fullstack Lab Completed \
 Ablis, Margreleigne M. 2025-1020011 05/11/2026 OOP Fullstack Lab Completed \
 Navarro, Vince Justine 2025-1029521 05/08/2026 OP Fullstack Lab Completed (Bonus Points for doing Validation and Error handling!) \
 Obedoza, John Kyle B. 2025-1029134 05/13/2026 OOP Fullstack Lab Completed \
-Gedoria, Rajan Kurt O. 2025-1021948 05/20/2026 OOP Fullstack Lab Completed  
-
+Gedoria, Rajan Kurt O. 2025-1021948 05/20/2026 OOP Fullstack Lab Completed  \
+Cañeda, Ramil Jr M. 2025-1020773 05/10/2026 OOP Fullstack Lab Completed 
 ---
 
 ## Date : 04/28/2026 | Activity : OOP Database Lab 
@@ -41,6 +41,8 @@ Go, Sean Ethan G. 2025-1024028 04/30/2026 OOP-Database Lab Completed! (Bonus Poi
 Ovejera, Ziggy 2025-1021339 05/01/2026  OOP-Database Lab Completed! (Bonus Points for doing Validation and Exception handling!) \
 Ablis, Margreleigne M. 2025-1020011 04/30/2026 OOP-Database Lab Completed! (Bonus Points for doing Validation and Exception handling!) \
 Obedoza, John Kyle B. 2025-1029134 <04/30/2026> OOP-Database Lab Completed! (Bonus Points for doing Validation,cException handling,and Relationship!) \
+Cañeda, Ramil Jr M. 2025-1020773 <05/10/2026> OOP-Database Lab Completed! (Bonus Points for doing Validation,cException handling,and Relationship!) \
+
 
 ---
 
@@ -56,7 +58,8 @@ Gedoria, Rajan Kurt O. 2025-1021948 04/30/2026 Springboot Lab Completed! \
 Jagunap, Janelle 2025-1025460 05/01/2026 SpringBoot Lab Completed! \
 Ovejera, Ziggy 2025-1021339 05/01/2026 SpringBoot Lab Completed! \
 Ablis, Margreleigne M. 2025-1020011 04/30/2026 Springboot Lab Completed! \
-Obedoza, John Kyle B. 2025-1029134 05/01/2026 SpringBoot Lab Completed!
+Obedoza, John Kyle B. 2025-1029134 05/01/2026 SpringBoot Lab Completed \
+Cañeda, Ramil Jr M. 2025-1020773 05/01/2026 SpringBoot Lab Completed!
 
 ---
 
