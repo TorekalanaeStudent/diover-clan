@@ -75,6 +75,7 @@ Mary Angeline Nono
 **\<04/30/2026\>**  : I learned how to fix SQL syntax errors, map Java objects to database tables correctly, and troubleshoot server connection problems. Next time I will double-check my spelling, data types, and configuration settings to make everything work smoothly from the start.
 **\<05/30/2026\>**  : I learned how GRASP principles assign responsibilities across classes and how to write unit tests using Mockito to mock dependencies without hitting a real database. I improved my ability to set up and debug a Spring Boot project in IntelliJ, fix Java version mismatches.
 **\<05/31/2026\>**  : I learned how to build a full-stack web application using React, Spring Boot, and PostgreSQL, and how to apply OOP principles like Encapsulation, Abstraction, and Separation of Concerns across frontend and backend. Next time I will add proper authentication using JWT and better error handling on both frontend and backend.
+**\<06/03/2026\>**  : I learned how to apply all GRASP principles in a Spring Boot project and improved my unit testing skills using JUnit and Mockito with JaCoCo coverage reporting.
 
 ## Peer Feedback
 **\<03/06/2026\>** : Comment by: <Cardeño, Faye>; You did well in participating and  finishing the task, and you can improve by practicing more coding exercises.
