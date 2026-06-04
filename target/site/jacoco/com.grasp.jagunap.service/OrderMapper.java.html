@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OrderMapper.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jagunap</a> &gt; <a href="index.source.html" class="el_package">com.grasp.jagunap.service</a> &gt; <span class="el_source">OrderMapper.java</span></div><h1>OrderMapper.java</h1><pre class="source lang-java linenums">package com.grasp.jagunap.service;
+
+import com.grasp.jagunap.dto.OrderDTO;
+import com.grasp.jagunap.dto.OrderItemDTO;
+import com.grasp.jagunap.entity.Order;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+// SOLID: SRP - Only responsible for mapping Order entities to DTOs
+// SOLID: OCP - Add new mapping targets here without changing OrderService
+// DRY: One place for mapping logic, reused wherever needed
+@Component
+<span class="fc" id="L15">public class OrderMapper {</span>
+
+    public OrderDTO toDTO(Order order) {
+<span class="fc" id="L18">        List&lt;OrderItemDTO&gt; itemDTOs = order.getItems().stream()</span>
+<span class="fc" id="L19">                .map(item -&gt; new OrderItemDTO(</span>
+<span class="fc" id="L20">                        item.getId(),</span>
+<span class="fc" id="L21">                        item.getProductName(),</span>
+<span class="fc" id="L22">                        item.getPrice(),</span>
+<span class="fc" id="L23">                        item.getQuantity()</span>
+                ))
+<span class="fc" id="L25">                .collect(Collectors.toList());</span>
+
+<span class="fc" id="L27">        return new OrderDTO(</span>
+<span class="fc" id="L28">                order.getId(),</span>
+<span class="fc" id="L29">                order.getCustomerName(),</span>
+<span class="fc" id="L30">                order.getStatus(),</span>
+                itemDTOs,
+<span class="fc" id="L32">                order.calculateTotal()</span>
+        );
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

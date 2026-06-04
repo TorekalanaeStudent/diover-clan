@@ -1,0 +1,6 @@
+com\grasp\jagunap\service\OrderServiceTest.class
+com\grasp\jagunap\controller\OrderControllerTest.class
+com\grasp\jagunap\service\OrderValidatorTest.class
+com\grasp\jagunap\model\OrderSnapshotTest.class
+com\grasp\jagunap\util\OrderCalculatorTest.class
+com\grasp\jagunap\util\PaymentPolymorphismTest.class

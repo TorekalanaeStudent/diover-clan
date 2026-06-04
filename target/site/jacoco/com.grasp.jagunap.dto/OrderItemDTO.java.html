@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OrderItemDTO.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jagunap</a> &gt; <a href="index.source.html" class="el_package">com.grasp.jagunap.dto</a> &gt; <span class="el_source">OrderItemDTO.java</span></div><h1>OrderItemDTO.java</h1><pre class="source lang-java linenums">package com.grasp.jagunap.dto;
+
+// GRASP: Pure Fabrication - DTO for transferring OrderItem data
+public class OrderItemDTO {
+    private Long id;
+    private String productName;
+    private double price;
+    private int quantity;
+    private double subtotal;
+
+<span class="nc" id="L11">    public OrderItemDTO() {}</span>
+
+<span class="fc" id="L13">    public OrderItemDTO(Long id, String productName, double price, int quantity) {</span>
+<span class="fc" id="L14">        this.id = id;</span>
+<span class="fc" id="L15">        this.productName = productName;</span>
+<span class="fc" id="L16">        this.price = price;</span>
+<span class="fc" id="L17">        this.quantity = quantity;</span>
+<span class="fc" id="L18">        this.subtotal = price * quantity;</span>
+<span class="fc" id="L19">    }</span>
+
+<span class="nc" id="L21">    public Long getId() { return id; }</span>
+<span class="nc" id="L22">    public void setId(Long id) { this.id = id; }</span>
+<span class="fc" id="L23">    public String getProductName() { return productName; }</span>
+<span class="nc" id="L24">    public void setProductName(String productName) { this.productName = productName; }</span>
+<span class="fc" id="L25">    public double getPrice() { return price; }</span>
+<span class="nc" id="L26">    public void setPrice(double price) { this.price = price; }</span>
+<span class="fc" id="L27">    public int getQuantity() { return quantity; }</span>
+<span class="nc" id="L28">    public void setQuantity(int quantity) { this.quantity = quantity; }</span>
+<span class="nc" id="L29">    public double getSubtotal() { return subtotal; }</span>
+<span class="nc" id="L30">    public void setSubtotal(double subtotal) { this.subtotal = subtotal; }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

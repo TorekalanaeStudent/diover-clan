@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OrderCalculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jagunap</a> &gt; <a href="index.source.html" class="el_package">com.grasp.jagunap.util</a> &gt; <span class="el_source">OrderCalculator.java</span></div><h1>OrderCalculator.java</h1><pre class="source lang-java linenums">package com.grasp.jagunap.util;
+
+import com.grasp.jagunap.entity.Order;
+import org.springframework.stereotype.Component;
+
+// GRASP: Pure Fabrication - this class doesn't represent a real-world concept
+// It exists purely to support reusable calculation logic (doesn't pollute Order entity)
+// GRASP: High Cohesion - only responsible for order-related calculations
+@Component
+<span class="fc" id="L10">public class OrderCalculator {</span>
+
+    // GRASP: Pure Fabrication - utility method that doesn't belong to any domain object
+    public double calculateDiscount(Order order, double discountPercent) {
+<span class="fc bfc" id="L14" title="All 4 branches covered.">        if (discountPercent &lt; 0 || discountPercent &gt; 100) {</span>
+<span class="fc" id="L15">            throw new IllegalArgumentException(&quot;Discount must be between 0 and 100&quot;);</span>
+        }
+<span class="fc" id="L17">        double total = order.calculateTotal();</span>
+<span class="fc" id="L18">        return total - (total * discountPercent / 100);</span>
+    }
+
+    public double calculateTax(Order order, double taxRate) {
+<span class="fc bfc" id="L22" title="All 2 branches covered.">        if (taxRate &lt; 0) {</span>
+<span class="fc" id="L23">            throw new IllegalArgumentException(&quot;Tax rate cannot be negative&quot;);</span>
+        }
+<span class="fc" id="L25">        return order.calculateTotal() * taxRate;</span>
+    }
+
+    public double calculateFinalAmount(Order order, double discountPercent, double taxRate) {
+<span class="fc" id="L29">        double discountedTotal = calculateDiscount(order, discountPercent);</span>
+<span class="fc" id="L30">        double tax = discountedTotal * taxRate;</span>
+<span class="fc" id="L31">        return discountedTotal + tax;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

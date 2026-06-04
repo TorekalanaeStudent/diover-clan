@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OrderService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jagunap</a> &gt; <a href="index.source.html" class="el_package">com.grasp.jagunap.service</a> &gt; <span class="el_source">OrderService.java</span></div><h1>OrderService.java</h1><pre class="source lang-java linenums">package com.grasp.jagunap.service;
+
+import com.grasp.jagunap.dto.CreateOrderRequest;
+import com.grasp.jagunap.dto.OrderDTO;
+import com.grasp.jagunap.dto.OrderItemDTO;
+import com.grasp.jagunap.entity.Order;
+import com.grasp.jagunap.entity.OrderItem;
+import com.grasp.jagunap.exception.OrderNotFoundException;
+import com.grasp.jagunap.payment.Payment;
+import com.grasp.jagunap.repository.OrderRepository;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+// SOLID: SRP - Only orchestrates order flow; validation/mapping/payment are delegated
+// SOLID: DIP - Depends on abstractions (interfaces + injected components), not concrete classes
+// OOP: Composition over Inheritance — uses injected collaborators (HAS-A, not IS-A)
+// KISS: Each method does one clear thing
+@Service
+public class OrderService {
+
+    // DIP: All dependencies are abstractions injected from outside
+    private final OrderRepository orderRepository;
+    private final OrderValidator orderValidator;     // SRP: validation extracted
+    private final PaymentResolver paymentResolver;   // OCP: no more switch statement
+    private final OrderMapper orderMapper;           // SRP: mapping extracted
+
+    public OrderService(OrderRepository orderRepository,
+                        OrderValidator orderValidator,
+                        PaymentResolver paymentResolver,
+<span class="fc" id="L32">                        OrderMapper orderMapper) {</span>
+<span class="fc" id="L33">        this.orderRepository = orderRepository;</span>
+<span class="fc" id="L34">        this.orderValidator = orderValidator;</span>
+<span class="fc" id="L35">        this.paymentResolver = paymentResolver;</span>
+<span class="fc" id="L36">        this.orderMapper = orderMapper;</span>
+<span class="fc" id="L37">    }</span>
+
+    public OrderDTO createOrder(CreateOrderRequest request) {
+        // SRP: Validation is fully delegated — not mixed here
+<span class="fc" id="L41">        orderValidator.validate(request);</span>
+
+<span class="fc" id="L43">        Order order = new Order(request.getCustomerName());</span>
+<span class="fc bfc" id="L44" title="All 2 branches covered.">        for (OrderItemDTO itemDTO : request.getItems()) {</span>
+<span class="fc" id="L45">            order.addItem(new OrderItem(</span>
+<span class="fc" id="L46">                    itemDTO.getProductName(),</span>
+<span class="fc" id="L47">                    itemDTO.getPrice(),</span>
+<span class="fc" id="L48">                    itemDTO.getQuantity()</span>
+            ));
+<span class="fc" id="L50">        }</span>
+
+<span class="fc" id="L52">        Order saved = orderRepository.save(order);</span>
+
+        // OCP: PaymentResolver handles type lookup — adding a new type never touches this method
+<span class="pc bpc" id="L55" title="1 of 2 branches missed.">        if (request.getPaymentType() != null) {</span>
+<span class="nc" id="L56">            Payment payment = paymentResolver.resolve(request.getPaymentType());</span>
+<span class="nc bnc" id="L57" title="All 2 branches missed.">            if (payment != null) {</span>
+<span class="nc" id="L58">                payment.process(saved.calculateTotal());</span>
+            }
+        }
+
+        // SRP: Mapping is fully delegated
+<span class="fc" id="L63">        return orderMapper.toDTO(saved);</span>
+    }
+
+    public OrderDTO getOrderById(Long id) {
+<span class="fc" id="L67">        Order order = orderRepository.findById(id)</span>
+<span class="fc" id="L68">                .orElseThrow(() -&gt; new OrderNotFoundException(id));</span>
+<span class="fc" id="L69">        return orderMapper.toDTO(order);</span>
+    }
+
+    public List&lt;OrderDTO&gt; getAllOrders() {
+<span class="fc" id="L73">        return orderRepository.findAll().stream()</span>
+<span class="fc" id="L74">                .map(orderMapper::toDTO)</span>
+<span class="fc" id="L75">                .collect(Collectors.toList());</span>
+    }
+
+    public OrderDTO updateOrderStatus(Long id, String status) {
+<span class="fc" id="L79">        Order order = orderRepository.findById(id)</span>
+<span class="pc" id="L80">                .orElseThrow(() -&gt; new OrderNotFoundException(id));</span>
+<span class="fc" id="L81">        order.setStatus(status);</span>
+<span class="fc" id="L82">        return orderMapper.toDTO(orderRepository.save(order));</span>
+    }
+
+    public void deleteOrder(Long id) {
+<span class="fc bfc" id="L86" title="All 2 branches covered.">        if (!orderRepository.existsById(id)) {</span>
+<span class="fc" id="L87">            throw new OrderNotFoundException(id);</span>
+        }
+<span class="fc" id="L89">        orderRepository.deleteById(id);</span>
+<span class="fc" id="L90">    }</span>
+
+    public List&lt;OrderDTO&gt; getOrdersByCustomer(String customerName) {
+<span class="nc" id="L93">        return orderRepository.findByCustomerName(customerName).stream()</span>
+<span class="nc" id="L94">                .map(orderMapper::toDTO)</span>
+<span class="nc" id="L95">                .collect(Collectors.toList());</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
