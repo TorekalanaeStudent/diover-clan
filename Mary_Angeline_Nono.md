@@ -5,12 +5,14 @@ Mary Angeline Nono
 | Date       | Activity Type   | Title                                                           | Score | Total Points |
 |------------|-----------------|-----------------------------------------------------------------|-------|--------------|
 | 03/05/2026 | Quiz            |Quiz 1:OOP                                                       | 2     |       2      | 
+| 03/05/2026 | Quiz            |Quiz 1:OOP                                                       | 18    |       20     | 
+ 
 ---
 
 ## ➕ Plus Points
 | Date       | Activity Type   | Title                                                           | Score | Total Points |
 |------------|-----------------|-----------------------------------------------------------------|-------|--------------|
-| 04/19/2026 | PR Review       |Cardeno(Approve and Comment to her Readme.md) - #5               | 2     |      100     |
+|04/19/2026 | PR Review       |Cardeno(Approve and Comment to her Readme.md) - #5                | 2     |      100     |
 | 04/19/2026 | PR Review       |Trespeces(Approve and Comment his Readme.md) - #7                | 2     |              |
 | 04/19/2026 | PR Review       |Ovejera(Approve and Comment his Readme.md) - #6                  | 2     |              |
 | 04/19/2026 | PR Review       |Canillo(Approve and Comment his Readme.md) - #10                 | 2     |              |
