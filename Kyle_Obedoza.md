@@ -18,8 +18,11 @@ John Kyle Obedoza
 ---
 
 ### 📘 Journals 
-* **<04/29/2026>** : I learned the basics of creating a database, and next time to improve my independence in learning from AI 
-* **<04/29/2026>** : I learned how to use springboot, and next time to improve I will do better in learning everything quicker and makign better outputs
+**<05/23/2026>** : I learned about Solid principles and how they make my project have better workflows, next time I'll study things better and improve my coding
+**<05/14/2026>** : I learned about JUnit Testing and Jacoco Testing, It was very confusing but it was a good learning to have \
+**<05/07/2026>** : I learned about vite, npms, and react and their roles in making the workflow in the backend better, I will do my best in making the wokflow better and improve the implimentation of concepts \
+**<04/29/2026>** : I learned the basics of creating a database, and next time to improve my independence in learning from AI 
+**<04/29/2026>** : I learned how to use springboot, and next time to improve I will do better in learning everything quicker and makign better outputs
 **<04/27/2026>** : I learned about how to create packages and the best way to organize files, and next time to improve I will make sure to do my task early and with the best quality as possible
 **<04/19/2026>** : I learned about the different types of errors and exceptions, and next time to improve I will make sure to use it properly in my code
 **<04/18/2026>** : I learned about the importance of abstraction and polymorphism, and next time to improve I will doii my best to show mastery in appying these principles
