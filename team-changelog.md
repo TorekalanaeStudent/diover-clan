@@ -3,7 +3,7 @@ Canillo, Diover Vincent L. 2025-1023980 05/23/2026 Solid-TDD Completed (Bonus po
 Navarro, Vince Justine 2025-1029521 05/24/2026 Solid-TDD Completed (Bonus points: Parameterized tests, DTO pattern, Custom exception handling, Better package organization!)
 Trespeces, Guillermo 2025-1025412 05/30/2026 Solid-TDD Completed
 Cardeño, Faye L. 2025-1025317 05/31/2026 Solid-TDD Completed (Bonus points: DTO pattern, Custom exception handling, Better package organization)
-
+Nono, Mary Angeline B. 2025-1025691 06/03/2026 Solid-TDD Completed (Bonus points: DTO pattern, Custom exception handling, Better package organization)
 ---
 
 ## Date : 05/08/2026 | Activity : Grasp-UT Lab
