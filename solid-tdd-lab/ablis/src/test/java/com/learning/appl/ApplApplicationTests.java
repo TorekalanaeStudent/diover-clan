@@ -1,14 +1,13 @@
-package com.jagunap.springboot;
+package com.learning.appl;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
-@ActiveProfiles("test")
-class DemoApplicationTests {
+class ApplApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
+
 }
