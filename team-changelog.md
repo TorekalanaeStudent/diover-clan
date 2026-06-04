@@ -41,7 +41,7 @@ Go, Sean Ethan G. 2025-1024028 04/30/2026 OOP-Database Lab Completed! (Bonus Poi
 Ovejera, Ziggy 2025-1021339 05/01/2026  OOP-Database Lab Completed! (Bonus Points for doing Validation and Exception handling!) \
 Ablis, Margreleigne M. 2025-1020011 04/30/2026 OOP-Database Lab Completed! (Bonus Points for doing Validation and Exception handling!) \
 Obedoza, John Kyle B. 2025-1029134 <04/30/2026> OOP-Database Lab Completed! (Bonus Points for doing Validation,cException handling,and Relationship!) \
-
+Jagunap, Janelle 2025-1025460 <05/31/2026> OOP-Database Lab Completed! (Bonus Points for doing Validation,cException handling,and Relationship!) \
 ---
 
 ## Date : 04/28/2026 | Activity : SpringBoot Lab
