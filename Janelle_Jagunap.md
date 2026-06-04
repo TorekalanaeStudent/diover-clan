@@ -47,6 +47,8 @@ next time I will try to implement these in real time projects and finish it in a
 **\<05/01/2026\>** : Today, I learned how to create and run a simple Spring Boot REST API and test it using a browser and curl. Next time, I will practice creating more endpoints to improve my understanding of Spring Boot. \
 **\<05/31/2026\>** : Today, I learned how to apply the 9 GRASP principles in a real Spring Boot project and how to write unit tests using JUnit 5 and Mockito to verify my code without using a real database.
 I improved my understanding of layered architecture in Spring Boot by properly separating the controller, service, repository, and entity layers, and my ability to set up and troubleshoot a development environment from scratch. \
+**\<05/31/2026\>** :  I learned how to build a full CRUD REST API using Spring Boot with Spring Data JPA, connecting it first to an H2 in-memory database for development and then migrating to PostgreSQL for real data persistence, and 
+next time I will add proper input validation using @Valid annotations and implement the DTO pattern to better separate my API response structure from my entity classes. \
 
 ## 📘 Peer Feedback
 **<03/11/2026>** : Comment by: Nono, Mary Angeline B.; You did well in Organizing your methods and constructors and you can improve by testing your methods more. \
