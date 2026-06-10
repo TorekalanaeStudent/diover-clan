@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>UserService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">demo</a> &gt; <a href="index.source.html" class="el_package">com.caneda.springboot.service</a> &gt; <span class="el_source">UserService.java</span></div><h1>UserService.java</h1><pre class="source lang-java linenums">package com.caneda.springboot.service;
+
+import com.caneda.springboot.dto.UserRequestDTO;
+import com.caneda.springboot.dto.UserResponseDTO;
+import com.caneda.springboot.entity.User;
+import com.caneda.springboot.exception.UserNotFoundException;
+import com.caneda.springboot.repository.UserRepository;
+import com.caneda.springboot.util.UserMapper;
+import com.caneda.springboot.service.interfaces.IUserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+// SOLID: SRP - only handles user CRUD business logic
+// SOLID: DIP - implements IUserService abstraction
+// SOLID: OCP - new behavior added via new implementations not modifying this
+// GRASP: Pure Fabrication - exists purely for business logic
+// GRASP: High Cohesion - only user related operations
+// GRASP: Low Coupling - depends on repository interface not implementation
+@Service
+<span class="fc" id="L20">public class UserService implements IUserService {</span>
+
+    // SOLID: DIP - depends on repository interface not implementation
+    // GRASP: Indirection - repository acts as layer between service and DB
+    @Autowired
+    private UserRepository userRepository;
+
+    // SOLID: SRP - validation delegated to UserValidationService
+    // DRY: reusing validation instead of duplicating checks
+    @Autowired
+    private UserValidationService validator;
+
+    // SOLID: OCP - creating users without modifying existing logic
+    // GRASP: Creator - service creates and returns user data
+    @Override
+    public UserResponseDTO createUser(UserRequestDTO dto) {
+        // DRY: reusing validation
+<span class="fc" id="L37">        validator.validateUserRequest(dto);</span>
+<span class="fc" id="L38">        User saved = userRepository.save(UserMapper.toEntity(dto));</span>
+<span class="fc" id="L39">        return UserMapper.toResponseDTO(saved);</span>
+    }
+
+    // SOLID: SRP - only retrieves user data
+    // GRASP: Information Expert - delegates to user who owns the data
+    @Override
+    public UserResponseDTO getUserById(long id) {
+        // DRY: reusing validation
+<span class="fc" id="L47">        validator.validateId(id);</span>
+<span class="fc" id="L48">        User user = userRepository.findById(id)</span>
+<span class="fc" id="L49">                .orElseThrow(() -&gt; new UserNotFoundException(id));</span>
+<span class="fc" id="L50">        return UserMapper.toResponseDTO(user);</span>
+    }
+
+    // SOLID: SRP - only handles user update logic
+    // GRASP: Information Expert - updates only what user owns
+    @Override
+    public UserResponseDTO setUser(long id, UserRequestDTO dto) {
+        // DRY: reusing validation
+<span class="fc" id="L58">        validator.validateId(id);</span>
+<span class="fc" id="L59">        validator.validateUserRequest(dto);</span>
+<span class="fc" id="L60">        User user = userRepository.findById(id)</span>
+<span class="pc" id="L61">                .orElseThrow(() -&gt; new UserNotFoundException(id));</span>
+<span class="fc" id="L62">        user.setUserName(dto.getUserName());</span>
+<span class="fc" id="L63">        user.setUserEmail(dto.getUserEmail());</span>
+<span class="fc" id="L64">        user.setUserAge(dto.getUserAge());</span>
+<span class="fc" id="L65">        return UserMapper.toResponseDTO(userRepository.save(user));</span>
+    }
+
+    // SOLID: SRP - only handles deletion
+    @Override
+    public void deleteUser(long id) {
+        // DRY: reusing validation
+<span class="fc" id="L72">        validator.validateId(id);</span>
+<span class="fc" id="L73">        userRepository.deleteById(id);</span>
+<span class="fc" id="L74">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>

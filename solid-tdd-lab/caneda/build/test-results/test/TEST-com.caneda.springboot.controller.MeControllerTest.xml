@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.caneda.springboot.controller.MeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-03T15:20:10.659Z" hostname="LAPTOP-6D9V11MV" time="1.225">
+  <properties/>
+  <testcase name="shouldReturnMeInfo()" classname="com.caneda.springboot.controller.MeControllerTest" time="1.027"/>
+  <system-out><![CDATA[2026-06-03T23:20:10.666+08:00  INFO 31640 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.caneda.springboot.controller.MeControllerTest]: MeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-03T23:20:10.812+08:00  INFO 31640 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.controller.MeControllerTest
+2026-06-03T23:20:10.824+08:00  INFO 31640 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.caneda.springboot.controller.MeControllerTest]: MeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-03T23:20:10.833+08:00  INFO 31640 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.caneda.springboot.DemoApplication for test class com.caneda.springboot.controller.MeControllerTest
+2026-06-03T23:20:10.896+08:00  INFO 31640 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-06-03T23:20:10.897+08:00  INFO 31640 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-06-03T23:20:10.907+08:00  INFO 31640 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
