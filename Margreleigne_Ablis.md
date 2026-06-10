@@ -31,6 +31,18 @@ BSCS251A
 **\<04/18/2026\>**: Me and my Group mate created a functional calculator with exceptions and errors using try-catch blocks and throws.
 <br>
 **\<04/26/2026\>**: I learned about the difference between Maven and Gradle. I hope to understand them better.
+<br>
+**\<04/30/2026\>**: I have learned about Springboot Lab and other software programs in creating an application.
+<br>
+**\<04/30/2026\>**: I have learned about Database lab using PostSQL and how it's connected to its backend.
+<br>
+**\<05/11/2026\>**: I have learned about creating a Fullstack app with frontend, backend, and database.
+<br>
+**\<05/15/2026\>**: I have learned about what GRASP does in backend.
+<br>
+**\<05/24/2026\>**: I have learned about Solid-TDD and its purpose when creating the backend.
+<br>
+
 
 
 ## 👥 Peer Feedback
