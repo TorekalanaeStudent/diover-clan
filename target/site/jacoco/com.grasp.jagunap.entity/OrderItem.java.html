@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OrderItem.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jagunap</a> &gt; <a href="index.source.html" class="el_package">com.grasp.jagunap.entity</a> &gt; <span class="el_source">OrderItem.java</span></div><h1>OrderItem.java</h1><pre class="source lang-java linenums">package com.grasp.jagunap.entity;
+
+import jakarta.persistence.*;
+
+// GRASP: Information Expert - OrderItem knows its own price and quantity
+@Entity
+@Table(name = &quot;order_items&quot;)
+public class OrderItem {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String productName;
+    private double price;
+    private int quantity;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = &quot;order_id&quot;)
+    private Order order;
+
+<span class="nc" id="L22">    public OrderItem() {}</span>
+
+    // GRASP: Creator - OrderItem creates itself with required data
+<span class="fc" id="L25">    public OrderItem(String productName, double price, int quantity) {</span>
+<span class="fc" id="L26">        this.productName = productName;</span>
+<span class="fc" id="L27">        this.price = price;</span>
+<span class="fc" id="L28">        this.quantity = quantity;</span>
+<span class="fc" id="L29">    }</span>
+
+    // GRASP: Information Expert - subtotal is calculated by the class that owns the data
+    public double getSubtotal() {
+<span class="fc" id="L33">        return price * quantity;</span>
+    }
+
+<span class="fc" id="L36">    public Long getId() { return id; }</span>
+<span class="fc" id="L37">    public String getProductName() { return productName; }</span>
+<span class="nc" id="L38">    public void setProductName(String productName) { this.productName = productName; }</span>
+<span class="fc" id="L39">    public double getPrice() { return price; }</span>
+<span class="nc" id="L40">    public void setPrice(double price) { this.price = price; }</span>
+<span class="fc" id="L41">    public int getQuantity() { return quantity; }</span>
+<span class="nc" id="L42">    public void setQuantity(int quantity) { this.quantity = quantity; }</span>
+<span class="nc" id="L43">    public Order getOrder() { return order; }</span>
+<span class="fc" id="L44">    public void setOrder(Order order) { this.order = order; }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

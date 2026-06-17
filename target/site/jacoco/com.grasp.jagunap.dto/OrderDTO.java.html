@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OrderDTO.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jagunap</a> &gt; <a href="index.source.html" class="el_package">com.grasp.jagunap.dto</a> &gt; <span class="el_source">OrderDTO.java</span></div><h1>OrderDTO.java</h1><pre class="source lang-java linenums">package com.grasp.jagunap.dto;
+
+import java.util.List;
+
+// GRASP: Pure Fabrication - DTO does not represent a domain concept,
+// it exists purely for data transfer (decouples API from entity)
+public class OrderDTO {
+    private Long id;
+    private String customerName;
+    private String status;
+    private List&lt;OrderItemDTO&gt; items;
+    private double total;
+
+<span class="nc" id="L14">    public OrderDTO() {}</span>
+
+<span class="fc" id="L16">    public OrderDTO(Long id, String customerName, String status, List&lt;OrderItemDTO&gt; items, double total) {</span>
+<span class="fc" id="L17">        this.id = id;</span>
+<span class="fc" id="L18">        this.customerName = customerName;</span>
+<span class="fc" id="L19">        this.status = status;</span>
+<span class="fc" id="L20">        this.items = items;</span>
+<span class="fc" id="L21">        this.total = total;</span>
+<span class="fc" id="L22">    }</span>
+
+<span class="nc" id="L24">    public Long getId() { return id; }</span>
+<span class="nc" id="L25">    public void setId(Long id) { this.id = id; }</span>
+<span class="fc" id="L26">    public String getCustomerName() { return customerName; }</span>
+<span class="nc" id="L27">    public void setCustomerName(String customerName) { this.customerName = customerName; }</span>
+<span class="fc" id="L28">    public String getStatus() { return status; }</span>
+<span class="nc" id="L29">    public void setStatus(String status) { this.status = status; }</span>
+<span class="nc" id="L30">    public List&lt;OrderItemDTO&gt; getItems() { return items; }</span>
+<span class="nc" id="L31">    public void setItems(List&lt;OrderItemDTO&gt; items) { this.items = items; }</span>
+<span class="fc" id="L32">    public double getTotal() { return total; }</span>
+<span class="nc" id="L33">    public void setTotal(double total) { this.total = total; }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
