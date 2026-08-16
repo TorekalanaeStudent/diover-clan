@@ -49,6 +49,7 @@ next time I will try to implement these in real time projects and finish it in a
 I improved my understanding of layered architecture in Spring Boot by properly separating the controller, service, repository, and entity layers, and my ability to set up and troubleshoot a development environment from scratch. \
 **\<05/31/2026\>** :  I learned how to build a full CRUD REST API using Spring Boot with Spring Data JPA, connecting it first to an H2 in-memory database for development and then migrating to PostgreSQL for real data persistence, and 
 next time I will add proper input validation using @Valid annotations and implement the DTO pattern to better separate my API response structure from my entity classes. \
+**\<06/04/2026\>** : I learned how SRP makes testing easier and improved my ability to split large classes into focused, testable components. Next time, I will apply OCP earlier in the design phase so I don't have to refactor switch statements later. \
 
 ## 📘 Peer Feedback
 **<03/11/2026>** : Comment by: Nono, Mary Angeline B.; You did well in Organizing your methods and constructors and you can improve by testing your methods more. \
