@@ -99,6 +99,16 @@ Ramil Caneda
 
 <04/27/2026> : I learned a decent chunk of how gradle works but not enough yet, i learned alot of how important packaging is again and how important name of files and folders are critical to runnninng the program
 
+<05/01/2026> : I learned how spring boot works and how it can be used for a simple spring boot test
+
+<05/10/2026> : I learned that services works nearly a middle man between for how controller and repositories work instead of controller having direct conections to repositories.
+
+<05/10/2026> : I learned how well front end works perfect for backend and hope to improve even further with react.
+
+<06/01/2026> : I learned why testing can be detrimental to maintain it's quality and it's effectiveness as a program.
+
+<06/01/2026> : I learned when to use TDD, and how Test Drive Development not only helps write more quality code, but rather also help with how it code can be even more efficient and maintainable. 
+
 ## Peer Feedback
 * **<04/19/2026>** : Comment by; Vince, Justine Navarro; For me, I think you did a good job at creating the demo_class for the exceptions and error lab, I think you can improve it by using scanner as a more acccurate depiction of a calculator.
 * **<04/19/2026>** : Comment by: Canillo, Diover Vincent L.; Peer feedback for exceptions. Good code, you could improve by fixing your linings because what the freak gng i had to fix it one by one 😭.
